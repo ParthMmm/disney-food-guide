@@ -23,6 +23,7 @@
 		"@tailwindcss/forms": "^0.5.10",
 		"@tailwindcss/typography": "^0.5.19",
 		"@tailwindcss/vite": "^4.1.14",
+		"@vite-pwa/sveltekit": "^1.0.0",
 		"bits-ui": "^2.11.0",
 		"clsx": "^2.1.1",
 		"svelte": "^5.39.9",
@@ -34,7 +35,8 @@
 		"typescript": "^5.9.3",
 		"vaul-svelte": "^1.0.0-next.7",
 		"vite": "^7.1.9",
-		"vite-plugin-devtools-json": "^1.0.0"
+		"vite-plugin-devtools-json": "^1.0.0",
+		"workbox-window": "^7.3.0"
 	},
 	"dependencies": {
 		"@fontsource-variable/inter": "^5.2.8",
