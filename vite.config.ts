@@ -14,15 +14,34 @@ export default defineConfig({
 			manifest: false,
 			workbox: {
 				globPatterns: ["**/*.{js,css,html,ico,png,svg,webp,json}"],
+				clientsClaim: true,
+				skipWaiting: true,
+				navigationPreload: true,
+				cleanupOutdatedCaches: true,
+				minify: false,
 				runtimeCaching: [
 					{
-						urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+						urlPattern: /^https:\/\/fonts\.gstatic\.com\//i,
 						handler: "CacheFirst",
 						options: {
-							cacheName: "google-fonts-cache",
+							cacheName: "gstatic-fonts",
 							expiration: {
-								maxEntries: 10,
+								maxEntries: 20,
 								maxAgeSeconds: 60 * 60 * 24 * 365,
+							},
+							cacheableResponse: {
+								statuses: [0, 200],
+							},
+						},
+					},
+					{
+						urlPattern: /^https:\/\/disneyparksblog\.com\/app\/uploads\//i,
+						handler: "CacheFirst",
+						options: {
+							cacheName: "remote-images",
+							expiration: {
+								maxEntries: 200,
+								maxAgeSeconds: 60 * 60 * 24 * 60,
 							},
 							cacheableResponse: {
 								statuses: [0, 200],
@@ -36,6 +55,8 @@ export default defineConfig({
 				type: "module",
 			},
 		}),
-		devtoolsJson(),
+		devtoolsJson({
+			apply: "serve",
+		}),
 	],
 });
