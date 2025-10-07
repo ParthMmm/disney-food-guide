@@ -22,7 +22,7 @@ let {
 
 <Drawer.Root bind:open>
 	<Drawer.Content
-		class="w-full sm:max-w-2xl p-4 max-h-[95vh] flex flex-col"
+		class="w-full sm:max-w-2xl p-4 h-[95vh] flex flex-col"
 	>
 		{#if item}
 			<div class="flex-1 overflow-y-auto" style="touch-action: pan-y;">
@@ -153,7 +153,7 @@ let {
 				</div>
 			</div>
 
-			<div class="p-4 border-t">
+			<div class="pt-4 border-t">
 				<Button onclick={() => (open = false)} class="w-full">
 					Close
 				</Button>
