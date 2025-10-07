@@ -1,0 +1,79 @@
+{
+	// Make Biome the formatter everywhere in this project
+	"formatter": "language_server",
+	"format_on_save": "on",
+	"languages": {
+		"JavaScript": {
+			// Run Biome as the LS so you get diagnostics + code actions
+			"language_servers": ["biome"],
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			},
+			"code_actions_on_format": {
+				"source.fixAll.biome": true,
+				"source.organizeImports.biome": true
+			}
+		},
+		"TypeScript": {
+			// vtsls for TS brains, Biome for lint/format/imports
+			"language_servers": [
+				"!typescript-language-server",
+				"vtsls",
+				"biome",
+				"tsgo"
+			],
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			},
+			"code_actions_on_format": {
+				"source.fixAll.biome": true,
+				"source.organizeImports.biome": true
+			}
+		},
+		"TSX": {
+			"language_servers": [
+				"!typescript-language-server",
+				"vtsls",
+				"biome",
+				"tsgo"
+			],
+			"formatter": {
+				"language_server": {
+					"name": "biome"
+				}
+			},
+			"code_actions_on_format": {
+				"source.fixAll.biome": true,
+				"source.organizeImports.biome": true
+			}
+		}
+	},
+	"lsp": {
+		// Tailwind: robust class extraction for shadcn helpers
+		"tailwindcss-language-server": {
+			"settings": {
+				"classFunctions": ["cva", "cx", "cn"],
+				"experimental": {
+					// [outer call match, inner string literal match]
+					"classRegex": [
+						["cva\\(([^)]*)\\)", "(?:'|\\\"|`)([^'\\\"`]*)"],
+						["cx\\(([^)]*)\\)", "(?:'|\\\"|`)([^'\\\"`]*)"],
+						["cn\\(([^)]*)\\)", "(?:'|\\\"|`)([^'\\\"`]*)"]
+					]
+				}
+			}
+		},
+		// vtsls for fast TS features; keep your memory bump
+		"vtsls": {
+			"settings": {
+				"tsserver": {
+					"maxTsServerMemory": 8192
+				}
+			}
+		}
+	}
+}
