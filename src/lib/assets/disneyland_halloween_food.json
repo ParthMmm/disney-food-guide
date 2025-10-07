@@ -1,0 +1,4453 @@
+{
+	"metadata": {
+		"generatedAt": "2025-10-07T03:09:32.964178",
+		"totalItems": 200,
+		"dataSource": "Disneyland Halloween 2025 Food Guide",
+		"filters": {
+			"locations": [
+				"2025 Halloween Treats at Downtown Disney District",
+				"California Adventure",
+				"Disneyland",
+				"Disneyland Hotel",
+				"Disney’s Grand Californian Hotel & Spa",
+				"Halloween Candy at Disneyland Resort",
+				"Pixar Place Hotel"
+			],
+			"restaurants": [
+				"Alien Pizza Planet",
+				"Angry Dogs",
+				"Aunt Cass Café",
+				"Award Wieners",
+				"Bayside Brews",
+				"Beignets Expressed",
+				"Bengal Barbecue",
+				"Bing Bong’s Sweet Stuff",
+				"Blue Bayou Restaurant",
+				"Boardwalk Pizza & Pasta",
+				"Boudin Bread Cart",
+				"Broken Spell Lounge",
+				"Cafe Orleans",
+				"Café Daisy",
+				"California Churro",
+				"Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+				"Cappuccino Cart",
+				"Carnation Café",
+				"Churros near Buzz Lightyear Astro Blasters",
+				"Churros near Casey Jr. Circus Train",
+				"Churros near Haunted Mansion",
+				"Churros near Redwood Creek Challenge Trail",
+				"Churros near Sleeping Beauty Castle and Churros near Town Square",
+				"Clarabelle’s Hand-Scooped Ice Cream",
+				"Cocina Cucamonga Mexican Grill",
+				"Corn Dog Castle",
+				"Cozy Cone Motel 1 – Churros",
+				"Cozy Cone Motel 2 – Ice Cream Cones",
+				"Cozy Cone Motel 3 – Chili Cone Queso",
+				"Cozy Cone Motel 4 – Frozen Cone-Coctions",
+				"Céntrico",
+				"Edelweiss Snacks",
+				"Flo’s V8 Cafe",
+				"GCH Craftsman Grill",
+				"Galactic Grill",
+				"Gibson Girl Ice Cream Parlor",
+				"Good Boy! Grocers",
+				"Grand Californian Great Hall Cart",
+				"Harbour Galley",
+				"Hollywood Lounge",
+				"Hungry Bear Barbecue Jamboree",
+				"Jazz Kitchen Coastal Grill & Patio",
+				"Jolly Holiday Bakery Cafe",
+				"Lamplight Lounge",
+				"Lamplight Lounge – Boardwalk Dining",
+				"Little Red Wagon",
+				"Lucky Fortune Cookery",
+				"Market House",
+				"Maurice’s Treats, Fantasyland Fruit Cart, and Lemonade at small world Promenade",
+				"Mint Julep Bar",
+				"Mortimers Market",
+				"Naples Ristorante e Bar",
+				"Outdoor Vending Locations",
+				"Palm Breeze Bar",
+				"Parkside Market: GG’s Chicken Shop",
+				"Parkside Market: Sip & Sonder",
+				"Parkside Market: Vista Parkside Market",
+				"Paseo",
+				"Plaza Inn",
+				"Popcorn near Haunted Mansion",
+				"Popcorn near Star Trader",
+				"Pretzels at small world Promenade",
+				"Pretzels near Star Tours – The Adventures Continue",
+				"Pym Tasting Lab",
+				"Pym Test Kitchen",
+				"Rancho del Zocalo Restaurante",
+				"Red Rose Taverne",
+				"River Belle Terrace",
+				"Royal Street Veranda",
+				"Schmoozies!",
+				"Smokejumpers Grill",
+				"Splitsville Luxury Lanes",
+				"Stage Door Café",
+				"Studio Catering Co.",
+				"Terran Treats",
+				"The Coffee House",
+				"The Golden Horseshoe",
+				"The Sketch Pad Café",
+				"Tiendita",
+				"Trader Sam’s Enchanted Tiki Bar",
+				"Troubadour Tavern",
+				"Wetzel’s Pretzels",
+				"Willie’s Churros at Buena Vista Street",
+				"Wine Country Trattoria"
+			],
+			"categories": [
+				"alcoholic-beverage",
+				"baked-dessert",
+				"beer",
+				"churro",
+				"cocktail",
+				"coffee-tea",
+				"dessert",
+				"entree-side",
+				"frozen-dessert",
+				"hard-seltzer",
+				"other",
+				"salad",
+				"specialty-dessert",
+				"wine-cider"
+			],
+			"allTags": [
+				"alcoholic",
+				"apple",
+				"baked-goods",
+				"beer",
+				"berry",
+				"budget-friendly",
+				"caramel",
+				"character-themed",
+				"chocolate",
+				"churro",
+				"cocktail",
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"frozen-dessert",
+				"hard-seltzer",
+				"hot",
+				"limited-time",
+				"meal",
+				"moderate-price",
+				"non-alcoholic",
+				"premium-price",
+				"pumpkin-spice",
+				"savory",
+				"specialty-candy",
+				"spicy",
+				"vegan",
+				"vegetarian",
+				"wine-cider"
+			]
+		}
+	},
+	"items": [
+		{
+			"id": 2,
+			"name": "Apple and Pecan Salad",
+			"description": "Mixed greens with frisée, candied pecans, Granny Smith apple, feta crumbles, and maple dressing",
+			"location": "Disneyland",
+			"restaurant": "Alien Pizza Planet",
+			"price": 11.790000000000001,
+			"category": "salad",
+			"itemType": "Salad",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Salad.jpg",
+			"tags": [
+				"apple",
+				"contains-nuts",
+				"meal",
+				"moderate-price",
+				"non-alcoholic",
+				"savory"
+			]
+		},
+		{
+			"id": 3,
+			"name": "Pumpkin Spiced Breadsticks",
+			"description": "Breadsticks rolled in pumpkin spiced sugar served with a caramel cream cheese sauce",
+			"location": "Disneyland",
+			"restaurant": "Alien Pizza Planet",
+			"price": 6.79,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Breadsticks.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"caramel",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 4,
+			"name": "Alien Macarooooon",
+			"description": "Seasonal filled with berries and cream",
+			"location": "Disneyland",
+			"restaurant": "Alien Pizza Planet",
+			"price": 8.79,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Alien-Macaron.jpg",
+			"tags": [
+				"contains-dairy",
+				"dessert",
+				"limited-time",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 5,
+			"name": "Iced Pandan Cooler",
+			"description": "with brown sugar spheres and ube cold foam",
+			"location": "Disneyland",
+			"restaurant": "Bengal Barbecue",
+			"price": 7.79,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Iced-Pandan.jpg",
+			"tags": ["budget-friendly", "coffee-tea", "cold", "non-alcoholic"]
+		},
+		{
+			"id": 6,
+			"name": "Iced Pumpkin Chai Latte",
+			"description": "with brown sugar spheres and cold foam",
+			"location": "Disneyland",
+			"restaurant": "Bengal Barbecue",
+			"price": 7.79,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Chai.jpg",
+			"tags": [
+				"budget-friendly",
+				"coffee-tea",
+				"cold",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 7,
+			"name": "Plant-based Roasted Beet and Citrus Salad",
+			"description": "Crema, herbs, almonds, fennel, and poppy seed vinaigrette",
+			"location": "Disneyland",
+			"restaurant": "Blue Bayou Restaurant",
+			"price": 17.0,
+			"category": "salad",
+			"itemType": "Salad",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Beet-Salad.jpg",
+			"tags": [
+				"contains-nuts",
+				"meal",
+				"non-alcoholic",
+				"premium-price",
+				"savory",
+				"vegan",
+				"vegetarian"
+			]
+		},
+		{
+			"id": 8,
+			"name": "Doberge Cake",
+			"description": "Layers of pumpkin spice sponge, chocolate whipped ganache, and salted caramel buttercream",
+			"location": "Disneyland",
+			"restaurant": "Blue Bayou Restaurant",
+			"price": 15.0,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Doberge-Cake.jpg",
+			"tags": [
+				"baked-goods",
+				"caramel",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"premium-price",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 9,
+			"name": "Daisy’s Goody-Goody Donuts",
+			"description": "House-made mini apple cider donuts with spiced apple sugar",
+			"location": "Disneyland",
+			"restaurant": "Café Daisy",
+			"price": 6.79,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": null,
+			"tags": [
+				"apple",
+				"baked-goods",
+				"budget-friendly",
+				"cold",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 10,
+			"name": "Clarabelle Spicy Chipotle Pineapple Lemonade",
+			"description": "Minute Maid Zero Sugar Lemonade, chipotle-pineapple syrup, and chile-lime seasoning topped with pineapple",
+			"location": "Disneyland",
+			"restaurant": "Café Daisy",
+			"price": 7.79,
+			"category": "alcoholic-beverage",
+			"itemType": "Non Alcoholic Drink",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pineapple-Lemonade.jpg",
+			"tags": ["alcoholic", "apple", "budget-friendly", "spicy"]
+		},
+		{
+			"id": 11,
+			"name": "Pumpkin Tiramisu Cold Brew",
+			"description": "Joffrey’s French Roast Cold Brew Coffee with pumpkin and tiramisu syrups, topped with whipped cream, chocolate and pumpkin powders, and a ladyfinger cookie",
+			"location": "Disneyland",
+			"restaurant": "Café Daisy",
+			"price": 7.29,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Tiramisu-Cold-Brew.jpg",
+			"tags": [
+				"budget-friendly",
+				"chocolate",
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 12,
+			"name": "Sweet Potato Hummus",
+			"description": "Lemon oil, pomegranate, sunflower seeds, and lavash",
+			"location": "Disneyland",
+			"restaurant": "Cafe Orleans",
+			"price": 15.0,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Potato-Hummus.jpg",
+			"tags": ["meal", "non-alcoholic", "premium-price", "savory"]
+		},
+		{
+			"id": 13,
+			"name": "Cherry Cream Soda",
+			"description": "Sprite, cherry syrup, and cream",
+			"location": "Disneyland",
+			"restaurant": "Cafe Orleans",
+			"price": 7.29,
+			"category": "alcoholic-beverage",
+			"itemType": "Non Alcoholic Drink",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "budget-friendly", "contains-dairy"]
+		},
+		{
+			"id": 15,
+			"name": "Spaten Oktoberfest",
+			"description": null,
+			"location": "Disneyland",
+			"restaurant": "Carnation Café",
+			"price": 12.75,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-14"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "moderate-price"]
+		},
+		{
+			"id": 17,
+			"name": "Alpine Almond Delight",
+			"description": "Rolled Danish filled with pastry cream and almond cream finished with sliced almonds",
+			"location": "Disneyland",
+			"restaurant": "Edelweiss Snacks",
+			"price": 5.99,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Almond-Pie.jpg",
+			"tags": [
+				"budget-friendly",
+				"cold",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 20,
+			"name": "Darth by Chocolate",
+			"description": "Layers of chocolate pudding, red velvet sponge, chocolate mousse, and crushed chocolate crème-filled cookies",
+			"location": "Disneyland",
+			"restaurant": "Galactic Grill",
+			"price": 7.59,
+			"category": "dessert",
+			"itemType": "Dessert - Pudding",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Darth-by-Chocolate.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"chocolate",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 21,
+			"name": "Bloody Orange Slushy with raspberry drizzle",
+			"description": "Bloody Orange Slushy with raspberry drizzle",
+			"location": "Disneyland",
+			"restaurant": "Galactic Grill",
+			"price": 7.29,
+			"category": "alcoholic-beverage",
+			"itemType": "Non Alcoholic Drink",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Orange-Slush.jpg",
+			"tags": ["alcoholic", "berry", "budget-friendly"]
+		},
+		{
+			"id": 22,
+			"name": "Iced Pumpkin Pie Chai Latte topped with pumpkin pie cold foam",
+			"description": null,
+			"location": "Disneyland",
+			"restaurant": "Galactic Grill",
+			"price": 7.49,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Chai-1.jpg",
+			"tags": [
+				"budget-friendly",
+				"coffee-tea",
+				"cold",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 23,
+			"name": "Strawberry Slushee made with Fanta Strawberry",
+			"description": null,
+			"location": "Disneyland",
+			"restaurant": "Good Boy! Grocers",
+			"price": 7.29,
+			"category": "alcoholic-beverage",
+			"itemType": "Non Alcoholic Drink",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "berry", "budget-friendly"]
+		},
+		{
+			"id": 24,
+			"name": "Rest in Chocolate",
+			"description": "Rocky Road ice cream buried in a chocolate-covered waffle cup with chocolate cookie crumbles and gummy worms topped with a chocolate tombstone",
+			"location": "Disneyland",
+			"restaurant": "Gibson Girl Ice Cream Parlor",
+			"price": 11.790000000000001,
+			"category": "frozen-dessert",
+			"itemType": "Dessert - Ice Cream",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Chocolate-Sundae.jpg",
+			"tags": [
+				"baked-goods",
+				"chocolate",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"frozen-dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 25,
+			"name": "Fresh-baked Pumpkin Cookies",
+			"description": "Available in a 6 or 13 pack while supplies last (Price is for 6)",
+			"location": "Disneyland",
+			"restaurant": "Harbour Galley",
+			"price": 7.79,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Cookies.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 26,
+			"name": "Whipped Cream Cheese Dip",
+			"description": null,
+			"location": "Disneyland",
+			"restaurant": "Harbour Galley",
+			"price": 1.39,
+			"category": "dessert",
+			"itemType": "Dessert - Misc",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cream-Cheese-Dip.jpg",
+			"tags": ["budget-friendly", "contains-dairy", "dessert", "non-alcoholic"]
+		},
+		{
+			"id": 27,
+			"name": "Cherry Cobbler Funnel Cake Fries",
+			"description": "Cinnamon sugar-dusted funnel cake fries, cherry pie filling, vanilla ice cream, and streusel",
+			"location": "Disneyland",
+			"restaurant": "Hungry Bear Barbecue Jamboree",
+			"price": 10.290000000000001,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cherry-Funnel-Cake-Fries.jpg",
+			"tags": [
+				"baked-goods",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"frozen-dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 28,
+			"name": "Mint Chip Cold Brew",
+			"description": "Mint chip ice cream, Joffrey’s French Roast cold brew coffee, cream topper, and chocolate chips",
+			"location": "Disneyland",
+			"restaurant": "Hungry Bear Barbecue Jamboree",
+			"price": 9.79,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mint-Cold-Brew.jpg",
+			"tags": [
+				"chocolate",
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 29,
+			"name": "Pear Cherry Cheese Crumble",
+			"description": "Pie shell filled with cheesecake, cherry filling and spiced pears finished with sliced pears, streusel, and caramel",
+			"location": "Disneyland",
+			"restaurant": "Jolly Holiday Bakery Cafe",
+			"price": 7.29,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pear-Cherry-Crumble.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"caramel",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 31,
+			"name": "Caramel Apple Cheesecake",
+			"description": "Caramel cheesecake with caramelized apple filling finished with caramel drip, orange and white chocolate mousse, chocolate flakes, and a chocolate bat",
+			"location": "Disneyland",
+			"restaurant": "Jolly Holiday Bakery Cafe",
+			"price": 7.59,
+			"category": "dessert",
+			"itemType": "Dessert - Cake / Pie",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Cheesecake.jpg",
+			"tags": [
+				"apple",
+				"baked-goods",
+				"budget-friendly",
+				"caramel",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 32,
+			"name": "Hazelnut Brownie Tart",
+			"description": "Hazelnut spread and brownie filling topped with purple cream cheese frosting, chocolate moon, bat, and orange sprinkles",
+			"location": "Disneyland",
+			"restaurant": "Jolly Holiday Bakery Cafe",
+			"price": 5.99,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Brownie-Tart.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 33,
+			"name": "Jack-O’-Lantern Mickey Pumpkin Macaron",
+			"description": "Pumpkin macaron shell filled with caramel and pumpkin cheesecake",
+			"location": "Disneyland",
+			"restaurant": "Jolly Holiday Bakery Cafe",
+			"price": 8.79,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Macaron.jpg",
+			"tags": [
+				"baked-goods",
+				"caramel",
+				"character-themed",
+				"contains-dairy",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 34,
+			"name": "Mickey Bat Cookie",
+			"description": "Shortbread bat cookie dipped in dark chocolate with a vampire Mickey face",
+			"location": "Disneyland",
+			"restaurant": "Jolly Holiday Bakery Cafe",
+			"price": 7.29,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 35,
+			"name": "Pumpkin Muffin topped with cream cheese icing",
+			"description": null,
+			"location": "Disneyland",
+			"restaurant": "Jolly Holiday Bakery Cafe",
+			"price": 5.49,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Muffin.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 36,
+			"name": "Spiced Bundt Cake",
+			"description": "Spiced cake filled with cream cheese frosting and topped with purple glaze, sprinkles, and spiced mousse with a Mickey chocolate decoration",
+			"location": "Disneyland",
+			"restaurant": "Jolly Holiday Bakery Cafe",
+			"price": 6.99,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Bundt-Cake.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"character-themed",
+				"chocolate",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 37,
+			"name": "Joffrey’s Pumpkin Cold Brew",
+			"description": "topped with vanilla foam and spiced sugar",
+			"location": "Disneyland",
+			"restaurant": "Jolly Holiday Bakery Cafe",
+			"price": 7.29,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Cold-Brew.jpg",
+			"tags": [
+				"budget-friendly",
+				"coffee-tea",
+				"cold",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 38,
+			"name": "Chili Cheese Corn Dog",
+			"description": "Classic corn dog topped with spicy chili, jalapeño-cilantro crema, cheddar cheese, and crispy onions served with choice of Cuties Mandarin Oranges or potato chips",
+			"location": "Disneyland",
+			"restaurant": "Little Red Wagon",
+			"price": 14.790000000000001,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Corn-Dog.jpg",
+			"tags": [
+				"contains-dairy",
+				"meal",
+				"moderate-price",
+				"non-alcoholic",
+				"savory",
+				"spicy"
+			]
+		},
+		{
+			"id": 40,
+			"name": "Butter Biscuit Cookie",
+			"description": "Butter cookie with cookie butter spread, drizzled with colored chocolate",
+			"location": "Disneyland",
+			"restaurant": "Market House",
+			"price": 7.49,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Butter-Cookie.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 41,
+			"name": "Mickey Bat Cookie",
+			"description": "Shortbread bat cookie dipped in dark chocolate with a vampire Mickey face",
+			"location": "Disneyland",
+			"restaurant": "Market House",
+			"price": 7.29,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 42,
+			"name": "Trick or Treat Trail Mix",
+			"description": "Mix of M&M’S Milk Chocolate Candies, pretzel sticks, candy gummy worms, and candy corn",
+			"location": "Disneyland",
+			"restaurant": "Maurice’s Treats, Fantasyland Fruit Cart, and Lemonade at small world Promenade",
+			"price": 3.99,
+			"category": "dessert",
+			"itemType": "Dessert - Candy",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Candy-Trail-Mix.jpg",
+			"tags": [
+				"budget-friendly",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 43,
+			"name": "Pumpkin Spiced-flavored Mickey-shaped Beignet dusted with pumpkin spice sugar",
+			"description": "Available in a 3 or 6 pack (Price is for 3 pack)",
+			"location": "Disneyland",
+			"restaurant": "Mint Julep Bar",
+			"price": 6.99,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Spice-Beignets.jpg",
+			"tags": [
+				"budget-friendly",
+				"character-themed",
+				"cold",
+				"dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 44,
+			"name": "Coffee-Caramel Dipping Sauce",
+			"description": null,
+			"location": "Disneyland",
+			"restaurant": "Mint Julep Bar",
+			"price": 1.39,
+			"category": "dessert",
+			"itemType": "Dessert - Misc",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Coffee-Caramel-Dip.jpg",
+			"tags": [
+				"budget-friendly",
+				"caramel",
+				"coffee-tea",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 45,
+			"name": "Cranberry-Pomegranate Mint Julep with mixed berry-flavored popping spheres",
+			"description": null,
+			"location": "Disneyland",
+			"restaurant": "Mint Julep Bar",
+			"price": 7.79,
+			"category": "alcoholic-beverage",
+			"itemType": "Non Alcoholic Drink",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mint-Julep.jpg",
+			"tags": ["alcoholic", "berry", "budget-friendly"]
+		},
+		{
+			"id": 46,
+			"name": "German Chocolate Pie",
+			"description": "Flaky pie shell filled with layers of chocolate cake, chocolate crémeux, and German chocolate filling topped with chocolate drizzle and chocolate curls",
+			"location": "Disneyland",
+			"restaurant": "Plaza Inn",
+			"price": 8.29,
+			"category": "dessert",
+			"itemType": "Dessert - Cake / Pie",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-German-Chocolate-Pie.jpg",
+			"tags": [
+				"baked-goods",
+				"chocolate",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 47,
+			"name": "Poison Apple Cake",
+			"description": "Red cinnamon cake with cream cheese and caramelized apple filling finished with red cream cheese buttercream frosting and green ganache",
+			"location": "Disneyland",
+			"restaurant": "Plaza Inn",
+			"price": 7.79,
+			"category": "dessert",
+			"itemType": "Dessert - Cake / Pie",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Cake.jpg",
+			"tags": [
+				"apple",
+				"baked-goods",
+				"budget-friendly",
+				"caramel",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 48,
+			"name": "Tombstone Chocolate Cake",
+			"description": "Chocolate pound cake, whipped topping, Oreo dust, and candied worms topped with a tombstone decoration",
+			"location": "Disneyland",
+			"restaurant": "Plaza Inn",
+			"price": 7.79,
+			"category": "dessert",
+			"itemType": "Dessert - Cake / Pie",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Chocolate-Shortcake.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 50,
+			"name": "Mickey-shaped Pumpkin Salted Dulce Cream Puff",
+			"description": "filled with pumpkin mousse and salted dulce de leche",
+			"location": "Disneyland",
+			"restaurant": "Rancho del Zocalo Restaurante",
+			"price": 8.79,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cream-Puff.jpg",
+			"tags": [
+				"character-themed",
+				"contains-dairy",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 51,
+			"name": "Hibiscus-Pomegranate Cooler",
+			"description": "Spiced hibiscus tea, pomegranate and orange juices, and honey",
+			"location": "Disneyland",
+			"restaurant": "Rancho del Zocalo Restaurante",
+			"price": 7.29,
+			"category": "alcoholic-beverage",
+			"itemType": "Non Alcoholic Drink",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "budget-friendly", "coffee-tea", "cold"]
+		},
+		{
+			"id": 52,
+			"name": "Butternut Squash Flatbread",
+			"description": "Roasted butternut squash purée, roasted mushrooms, feta, and roasted diced butternut squash topped with garlic miso sauce and fried sage",
+			"location": "Disneyland",
+			"restaurant": "Red Rose Taverne",
+			"price": 13.99,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Flatbread.jpg",
+			"tags": [
+				"cold",
+				"contains-dairy",
+				"meal",
+				"moderate-price",
+				"non-alcoholic",
+				"savory"
+			]
+		},
+		{
+			"id": 53,
+			"name": "Enchanted Pumpkin Stuff",
+			"description": "Pumpkin mousse with pumpkin cake and apricot marmalade center topped with green sprinkles, silver stars, and a chocolate branch and leaf",
+			"location": "Disneyland",
+			"restaurant": "Red Rose Taverne",
+			"price": 7.59,
+			"category": "dessert",
+			"itemType": "Dessert - Cake / Pie",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Stuff.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"chocolate",
+				"dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 54,
+			"name": "Pumpkin Cheesecake Cold Brew",
+			"description": "Joffrey’s caramel, vanilla and cinnamon cold brew with pumpkin cheesecake topper",
+			"location": "Disneyland",
+			"restaurant": "Red Rose Taverne",
+			"price": 7.29,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cheesecake-Cold-Brew.jpg",
+			"tags": [
+				"budget-friendly",
+				"caramel",
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 57,
+			"name": "Mississippi Mud Cake",
+			"description": "Toasted marshmallows and candied pecans with vanilla ice cream",
+			"location": "Disneyland",
+			"restaurant": "River Belle Terrace",
+			"price": 13.0,
+			"category": "dessert",
+			"itemType": "Dessert - Cake / Pie",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mud-Cake.jpg",
+			"tags": [
+				"baked-goods",
+				"cold",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"frozen-dessert",
+				"moderate-price",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 58,
+			"name": "Chocolate-Peanut Butter Pudding",
+			"description": "Chocolate pudding with peanut butter chantilly and chocolate-peanut butter pieces",
+			"location": "Disneyland",
+			"restaurant": "River Belle Terrace",
+			"price": 12.0,
+			"category": "dessert",
+			"itemType": "Dessert - Pudding",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": [
+				"chocolate",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 61,
+			"name": "Roasted Vegetable Salad",
+			"description": "Roasted brussels sprouts, beets, butternut squash, yams, toasted almonds, pepitas, and burrata cheese topped with herbed balsamic vinaigrette",
+			"location": "Disneyland",
+			"restaurant": "Royal Street Veranda",
+			"price": null,
+			"category": "salad",
+			"itemType": "Salad",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-09-03",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Vegetable-Salad.jpg",
+			"tags": [
+				"contains-dairy",
+				"contains-nuts",
+				"meal",
+				"non-alcoholic",
+				"savory"
+			]
+		},
+		{
+			"id": 62,
+			"name": "Coffee Fritters",
+			"description": "rolled in cinnamon sugar, drizzled with white mocha sauce, and garnished with praline sugar streusel",
+			"location": "Disneyland",
+			"restaurant": "Royal Street Veranda",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-09-03",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Coffee-Fritters.jpg",
+			"tags": ["coffee-tea", "dessert", "non-alcoholic"]
+		},
+		{
+			"id": 63,
+			"name": "Pumpkin Crème Brûlée Cold Brew",
+			"description": "Joffrey’s pumpkin crème brûlée cold brew coffee, pumpkin spiced creamer, and toffee chips",
+			"location": "Disneyland",
+			"restaurant": "Royal Street Veranda",
+			"price": null,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Creme-Brulee-Cold-Brew.jpg",
+			"tags": [
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 64,
+			"name": "The MONSTER Funnel Cake",
+			"description": "Green funnel cake with chocolate sauce, crumbled brownie, peanut butter candy pieces, and whipped cream",
+			"location": "Disneyland",
+			"restaurant": "Stage Door Café",
+			"price": 10.290000000000001,
+			"category": "dessert",
+			"itemType": "Dessert - Cake / Pie",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Brownie-Funnel-Cake.jpg",
+			"tags": [
+				"baked-goods",
+				"chocolate",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 65,
+			"name": "The Bride Sundae",
+			"description": "Brownie cake, vanilla ice cream, cookies and crème chocolate crumble, whipped topping, and chocolate sauce",
+			"location": "Disneyland",
+			"restaurant": "The Golden Horseshoe",
+			"price": 9.99,
+			"category": "frozen-dessert",
+			"itemType": "Dessert - Ice Cream",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Brownie-Sundae.jpg",
+			"tags": [
+				"baked-goods",
+				"chocolate",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"frozen-dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 68,
+			"name": "Trick or Treat Popcorn",
+			"description": "topped with mix of M&M’S Milk Chocolate Candies, candy gummy worms, pretzel sticks, and candy corn",
+			"location": "Disneyland",
+			"restaurant": "Troubadour Tavern",
+			"price": 8.99,
+			"category": "other",
+			"itemType": "Popcorn",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Popcorn.jpg",
+			"tags": ["chocolate", "contains-dairy", "moderate-price", "non-alcoholic"]
+		},
+		{
+			"id": 69,
+			"name": "Chocolate Churro",
+			"description": "Classic churro rolled in chocolate-flavored sugar",
+			"location": "Disneyland",
+			"restaurant": "Churros near Buzz Lightyear Astro Blasters",
+			"price": 7.5,
+			"category": "churro",
+			"itemType": "Churro/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Chocolate-Churro.jpg",
+			"tags": [
+				"budget-friendly",
+				"chocolate",
+				"churro",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 70,
+			"name": "Creamy Peanut Butter Dipping Sauce",
+			"description": null,
+			"location": "Disneyland",
+			"restaurant": "Churros near Buzz Lightyear Astro Blasters",
+			"price": 1.39,
+			"category": "churro",
+			"itemType": "Churro/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"budget-friendly",
+				"churro",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 71,
+			"name": "Caramel Apple Dipping Sauce",
+			"description": "Diced apples with cinnamon and caramel sauce",
+			"location": "Disneyland",
+			"restaurant": "Churros near Casey Jr. Circus Train",
+			"price": 1.39,
+			"category": "churro",
+			"itemType": "Churro/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Caramel-Apple-Dip.jpg",
+			"tags": [
+				"apple",
+				"budget-friendly",
+				"caramel",
+				"churro",
+				"cold",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 72,
+			"name": "Straw-batty Churro",
+			"description": "Strawberry-filled churro rolled in chocolate cookie dust and drizzled with cream cheese sauce, topped with a chocolate bat",
+			"location": "Disneyland",
+			"restaurant": "Churros near Haunted Mansion",
+			"price": 7.5,
+			"category": "churro",
+			"itemType": "Churro/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Strawberry-Chocolate-Churro.jpg",
+			"tags": [
+				"berry",
+				"budget-friendly",
+				"chocolate",
+				"churro",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 73,
+			"name": "Citrus Churro",
+			"description": "Churro tossed in citrus orange sugar",
+			"location": "Disneyland",
+			"restaurant": "Churros near Sleeping Beauty Castle and Churros near Town Square",
+			"price": 7.5,
+			"category": "churro",
+			"itemType": "Churro/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Citrus-Churro.jpg",
+			"tags": ["budget-friendly", "churro", "dessert", "non-alcoholic"]
+		},
+		{
+			"id": 74,
+			"name": "Blueberry-Lemon Dipping Sauce",
+			"description": "Vanilla frosting mixed with blueberry compote",
+			"location": "Disneyland",
+			"restaurant": "Churros near Sleeping Beauty Castle and Churros near Town Square",
+			"price": 1.39,
+			"category": "churro",
+			"itemType": "Churro/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["berry", "budget-friendly", "churro", "dessert", "non-alcoholic"]
+		},
+		{
+			"id": 75,
+			"name": "Halloween Treat Mix-In",
+			"description": "Add-on a scoop of Halloween candy mix to classic buttery popcorn complete with green, purple and black M&M’S Milk Chocolate Candies, and candy corn",
+			"location": "Disneyland",
+			"restaurant": "Popcorn near Haunted Mansion",
+			"price": 8.99,
+			"category": "other",
+			"itemType": "Popcorn",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Popcorn-Candy.jpg",
+			"tags": [
+				"character-themed",
+				"chocolate",
+				"contains-dairy",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 76,
+			"name": "Spicy Pickle Popcorn",
+			"description": "Popcorn tossed with crushed hot cheese puffs and dill pickle seasoning",
+			"location": "Disneyland",
+			"restaurant": "Popcorn near Star Trader",
+			"price": 7.5,
+			"category": "other",
+			"itemType": "Popcorn",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pickle-Popcorn.jpg",
+			"tags": [
+				"budget-friendly",
+				"contains-dairy",
+				"hot",
+				"non-alcoholic",
+				"spicy"
+			]
+		},
+		{
+			"id": 77,
+			"name": "Caramel Apple Dipping Sauce",
+			"description": "Diced apples with cinnamon and caramel sauce",
+			"location": "Disneyland",
+			"restaurant": "Pretzels at small world Promenade",
+			"price": 1.39,
+			"category": "other",
+			"itemType": "Pretzel/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["apple", "budget-friendly", "caramel", "cold", "non-alcoholic"]
+		},
+		{
+			"id": 78,
+			"name": "Supernova Pretzel",
+			"description": "Jalapeño cheese-filled pretzel topped with hot cheetos crumble and lime",
+			"location": "Disneyland",
+			"restaurant": "Pretzels near Star Tours – The Adventures Continue",
+			"price": 7.75,
+			"category": "other",
+			"itemType": "Pretzel/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/536281225_1335336041933217_317645442265591918_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=xCav2SyhYJQQ7kNvwFvCfH7&_nc_oc=Adn4WQM2jIr2E3Z-c9LOhN_xIWBT1utgX7xJbe3-RodHMeCJh3k2CoQWRBpmjoyeNgI&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=fBOgRt8qVNjHK_fL73qhxA&oh=00_AfUHcB0iMtMW_-VOa6oXsO9SvoTzVQgvRKdEYBWtWqABXw&oe=68B3DF9A",
+			"tags": [
+				"budget-friendly",
+				"contains-dairy",
+				"hot",
+				"non-alcoholic",
+				"spicy"
+			]
+		},
+		{
+			"id": 79,
+			"name": "Jalapeño Cheese Sauce",
+			"description": null,
+			"location": "Disneyland",
+			"restaurant": "Pretzels near Star Tours – The Adventures Continue",
+			"price": 1.39,
+			"category": "other",
+			"itemType": "Pretzel/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": ["budget-friendly", "contains-dairy", "non-alcoholic", "spicy"]
+		},
+		{
+			"id": 80,
+			"name": "Hot Pickle",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Angry Dogs",
+			"price": 4.79,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["budget-friendly", "hot", "meal", "non-alcoholic", "savory"]
+		},
+		{
+			"id": 82,
+			"name": "Caramel Apple Bread Pudding",
+			"description": "with caramelized apples, whipped topping, and caramel sauce",
+			"location": "California Adventure",
+			"restaurant": "Aunt Cass Café",
+			"price": 7.79,
+			"category": "dessert",
+			"itemType": "Dessert - Pudding",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Bread-Pudding.jpg",
+			"tags": [
+				"apple",
+				"baked-goods",
+				"budget-friendly",
+				"caramel",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 83,
+			"name": "Vampire Mickey-shaped Sourdough Bread",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Aunt Cass Café",
+			"price": 14.49,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Sourdough.jpg",
+			"tags": [
+				"character-themed",
+				"meal",
+				"moderate-price",
+				"non-alcoholic",
+				"savory"
+			]
+		},
+		{
+			"id": 84,
+			"name": "Cinnamon-Apple Cold Brew",
+			"description": "Joffrey’s caramel cold brew with apple cinnamon foam and apple cereal dust",
+			"location": "California Adventure",
+			"restaurant": "Aunt Cass Café",
+			"price": 7.29,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Cold-Brew.jpg",
+			"tags": [
+				"apple",
+				"budget-friendly",
+				"caramel",
+				"coffee-tea",
+				"cold",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 86,
+			"name": "Spell Bar",
+			"description": "Batter-fried SNICKERS bar on a stick with chocolate drizzle, whipped topping, and roasted peanuts",
+			"location": "California Adventure",
+			"restaurant": "Award Wieners",
+			"price": 9.29,
+			"category": "dessert",
+			"itemType": "Dessert - Candy",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Fried-Snickers.jpg",
+			"tags": [
+				"chocolate",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 87,
+			"name": "Brewery X Baja Breeze",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Award Wieners",
+			"price": 15.75,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "Not Specified",
+				"endDate": "Not Specified"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 89,
+			"name": "Modelo Especial",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Award Wieners",
+			"price": 15.75,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "Not Specified",
+				"endDate": "Not Specified"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 90,
+			"name": "Brewery X Spiced Sangria Seltzer",
+			"description": "Available normal or as Michelada",
+			"location": "California Adventure",
+			"restaurant": "Bayside Brews",
+			"price": 17.25,
+			"category": "hard-seltzer",
+			"itemType": "Alcohol - Seltzer",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Spiced-Sangria-1536x864.jpg",
+			"tags": ["alcoholic", "cold", "hard-seltzer", "premium-price"]
+		},
+		{
+			"id": 91,
+			"name": "Golden State Jamaica Cider",
+			"description": "Available normal or as Michelada",
+			"location": "California Adventure",
+			"restaurant": "Bayside Brews",
+			"price": 14.25,
+			"category": "wine-cider",
+			"itemType": "Alcohol - Cider",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "moderate-price", "wine-cider"]
+		},
+		{
+			"id": 92,
+			"name": "Rincon Reservation Road Rez Dog Hefeweizen",
+			"description": "Available normal or as Michelada",
+			"location": "California Adventure",
+			"restaurant": "Bayside Brews",
+			"price": 17.25,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 93,
+			"name": "Watermelon Pineapple Margarita",
+			"description": "Tequila, watermelon schnapps, and pineapple juice with a chile-lime seasoned rim",
+			"location": "California Adventure",
+			"restaurant": "Bayside Brews",
+			"price": 18.5,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://images.themeparkiq.com/menu-items/57855_large.jpg",
+			"tags": ["alcoholic", "apple", "cocktail", "premium-price", "spicy"]
+		},
+		{
+			"id": 95,
+			"name": "Apple Budino",
+			"description": "Cinnamon budino topped with caramelized apple filling, apple cider reduction, oatmeal streusel, and vanilla bean chantilly",
+			"location": "California Adventure",
+			"restaurant": "Boardwalk Pizza & Pasta",
+			"price": 7.29,
+			"category": "dessert",
+			"itemType": "Dessert - Pudding",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Budino.jpg",
+			"tags": [
+				"apple",
+				"budget-friendly",
+				"caramel",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 96,
+			"name": "Frozen Marble Drip Coffee",
+			"description": "Frozen Joffrey’s French Roast cold brew coffee drizzled with oat milk and sweetened condensed milk",
+			"location": "California Adventure",
+			"restaurant": "Boardwalk Pizza & Pasta",
+			"price": 7.79,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Frozen-Marble-Coffee.jpg",
+			"tags": [
+				"budget-friendly",
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 97,
+			"name": "Vampire Mickey-shaped Sourdough Bread",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Boudin Bread Cart",
+			"price": 14.49,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Sourdough.jpg",
+			"tags": [
+				"character-themed",
+				"meal",
+				"moderate-price",
+				"non-alcoholic",
+				"savory"
+			]
+		},
+		{
+			"id": 98,
+			"name": "Peanut Butter Mocha Cold Brew",
+			"description": "Joffrey’s mocha cold brew, peanut butter whip, peanut butter drizzle, and M&M’S Peanut Butter Chocolate Candies",
+			"location": "California Adventure",
+			"restaurant": "Cappuccino Cart",
+			"price": 8.25,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Peanut-Butter-Cold-Brew.jpg",
+			"tags": [
+				"chocolate",
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"contains-nuts",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 99,
+			"name": "Peanut Butter Whiskey Cold Brew Cocktail",
+			"description": "Joffrey’s mocha cold brew with peanut butter whiskey, peanut butter foam, and peanut butter drizzle",
+			"location": "California Adventure",
+			"restaurant": "Cappuccino Cart",
+			"price": 19.0,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Peanut-Butter-Cocktail.jpg",
+			"tags": [
+				"alcoholic",
+				"cocktail",
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"contains-nuts",
+				"premium-price"
+			]
+		},
+		{
+			"id": 100,
+			"name": "Chocolate Lava Cake",
+			"description": "Warm chocolate lava cake topped with a scoop of vanilla ice cream, fresh berries, and strawberry sauce",
+			"location": "California Adventure",
+			"restaurant": "Clarabelle’s Hand-Scooped Ice Cream",
+			"price": 7.29,
+			"category": "dessert",
+			"itemType": "Dessert - Cake / Pie",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Lava-Cake.jpg",
+			"tags": [
+				"baked-goods",
+				"berry",
+				"budget-friendly",
+				"chocolate",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"frozen-dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 101,
+			"name": "Witches Hat Sundae",
+			"description": "Your choice of ice cream in a cup with a witch’s hat cone and seasonal toppings",
+			"location": "California Adventure",
+			"restaurant": "Clarabelle’s Hand-Scooped Ice Cream",
+			"price": 11.790000000000001,
+			"category": "frozen-dessert",
+			"itemType": "Dessert - Ice Cream",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Halloween-Sundae.jpg",
+			"tags": [
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"frozen-dessert",
+				"limited-time",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 105,
+			"name": "Jamaica Tequila Cocktail",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Cocina Cucamonga Mexican Grill",
+			"price": 19.5,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Jamaica-Cocktail.jpg",
+			"tags": ["alcoholic", "cocktail", "premium-price"]
+		},
+		{
+			"id": 106,
+			"name": "Fried Elote Corn on the Cob",
+			"description": "Whole corn cob dipped in batter and fried to golden brown, drizzled with chipotle aïoli, and topped with chile-lime queso fresco and cilantro, served with Cuties Mandarin Orange or small bag of chips",
+			"location": "California Adventure",
+			"restaurant": "Corn Dog Castle",
+			"price": 9.79,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Fried-Elote.jpg",
+			"tags": ["meal", "moderate-price", "non-alcoholic", "savory", "spicy"]
+		},
+		{
+			"id": 107,
+			"name": "Pumpkin Pie Churro",
+			"description": "Classic churro topped with pumpkin cream and pie crust pieces",
+			"location": "California Adventure",
+			"restaurant": "Cozy Cone Motel 1 – Churros",
+			"price": 6.99,
+			"category": "churro",
+			"itemType": "Churro/Dipping Sauce",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Pie-Churro.jpg",
+			"tags": [
+				"budget-friendly",
+				"churro",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 108,
+			"name": "Pumpkin Crème Brûlée Cold Brew",
+			"description": "Joffrey’s pumpkin crème brûlée cold brew with pumpkin sauce topped with cold cream foam",
+			"location": "California Adventure",
+			"restaurant": "Cozy Cone Motel 1 – Churros",
+			"price": 7.29,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Creme-Brulee-Cold-Brew.jpg",
+			"tags": [
+				"budget-friendly",
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 109,
+			"name": "Pumpkin Crème Brûlée Cold Brew Martini",
+			"description": "Joffrey’s pumpkin crème brûlée cold brew with Irish cream, vanilla vodka, and pumpkin sauce topped with cold cream foam",
+			"location": "California Adventure",
+			"restaurant": "Cozy Cone Motel 1 – Churros",
+			"price": 18.5,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cold-Brew-Martini.jpg",
+			"tags": [
+				"alcoholic",
+				"cocktail",
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"premium-price",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 110,
+			"name": "Mater Haul-O-Ween Cone",
+			"description": "Ube soft-serve with black sprinkles served in a cup or cone",
+			"location": "California Adventure",
+			"restaurant": "Cozy Cone Motel 2 – Ice Cream Cones",
+			"price": 6.49,
+			"category": "frozen-dessert",
+			"itemType": "Dessert - Ice Cream",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Ube-Cone.jpg",
+			"tags": [
+				"budget-friendly",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"frozen-dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 111,
+			"name": "Ube-Vanilla Twist Soft-serve",
+			"description": "with black sprinkles served in a cup or cone",
+			"location": "California Adventure",
+			"restaurant": "Cozy Cone Motel 2 – Ice Cream Cones",
+			"price": 6.49,
+			"category": "frozen-dessert",
+			"itemType": "Dessert - Ice Cream",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": [
+				"budget-friendly",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"frozen-dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 112,
+			"name": "Slow Burnin’ Mac and Cheese Cone",
+			"description": "Fresh-cooked pasta tossed with a spicy red pepper cheese sauce in a bread cone topped with crushed chile-cheese puffs",
+			"location": "California Adventure",
+			"restaurant": "Cozy Cone Motel 3 – Chili Cone Queso",
+			"price": 11.99,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mac-and-Cheese.jpg",
+			"tags": [
+				"contains-dairy",
+				"meal",
+				"moderate-price",
+				"non-alcoholic",
+				"savory",
+				"spicy"
+			]
+		},
+		{
+			"id": 113,
+			"name": "Mother Earth Brew Co. Cali Screamin’ Pumpkin Vanilla Cream Ale",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Cozy Cone Motel 4 – Frozen Cone-Coctions",
+			"price": 18.5,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": [
+				"alcoholic",
+				"beer",
+				"contains-dairy",
+				"premium-price",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 114,
+			"name": "Tarantula Hill El Rey Salt and Lime Mexican Lager",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Cozy Cone Motel 4 – Frozen Cone-Coctions",
+			"price": 15.75,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 116,
+			"name": "Unsung Brewery Poison Apple Seltzer",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Cozy Cone Motel 4 – Frozen Cone-Coctions",
+			"price": 15.75,
+			"category": "hard-seltzer",
+			"itemType": "Alcohol - Seltzer",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Seltzer.jpg",
+			"tags": ["alcoholic", "apple", "hard-seltzer", "premium-price"]
+		},
+		{
+			"id": 119,
+			"name": "Seaborn Blackberry Margarita",
+			"description": "Blackberry Margarita with a chile-lime and black salt rim",
+			"location": "California Adventure",
+			"restaurant": "Flo’s V8 Cafe",
+			"price": 17.0,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Blackberry-Margarita.jpg",
+			"tags": ["alcoholic", "berry", "cocktail", "premium-price", "spicy"]
+		},
+		{
+			"id": 120,
+			"name": "Belching Beaver Phantom Bride IPA",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Hollywood Lounge",
+			"price": 15.75,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 121,
+			"name": "Haunted Horchata Cocktail",
+			"description": "Horchata with RumChata and cinnamon whiskey",
+			"location": "California Adventure",
+			"restaurant": "Hollywood Lounge",
+			"price": 18.5,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Horchata-Cocktail.jpg",
+			"tags": ["alcoholic", "cocktail", "premium-price"]
+		},
+		{
+			"id": 122,
+			"name": "Keg Craft Berry Sangria",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Hollywood Lounge",
+			"price": 16.5,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Berry-Sangria.jpg",
+			"tags": ["alcoholic", "berry", "cocktail", "premium-price"]
+		},
+		{
+			"id": 123,
+			"name": "Towns Ciderhouse Hollow Jack Pumpkin Cider",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Hollywood Lounge",
+			"price": 17.25,
+			"category": "wine-cider",
+			"itemType": "Alcohol - Cider",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "premium-price", "pumpkin-spice", "wine-cider"]
+		},
+		{
+			"id": 124,
+			"name": "Towns Ciderhouse Mango Cosmic Crisp Cider",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Hollywood Lounge",
+			"price": 17.25,
+			"category": "wine-cider",
+			"itemType": "Alcohol - Cider",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "premium-price", "wine-cider"]
+		},
+		{
+			"id": 125,
+			"name": "21st Amendment Brewery Citrus Wheat Ale",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Hollywood Lounge",
+			"price": 15.75,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 127,
+			"name": "Seaborn Paranormal Peach Margarita",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Hollywood Lounge",
+			"price": 16.0,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "cocktail", "premium-price"]
+		},
+		{
+			"id": 130,
+			"name": "Prime Rib",
+			"description": "Herb salt-crusted with whipped potatoes, grilled rainbow carrots, wasabi cream, and au jus",
+			"location": "California Adventure",
+			"restaurant": "Lamplight Lounge",
+			"price": 40.0,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Prime-Rib.jpg",
+			"tags": [
+				"contains-dairy",
+				"meal",
+				"non-alcoholic",
+				"premium-price",
+				"savory"
+			]
+		},
+		{
+			"id": 131,
+			"name": "Gamecraft Marzen",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Lamplight Lounge",
+			"price": 15.75,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 132,
+			"name": "Brewery Ommegang All Hallows Treat",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Lamplight Lounge",
+			"price": 15.75,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 133,
+			"name": "2 Towns Cosmic Crisp",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Lamplight Lounge",
+			"price": 14.75,
+			"category": "wine-cider",
+			"itemType": "Alcohol - Cider",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "moderate-price", "wine-cider"]
+		},
+		{
+			"id": 134,
+			"name": "Gamecraft Marzen",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Lamplight Lounge – Boardwalk Dining",
+			"price": 15.75,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 135,
+			"name": "Brewery Ommegang All Hallows Treat",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Lamplight Lounge – Boardwalk Dining",
+			"price": 15.75,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 136,
+			"name": "Seasonal Baymax Macaron",
+			"description": "Filled with ube cream and salted caramel chocolate crunch pearls",
+			"location": "California Adventure",
+			"restaurant": "Lucky Fortune Cookery",
+			"price": 8.29,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Baymax-Macaron-1536x864.jpg",
+			"tags": [
+				"caramel",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"limited-time",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 137,
+			"name": "Vampire Mickey-shaped Sourdough Bread",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Mortimers Market",
+			"price": 14.49,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Sourdough.jpg",
+			"tags": [
+				"character-themed",
+				"meal",
+				"moderate-price",
+				"non-alcoholic",
+				"savory"
+			]
+		},
+		{
+			"id": 139,
+			"name": "Jalapeño-Cream Cheese Bread",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Outdoor Vending Locations",
+			"price": null,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Jalapeno-Bread.jpg",
+			"tags": ["contains-dairy", "meal", "non-alcoholic", "savory", "spicy"]
+		},
+		{
+			"id": 140,
+			"name": "Pumpkin Spice Cream Cheese Bread",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Outdoor Vending Locations",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Bread.jpg",
+			"tags": [
+				"baked-goods",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"frozen-dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 141,
+			"name": "Blackberry Cotton Candy",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Outdoor Vending Locations",
+			"price": null,
+			"category": "dessert",
+			"itemType": "Dessert - Misc",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["berry", "dessert", "non-alcoholic"]
+		},
+		{
+			"id": 142,
+			"name": "Oogie Boogie Chocolate Chip Cookie",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Outdoor Vending Locations",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Oogie-Boogie-Cookie.jpg",
+			"tags": [
+				"baked-goods",
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 144,
+			"name": "Study Break Blackberry Smash Seltzer",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Outdoor Vending Locations",
+			"price": null,
+			"category": "hard-seltzer",
+			"itemType": "Alcohol - Seltzer",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "berry", "hard-seltzer"]
+		},
+		{
+			"id": 147,
+			"name": "Karl Strauss Oktoberfest",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Pym Tasting Lab",
+			"price": 15.75,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 148,
+			"name": "Asgardian Apple Cold Brew",
+			"description": "Joffrey’s caramel cold brew, green apple cold foam, and caramel sauce with a caramel apple lollipop",
+			"location": "California Adventure",
+			"restaurant": "Pym Test Kitchen",
+			"price": 7.79,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Caramel-Cold-Brew.jpg",
+			"tags": [
+				"apple",
+				"budget-friendly",
+				"caramel",
+				"coffee-tea",
+				"cold",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 149,
+			"name": "Blueberry Matcha Iced Latte",
+			"description": "Matcha latte topped with blueberry cold foam and blueberry popping spheres",
+			"location": "California Adventure",
+			"restaurant": "Pym Test Kitchen",
+			"price": 7.79,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Blueberry-Matcha.jpg",
+			"tags": [
+				"berry",
+				"budget-friendly",
+				"coffee-tea",
+				"cold",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 150,
+			"name": "Ursula Enchanted Waffles",
+			"description": "Dark chocolate Mickey-shaped waffles filled with ube custard and dusted with powdered sugar",
+			"location": "California Adventure",
+			"restaurant": "Schmoozies!",
+			"price": 11.290000000000001,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Waffles.jpg",
+			"tags": [
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 151,
+			"name": "Evil Queen Apple Shake",
+			"description": "Matcha-apple shake with whipped topping",
+			"location": "California Adventure",
+			"restaurant": "Schmoozies!",
+			"price": 10.790000000000001,
+			"category": "frozen-dessert",
+			"itemType": "Dessert - Ice Cream / Shake",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Shake.jpg",
+			"tags": [
+				"apple",
+				"character-themed",
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"frozen-dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 152,
+			"name": "Mickey Mummy Shake",
+			"description": "Chocolate cookie shake with whipped topping, chocolate cream-filled cookie ears, and M&M’S Milk Chocolate Candies",
+			"location": "California Adventure",
+			"restaurant": "Schmoozies!",
+			"price": 14.290000000000001,
+			"category": "frozen-dessert",
+			"itemType": "Dessert - Ice Cream / Shake",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cookie-Shake.jpg",
+			"tags": [
+				"baked-goods",
+				"character-themed",
+				"chocolate",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"frozen-dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 153,
+			"name": "Castellum Ciders Ube Cider",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Schmoozies!",
+			"price": 17.25,
+			"category": "wine-cider",
+			"itemType": "Alcohol - Cider",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Ube-Cider.jpg",
+			"tags": ["alcoholic", "premium-price", "wine-cider"]
+		},
+		{
+			"id": 155,
+			"name": "Seaborn Wild Berry Lime Margarita",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Schmoozies!",
+			"price": 18.0,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Berry-Margarita.jpg",
+			"tags": ["alcoholic", "berry", "cocktail", "premium-price"]
+		},
+		{
+			"id": 157,
+			"name": "Pumpkin Espresso Martini",
+			"description": "Joffrey’s umpkin cold brew with caramel vodka topped with pumpkin spice cold foam",
+			"location": "California Adventure",
+			"restaurant": "Schmoozies!",
+			"price": 18.5,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Espresso.jpg",
+			"tags": [
+				"alcoholic",
+				"caramel",
+				"cocktail",
+				"coffee-tea",
+				"cold",
+				"premium-price",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 159,
+			"name": "BearPaw Basin Cold Brew",
+			"description": "Joffrey’s pecan cold brew, salted maple cold foam, caramel drizzle, and waffle pieces",
+			"location": "California Adventure",
+			"restaurant": "Smokejumpers Grill",
+			"price": 7.79,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/536768927_1549699093151833_3660623279180862032_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7wHK-1s8XAcQ7kNvwHVNfPE&_nc_oc=AdmmqIk2PQDIcivmhA_KruZoyY5aMj0xWgwd8eD7iu4nm4eAeVJ6GykTjrMmifedclY&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=9YgaFhPH4gllYr8yCizYpw&oh=00_AfWc5qwgHB762Mmf0gAr8Uama0nvPKUwNwal3RS-Wdflrg&oe=68B3F977",
+			"tags": [
+				"budget-friendly",
+				"caramel",
+				"coffee-tea",
+				"cold",
+				"contains-nuts",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 160,
+			"name": "Boo Berry Shake",
+			"description": "Blackberry shake with whipped cream, chocolate cookie dust, orange sprinkles, and fresh berries",
+			"location": "California Adventure",
+			"restaurant": "Smokejumpers Grill",
+			"price": 7.79,
+			"category": "frozen-dessert",
+			"itemType": "Dessert - Ice Cream / Shake",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Blackberry-Shake.jpg",
+			"tags": [
+				"baked-goods",
+				"berry",
+				"budget-friendly",
+				"chocolate",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"frozen-dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 161,
+			"name": "Oogie Boogie Lemonade",
+			"description": "Green apple Minute-Maid Lemonade with cherry-flavored popping spheres, and raspberry sauce",
+			"location": "California Adventure",
+			"restaurant": "Smokejumpers Grill",
+			"price": 7.79,
+			"category": "alcoholic-beverage",
+			"itemType": "Non Alcoholic Drink",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Lemonade.jpg",
+			"tags": [
+				"alcoholic",
+				"apple",
+				"berry",
+				"budget-friendly",
+				"character-themed"
+			]
+		},
+		{
+			"id": 162,
+			"name": "Caramel-Pecan Irish Cream Cold Brew Cocktail",
+			"description": "Irish cream liqueur, Joffrey’s pecan cold brew, salted maple cold foam, caramel drizzle, and waffle pieces",
+			"location": "California Adventure",
+			"restaurant": "Smokejumpers Grill",
+			"price": 18.5,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pecan-Cold-Brew.jpg",
+			"tags": [
+				"alcoholic",
+				"caramel",
+				"cocktail",
+				"coffee-tea",
+				"cold",
+				"contains-dairy",
+				"contains-nuts",
+				"premium-price"
+			]
+		},
+		{
+			"id": 164,
+			"name": "Karl Strauss Aurora Hoppyalis",
+			"description": null,
+			"location": "California Adventure",
+			"restaurant": "Smokejumpers Grill",
+			"price": 17.25,
+			"category": "beer",
+			"itemType": "Alcohol - Beer",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "Not Specified",
+				"endDate": "Not Specified"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "beer", "premium-price"]
+		},
+		{
+			"id": 165,
+			"name": "Green Apple Lemonade Cocktail",
+			"description": "Vodka with green apple Minute-Maid Lemonade, cherry-flavored popping spheres, and raspberry sauce",
+			"location": "California Adventure",
+			"restaurant": "Smokejumpers Grill",
+			"price": 18.5,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Lemonade-Cocktail.jpg",
+			"tags": ["alcoholic", "apple", "berry", "cocktail", "premium-price"]
+		},
+		{
+			"id": 168,
+			"name": "Oogie Boogie Splash",
+			"description": "House-made watermelon agua fresca with chile-lime seasoning",
+			"location": "California Adventure",
+			"restaurant": "Studio Catering Co.",
+			"price": 7.29,
+			"category": "alcoholic-beverage",
+			"itemType": "Non Alcoholic Drink",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Watermelon-Agua-Fresca.jpg",
+			"tags": ["alcoholic", "budget-friendly", "character-themed", "spicy"]
+		},
+		{
+			"id": 169,
+			"name": "Raspberry Crème Brûlée Tart",
+			"description": "Plant-based",
+			"location": "California Adventure",
+			"restaurant": "Wine Country Trattoria",
+			"price": 12.0,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://i.postimg.cc/7PcVx4NB/tart.png",
+			"tags": [
+				"berry",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic",
+				"vegan",
+				"vegetarian"
+			]
+		},
+		{
+			"id": 170,
+			"name": "Pozione Verde",
+			"description": "Midori, coconut rum, coconut cream, and pineapple juice",
+			"location": "California Adventure",
+			"restaurant": "Wine Country Trattoria",
+			"price": 17.0,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": null,
+			"tags": [
+				"alcoholic",
+				"apple",
+				"cocktail",
+				"contains-dairy",
+				"premium-price"
+			]
+		},
+		{
+			"id": 171,
+			"name": "Celestial Chocolate Churro",
+			"description": "Churro rolled in cocoa sugar, topped with pistachio cream, chocolate sauce, crispy phyllo dough crumbles, and crushed pistachios",
+			"location": "California Adventure",
+			"restaurant": "Terran Treats",
+			"price": 7.5,
+			"category": "churro",
+			"itemType": "Churro/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pistachio-Churro.jpg",
+			"tags": [
+				"budget-friendly",
+				"chocolate",
+				"churro",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 173,
+			"name": "Peanut Butter-Marshmallow Churro",
+			"description": "Classic churro with peanut butter sauce, marshmallow sauce, and chocolate chips",
+			"location": "California Adventure",
+			"restaurant": "Churros near Redwood Creek Challenge Trail",
+			"price": 7.5,
+			"category": "churro",
+			"itemType": "Churro/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Fluffernutter-Churro.jpg",
+			"tags": [
+				"budget-friendly",
+				"chocolate",
+				"churro",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 174,
+			"name": "Coffee and Donut Churro",
+			"description": "Classic churro rolled in coffee sugar topped with coffee-infused chocolate sauce, whipped topping, and seasonal sprinkles",
+			"location": "California Adventure",
+			"restaurant": "Willie’s Churros at Buena Vista Street",
+			"price": 7.5,
+			"category": "churro",
+			"itemType": "Churro/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Coffee-Donut-Churro.jpg",
+			"tags": [
+				"budget-friendly",
+				"chocolate",
+				"churro",
+				"coffee-tea",
+				"contains-dairy",
+				"dessert",
+				"limited-time",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 175,
+			"name": "Green-eyed Sceptre",
+			"description": "Pernod Absinthe, Avissi Prosecco, St. George Spiced Pear, cinnamon syrup, lime juice, and blackberry",
+			"location": "Disneyland Hotel",
+			"restaurant": "Broken Spell Lounge",
+			"price": 23.0,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Broken-Spell-Lounge-Cocktail.jpg",
+			"tags": ["alcoholic", "berry", "cocktail", "cold", "premium-price"]
+		},
+		{
+			"id": 178,
+			"name": "The Dark Heart",
+			"description": "Hennessy VS, Plymouth Gin, crème de cacao, chocolate bitters, and lemon bitters",
+			"location": "Disneyland Hotel",
+			"restaurant": "Palm Breeze Bar",
+			"price": 23.0,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "chocolate", "cocktail", "premium-price"]
+		},
+		{
+			"id": 179,
+			"name": "Tres Brujas",
+			"description": "Casamigos Reposado, espresso, Licor 43, Mr. Black Cold Brew Coffee Liqueur, orgeat, and Fee Brothers Fee Foam",
+			"location": "Disneyland Hotel",
+			"restaurant": "Palm Breeze Bar",
+			"price": 22.0,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "cocktail", "coffee-tea", "cold", "premium-price"]
+		},
+		{
+			"id": 180,
+			"name": "Mickey Bat Cookie",
+			"description": "Shortbread bat cookie dipped in dark chocolate with a vampire Mickey face",
+			"location": "Disneyland Hotel",
+			"restaurant": "The Coffee House",
+			"price": 8.5,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"baked-goods",
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 181,
+			"name": "Chai Ginger Latte",
+			"description": "Espresso, milk, chai syrup, white chocolate sauce, and gingerbread whipped cream",
+			"location": "Disneyland Hotel",
+			"restaurant": "The Coffee House",
+			"price": 7.5,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-DLH-Chai-Latte.jpg",
+			"tags": [
+				"budget-friendly",
+				"chocolate",
+				"coffee-tea",
+				"contains-dairy",
+				"hot",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 182,
+			"name": "Pumpkin Spice Latte",
+			"description": "Espresso, pumpkin spice syrup, and milk",
+			"location": "Disneyland Hotel",
+			"restaurant": "The Coffee House",
+			"price": 6.75,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-13"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-DLH-Pumpkin-Spice.jpg",
+			"tags": [
+				"budget-friendly",
+				"coffee-tea",
+				"contains-dairy",
+				"hot",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 183,
+			"name": "Cursed Caffeine",
+			"description": "Herradura Reposado Tequila, Amaro Montenegro, Mr. Black Cold Brew Coffee Liqueur, agave syrup, and chocolate bitters",
+			"location": "Disneyland Hotel",
+			"restaurant": "Trader Sam’s Enchanted Tiki Bar",
+			"price": null,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "chocolate", "cocktail", "coffee-tea", "cold"]
+		},
+		{
+			"id": 184,
+			"name": "Dark Prince of D’Nite",
+			"description": "Zacapa rum, El Dorado 8 Rum, sweet vermouth, Amaro Montenegro, Domaine de Canton Ginger Liqueur, and bitters",
+			"location": "Disneyland Hotel",
+			"restaurant": "Trader Sam’s Enchanted Tiki Bar",
+			"price": null,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "cocktail"]
+		},
+		{
+			"id": 185,
+			"name": "Deep Ocean Waters",
+			"description": "Buffalo Trace Bourbon, blue curaçao, Campari, grapefruit sherbet syrup, lemon juice, and bitters",
+			"location": "Disneyland Hotel",
+			"restaurant": "Trader Sam’s Enchanted Tiki Bar",
+			"price": null,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "cocktail"]
+		},
+		{
+			"id": 186,
+			"name": "Cappuccino Muffin",
+			"description": null,
+			"location": "Disney’s Grand Californian Hotel & Spa",
+			"restaurant": "GCH Craftsman Grill",
+			"price": 5.75,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-GCH-Cappuccino-Muffin.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"coffee-tea",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 187,
+			"name": "Minnie Halloween Cupcake",
+			"description": null,
+			"location": "Disney’s Grand Californian Hotel & Spa",
+			"restaurant": "GCH Craftsman Grill",
+			"price": 8.5,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"baked-goods",
+				"character-themed",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 188,
+			"name": "Pumpkin Pepita Muffin",
+			"description": null,
+			"location": "Disney’s Grand Californian Hotel & Spa",
+			"restaurant": "GCH Craftsman Grill",
+			"price": 5.75,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2026-01-07"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-GCH-Pumpkin-Muffin.jpg",
+			"tags": [
+				"baked-goods",
+				"budget-friendly",
+				"dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 189,
+			"name": "Filled Long John Donut",
+			"description": null,
+			"location": "Disney’s Grand Californian Hotel & Spa",
+			"restaurant": "GCH Craftsman Grill",
+			"price": 8.5,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": ["baked-goods", "dessert", "moderate-price", "non-alcoholic"]
+		},
+		{
+			"id": 190,
+			"name": "Vampire Mickey Cake Donut",
+			"description": null,
+			"location": "Disney’s Grand Californian Hotel & Spa",
+			"restaurant": "GCH Craftsman Grill",
+			"price": 8.5,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"baked-goods",
+				"character-themed",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 191,
+			"name": "Buttery Pumpkin Bread",
+			"description": "Pumpkin bread with sprinkles and pumpkin spiced icing",
+			"location": "Disney’s Grand Californian Hotel & Spa",
+			"restaurant": "Grand Californian Great Hall Cart",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"baked-goods",
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 192,
+			"name": "Gooey Peanut Butter Chocolate Cookie",
+			"description": "Gooey filled cookie topped with gummy worms",
+			"location": "Disney’s Grand Californian Hotel & Spa",
+			"restaurant": "Grand Californian Great Hall Cart",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-GCH-Cookie.jpg",
+			"tags": [
+				"baked-goods",
+				"chocolate",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 193,
+			"name": "Halloween Gingerbread Skeleton Cookie",
+			"description": "Decorated gingerbread cookie",
+			"location": "Disney’s Grand Californian Hotel & Spa",
+			"restaurant": "Grand Californian Great Hall Cart",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-GCH-Gingerbread.jpg",
+			"tags": ["baked-goods", "character-themed", "dessert", "non-alcoholic"]
+		},
+		{
+			"id": 194,
+			"name": "Halloween Berry Jam Linzer Cookie",
+			"description": "Decorated sugar cookie",
+			"location": "Disney’s Grand Californian Hotel & Spa",
+			"restaurant": "Grand Californian Great Hall Cart",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"baked-goods",
+				"berry",
+				"character-themed",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 195,
+			"name": "Limited-Edition Giant Chocolate Chip Cookie",
+			"description": "Topped with salted caramel, chocolate sauce, and berry jam",
+			"location": "Pixar Place Hotel",
+			"restaurant": "The Sketch Pad Café",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-18",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpad-Cafe-Cookie.jpg",
+			"tags": [
+				"baked-goods",
+				"berry",
+				"caramel",
+				"chocolate",
+				"dessert",
+				"limited-time",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 196,
+			"name": "Pumpkin Cheesecake Overnight Oats",
+			"description": "Layered with pumpkin cheesecake, chocolate cookie crumbles, granola, cranberries, and gummy worms",
+			"location": "Pixar Place Hotel",
+			"restaurant": "The Sketch Pad Café",
+			"price": null,
+			"category": "dessert",
+			"itemType": "Dessert - Misc",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-18",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpad-Cafe-Overnight-Oats.jpg",
+			"tags": [
+				"baked-goods",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 197,
+			"name": "Salted Caramel Whoopie Pie",
+			"description": "Dark chocolate and salted caramel buttercream",
+			"location": "Pixar Place Hotel",
+			"restaurant": "The Sketch Pad Café",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-18",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpas-Cafe-Whoopie-Pie-1.jpg",
+			"tags": [
+				"caramel",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 198,
+			"name": "Matcha Horchata",
+			"description": "Made with rice, condensed milk, vanilla, cinnamon, and topped with matcha tea",
+			"location": "Pixar Place Hotel",
+			"restaurant": "The Sketch Pad Café",
+			"price": null,
+			"category": "alcoholic-beverage",
+			"itemType": "Non Alcoholic Drink",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-18",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpad-Cafe-Matcha-720x1080.jpg",
+			"tags": ["alcoholic", "coffee-tea", "contains-dairy"]
+		},
+		{
+			"id": 199,
+			"name": "Paradise Tea Lemonade",
+			"description": "House-made lemonade, lavender syrup, and hibiscus cooler tea",
+			"location": "Pixar Place Hotel",
+			"restaurant": "The Sketch Pad Café",
+			"price": null,
+			"category": "alcoholic-beverage",
+			"itemType": "Non Alcoholic Drink",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-18",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpad-Cafe-Lemonade-720x1080.jpg",
+			"tags": ["alcoholic", "coffee-tea"]
+		},
+		{
+			"id": 200,
+			"name": "Pumpkin Cold Brew",
+			"description": "Joffrey’s cold brew, caramel syrup, pumpkin purée, and pumpkin spice",
+			"location": "Pixar Place Hotel",
+			"restaurant": "The Sketch Pad Café",
+			"price": null,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-18",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpad-Cafe-Cold-Brew-729x1080.jpg",
+			"tags": [
+				"caramel",
+				"coffee-tea",
+				"cold",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 201,
+			"name": "Devil Donald Cake Pop",
+			"description": "Vanilla cake pop dipped in white chocolate, decorated with orange-colored white chocolate, watermelon sour candy horns, yellow M&M’S Minis Chocolate Candy for a beak, and black-colored dark chocolate for the face",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Bing Bong’s Sweet Stuff",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-09-28",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Donald-Cake-Pop.jpg",
+			"tags": [
+				"baked-goods",
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 202,
+			"name": "Psychic Minnie Caramel Apple",
+			"description": "Granny Smith apple with marshmallow ears, dipped in caramel and milk chocolate, an orange sugar dress, white M&M’S Milk Chocolate Candies, and an orange and gray chocolate psychic witch hat",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Bing Bong’s Sweet Stuff",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"apple",
+				"caramel",
+				"character-themed",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 203,
+			"name": "Spiderweb Cereal Treat",
+			"description": "Cookies and cream flavored rice cereal treat dipped in black-colored dark chocolate and decorated with white chocolate webs with white sanding sugar",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Bing Bong’s Sweet Stuff",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cereal-Treat.jpg",
+			"tags": [
+				"baked-goods",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 205,
+			"name": "Evil Queen Caramel Apple",
+			"description": "Granny Smith apple dipped in caramel and decorated with marshmallow ears dipped in red-colored white chocolate, plus a green-colored white chocolate skull face",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Bing Bong’s Sweet Stuff",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Caramel-Apple.jpg",
+			"tags": [
+				"apple",
+				"caramel",
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 206,
+			"name": "Halloween Marshmallow Wand",
+			"description": "Marshmallows on a stick dipped in caramel and milk chocolate, drizzled with orange and purple-colored white chocolate",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Bing Bong’s Sweet Stuff",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Marshmallow-Wands.jpg",
+			"tags": [
+				"caramel",
+				"character-themed",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 207,
+			"name": "Mummy Mickey Mallow Pop",
+			"description": "Mickey-shaped marshmallow pop dipped and decorated with white chocolate, and dark chocolate chip eyes",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Bing Bong’s Sweet Stuff",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Marshmallow.jpg",
+			"tags": [
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 208,
+			"name": "Orange Minnie Bow Cake Pop",
+			"description": "Chocolate cake pop, chocolate Minnie ears covered in milk chocolate, finished with an orange Minnie bow",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Bing Bong’s Sweet Stuff",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"baked-goods",
+				"character-themed",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 209,
+			"name": "Devil Donald Cake Pop",
+			"description": "Vanilla cake pop dipped in white chocolate, decorated with orange-colored white chocolate, watermelon sour candy horns, yellow M&M’S Minis Chocolate Candy for a beak, and black-colored dark chocolate for the face",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-09-28",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Donald-Cake-Pop.jpg",
+			"tags": [
+				"baked-goods",
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 210,
+			"name": "Ghost Mickey Cake Pop",
+			"description": "Ghost-shaped vanilla cake pop dipped in white chocolate and decorated with a black-colored dark chocolate face",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Ghost-Cake-Pop.jpg",
+			"tags": [
+				"baked-goods",
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 211,
+			"name": "Spiderweb Cereal Treat",
+			"description": "Cookies and cream flavored rice cereal treat dipped in black-colored dark chocolate and decorated with white chocolate webs with white sanding sugar",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cereal-Treat.jpg",
+			"tags": [
+				"baked-goods",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 213,
+			"name": "Wizard Mickey Caramel Apple  (Not available at Pooh Corner)",
+			"description": "Granny Smith apple with marshmallow ears, dipped in caramel and decorated with milk chocolate, an orange sugar robe, white M&M’S Milk Chocolate Candies, and an orange and gray wizard hat (Not available at Pooh Corner)",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"apple",
+				"caramel",
+				"character-themed",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 214,
+			"name": "Psychic Minnie Caramel Apple",
+			"description": "Granny Smith apple with marshmallow ears, dipped in caramel and milk chocolate, an orange sugar dress, white M&M’S Milk Chocolate Candies, and an orange and gray chocolate psychic witch hat",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"apple",
+				"caramel",
+				"character-themed",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 215,
+			"name": "Evil Queen Caramel Apple",
+			"description": "Granny Smith apple dipped in caramel and decorated with marshmallow ears dipped in red-colored white chocolate, plus a green-colored white chocolate skull face",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Caramel-Apple.jpg",
+			"tags": [
+				"apple",
+				"caramel",
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 216,
+			"name": "Halloween Marshmallow Wand",
+			"description": "Marshmallows on a stick dipped in caramel and milk chocolate, drizzled with orange and purple-colored white chocolate",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Marshmallow-Wands.jpg",
+			"tags": [
+				"caramel",
+				"character-themed",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 217,
+			"name": "Harvest Brittle",
+			"description": "Buttery brittle made with pecans, cashews, almonds, craisins, and cinnamon",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": ["contains-dairy", "contains-nuts", "dessert", "non-alcoholic"]
+		},
+		{
+			"id": 218,
+			"name": "Llama Potion Cereal Treat",
+			"description": "Bottle-shaped cereal treat dipped in pink and tan-colored chocolate, topped with a white chocolate llama piece",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": ["chocolate", "dessert", "non-alcoholic"]
+		},
+		{
+			"id": 219,
+			"name": "Mummy Mickey Mallow Pop",
+			"description": "Mickey-shaped marshmallow pop dipped and decorated with white chocolate, and dark chocolate chip eyes",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Marshmallow.jpg",
+			"tags": [
+				"character-themed",
+				"chocolate",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 220,
+			"name": "Orange Minnie Bow Cake Pop",
+			"description": "Chocolate cake pop, chocolate Minnie ears covered in milk chocolate, finished with an orange Minnie bow",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"baked-goods",
+				"character-themed",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 221,
+			"name": "Skeleton Minnie Caramel Apple",
+			"description": "Granny Smith apple dipped in caramel and decorated with white chocolate-covered marshmallow ears, a black sugar dress, white M&M’S Milk Chocolate Candies, and a black and white skull bow",
+			"location": "Halloween Candy at Disneyland Resort",
+			"restaurant": "Candy Palace and Candy Kitchen, Disney Wonderful World of Sweets, Pooh Corner, and Trolley Treats",
+			"price": null,
+			"category": "specialty-dessert",
+			"itemType": "Dessert - Artisan",
+			"mobileOrderAvailable": true,
+			"availability": {
+				"startDate": "2025-08-17",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": [
+				"apple",
+				"caramel",
+				"character-themed",
+				"chocolate",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 223,
+			"name": "Caramel Apple Beignet",
+			"description": "Candied apple icing, caramel drizzle, and spooky sprinkles",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Beignets Expressed",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-10-01",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Fall-Beignet-810x1080.jpg",
+			"tags": [
+				"apple",
+				"caramel",
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
+		},
+		{
+			"id": 224,
+			"name": "Spooky Churro",
+			"description": "Spooky Churro Cut in half churro rolled in cinnamon sugar, drizzled with peanut butter and chocolate sauce, and topped with peanut butter candy pieces",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "California Churro",
+			"price": null,
+			"category": "churro",
+			"itemType": "Churro/Dipping Sauce",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-10-01",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Spooky-Churro-1440x1080.jpg",
+			"tags": [
+				"chocolate",
+				"churro",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"non-alcoholic"
+			]
+		},
+		{
+			"id": 225,
+			"name": "Pumpkin Flan",
+			"description": "A rich and creamy twist on the classic Latin dessert, blending the smooth texture of traditional flan with the cozy, spiced flavors of pumpkin pie",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Céntrico",
+			"price": null,
+			"category": "dessert",
+			"itemType": "Dessert - Pudding",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Centrico-720x1080.jpg",
+			"tags": [
+				"cold",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 226,
+			"name": "La Calavera Roja",
+			"description": "Reposado tequila, pomegranate juice, blood orange syrup, lime juice, agave, and cinnamon",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Céntrico",
+			"price": null,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "cocktail"]
+		},
+		{
+			"id": 228,
+			"name": "Pumpkin Spice Margarita",
+			"description": "Reposado tequila, orange liqueur, lime, and pumpkin spice syrup",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Jazz Kitchen Coastal Grill & Patio",
+			"price": null,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Margarita-810x1080.jpg",
+			"tags": ["alcoholic", "cocktail", "pumpkin-spice"]
+		},
+		{
+			"id": 229,
+			"name": "Pumpkin Blooderscotch Cannolis",
+			"description": "Filled with pumpkin and butterscotch chip cream, whipped cream, red caramel drizzle, and a sugar knife",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Naples Ristorante e Bar",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Naples-720x1080.jpg",
+			"tags": [
+				"caramel",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 230,
+			"name": "Pumpkin Dulce",
+			"description": "Spiced sponge cake, maple syrup ganache, walnut crumble, pumpkin mousse, gruyère, and rosemary ice cream",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Paseo",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Dulce-864x1080.jpg",
+			"tags": [
+				"baked-goods",
+				"cold",
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"frozen-dessert",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
+		},
+		{
+			"id": 231,
+			"name": "Miel de los Muertos",
+			"description": "Blanco tequila, orange juice, lemon juice, pumpkin purée, honey cinnamon syrup, and foam",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Paseo",
+			"price": null,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": null,
+			"tags": ["alcoholic", "cocktail", "pumpkin-spice"]
+		},
+		{
+			"id": 232,
+			"name": "Midnight Roll",
+			"description": "Creamy avocado, salmon, and cream cheese wrapped in black rice, topped with masago, pickled onion, micro cilantro, and a smoky chipotle mayo drizzle",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Splitsville Luxury Lanes",
+			"price": null,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Midnight-Roll-1438x1080.jpg",
+			"tags": ["contains-dairy", "meal", "non-alcoholic", "savory", "spicy"]
+		},
+		{
+			"id": 233,
+			"name": "Mister Boogie",
+			"description": "Reposado Tequila, melon liquor, lime juice, agave nectar, and a splash of soda water with a purple sugar rim and topped with two sour gummy worms",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Splitsville Luxury Lanes",
+			"price": null,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Paseo-Cocktail-811x1080.jpg",
+			"tags": ["alcoholic", "cocktail"]
+		},
+		{
+			"id": 234,
+			"name": "Boo-ñuelo",
+			"description": "Spiced chocolate, cinnamon sugar, and seasonal corn",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Tiendita",
+			"price": null,
+			"category": "entree-side",
+			"itemType": "Entree / Side",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Boonuelo-720x1080.jpg",
+			"tags": [
+				"chocolate",
+				"cold",
+				"limited-time",
+				"meal",
+				"non-alcoholic",
+				"savory"
+			]
+		},
+		{
+			"id": 235,
+			"name": "Graveyard Pudding",
+			"description": "Chocolate pudding, chocolate cookie crumble, sprinkles, and gummy worms",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Parkside Market: GG’s Chicken Shop",
+			"price": null,
+			"category": "dessert",
+			"itemType": "Dessert - Pudding",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": null,
+			"tags": ["baked-goods", "chocolate", "dessert", "non-alcoholic"]
+		},
+		{
+			"id": 237,
+			"name": "Maple Pecan Praline Cinnamon Roll",
+			"description": null,
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Parkside Market: Sip & Sonder",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cinnamon-Roll-810x1080.jpg",
+			"tags": ["contains-nuts", "dessert", "non-alcoholic"]
+		},
+		{
+			"id": 238,
+			"name": "Sweet Potato Marshmallow Roll",
+			"description": null,
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Parkside Market: Sip & Sonder",
+			"price": null,
+			"category": "dessert",
+			"itemType": "Dessert - Misc",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Marshmallow-Roll-810x1080.jpg",
+			"tags": ["dessert", "non-alcoholic", "specialty-candy"]
+		},
+		{
+			"id": 239,
+			"name": "Poison Apple Spiced Toffee Crunch Cider",
+			"description": null,
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Parkside Market: Sip & Sonder",
+			"price": null,
+			"category": "alcoholic-beverage",
+			"itemType": "Non Alcoholic Drink",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Cider-810x1080.jpg",
+			"tags": ["alcoholic", "apple", "cold", "wine-cider"]
+		},
+		{
+			"id": 240,
+			"name": "Spiced Pumpkin Latte",
+			"description": null,
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Parkside Market: Sip & Sonder",
+			"price": null,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Latte-810x1080.jpg",
+			"tags": ["coffee-tea", "cold", "non-alcoholic", "pumpkin-spice"]
+		},
+		{
+			"id": 241,
+			"name": "Spiced Toasted Marshmallow Mocha",
+			"description": null,
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Parkside Market: Sip & Sonder",
+			"price": null,
+			"category": "coffee-tea",
+			"itemType": "Coffee/Tea",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Marshmallow-Mocha-810x1080.jpg",
+			"tags": ["coffee-tea", "cold", "non-alcoholic"]
+		},
+		{
+			"id": 242,
+			"name": "Sleepy Hollow",
+			"description": "Dark rum, almond liqueur, chai simple syrup, lemon juice, vanilla syrup, and bitters, served in the Tree Tiki Glass (Glass available for purchase)",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Parkside Market: Vista Parkside Market",
+			"price": null,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Parkside-Market-1288x1080.png",
+			"tags": ["alcoholic", "cocktail", "coffee-tea", "contains-nuts"]
+		},
+		{
+			"id": 243,
+			"name": "Starry Night",
+			"description": "Small batch bourbon, earl grey, bitters, and orange bitters",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Parkside Market: Vista Parkside Market",
+			"price": null,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Parkside-Market-1288x1080.png",
+			"tags": ["alcoholic", "cocktail"]
+		},
+		{
+			"id": 244,
+			"name": "The Raven",
+			"description": "Vodka, coffee liqueur, and Sip & Sonder espresso",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Parkside Market: Vista Parkside Market",
+			"price": null,
+			"category": "cocktail",
+			"itemType": "Alcohol - Cocktail",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-10-31"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Parkside-Market-1288x1080.png",
+			"tags": ["alcoholic", "cocktail", "coffee-tea"]
+		},
+		{
+			"id": 245,
+			"name": "Graveyard Bitz",
+			"description": "Original Bitz drizzled in a gooey layer of crème and topped with crunchy cookie pieces",
+			"location": "2025 Halloween Treats at Downtown Disney District",
+			"restaurant": "Wetzel’s Pretzels",
+			"price": null,
+			"category": "baked-dessert",
+			"itemType": "Dessert - Baked Good",
+			"mobileOrderAvailable": false,
+			"availability": {
+				"startDate": "2025-08-22",
+				"endDate": "2025-11-02"
+			},
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Graveyard-Bitz-1080x1080.jpg",
+			"tags": ["baked-goods", "dessert", "non-alcoholic"]
+		}
+	]
+}
