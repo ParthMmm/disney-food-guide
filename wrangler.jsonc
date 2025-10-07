@@ -1,5 +1,5 @@
 {
-	"name": "fom",
+	"name": "disney-food-guide",
 	"main": ".svelte-kit/cloudflare/_worker.js",
 	"compatibility_date": "2025-10-06",
 	"assets": {
