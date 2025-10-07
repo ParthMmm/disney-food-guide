@@ -101,13 +101,21 @@ Each item contains:
 
 ### Load Data in +page.ts
 ```typescript
+import { error } from '@sveltejs/kit';
 import type { PageLoad } from './$types';
-import type { FoodGuideData } from '$lib/types';
-import foodData from '$lib/data/disneyland_halloween_food.json';
+import type { FoodGuideData } from '$lib/types/types';
 
-export const load: PageLoad = async () => {
+export const load: PageLoad = async ({ fetch }) => {
+  const response = await fetch('/data/food.json');
+
+  if (!response.ok) {
+    throw error(response.status, 'Failed to load food guide data');
+  }
+
+  const foodData = (await response.json()) as FoodGuideData;
+
   return {
-    foodData: foodData as FoodGuideData
+    foodData,
   };
 };
 ```
