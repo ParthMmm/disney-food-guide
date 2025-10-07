@@ -1,6 +1,4 @@
 <script lang="ts">
-import CheckIcon from "@lucide/svelte/icons/check";
-import MinusIcon from "@lucide/svelte/icons/minus";
 import { Checkbox as CheckboxPrimitive } from "bits-ui";
 import type { Snippet } from "svelte";
 import { cn, type WithoutChildren } from "$lib/utils.js";
