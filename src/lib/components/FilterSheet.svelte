@@ -21,11 +21,13 @@ let {
 	categories,
 	allTags,
 	activeFilters,
+	children,
 }: {
 	open: boolean;
 	categories: string[];
 	allTags: string[];
 	activeFilters: FilterItem[];
+	children: import("svelte").Snippet;
 } = $props();
 
 const dates = [
@@ -49,7 +51,7 @@ const dates = [
 
 <Drawer.Root bind:open>
 	<Drawer.Trigger>
-		<slot />
+		{@render children()}
 	</Drawer.Trigger>
 	<Drawer.Content
 		class="w-full sm:max-w-2xl p-4 max-h-[95vh] flex flex-col"
