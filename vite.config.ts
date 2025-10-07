@@ -18,7 +18,6 @@ export default defineConfig({
 				skipWaiting: true,
 				navigationPreload: true,
 				cleanupOutdatedCaches: true,
-				minify: false,
 				runtimeCaching: [
 					{
 						urlPattern: /^https:\/\/fonts\.gstatic\.com\//i,
