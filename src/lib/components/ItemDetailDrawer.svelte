@@ -20,7 +20,7 @@
     } = $props();
 </script>
 
-<Drawer.Root bind:open>
+<Drawer.Root bind:open shouldScaleBackground>
     <Drawer.Content class="w-full sm:max-w-2xl p-4 h-[95vh] flex flex-col">
         {#if item}
             <div class="flex-1 overflow-y-auto" style="touch-action: pan-y;">
@@ -31,10 +31,10 @@
                     description={item.description}
                     category={item.category}
                     itemType={item.itemType}
-                    class="w-full h-64 object-cover rounded-xl"
+                    class="w-full h-64 mt-2 object-cover rounded-md"
                 />
 
-                <div class="p-6 space-y-4">
+                <div class="py-6 px-2 space-y-4">
                     <Drawer.Header class="p-0">
                         <Drawer.Title class="text-3xl">{item.name}</Drawer.Title
                         >
@@ -52,9 +52,7 @@
                             </span>
                         {/if}
                         {#if item.mobileOrderAvailable}
-                            <Badge variant="outline" class="text-base px-3 py-1"
-                                >📱</Badge
-                            >
+                            <div>📱</div>
                         {/if}
                         <button
                             onclick={(e) => {
@@ -67,7 +65,7 @@
                             <Heart
                                 class="h-6 w-6 transition-colors {item &&
                                 favoritesStore.isFavorite(item.id)
-                                    ? 'fill-red-500 stroke-red-500'
+                                    ? 'fill-orange-500 stroke-orange-500'
                                     : 'stroke-foreground'}"
                             />
                         </button>
@@ -83,7 +81,7 @@
                                 >
                                     Location
                                 </h3>
-                                <p class="text-base">📍 {item.restaurant}</p>
+                                <p class="text-base">{item.restaurant}</p>
                                 {#if item.location}
                                     <p class="text-sm text-muted-foreground">
                                         {item.location}
@@ -116,28 +114,19 @@
                                 </p>
                                 <div class="flex flex-wrap gap-2 mt-2">
                                     {#if start <= new Date("2025-10-31") && end >= new Date("2025-10-31")}
-                                        <Badge
-                                            variant="secondary"
-                                            class="text-base">🎃</Badge
-                                        >
+                                        <div>🎃</div>
                                     {/if}
                                     {#if start <= new Date("2025-11-30") && end >= new Date("2025-11-30")}
-                                        <Badge
-                                            variant="secondary"
-                                            class="text-base">🦃</Badge
-                                        >
+                                        <div>🦃</div>
                                     {/if}
                                     {#if start <= new Date("2025-12-31") && end >= new Date("2025-12-31")}
-                                        <Badge
-                                            variant="secondary"
-                                            class="text-base">🎄</Badge
-                                        >
+                                        <div>🎄</div>
                                     {/if}
                                 </div>
                             </div>
                         {/if}
 
-                        {#if item.tags.length > 0}
+                        <!-- {#if item.tags.length > 0}
                             <div>
                                 <h3
                                     class="text-sm font-semibold text-muted-foreground mb-2"
@@ -155,12 +144,12 @@
                                     {/each}
                                 </div>
                             </div>
-                        {/if}
+                        {/if} -->
                     </div>
                 </div>
             </div>
 
-            <div class="pt-4 border-t">
+            <div class="pt-4 border-t pb-6">
                 <Button onclick={() => (open = false)} class="w-full">
                     Close
                 </Button>

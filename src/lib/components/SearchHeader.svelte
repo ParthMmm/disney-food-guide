@@ -43,14 +43,15 @@
             {/if}
         </Button>
         <Button
-            class="text-muted-foreground"
-            variant={filtersStore.favoritesOnly ? "default" : "outline"}
+            variant={"outline"}
+            class="text-muted-foreground "
             onclick={() =>
                 filtersStore.setFavoritesOnly(!filtersStore.favoritesOnly)}
         >
             <Heart
-                class="h-4 w-4  {filtersStore.favoritesOnly
-                    ? 'fill-current'
+                class="h-4 w-4 transition-colors
+                    {filtersStore.favoritesOnly
+                    ? 'fill-orange-500 stroke-orange-500'
                     : ''}"
             />
         </Button>

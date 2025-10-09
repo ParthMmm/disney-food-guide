@@ -9,5 +9,5 @@
 <svelte:head>
     <link rel="icon" href={favicon} />
 </svelte:head>
-<ModeWatcher defaultMode={"light"} track={false} />
+<ModeWatcher defaultMode={"dark"} track={true} />
 {@render children?.()}

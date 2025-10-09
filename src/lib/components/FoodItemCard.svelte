@@ -25,19 +25,19 @@
     const cardClass = $derived(
         isCondensed
             ? "overflow-hidden hover:shadow-md transition-shadow relative cursor-pointer flex flex-row items-start gap-3 border-0  rounded-0 p-3  -mx-2"
-            : "pt-0 gap-3 rounded-md overflow-hidden hover:shadow-lg transition-shadow relative cursor-pointer",
+            : "pt-0 gap-3 rounded-md overflow-hidden hover:shadow-lg transition-shadow relative cursor-pointer shadow-xs",
     );
 
     const heartButtonClass = $derived(
         isCondensed
-            ? "absolute top-[37%] right-2 z-10 p-1.5 rounded-full bg-background/25 backdrop-blur-sm hover:bg-background transition-colors"
-            : "absolute top-3 right-3 z-10 p-2 rounded-full bg-background/25 backdrop-blur-sm hover:bg-background transition-colors",
+            ? "absolute top-[37%] right-2 z-10 p-1.5 rounded-full bg-none dark:bg-background/25 backdrop-blur-sm hover:bg-background transition-colors"
+            : "absolute top-3 right-3 z-10 p-2 rounded-full bg-background/25   backdrop-blur-sm hover:bg-background transition-colors",
     );
 
     const heartIconClass = $derived(
         isCondensed
-            ? `h-4 w-4 transition-colors ${favoritesStore.isFavorite(item.id) ? "fill-orange-500 stroke-orange-500" : "stroke-foreground"}`
-            : `h-5 w-5 transition-colors ${favoritesStore.isFavorite(item.id) ? "fill-orange-500 stroke-orange-500" : "stroke-foreground"}`,
+            ? `h-4 w-4 transition-colors ${favoritesStore.isFavorite(item.id) ? "fill-orange-500 stroke-orange-500" : "stroke-black dark:stroke-foreground"}`
+            : `h-5 w-5 transition-colors ${favoritesStore.isFavorite(item.id) ? "fill-orange-500 stroke-orange-500" : "stroke-white dark:stroke-foreground"}`,
     );
 
     const imageClass = $derived(
@@ -64,7 +64,7 @@
         description={item.description}
         category={item.category}
         itemType={item.itemType}
-        class={cn(imageClass, "rounded-md")}
+        class={cn(imageClass, "rounded-md ")}
     />
 
     {#if isCondensed}
@@ -170,6 +170,8 @@
         width: 100%;
         height: 200px;
         object-fit: cover;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
     }
 
     :global(.item-image-condensed) {
