@@ -10,7 +10,7 @@ interface ViewPreferences {
 }
 
 function createViewPreferencesStore() {
-	let viewMode = $state<ViewMode>("grid");
+	let viewMode = $state<ViewMode>("condensed");
 	let openCategories = $state<Set<string>>(new Set());
 
 	if (browser) {
@@ -18,10 +18,10 @@ function createViewPreferencesStore() {
 		if (stored) {
 			try {
 				const parsed = JSON.parse(stored) as ViewPreferences;
-				viewMode = parsed.viewMode || "grid";
+				viewMode = parsed.viewMode || "condensed";
 				openCategories = new Set(parsed.openCategories || []);
 			} catch {
-				viewMode = "grid";
+				viewMode = "condensed";
 				openCategories = new Set();
 			}
 		}
