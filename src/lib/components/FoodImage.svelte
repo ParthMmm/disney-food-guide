@@ -1,5 +1,6 @@
 <script lang="ts">
 import { optimizeImageUrl } from "$lib/utils/image";
+import { imageCacheStore } from "$lib/stores/imageCache.svelte";
 
 type Props = {
 	src: string | null;
@@ -28,6 +29,9 @@ let loaded = $state(false);
 let inView = $state(false);
 
 const optimizedSrc = $derived(optimizeImageUrl(src, width));
+const isCached = $derived(
+	optimizedSrc ? imageCacheStore.isLoaded(optimizedSrc) : false,
+);
 
 function getEmojiForFood(): string {
 	const searchText =
@@ -116,6 +120,11 @@ const fallbackEmoji = $derived(getEmojiForFood());
 $effect(() => {
 	if (!img || !optimizedSrc) return;
 
+	if (isCached) {
+		inView = true;
+		return;
+	}
+
 	const observer = new IntersectionObserver(
 		([entry]) => {
 			if (entry.isIntersecting) {
@@ -138,8 +147,13 @@ $effect(() => {
         {alt}
         loading="lazy"
         decoding="async"
-        class="{className} {loaded ? 'loaded' : ''}"
-        onload={() => (loaded = true)}
+        class="{className} {loaded || isCached ? 'loaded' : ''}"
+        onload={() => {
+			loaded = true;
+			if (optimizedSrc) {
+				imageCacheStore.markAsLoaded(optimizedSrc);
+			}
+		}}
     />
 {:else}
     <div class="placeholder {className}">
