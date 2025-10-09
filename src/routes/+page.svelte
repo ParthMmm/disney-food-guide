@@ -1,10 +1,10 @@
 <script lang="ts">
-    import FoodGuide from "./FoodGuide.svelte";
-    import type { PageData } from "./$types";
+import FoodGuide from "./FoodGuide.svelte";
+import type { PageData } from "./$types";
 
-    export let data: PageData;
+export let data: PageData;
 
-    const itemCount = data.foodData.items.length;
+const itemCount = data.foodData.items.length;
 </script>
 
 <svelte:head>

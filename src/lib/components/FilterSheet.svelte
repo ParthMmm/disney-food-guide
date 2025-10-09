@@ -1,9 +1,9 @@
 <script lang="ts" module>
-    export type FilterItem = {
-        id: string;
-        label: string;
-        onRemove: () => void;
-    };
+export type FilterItem = {
+	id: string;
+	label: string;
+	onRemove: () => void;
+};
 </script>
 
 <script lang="ts">

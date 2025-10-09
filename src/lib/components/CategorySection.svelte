@@ -1,5 +1,5 @@
 <script lang="ts" module>
-    import type { FoodItem } from "$lib/types/types";
+import type { FoodItem } from "$lib/types/types";
 </script>
 
 <script lang="ts">

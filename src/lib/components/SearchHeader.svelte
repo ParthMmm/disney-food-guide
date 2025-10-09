@@ -1,15 +1,15 @@
 <script lang="ts">
-    import { Heart, LayoutGrid, List, Search } from "lucide-svelte";
-    import { Button } from "$lib/components/ui/button";
-    import { Input } from "$lib/components/ui/input";
-    import { filtersStore } from "$lib/stores/filters.svelte";
-    import { viewPreferencesStore } from "$lib/stores/viewPreferences.svelte";
+import { Heart, LayoutGrid, List, Search } from "lucide-svelte";
+import { Button } from "$lib/components/ui/button";
+import { Input } from "$lib/components/ui/input";
+import { filtersStore } from "$lib/stores/filters.svelte";
+import { viewPreferencesStore } from "$lib/stores/viewPreferences.svelte";
 
-    let {
-        filterSlot,
-    }: {
-        filterSlot?: import("svelte").Snippet;
-    } = $props();
+let {
+	filterSlot,
+}: {
+	filterSlot?: import("svelte").Snippet;
+} = $props();
 </script>
 
 <div class="mb-6 flex flex-col gap-3">
