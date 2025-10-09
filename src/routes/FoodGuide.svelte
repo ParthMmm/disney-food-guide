@@ -24,6 +24,23 @@ const { metadata, items } = data.foodData;
 const categories = metadata.filters.categories;
 const allTags = metadata.filters.allTags;
 
+const categoryOrder = [
+	"churro",
+	"dessert",
+	"baked-dessert",
+	"frozen-dessert",
+	"specialty-dessert",
+	"coffee-tea",
+	"entree-side",
+	"other",
+	"beer",
+	"wine-cider",
+	"cocktail",
+	"hard-seltzer",
+	"alcoholic-beverage",
+	"salad",
+];
+
 const dates = [
 	{
 		id: "halloween",
@@ -131,6 +148,14 @@ const itemsByCategory = $derived.by(() => {
 	);
 });
 
+const sortedCategories = $derived.by(() => {
+	return Object.entries(itemsByCategory).sort(([catA], [catB]) => {
+		const indexA = categoryOrder.indexOf(catA);
+		const indexB = categoryOrder.indexOf(catB);
+		return (indexA === -1 ? 999 : indexA) - (indexB === -1 ? 999 : indexB);
+	});
+});
+
 const activeFilterCount = $derived.by(() => {
 	let count = 0;
 	if (filtersStore.selectedCategory !== "all") count++;
@@ -229,56 +254,61 @@ function handleItemClick(item: FoodItem) {
 }
 </script>
 
-<div class="container mx-auto px-4 py-6 max-w-7xl">
-	<header class="text-center mb-8">
-		<h1 class="text-4xl font-bold mb-2">
-			🎃 Disneyland Halloween Food Guide 2025
-		</h1>
-		<p class="text-muted-foreground">
-			<span class="text-primary">{filteredItems.length} </span> / {metadata.totalItems}
-		</p>
-	</header>
+<div class="container mx-auto px-4 py-3 max-w-7xl">
+    <header class="text-center my-4">
+        <h1 class="text-4xl font-bold mb-2">🎃</h1>
+        <p class="text-muted-foreground">
+            <span class="text-primary">{filteredItems.length} </span> / {metadata.totalItems -
+                1}
+        </p>
+    </header>
 
-	<SearchHeader>
-		{#snippet filterSlot()}
-			<FilterSheet
-				bind:open={filterSheetOpen}
-				{categories}
-				{allTags}
-				{activeFilters}
-			>
-				<Button variant="outline" class="relative">
-					<FilterIcon class="h-4 w-4 mr-2" />
-					Filters
-					{#if activeFilterCount > 0}
-						<Badge variant="secondary" class="ml-2 rounded-full px-2">
-							{activeFilterCount}
-						</Badge>
-					{/if}
-				</Button>
-			</FilterSheet>
-		{/snippet}
-	</SearchHeader>
+    <SearchHeader>
+        {#snippet filterSlot()}
+            <FilterSheet
+                bind:open={filterSheetOpen}
+                {categories}
+                {allTags}
+                {activeFilters}
+            >
+                <Button
+                    variant="outline"
+                    class="relative text-muted-foreground"
+                >
+                    <FilterIcon class=" h-4 w-4 mr-2" />
+                    Filters
+                    {#if activeFilterCount > 0}
+                        <Badge
+                            variant="secondary"
+                            class="ml-2 rounded-full px-2"
+                        >
+                            {activeFilterCount}
+                        </Badge>
+                    {/if}
+                </Button>
+            </FilterSheet>
+        {/snippet}
+    </SearchHeader>
 
-	<ItemDetailDrawer bind:open={detailDrawerOpen} item={selectedItem} />
+    <ItemDetailDrawer bind:open={detailDrawerOpen} item={selectedItem} />
 
-	<div class="space-y-8">
-		{#if filteredItems.length === 0}
-			<Card.Root>
-				<Card.Content class="text-center py-12">
-					<p class="text-muted-foreground text-lg">
-						No items match your filters. Try adjusting them!
-					</p>
-				</Card.Content>
-			</Card.Root>
-		{:else}
-			{#each Object.entries(itemsByCategory) as [category, categoryItems]}
-				<CategorySection
-					{category}
-					items={categoryItems}
-					onItemClick={handleItemClick}
-				/>
-			{/each}
-		{/if}
-	</div>
+    <div class="space-y-8">
+        {#if filteredItems.length === 0}
+            <Card.Root>
+                <Card.Content class="text-center py-12">
+                    <p class="text-muted-foreground text-lg">
+                        No items match your filters. Try adjusting them!
+                    </p>
+                </Card.Content>
+            </Card.Root>
+        {:else}
+            {#each sortedCategories as [category, categoryItems]}
+                <CategorySection
+                    {category}
+                    items={categoryItems}
+                    onItemClick={handleItemClick}
+                />
+            {/each}
+        {/if}
+    </div>
 </div>
