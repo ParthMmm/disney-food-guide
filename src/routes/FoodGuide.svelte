@@ -10,6 +10,7 @@ import FilterSheet, {
 } from "$lib/components/FilterSheet.svelte";
 import ItemDetailDrawer from "$lib/components/ItemDetailDrawer.svelte";
 import SearchHeader from "$lib/components/SearchHeader.svelte";
+import StickySearchBar from "$lib/components/StickySearchBar.svelte";
 import { favoritesStore } from "$lib/stores/favorites.svelte";
 import { filtersStore } from "$lib/stores/filters.svelte";
 import type { PageData } from "./$types";
@@ -19,6 +20,7 @@ let { data }: { data: PageData } = $props();
 let filterSheetOpen = $state(false);
 let selectedItem = $state<FoodItem | null>(null);
 let detailDrawerOpen = $state(false);
+let topSearchElement = $state<HTMLElement>();
 
 const { metadata, items } = data.foodData;
 const categories = metadata.filters.categories;
@@ -263,32 +265,34 @@ function handleItemClick(item: FoodItem) {
         </p>
     </header>
 
-    <SearchHeader>
-        {#snippet filterSlot()}
-            <FilterSheet
-                bind:open={filterSheetOpen}
-                {categories}
-                {allTags}
-                {activeFilters}
-            >
-                <Button
-                    variant="outline"
-                    class="relative text-muted-foreground"
+    <div bind:this={topSearchElement}>
+        <SearchHeader>
+            {#snippet filterSlot()}
+                <FilterSheet
+                    bind:open={filterSheetOpen}
+                    {categories}
+                    {allTags}
+                    {activeFilters}
                 >
-                    <FilterIcon class=" h-4 w-4 mr-2" />
-                    Filters
-                    {#if activeFilterCount > 0}
-                        <Badge
-                            variant="secondary"
-                            class="ml-2 rounded-full px-2"
-                        >
-                            {activeFilterCount}
-                        </Badge>
-                    {/if}
-                </Button>
-            </FilterSheet>
-        {/snippet}
-    </SearchHeader>
+                    <Button
+                        variant="outline"
+                        class="relative text-muted-foreground"
+                    >
+                        <FilterIcon class=" h-4 w-4 mr-2" />
+                        Filters
+                        {#if activeFilterCount > 0}
+                            <Badge
+                                variant="secondary"
+                                class="ml-2 rounded-full px-2"
+                            >
+                                {activeFilterCount}
+                            </Badge>
+                        {/if}
+                    </Button>
+                </FilterSheet>
+            {/snippet}
+        </SearchHeader>
+    </div>
 
     <ItemDetailDrawer bind:open={detailDrawerOpen} item={selectedItem} />
 
@@ -312,3 +316,5 @@ function handleItemClick(item: FoodItem) {
         {/if}
     </div>
 </div>
+
+<StickySearchBar {topSearchElement} />
