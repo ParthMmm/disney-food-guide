@@ -911,6 +911,7 @@
 				"meal",
 				"moderate-price",
 				"non-alcoholic",
+				"salty",
 				"savory",
 				"spicy"
 			]
@@ -1418,7 +1419,7 @@
 		{
 			"id": 68,
 			"name": "Trick or Treat Popcorn",
-			"description": "topped with mix of M&M’S Milk Chocolate Candies, candy gummy worms, pretzel sticks, and candy corn",
+			"description": "topped with mix of M&M'S Milk Chocolate Candies, candy gummy worms, pretzel sticks, and candy corn",
 			"location": "Disneyland",
 			"restaurant": "Troubadour Tavern",
 			"price": 8.99,
@@ -1434,7 +1435,8 @@
 				"chocolate",
 				"contains-dairy",
 				"moderate-price",
-				"non-alcoholic"
+				"non-alcoholic",
+				"salty"
 			]
 		},
 		{
@@ -1582,7 +1584,7 @@
 		{
 			"id": 75,
 			"name": "Halloween Treat Mix-In",
-			"description": "Add-on a scoop of Halloween candy mix to classic buttery popcorn complete with green, purple and black M&M’S Milk Chocolate Candies, and candy corn",
+			"description": "Add-on a scoop of Halloween candy mix to classic buttery popcorn complete with green, purple and black M&M'S Milk Chocolate Candies, and candy corn",
 			"location": "Disneyland",
 			"restaurant": "Popcorn near Haunted Mansion",
 			"price": 8.99,
@@ -1599,7 +1601,8 @@
 				"chocolate",
 				"contains-dairy",
 				"moderate-price",
-				"non-alcoholic"
+				"non-alcoholic",
+				"salty"
 			]
 		},
 		{
@@ -1622,6 +1625,7 @@
 				"contains-dairy",
 				"hot",
 				"non-alcoholic",
+				"salty",
 				"spicy"
 			]
 		},
@@ -1668,6 +1672,7 @@
 				"contains-dairy",
 				"hot",
 				"non-alcoholic",
+				"salty",
 				"spicy"
 			]
 		},
@@ -1690,6 +1695,7 @@
 				"budget-friendly",
 				"contains-dairy",
 				"non-alcoholic",
+				"salty",
 				"spicy"
 			]
 		},
@@ -2153,6 +2159,7 @@
 				"meal",
 				"moderate-price",
 				"non-alcoholic",
+				"salty",
 				"savory",
 				"spicy"
 			]
@@ -2280,7 +2287,7 @@
 		},
 		{
 			"id": 112,
-			"name": "Slow Burnin’ Mac and Cheese Cone",
+			"name": "Slow Burnin' Mac and Cheese Cone",
 			"description": "Fresh-cooked pasta tossed with a spicy red pepper cheese sauce in a bread cone topped with crushed chile-cheese puffs",
 			"location": "California Adventure",
 			"restaurant": "Cozy Cone Motel 3 – Chili Cone Queso",
@@ -2298,6 +2305,7 @@
 				"meal",
 				"moderate-price",
 				"non-alcoholic",
+				"salty",
 				"savory",
 				"spicy"
 			]
@@ -2735,6 +2743,7 @@
 				"contains-dairy",
 				"meal",
 				"non-alcoholic",
+				"salty",
 				"savory",
 				"spicy"
 			]
