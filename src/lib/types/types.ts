@@ -61,6 +61,7 @@ export type FoodTag =
 	| "non-alcoholic"
 	| "premium-price"
 	| "pumpkin-spice"
+	| "salty"
 	| "savory"
 	| "specialty-candy"
 	| "spicy"

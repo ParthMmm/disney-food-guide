@@ -205,7 +205,7 @@ export type FilterItem = {
                     />
                 </div>
 
-                <!-- <Separator />
+                <Separator />
 
                 <div class="space-y-3">
                     <h3 class="font-semibold">Tags</h3>
@@ -225,7 +225,7 @@ export type FilterItem = {
                             {/each}
                         </div>
                     </ScrollArea>
-                </div> -->
+                </div>
             </div>
         </div>
 
