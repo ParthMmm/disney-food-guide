@@ -31,6 +31,7 @@ export type FoodCategory =
 	| "hard-seltzer"
 	| "other"
 	| "salad"
+	| "soft-drink"
 	| "specialty-dessert"
 	| "wine-cider";
 

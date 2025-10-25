@@ -239,7 +239,12 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Iced-Pandan.jpg",
-			"tags": ["budget-friendly", "coffee-tea", "cold", "non-alcoholic"]
+			"tags": [
+				"budget-friendly",
+				"coffee-tea",
+				"cold",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 6,
@@ -270,7 +275,7 @@
 			"description": "Crema, herbs, almonds, fennel, and poppy seed vinaigrette",
 			"location": "Disneyland",
 			"restaurant": "Blue Bayou Restaurant",
-			"price": 17.0,
+			"price": 17,
 			"category": "salad",
 			"itemType": "Salad",
 			"mobileOrderAvailable": false,
@@ -295,7 +300,7 @@
 			"description": "Layers of pumpkin spice sponge, chocolate whipped ganache, and salted caramel buttercream",
 			"location": "Disneyland",
 			"restaurant": "Blue Bayou Restaurant",
-			"price": 15.0,
+			"price": 15,
 			"category": "baked-dessert",
 			"itemType": "Dessert - Baked Good",
 			"mobileOrderAvailable": false,
@@ -346,7 +351,7 @@
 			"location": "Disneyland",
 			"restaurant": "Café Daisy",
 			"price": 7.79,
-			"category": "alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non Alcoholic Drink",
 			"mobileOrderAvailable": true,
 			"availability": {
@@ -354,7 +359,13 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pineapple-Lemonade.jpg",
-			"tags": ["alcoholic", "apple", "budget-friendly", "spicy"]
+			"tags": [
+				"non-alcoholic",
+				"apple",
+				"budget-friendly",
+				"spicy",
+				"soft-drink"
+			]
 		},
 		{
 			"id": 11,
@@ -387,7 +398,7 @@
 			"description": "Lemon oil, pomegranate, sunflower seeds, and lavash",
 			"location": "Disneyland",
 			"restaurant": "Cafe Orleans",
-			"price": 15.0,
+			"price": 15,
 			"category": "entree-side",
 			"itemType": "Entree / Side",
 			"mobileOrderAvailable": false,
@@ -396,7 +407,12 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Potato-Hummus.jpg",
-			"tags": ["meal", "non-alcoholic", "premium-price", "savory"]
+			"tags": [
+				"meal",
+				"non-alcoholic",
+				"premium-price",
+				"savory"
+			]
 		},
 		{
 			"id": 13,
@@ -405,7 +421,7 @@
 			"location": "Disneyland",
 			"restaurant": "Cafe Orleans",
 			"price": 7.29,
-			"category": "alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non Alcoholic Drink",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -413,7 +429,12 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "budget-friendly", "contains-dairy"]
+			"tags": [
+				"non-alcoholic",
+				"budget-friendly",
+				"contains-dairy",
+				"soft-drink"
+			]
 		},
 		{
 			"id": 15,
@@ -430,7 +451,11 @@
 				"endDate": "2025-11-14"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "moderate-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"moderate-price"
+			]
 		},
 		{
 			"id": 17,
@@ -486,7 +511,7 @@
 			"location": "Disneyland",
 			"restaurant": "Galactic Grill",
 			"price": 7.29,
-			"category": "alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non Alcoholic Drink",
 			"mobileOrderAvailable": true,
 			"availability": {
@@ -494,7 +519,12 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Orange-Slush.jpg",
-			"tags": ["alcoholic", "berry", "budget-friendly"]
+			"tags": [
+				"non-alcoholic",
+				"berry",
+				"budget-friendly",
+				"soft-drink"
+			]
 		},
 		{
 			"id": 22,
@@ -526,7 +556,7 @@
 			"location": "Disneyland",
 			"restaurant": "Good Boy! Grocers",
 			"price": 7.29,
-			"category": "alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non Alcoholic Drink",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -534,7 +564,12 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "berry", "budget-friendly"]
+			"tags": [
+				"non-alcoholic",
+				"berry",
+				"budget-friendly",
+				"soft-drink"
+			]
 		},
 		{
 			"id": 24,
@@ -600,7 +635,12 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cream-Cheese-Dip.jpg",
-			"tags": ["budget-friendly", "contains-dairy", "dessert", "non-alcoholic"]
+			"tags": [
+				"budget-friendly",
+				"contains-dairy",
+				"dessert",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 27,
@@ -999,7 +1039,7 @@
 			"location": "Disneyland",
 			"restaurant": "Mint Julep Bar",
 			"price": 7.79,
-			"category": "alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non Alcoholic Drink",
 			"mobileOrderAvailable": true,
 			"availability": {
@@ -1007,7 +1047,12 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mint-Julep.jpg",
-			"tags": ["alcoholic", "berry", "budget-friendly"]
+			"tags": [
+				"non-alcoholic",
+				"berry",
+				"budget-friendly",
+				"soft-drink"
+			]
 		},
 		{
 			"id": 46,
@@ -1112,7 +1157,7 @@
 			"location": "Disneyland",
 			"restaurant": "Rancho del Zocalo Restaurante",
 			"price": 7.29,
-			"category": "alcoholic-beverage",
+			"category": "coffee-tea",
 			"itemType": "Non Alcoholic Drink",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1120,7 +1165,12 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "budget-friendly", "coffee-tea", "cold"]
+			"tags": [
+				"non-alcoholic",
+				"budget-friendly",
+				"coffee-tea",
+				"cold"
+			]
 		},
 		{
 			"id": 52,
@@ -1201,7 +1251,7 @@
 			"description": "Toasted marshmallows and candied pecans with vanilla ice cream",
 			"location": "Disneyland",
 			"restaurant": "River Belle Terrace",
-			"price": 13.0,
+			"price": 13,
 			"category": "dessert",
 			"itemType": "Dessert - Cake / Pie",
 			"mobileOrderAvailable": false,
@@ -1228,7 +1278,7 @@
 			"description": "Chocolate pudding with peanut butter chantilly and chocolate-peanut butter pieces",
 			"location": "Disneyland",
 			"restaurant": "River Belle Terrace",
-			"price": 12.0,
+			"price": 12,
 			"category": "dessert",
 			"itemType": "Dessert - Pudding",
 			"mobileOrderAvailable": false,
@@ -1284,7 +1334,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Coffee-Fritters.jpg",
-			"tags": ["coffee-tea", "dessert", "non-alcoholic"]
+			"tags": [
+				"coffee-tea",
+				"dessert",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 63,
@@ -1375,7 +1429,12 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Popcorn.jpg",
-			"tags": ["chocolate", "contains-dairy", "moderate-price", "non-alcoholic"]
+			"tags": [
+				"chocolate",
+				"contains-dairy",
+				"moderate-price",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 69,
@@ -1489,7 +1548,12 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Citrus-Churro.jpg",
-			"tags": ["budget-friendly", "churro", "dessert", "non-alcoholic"]
+			"tags": [
+				"budget-friendly",
+				"churro",
+				"dessert",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 74,
@@ -1506,7 +1570,13 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["berry", "budget-friendly", "churro", "dessert", "non-alcoholic"]
+			"tags": [
+				"berry",
+				"budget-friendly",
+				"churro",
+				"dessert",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 75,
@@ -1569,7 +1639,13 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["apple", "budget-friendly", "caramel", "cold", "non-alcoholic"]
+			"tags": [
+				"apple",
+				"budget-friendly",
+				"caramel",
+				"cold",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 78,
@@ -1609,7 +1685,12 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": ["budget-friendly", "contains-dairy", "non-alcoholic", "spicy"]
+			"tags": [
+				"budget-friendly",
+				"contains-dairy",
+				"non-alcoholic",
+				"spicy"
+			]
 		},
 		{
 			"id": 80,
@@ -1626,7 +1707,13 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["budget-friendly", "hot", "meal", "non-alcoholic", "savory"]
+			"tags": [
+				"budget-friendly",
+				"hot",
+				"meal",
+				"non-alcoholic",
+				"savory"
+			]
 		},
 		{
 			"id": 82,
@@ -1740,7 +1827,11 @@
 				"endDate": "Not Specified"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 89,
@@ -1757,7 +1848,11 @@
 				"endDate": "Not Specified"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 90,
@@ -1774,7 +1869,12 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Spiced-Sangria-1536x864.jpg",
-			"tags": ["alcoholic", "cold", "hard-seltzer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"cold",
+				"hard-seltzer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 91,
@@ -1791,7 +1891,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "moderate-price", "wine-cider"]
+			"tags": [
+				"alcoholic",
+				"moderate-price",
+				"wine-cider"
+			]
 		},
 		{
 			"id": 92,
@@ -1808,7 +1912,11 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 93,
@@ -1825,7 +1933,13 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://images.themeparkiq.com/menu-items/57855_large.jpg",
-			"tags": ["alcoholic", "apple", "cocktail", "premium-price", "spicy"]
+			"tags": [
+				"alcoholic",
+				"apple",
+				"cocktail",
+				"premium-price",
+				"spicy"
+			]
 		},
 		{
 			"id": 95,
@@ -1927,7 +2041,7 @@
 			"description": "Joffrey’s mocha cold brew with peanut butter whiskey, peanut butter foam, and peanut butter drizzle",
 			"location": "California Adventure",
 			"restaurant": "Cappuccino Cart",
-			"price": 19.0,
+			"price": 19,
 			"category": "cocktail",
 			"itemType": "Alcohol - Cocktail",
 			"mobileOrderAvailable": true,
@@ -2013,7 +2127,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Jamaica-Cocktail.jpg",
-			"tags": ["alcoholic", "cocktail", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"cocktail",
+				"premium-price"
+			]
 		},
 		{
 			"id": 106,
@@ -2030,7 +2148,13 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Fried-Elote.jpg",
-			"tags": ["meal", "moderate-price", "non-alcoholic", "savory", "spicy"]
+			"tags": [
+				"meal",
+				"moderate-price",
+				"non-alcoholic",
+				"savory",
+				"spicy"
+			]
 		},
 		{
 			"id": 107,
@@ -2215,7 +2339,11 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 116,
@@ -2232,7 +2360,12 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Seltzer.jpg",
-			"tags": ["alcoholic", "apple", "hard-seltzer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"apple",
+				"hard-seltzer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 119,
@@ -2240,7 +2373,7 @@
 			"description": "Blackberry Margarita with a chile-lime and black salt rim",
 			"location": "California Adventure",
 			"restaurant": "Flo’s V8 Cafe",
-			"price": 17.0,
+			"price": 17,
 			"category": "cocktail",
 			"itemType": "Alcohol - Cocktail",
 			"mobileOrderAvailable": true,
@@ -2249,7 +2382,13 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Blackberry-Margarita.jpg",
-			"tags": ["alcoholic", "berry", "cocktail", "premium-price", "spicy"]
+			"tags": [
+				"alcoholic",
+				"berry",
+				"cocktail",
+				"premium-price",
+				"spicy"
+			]
 		},
 		{
 			"id": 120,
@@ -2266,7 +2405,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 121,
@@ -2283,7 +2426,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Horchata-Cocktail.jpg",
-			"tags": ["alcoholic", "cocktail", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"cocktail",
+				"premium-price"
+			]
 		},
 		{
 			"id": 122,
@@ -2300,7 +2447,12 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Berry-Sangria.jpg",
-			"tags": ["alcoholic", "berry", "cocktail", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"berry",
+				"cocktail",
+				"premium-price"
+			]
 		},
 		{
 			"id": 123,
@@ -2317,7 +2469,12 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "premium-price", "pumpkin-spice", "wine-cider"]
+			"tags": [
+				"alcoholic",
+				"premium-price",
+				"pumpkin-spice",
+				"wine-cider"
+			]
 		},
 		{
 			"id": 124,
@@ -2334,7 +2491,11 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "premium-price", "wine-cider"]
+			"tags": [
+				"alcoholic",
+				"premium-price",
+				"wine-cider"
+			]
 		},
 		{
 			"id": 125,
@@ -2351,7 +2512,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 127,
@@ -2359,7 +2524,7 @@
 			"description": null,
 			"location": "California Adventure",
 			"restaurant": "Hollywood Lounge",
-			"price": 16.0,
+			"price": 16,
 			"category": "cocktail",
 			"itemType": "Alcohol - Cocktail",
 			"mobileOrderAvailable": true,
@@ -2368,7 +2533,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "cocktail", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"cocktail",
+				"premium-price"
+			]
 		},
 		{
 			"id": 130,
@@ -2376,7 +2545,7 @@
 			"description": "Herb salt-crusted with whipped potatoes, grilled rainbow carrots, wasabi cream, and au jus",
 			"location": "California Adventure",
 			"restaurant": "Lamplight Lounge",
-			"price": 40.0,
+			"price": 40,
 			"category": "entree-side",
 			"itemType": "Entree / Side",
 			"mobileOrderAvailable": false,
@@ -2408,7 +2577,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 132,
@@ -2425,7 +2598,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 133,
@@ -2442,7 +2619,11 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "moderate-price", "wine-cider"]
+			"tags": [
+				"alcoholic",
+				"moderate-price",
+				"wine-cider"
+			]
 		},
 		{
 			"id": 134,
@@ -2459,7 +2640,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 135,
@@ -2476,7 +2661,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 136,
@@ -2541,7 +2730,13 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Jalapeno-Bread.jpg",
-			"tags": ["contains-dairy", "meal", "non-alcoholic", "savory", "spicy"]
+			"tags": [
+				"contains-dairy",
+				"meal",
+				"non-alcoholic",
+				"savory",
+				"spicy"
+			]
 		},
 		{
 			"id": 140,
@@ -2583,7 +2778,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["berry", "dessert", "non-alcoholic"]
+			"tags": [
+				"berry",
+				"dessert",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 142,
@@ -2623,7 +2822,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "berry", "hard-seltzer"]
+			"tags": [
+				"alcoholic",
+				"berry",
+				"hard-seltzer"
+			]
 		},
 		{
 			"id": 147,
@@ -2640,7 +2843,11 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 148,
@@ -2781,7 +2988,11 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Ube-Cider.jpg",
-			"tags": ["alcoholic", "premium-price", "wine-cider"]
+			"tags": [
+				"alcoholic",
+				"premium-price",
+				"wine-cider"
+			]
 		},
 		{
 			"id": 155,
@@ -2789,7 +3000,7 @@
 			"description": null,
 			"location": "California Adventure",
 			"restaurant": "Schmoozies!",
-			"price": 18.0,
+			"price": 18,
 			"category": "cocktail",
 			"itemType": "Alcohol - Cocktail",
 			"mobileOrderAvailable": true,
@@ -2798,7 +3009,12 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Berry-Margarita.jpg",
-			"tags": ["alcoholic", "berry", "cocktail", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"berry",
+				"cocktail",
+				"premium-price"
+			]
 		},
 		{
 			"id": 157,
@@ -2883,7 +3099,7 @@
 			"location": "California Adventure",
 			"restaurant": "Smokejumpers Grill",
 			"price": 7.79,
-			"category": "alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non Alcoholic Drink",
 			"mobileOrderAvailable": true,
 			"availability": {
@@ -2892,11 +3108,12 @@
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Lemonade.jpg",
 			"tags": [
-				"alcoholic",
+				"non-alcoholic",
 				"apple",
 				"berry",
 				"budget-friendly",
-				"character-themed"
+				"character-themed",
+				"soft-drink"
 			]
 		},
 		{
@@ -2940,7 +3157,11 @@
 				"endDate": "Not Specified"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "beer", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"beer",
+				"premium-price"
+			]
 		},
 		{
 			"id": 165,
@@ -2957,7 +3178,13 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Lemonade-Cocktail.jpg",
-			"tags": ["alcoholic", "apple", "berry", "cocktail", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"apple",
+				"berry",
+				"cocktail",
+				"premium-price"
+			]
 		},
 		{
 			"id": 168,
@@ -2966,7 +3193,7 @@
 			"location": "California Adventure",
 			"restaurant": "Studio Catering Co.",
 			"price": 7.29,
-			"category": "alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non Alcoholic Drink",
 			"mobileOrderAvailable": true,
 			"availability": {
@@ -2974,7 +3201,13 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Watermelon-Agua-Fresca.jpg",
-			"tags": ["alcoholic", "budget-friendly", "character-themed", "spicy"]
+			"tags": [
+				"non-alcoholic",
+				"budget-friendly",
+				"character-themed",
+				"spicy",
+				"soft-drink"
+			]
 		},
 		{
 			"id": 169,
@@ -2982,7 +3215,7 @@
 			"description": "Plant-based",
 			"location": "California Adventure",
 			"restaurant": "Wine Country Trattoria",
-			"price": 12.0,
+			"price": 12,
 			"category": "baked-dessert",
 			"itemType": "Dessert - Baked Good",
 			"mobileOrderAvailable": false,
@@ -3006,7 +3239,7 @@
 			"description": "Midori, coconut rum, coconut cream, and pineapple juice",
 			"location": "California Adventure",
 			"restaurant": "Wine Country Trattoria",
-			"price": 17.0,
+			"price": 17,
 			"category": "cocktail",
 			"itemType": "Alcohol - Cocktail",
 			"mobileOrderAvailable": false,
@@ -3105,7 +3338,7 @@
 			"description": "Pernod Absinthe, Avissi Prosecco, St. George Spiced Pear, cinnamon syrup, lime juice, and blackberry",
 			"location": "Disneyland Hotel",
 			"restaurant": "Broken Spell Lounge",
-			"price": 23.0,
+			"price": 23,
 			"category": "cocktail",
 			"itemType": "Alcohol - Cocktail",
 			"mobileOrderAvailable": false,
@@ -3114,7 +3347,13 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Broken-Spell-Lounge-Cocktail.jpg",
-			"tags": ["alcoholic", "berry", "cocktail", "cold", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"berry",
+				"cocktail",
+				"cold",
+				"premium-price"
+			]
 		},
 		{
 			"id": 178,
@@ -3122,7 +3361,7 @@
 			"description": "Hennessy VS, Plymouth Gin, crème de cacao, chocolate bitters, and lemon bitters",
 			"location": "Disneyland Hotel",
 			"restaurant": "Palm Breeze Bar",
-			"price": 23.0,
+			"price": 23,
 			"category": "cocktail",
 			"itemType": "Alcohol - Cocktail",
 			"mobileOrderAvailable": false,
@@ -3131,7 +3370,12 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "chocolate", "cocktail", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"chocolate",
+				"cocktail",
+				"premium-price"
+			]
 		},
 		{
 			"id": 179,
@@ -3139,7 +3383,7 @@
 			"description": "Casamigos Reposado, espresso, Licor 43, Mr. Black Cold Brew Coffee Liqueur, orgeat, and Fee Brothers Fee Foam",
 			"location": "Disneyland Hotel",
 			"restaurant": "Palm Breeze Bar",
-			"price": 22.0,
+			"price": 22,
 			"category": "cocktail",
 			"itemType": "Alcohol - Cocktail",
 			"mobileOrderAvailable": false,
@@ -3148,7 +3392,13 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "cocktail", "coffee-tea", "cold", "premium-price"]
+			"tags": [
+				"alcoholic",
+				"cocktail",
+				"coffee-tea",
+				"cold",
+				"premium-price"
+			]
 		},
 		{
 			"id": 180,
@@ -3237,7 +3487,13 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "chocolate", "cocktail", "coffee-tea", "cold"]
+			"tags": [
+				"alcoholic",
+				"chocolate",
+				"cocktail",
+				"coffee-tea",
+				"cold"
+			]
 		},
 		{
 			"id": 184,
@@ -3254,7 +3510,10 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "cocktail"]
+			"tags": [
+				"alcoholic",
+				"cocktail"
+			]
 		},
 		{
 			"id": 185,
@@ -3271,7 +3530,10 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "cocktail"]
+			"tags": [
+				"alcoholic",
+				"cocktail"
+			]
 		},
 		{
 			"id": 186,
@@ -3357,7 +3619,12 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": ["baked-goods", "dessert", "moderate-price", "non-alcoholic"]
+			"tags": [
+				"baked-goods",
+				"dessert",
+				"moderate-price",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 190,
@@ -3445,7 +3712,12 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-GCH-Gingerbread.jpg",
-			"tags": ["baked-goods", "character-themed", "dessert", "non-alcoholic"]
+			"tags": [
+				"baked-goods",
+				"character-themed",
+				"dessert",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 194,
@@ -3549,7 +3821,7 @@
 			"location": "Pixar Place Hotel",
 			"restaurant": "The Sketch Pad Café",
 			"price": null,
-			"category": "alcoholic-beverage",
+			"category": "coffee-tea",
 			"itemType": "Non Alcoholic Drink",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -3557,7 +3829,11 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpad-Cafe-Matcha-720x1080.jpg",
-			"tags": ["alcoholic", "coffee-tea", "contains-dairy"]
+			"tags": [
+				"non-alcoholic",
+				"coffee-tea",
+				"contains-dairy"
+			]
 		},
 		{
 			"id": 199,
@@ -3566,7 +3842,7 @@
 			"location": "Pixar Place Hotel",
 			"restaurant": "The Sketch Pad Café",
 			"price": null,
-			"category": "alcoholic-beverage",
+			"category": "coffee-tea",
 			"itemType": "Non Alcoholic Drink",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -3574,7 +3850,10 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpad-Cafe-Lemonade-720x1080.jpg",
-			"tags": ["alcoholic", "coffee-tea"]
+			"tags": [
+				"non-alcoholic",
+				"coffee-tea"
+			]
 		},
 		{
 			"id": 200,
@@ -3958,7 +4237,12 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": ["contains-dairy", "contains-nuts", "dessert", "non-alcoholic"]
+			"tags": [
+				"contains-dairy",
+				"contains-nuts",
+				"dessert",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 218,
@@ -3975,7 +4259,11 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": ["chocolate", "dessert", "non-alcoholic"]
+			"tags": [
+				"chocolate",
+				"dessert",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 219,
@@ -4136,7 +4424,10 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "cocktail"]
+			"tags": [
+				"alcoholic",
+				"cocktail"
+			]
 		},
 		{
 			"id": 228,
@@ -4153,7 +4444,11 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Margarita-810x1080.jpg",
-			"tags": ["alcoholic", "cocktail", "pumpkin-spice"]
+			"tags": [
+				"alcoholic",
+				"cocktail",
+				"pumpkin-spice"
+			]
 		},
 		{
 			"id": 229,
@@ -4219,7 +4514,11 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": null,
-			"tags": ["alcoholic", "cocktail", "pumpkin-spice"]
+			"tags": [
+				"alcoholic",
+				"cocktail",
+				"pumpkin-spice"
+			]
 		},
 		{
 			"id": 232,
@@ -4236,7 +4535,13 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Midnight-Roll-1438x1080.jpg",
-			"tags": ["contains-dairy", "meal", "non-alcoholic", "savory", "spicy"]
+			"tags": [
+				"contains-dairy",
+				"meal",
+				"non-alcoholic",
+				"savory",
+				"spicy"
+			]
 		},
 		{
 			"id": 233,
@@ -4253,7 +4558,10 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Paseo-Cocktail-811x1080.jpg",
-			"tags": ["alcoholic", "cocktail"]
+			"tags": [
+				"alcoholic",
+				"cocktail"
+			]
 		},
 		{
 			"id": 234,
@@ -4294,7 +4602,12 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": ["baked-goods", "chocolate", "dessert", "non-alcoholic"]
+			"tags": [
+				"baked-goods",
+				"chocolate",
+				"dessert",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 237,
@@ -4311,7 +4624,11 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cinnamon-Roll-810x1080.jpg",
-			"tags": ["contains-nuts", "dessert", "non-alcoholic"]
+			"tags": [
+				"contains-nuts",
+				"dessert",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 238,
@@ -4328,7 +4645,11 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Marshmallow-Roll-810x1080.jpg",
-			"tags": ["dessert", "non-alcoholic", "specialty-candy"]
+			"tags": [
+				"dessert",
+				"non-alcoholic",
+				"specialty-candy"
+			]
 		},
 		{
 			"id": 239,
@@ -4337,7 +4658,7 @@
 			"location": "2025 Halloween Treats at Downtown Disney District",
 			"restaurant": "Parkside Market: Sip & Sonder",
 			"price": null,
-			"category": "alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non Alcoholic Drink",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -4345,7 +4666,12 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Cider-810x1080.jpg",
-			"tags": ["alcoholic", "apple", "cold", "wine-cider"]
+			"tags": [
+				"non-alcoholic",
+				"apple",
+				"cold",
+				"soft-drink"
+			]
 		},
 		{
 			"id": 240,
@@ -4362,7 +4688,12 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Latte-810x1080.jpg",
-			"tags": ["coffee-tea", "cold", "non-alcoholic", "pumpkin-spice"]
+			"tags": [
+				"coffee-tea",
+				"cold",
+				"non-alcoholic",
+				"pumpkin-spice"
+			]
 		},
 		{
 			"id": 241,
@@ -4379,7 +4710,11 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Marshmallow-Mocha-810x1080.jpg",
-			"tags": ["coffee-tea", "cold", "non-alcoholic"]
+			"tags": [
+				"coffee-tea",
+				"cold",
+				"non-alcoholic"
+			]
 		},
 		{
 			"id": 242,
@@ -4396,7 +4731,12 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Parkside-Market-1288x1080.png",
-			"tags": ["alcoholic", "cocktail", "coffee-tea", "contains-nuts"]
+			"tags": [
+				"alcoholic",
+				"cocktail",
+				"coffee-tea",
+				"contains-nuts"
+			]
 		},
 		{
 			"id": 243,
@@ -4413,7 +4753,10 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Parkside-Market-1288x1080.png",
-			"tags": ["alcoholic", "cocktail"]
+			"tags": [
+				"alcoholic",
+				"cocktail"
+			]
 		},
 		{
 			"id": 244,
@@ -4430,7 +4773,11 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Parkside-Market-1288x1080.png",
-			"tags": ["alcoholic", "cocktail", "coffee-tea"]
+			"tags": [
+				"alcoholic",
+				"cocktail",
+				"coffee-tea"
+			]
 		},
 		{
 			"id": 245,
@@ -4447,7 +4794,11 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Graveyard-Bitz-1080x1080.jpg",
-			"tags": ["baked-goods", "dessert", "non-alcoholic"]
+			"tags": [
+				"baked-goods",
+				"dessert",
+				"non-alcoholic"
+			]
 		}
 	]
 }
