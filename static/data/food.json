@@ -100,7 +100,6 @@
 				"Wine Country Trattoria"
 			],
 			"categories": [
-				"alcoholic-beverage",
 				"baked-dessert",
 				"beer",
 				"churro",
@@ -112,6 +111,7 @@
 				"hard-seltzer",
 				"other",
 				"salad",
+				"soft-drink",
 				"specialty-dessert",
 				"wine-cider"
 			],

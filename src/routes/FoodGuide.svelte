@@ -33,13 +33,13 @@ const categoryOrder = [
 	"frozen-dessert",
 	"specialty-dessert",
 	"coffee-tea",
+	"soft-drink",
 	"entree-side",
 	"other",
 	"beer",
 	"wine-cider",
 	"cocktail",
 	"hard-seltzer",
-	"alcoholic-beverage",
 	"salad",
 ];
 
