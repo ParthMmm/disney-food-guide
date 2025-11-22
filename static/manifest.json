@@ -1,7 +1,7 @@
 {
 	"name": "FOM - Food Guide",
 	"short_name": "FOM",
-	"description": "Disneyland Halloween Food Guide",
+	"description": "Disneyland Holiday Food Guide",
 	"start_url": "/",
 	"display": "standalone",
 	"background_color": "#ffffff",

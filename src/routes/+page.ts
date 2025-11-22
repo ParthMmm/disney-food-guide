@@ -5,7 +5,7 @@ import type { PageLoad } from "./$types";
 export const prerender = true;
 
 export const load: PageLoad = async ({ fetch }) => {
-	const response = await fetch("/data/food.json");
+	const response = await fetch("/data/food-holiday.json");
 
 	if (!response.ok) {
 		throw error(response.status, "Failed to load food guide data");

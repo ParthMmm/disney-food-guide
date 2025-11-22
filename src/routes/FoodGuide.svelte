@@ -258,7 +258,7 @@ function handleItemClick(item: FoodItem) {
 
 <div class="container mx-auto px-4 py-3 max-w-7xl">
     <header class="text-center my-4 mt-12">
-        <h1 class="text-4xl font-bold mb-2">🎃</h1>
+        <h1 class="text-4xl font-bold mb-2">🎄</h1>
         <p class="text-muted-foreground">
             <span class="text-primary">{filteredItems.length} </span> / {metadata.totalItems -
                 1}
