@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**Disneyland Halloween Food Guide** - A SvelteKit PWA deployed to Cloudflare Workers that displays Halloween food items at Disneyland Resort. Built with Svelte 5, Tailwind CSS 4, and bits-ui components.
+**Disneyland Holiday Food Guide** - A SvelteKit PWA deployed to Cloudflare Workers that displays Christmas and Holiday food items at Disneyland Resort. Built with Svelte 5, Tailwind CSS 4, and bits-ui components.
 
 ## Development Commands
 
