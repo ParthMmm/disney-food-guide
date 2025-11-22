@@ -21,3 +21,16 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Data analysis temp files
+COMPARISON_REPORT.md
+EXECUTIVE_SUMMARY.md
+QUICK_REFERENCE.md
+data_comparison_report.txt
+add_new_items.py
+check_images.py
+compare_data.py
+compare_data_v2.py
+update_food_data.py
+*.2025-*.json
+*.2025-*.md
