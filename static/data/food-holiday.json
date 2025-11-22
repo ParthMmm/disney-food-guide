@@ -116,7 +116,7 @@
 			"location": "Disneyland",
 			"restaurant": "Carnation Café",
 			"price": null,
-			"category": "entree",
+			"category": "entree-side",
 			"itemType": "Entree",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -221,7 +221,7 @@
 			"location": "Disneyland",
 			"restaurant": "Jolly Holiday Bakery Cafe",
 			"price": null,
-			"category": "candy-snack",
+			"category": "baked-dessert",
 			"itemType": "Candy/Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -388,7 +388,7 @@
 			"location": "Disneyland",
 			"restaurant": "Little Red Wagon",
 			"price": null,
-			"category": "savory-snack",
+			"category": "other",
 			"itemType": "Savory Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -408,7 +408,7 @@
 			"location": "Disneyland",
 			"restaurant": "Little Red Wagon",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -473,7 +473,7 @@
 			"location": "Disneyland",
 			"restaurant": "Bengal Barbecue",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -534,7 +534,7 @@
 			"location": "Disneyland",
 			"restaurant": "Rancho del Zocalo Restaurante",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "coffee-tea",
 			"itemType": "Coffee/Tea",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -681,7 +681,7 @@
 			"location": "Disneyland",
 			"restaurant": "Cafe Orleans",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -743,7 +743,7 @@
 			"location": "Disneyland",
 			"restaurant": "Mint Julep Bar",
 			"price": null,
-			"category": "candy-snack",
+			"category": "specialty-dessert",
 			"itemType": "Candy/Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -763,7 +763,7 @@
 			"location": "Disneyland",
 			"restaurant": "Mint Julep Bar",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -783,7 +783,7 @@
 			"location": "Disneyland",
 			"restaurant": "Popcorn near Haunted Mansion",
 			"price": null,
-			"category": "savory-snack",
+			"category": "other",
 			"itemType": "Savory Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -843,7 +843,7 @@
 			"location": "Disneyland",
 			"restaurant": "Royal Street Veranda",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -965,7 +965,7 @@
 			"location": "Disneyland",
 			"restaurant": "Café Daisy",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -985,7 +985,7 @@
 			"location": "Disneyland",
 			"restaurant": "Good Boy! Grocers",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1005,7 +1005,7 @@
 			"location": "Disneyland",
 			"restaurant": "Alien Pizza Planet",
 			"price": null,
-			"category": "entree",
+			"category": "entree-side",
 			"itemType": "Cocktail",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1064,7 +1064,7 @@
 			"location": "Disneyland",
 			"restaurant": "Alien Pizza Planet",
 			"price": null,
-			"category": "candy-snack",
+			"category": "specialty-dessert",
 			"itemType": "Candy/Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1153,7 +1153,7 @@
 			"location": "Disneyland",
 			"restaurant": "Pretzels near Star Tours – The Adventures Continue",
 			"price": null,
-			"category": "candy-snack",
+			"category": "baked-dessert",
 			"itemType": "Savory Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1252,7 +1252,7 @@
 			"location": "California Adventure",
 			"restaurant": "Hollywood Lounge",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1273,7 +1273,7 @@
 			"location": "California Adventure",
 			"restaurant": "Hollywood Lounge",
 			"price": null,
-			"category": "beer-wine",
+			"category": "beer",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1374,7 +1374,7 @@
 			"location": "California Adventure",
 			"restaurant": "Studio Catering Co.",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "soft-drink",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1437,7 +1437,7 @@
 			"location": "California Adventure",
 			"restaurant": "Pym Test Kitchen",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1479,7 +1479,7 @@
 			"location": "Disney California Adventure Park",
 			"restaurant": "Wine Country Trattoria",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1691,7 +1691,7 @@
 			"location": "Disney California Adventure Park",
 			"restaurant": "Ghirardelli Soda Fountain and Chocolate Shop",
 			"price": null,
-			"category": "candy-snack",
+			"category": "soft-drink",
 			"itemType": "Candy/Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1733,7 +1733,7 @@
 			"location": "Disney California Adventure Park",
 			"restaurant": "Lamplight Lounge – Boardwalk Dining",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1819,7 +1819,7 @@
 			"location": "California Adventure",
 			"restaurant": "Lamplight Lounge",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1858,7 +1858,7 @@
 			"location": "California Adventure",
 			"restaurant": "Bayside Brews",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1897,7 +1897,7 @@
 			"location": "California Adventure",
 			"restaurant": "Corn Dog Castle",
 			"price": null,
-			"category": "savory-snack",
+			"category": "other",
 			"itemType": "Savory Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1938,7 +1938,7 @@
 			"restaurant": "Smokejumpers Grill",
 			"price": null,
 			"category": "coffee-tea",
-			"itemType": "Baked Dessert",
+			"itemType": "Coffee/Tea",
 			"mobileOrderAvailable": false,
 			"availability": {
 				"startDate": "2025-11-14",
@@ -1980,7 +1980,7 @@
 			"location": "California Adventure",
 			"restaurant": "Smokejumpers Grill",
 			"price": null,
-			"category": "beer-wine",
+			"category": "beer",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2000,7 +2000,7 @@
 			"location": "California Adventure",
 			"restaurant": "Smokejumpers Grill",
 			"price": null,
-			"category": "beer-wine",
+			"category": "beer",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2042,7 +2042,7 @@
 			"location": "Disneyland Hotel",
 			"restaurant": "Broken Spell Lounge",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "specialty-dessert",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2062,7 +2062,7 @@
 			"location": "Disneyland Hotel",
 			"restaurant": "Broken Spell Lounge",
 			"price": null,
-			"category": "candy-snack",
+			"category": "soft-drink",
 			"itemType": "Candy/Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2161,7 +2161,7 @@
 			"location": "Disneyland Hotel",
 			"restaurant": "Broken Spell Lounge",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2265,7 +2265,7 @@
 			"restaurant": "Goofy’s Kitchen",
 			"price": null,
 			"category": "coffee-tea",
-			"itemType": "Baked Dessert",
+			"itemType": "Coffee/Tea",
 			"mobileOrderAvailable": false,
 			"availability": {
 				"startDate": "2025-11-14",
@@ -2287,7 +2287,7 @@
 			"location": "Disneyland Hotel",
 			"restaurant": "Goofy’s Kitchen",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "specialty-dessert",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2350,7 +2350,7 @@
 			"location": "Disneyland Hotel",
 			"restaurant": "Goofy’s Kitchen",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2455,7 +2455,7 @@
 			"location": "Disneyland Hotel",
 			"restaurant": "The Coffee House",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "specialty-dessert",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2478,7 +2478,7 @@
 			"restaurant": "The Coffee House",
 			"price": null,
 			"category": "coffee-tea",
-			"itemType": "Baked Dessert",
+			"itemType": "Coffee/Tea",
 			"mobileOrderAvailable": false,
 			"availability": {
 				"startDate": "2025-11-14",
@@ -2568,7 +2568,7 @@
 			"location": "Disneyland Hotel",
 			"restaurant": "The Coffee House",
 			"price": null,
-			"category": "candy-snack",
+			"category": "soft-drink",
 			"itemType": "Candy/Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2650,7 +2650,7 @@
 			"location": "Disneyland Hotel",
 			"restaurant": "Trader Sam’s Enchanted Tiki Bar",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2878,7 +2878,7 @@
 			"location": "Disney’s Grand Californian Hotel & Spa",
 			"restaurant": "Grand Californian Great Hall Cart",
 			"price": null,
-			"category": "non-alcoholic-beverage",
+			"category": "specialty-dessert",
 			"itemType": "Non-Alcoholic Beverage",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2898,7 +2898,7 @@
 			"location": "Disney’s Grand Californian Hotel & Spa",
 			"restaurant": "Grand Californian Great Hall Cart",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -2919,7 +2919,7 @@
 			"location": "Disney’s Grand Californian Hotel & Spa",
 			"restaurant": "Grand Californian Great Hall Cart",
 			"price": null,
-			"category": "candy-snack",
+			"category": "soft-drink",
 			"itemType": "Candy/Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -3148,7 +3148,7 @@
 			"location": "Downtown Disney District",
 			"restaurant": "Jazz Kitchen Coastal Grill & Patio",
 			"price": null,
-			"category": "entree",
+			"category": "entree-side",
 			"itemType": "Entree",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -3250,7 +3250,7 @@
 			"location": "Downtown Disney District",
 			"restaurant": "Céntrico",
 			"price": null,
-			"category": "entree",
+			"category": "entree-side",
 			"itemType": "Entree",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -3270,7 +3270,7 @@
 			"location": "Downtown Disney District",
 			"restaurant": "Céntrico",
 			"price": null,
-			"category": "candy-snack",
+			"category": "soft-drink",
 			"itemType": "Candy/Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -3333,7 +3333,7 @@
 			"location": "Downtown Disney District",
 			"restaurant": "Tiendita",
 			"price": null,
-			"category": "candy-snack",
+			"category": "baked-dessert",
 			"itemType": "Candy/Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -3354,7 +3354,7 @@
 			"location": "Downtown Disney District",
 			"restaurant": "Wetzel’s Pretzels",
 			"price": null,
-			"category": "savory-snack",
+			"category": "other",
 			"itemType": "Savory Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -3373,7 +3373,7 @@
 			"location": "Downtown Disney District",
 			"restaurant": "Naples Ristorante e Bar",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -3416,7 +3416,7 @@
 			"location": "Downtown Disney District",
 			"restaurant": "Naples Ristorante e Bar",
 			"price": null,
-			"category": "beer-wine",
+			"category": "wine-cider",
 			"itemType": "Beer/Wine",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -3458,7 +3458,7 @@
 			"restaurant": "Plaza Inn",
 			"location": "Disneyland Park",
 			"description": "Holiday meal offering a creamy potato leek soup garnished with fried leeks, chives, and citrus cream, herb-roasted chicken entrée with mashed potatoes, and buttered haricots verts with a caramelized onion sauce, served with a holiday Yule log dessert and adult fountain beverage",
-			"category": "prix-fixe",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$20+",
 			"imageUrl": "",
@@ -3471,7 +3471,7 @@
 			"restaurant": "Alien Pizza Planet",
 			"location": "Disneyland Park",
 			"description": "Spiced red sauce, mozzarella cheese, roasted corn, and al pastor-marinated chicken garnished with crema and tomatillo sauce drizzle, and cilantro",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$10-15",
 			"imageUrl": "",
@@ -3497,7 +3497,7 @@
 			"restaurant": "Rancho del Zocalo Restaurante",
 			"location": "Disneyland Park",
 			"description": "Crispy corn arepa with refried beans, cochinita pibil (Yucatán Peninsula-inspired Pulled Pork), avocado salsa, cotija cheese, and spicy pickled red onions served with tortilla chips",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$10-15",
 			"imageUrl": "",
@@ -3510,7 +3510,7 @@
 			"restaurant": "Tiana’s Palace",
 			"location": "Disneyland Park",
 			"description": "Slow-simmered black-eyed peas with smoked turkey, braised chicken, bell peppers, celery, and onions served with heritage rice and cornbread croutons",
-			"category": "soup-salad",
+			"category": "salad",
 			"tags": [],
 			"priceRange": "$10-15",
 			"imageUrl": "",
@@ -3549,7 +3549,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Peppermint-flavored dark chocolate decorated with white chocolate swirls and sprinkled with candy cane pieces _(Only available at Candy Palace and Candy Kitchen, and Trolley Treats) (Only available Nov. 28 through Dec. 25)_",
-			"category": "candy-novelty",
+			"category": "specialty-dessert",
 			"tags": [
 				"peppermint",
 				"chocolate"
@@ -3565,7 +3565,7 @@
 			"restaurant": "The Sketch Pad Café",
 			"location": "Pixar Place Hotel",
 			"description": "Mulling spices and caramel sauce (Non-alcoholic)",
-			"category": "candy-novelty",
+			"category": "soft-drink",
 			"tags": [
 				"non-alcoholic"
 			],
@@ -3580,7 +3580,7 @@
 			"restaurant": "Troubadour Tavern",
 			"location": "Disneyland Park",
 			"description": "Baked potato with pulled smoked turkey, whipped cream cheese, stuffing, cranberry sauce, gravy, and fried onions",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [
 				"cranberry"
 			],
@@ -3595,7 +3595,7 @@
 			"restaurant": "Céntrico",
 			"location": "Downtown Disney District",
 			"description": "Oaxacan style tamal, with mole rojo, braised chicken, and pickled jalapeños, carrots, and squash veggies",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$10-15",
 			"imageUrl": "",
@@ -3608,7 +3608,7 @@
 			"restaurant": "Plaza Inn",
 			"location": "Disneyland Park",
 			"description": "Child holiday meal offering chicken tenders, creamy mashed potatoes, green beans, chicken gravy with a Hawaiian roll, holiday Yule log dessert, and choice of small Dasani bottled water or low-fat milk",
-			"category": "prix-fixe",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$20+",
 			"imageUrl": "",
@@ -3636,7 +3636,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Novelties Available Throughout Disneyland Resort",
 			"description": "Chocolate and peppermint ice cream in a waffle cup, topped with whipped cream and peppermint candy",
-			"category": "ice-cream",
+			"category": "frozen-dessert",
 			"tags": [
 				"peppermint",
 				"chocolate"
@@ -3665,7 +3665,7 @@
 			"restaurant": "The Sketch Pad Café",
 			"location": "Pixar Place Hotel",
 			"description": "Espresso, cookie butter, condensed milk, and whipped cream (Non-alcoholic)",
-			"category": "baked-dessert",
+			"category": "coffee-tea",
 			"tags": [
 				"non-alcoholic"
 			],
@@ -3693,7 +3693,7 @@
 			"restaurant": "The Sketch Pad Café",
 			"location": "Pixar Place Hotel",
 			"description": "Overnight oats layered with dark chocolate, cranberry chutney, and crispy oats",
-			"category": "breakfast",
+			"category": "other",
 			"tags": [
 				"chocolate",
 				"cranberry"
@@ -3722,7 +3722,7 @@
 			"restaurant": "Naples Ristorante e Bar",
 			"location": "Downtown Disney District",
 			"description": "Neapolitan dough, tikka masala sauce, fresh mozzarella cheese, marinated chicken, red onion, parmesan, and cilantro",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$10-15",
 			"imageUrl": "",
@@ -3735,7 +3735,7 @@
 			"restaurant": "Schmoozies!",
 			"location": "Disney California Adventure Park",
 			"description": "mint and chocolate cookie shake garnished with green whipped cream and crushed peppermint candy (Non-alcoholic)",
-			"category": "specialty-beverage",
+			"category": "frozen-dessert",
 			"tags": [
 				"non-alcoholic",
 				"peppermint",
@@ -3753,7 +3753,7 @@
 			"restaurant": "Hollywood Lounge",
 			"location": "Disney California Adventure Park",
 			"description": "Pork belly adobo fried rice, pancit, and lumpia in a warm flour tortilla with sweet chile dipping sauce",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$10-15",
 			"imageUrl": "",
@@ -3766,7 +3766,7 @@
 			"restaurant": "Studio Catering Co.",
 			"location": "Disney California Adventure Park",
 			"description": "Pork belly adobo fried rice, pancit, and lumpia in a warm flour tortilla with sweet chile dipping sauce",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$10-15",
 			"imageUrl": "",
@@ -3794,7 +3794,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Mickey-shaped marshmallow dipped in milk and white chocolate, decorated with dark chocolate, red-colored white chocolate, and embellished with white chocolate and holiday sprinkles",
-			"category": "candy-novelty",
+			"category": "specialty-dessert",
 			"tags": [
 				"chocolate",
 				"gingerbread",
@@ -3811,7 +3811,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Novelties Available Throughout Disneyland Resort",
 			"description": "Gingerbread sauce, spiced streusel, and vanilla chantilly cream, with choice of bacon or sausage",
-			"category": "breakfast",
+			"category": "other",
 			"tags": [
 				"gingerbread"
 			],
@@ -3841,7 +3841,7 @@
 			"restaurant": "Troubadour Tavern",
 			"location": "Disneyland Park",
 			"description": "Sliced tri-tip steak, spinach artichoke dip, demi-glace, and crispy onions",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [
 				"holiday-themed"
 			],
@@ -3872,7 +3872,7 @@
 			"restaurant": "Red Rose Taverne",
 			"location": "Disneyland Park",
 			"description": "Warm chocolate butter cake, peppermint ice cream, chocolate sauce, and crushed peppermint",
-			"category": "ice-cream",
+			"category": "frozen-dessert",
 			"tags": [
 				"peppermint",
 				"chocolate",
@@ -3889,7 +3889,7 @@
 			"restaurant": "Troubadour Tavern",
 			"location": "Disneyland Park",
 			"description": "Joffrey’s Dark chocolate Cold Brew Coffee with cookie butter topper and a sugar cookie (Non-alcoholic)",
-			"category": "baked-dessert",
+			"category": "coffee-tea",
 			"tags": [
 				"non-alcoholic",
 				"chocolate",
@@ -3985,7 +3985,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Mickey-shaped cereal treat dipped in milk chocolate, decorated with green-colored chocolate, and embellished with red and green mini M&M’S Milk Chocolate Candies and holiday sprinkles",
-			"category": "candy-novelty",
+			"category": "specialty-dessert",
 			"tags": [
 				"chocolate",
 				"holiday-themed"
@@ -4001,7 +4001,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Green apple dipped in caramel with two marshmallow ears, dipped in milk and white chocolate, decorated with graham cracker and hot chocolate powder mix with white chocolate drips, and embellished with holiday sprinkles and peppermint crush _(Only available at Candy Palace and Candy Kitchen, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets)_",
-			"category": "candy-novelty",
+			"category": "soft-drink",
 			"tags": [
 				"peppermint",
 				"chocolate"
@@ -4043,7 +4043,7 @@
 			"restaurant": "Clarabelle’s Hand-Scooped Ice Cream",
 			"location": "Disney California Adventure Park",
 			"description": "Golden Road Brewery Mango Cart, mango sorbet, chamoy, and chile-lime seasoning",
-			"category": "ice-cream",
+			"category": "frozen-dessert",
 			"tags": [],
 			"priceRange": "$5-10",
 			"imageUrl": "",
@@ -4056,7 +4056,7 @@
 			"restaurant": "Royal Street Veranda",
 			"location": "Disneyland Park",
 			"description": "IMPOSSIBLE meatballs, marinara sauce, and parmesan **(Plant-based)**",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [
 				"plant-based"
 			],
@@ -4071,7 +4071,7 @@
 			"restaurant": "Galactic Grill",
 			"location": "Disneyland Park",
 			"description": "Fried chicken sandwich with cranberry-orange marmalade BBQ sauce, provolone, onion rings, and arugula served on a toasted brioche bun with your choice of Cuties Mandarin Orange or French fries",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [
 				"cranberry"
 			],
@@ -4118,7 +4118,7 @@
 			"restaurant": "Aunt Cass Café",
 			"location": "Disney California Adventure Park",
 			"description": "Cookie butter cold brew, cereal milk, and chocolate cookie foam (Non-alcoholic)",
-			"category": "baked-dessert",
+			"category": "coffee-tea",
 			"tags": [
 				"non-alcoholic",
 				"chocolate"
@@ -4149,7 +4149,7 @@
 			"restaurant": "Galactic Grill",
 			"location": "Disneyland Park",
 			"description": "Angus beef and vegetable patty, roasted herb mushrooms, caramelized and fried onions, Swiss cheese, and blue cheese sauce served on a toasted brioche bun with your choice of Cuties Mandarin Orange or French fries",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$10-15",
 			"imageUrl": "",
@@ -4162,7 +4162,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Chocolate cake pop dipped in peppermint-flavored white chocolate, decorated with black-colored dark chocolate, an orange mini M&M’S Milk Chocolate Candy, and red-colored white chocolate",
-			"category": "candy-novelty",
+			"category": "specialty-dessert",
 			"tags": [
 				"peppermint",
 				"chocolate",
@@ -4195,7 +4195,7 @@
 			"restaurant": "Gibson Girl Ice Cream Parlor",
 			"location": "Disneyland Park",
 			"description": "Two scoops of peppermint ice cream with whipped cream, crushed peppermint, and crème-filled cookies in a candy-topped waffle bowl",
-			"category": "ice-cream",
+			"category": "frozen-dessert",
 			"tags": [
 				"peppermint",
 				"holiday-themed"
@@ -4211,7 +4211,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Mixture of fondant sugar, powdered sugar, and peppermint flavoring, dipped in dark chocolate _(Only available at Candy Palace and Candy Kitchen, Trolley Treats, and Disney Wonderful World of Sweets)_",
-			"category": "candy-novelty",
+			"category": "specialty-dessert",
 			"tags": [
 				"peppermint",
 				"chocolate"
@@ -4227,7 +4227,7 @@
 			"restaurant": "Café Daisy",
 			"location": "Disneyland Park",
 			"description": "Joffrey’s French Roast Cold Brew Coffee with peppermint and chocolate syrups topped with whipped cream, mini marshmallows, graham cracker dust, and crushed candy cane (Non-alcoholic)",
-			"category": "specialty-coffee",
+			"category": "coffee-tea",
 			"tags": [
 				"non-alcoholic",
 				"peppermint",
@@ -4244,7 +4244,7 @@
 			"restaurant": "Café Daisy",
 			"location": "Disneyland Park",
 			"description": "Hot Cocoa by Joffrey’s and peppermint syrup, topped with whipped cream, mini marshmallows, graham cracker dust, and crushed candy cane (Non-alcoholic)",
-			"category": "specialty-beverage",
+			"category": "soft-drink",
 			"tags": [
 				"non-alcoholic",
 				"peppermint",
@@ -4261,7 +4261,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Novelties Available Throughout Disneyland Resort",
 			"description": "Baked potato filled with Italian sausage, thinly sliced steak, bell peppers, pepperoncini, cheese sauce, and cherry pepper spread",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$10-15",
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Kids-Picks.jpeg",
@@ -4274,7 +4274,7 @@
 			"restaurant": "Refreshment Corner",
 			"location": "Disneyland Park",
 			"description": "Baked potato filled with Italian sausage, thinly sliced steak, bell peppers, pepperoncini, cheese sauce, and cherry pepper spread",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$10-15",
 			"imageUrl": "",
@@ -4287,7 +4287,7 @@
 			"restaurant": "Paseo",
 			"location": "Downtown Disney District",
 			"description": "Dried fruit, cinnamon, piloncillio, hibiscus, and nanchas (Non-alcoholic)",
-			"category": "specialty-beverage",
+			"category": "soft-drink",
 			"tags": [
 				"non-alcoholic"
 			],
@@ -4328,7 +4328,7 @@
 			"restaurant": "Ballast Point Brewing Co.",
 			"location": "Downtown Disney District",
 			"description": "10oz slow-roasted prime rib encrusted in fragrant fresh herbs, paired with warm potatoes-apple hash, smoky chorizo crumble, and tender broccolini",
-			"category": "prix-fixe",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$20+",
 			"imageUrl": "",
@@ -4354,7 +4354,7 @@
 			"restaurant": "Troubadour Tavern",
 			"location": "Disneyland Park",
 			"description": "Scrambled eggs, shredded cheese, country sausage gravy, and green onions _(Served until 11 a.m. or until supplies last)_",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [
 				"character-themed"
 			],
@@ -4369,7 +4369,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Vanilla cake pop with dark chocolate ears and decorated with red-colored white chocolate, white chocolate, and white sanding sugar _(Only available at Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, and Disney Wonderful World of Sweets)_",
-			"category": "candy-novelty",
+			"category": "specialty-dessert",
 			"tags": [
 				"chocolate",
 				"character-themed"
@@ -4385,7 +4385,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Green apple dipped in caramel with two marshmallow ears, dipped in milk chocolate, and decorated with red-colored white chocolate, white sanding sugar, and white M&M’S Milk Chocolate Candies",
-			"category": "candy-novelty",
+			"category": "specialty-dessert",
 			"tags": [
 				"chocolate",
 				"character-themed"
@@ -4401,7 +4401,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Chocolate cake pop with dark chocolate ears, dipped in milk chocolate, and embellished with a white chocolate Santa hat with a bow",
-			"category": "candy-novelty",
+			"category": "specialty-dessert",
 			"tags": [
 				"chocolate",
 				"character-themed"
@@ -4417,7 +4417,7 @@
 			"restaurant": "Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets",
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Green apple dipped in caramel with two marshmallow ears, dipped in milk chocolate, and decorated with red-colored white chocolate, white sanding sugar, white M&M’S Milk Chocolate Candies, and a white chocolate Santa hat with a bow",
-			"category": "candy-novelty",
+			"category": "specialty-dessert",
 			"tags": [
 				"chocolate",
 				"character-themed"
@@ -4433,7 +4433,7 @@
 			"restaurant": "Hungry Bear Barbecue Jamboree",
 			"location": "Disneyland Park",
 			"description": "Snickerdoodle cookie-flavored cold brew garnished with whipped topping, snickerdoodle cookie dust, and a snickerdoodle cookie (Non-alcoholic)",
-			"category": "specialty-coffee",
+			"category": "coffee-tea",
 			"tags": [
 				"non-alcoholic"
 			],
@@ -4476,7 +4476,7 @@
 			"restaurant": "The Sketch Pad Café",
 			"location": "Pixar Place Hotel",
 			"description": "Hot chocolate with toasted marshmallow syrup (Non-alcoholic)",
-			"category": "specialty-beverage",
+			"category": "soft-drink",
 			"tags": [
 				"non-alcoholic",
 				"chocolate"
@@ -4492,7 +4492,7 @@
 			"restaurant": "Lamplight Lounge",
 			"location": "Disney California Adventure Park",
 			"description": "Thai curry cioppino, coconut-steamed clams and mussels, shrimp, pan-seared fish, spaghetti, sourdough breadcrumbs, crispy shallots, Thai basil, cilantro, and a lime wedge",
-			"category": "pasta",
+			"category": "entree-side",
 			"tags": [],
 			"priceRange": "$10-15",
 			"imageUrl": "",
@@ -4505,7 +4505,7 @@
 			"restaurant": "Jolly Holiday Bakery Cafe",
 			"location": "Disneyland Park",
 			"description": "Oven-roasted turkey breast, stuffing, gravy, and cranberry sauce on rustic bread served with house-made chips",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [
 				"cranberry"
 			],
@@ -4548,7 +4548,7 @@
 			"restaurant": "Award Wieners",
 			"location": "Disney California Adventure Park",
 			"description": "Warm telera bread with carnitas, chorizo beans, cotija, lettuce, pickled onions and jalapeños, and guacamole spread served with fries",
-			"category": "savory-entree",
+			"category": "entree-side",
 			"tags": [
 				"holiday-themed"
 			],
