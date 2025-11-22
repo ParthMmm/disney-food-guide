@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "generatedAt": "2025-11-22T07:36:20.069Z",
-    "totalItems": 212,
+    "generatedAt": "2025-11-22T07:47:48.628Z",
+    "totalItems": 161,
     "dataSource": "Disneyland Holiday 2025 Food Guide",
     "filters": {
       "locations": [
@@ -13,12 +13,10 @@
       ],
       "restaurants": [
         "Alien Pizza Planet",
-        "Ballast Point Brewing Co.",
         "Bayside Brews",
         "Beignets Expressed",
         "Bengal Barbecue",
         "Blue Bayou Restaurant",
-        "Boardwalk Pizza & Pasta",
         "Boudin Bread Cart",
         "Broken Spell Lounge",
         "Cafe Orleans",
@@ -26,16 +24,13 @@
         "California Churro",
         "Carnation Café",
         "Churros near Big Thunder Mountain Railroad and Pretzels near Big Thunder Mountain Railroad",
-        "Churros near Buzz Lightyear Astro Blasters",
         "Churros near Casey Jr. Circus Train",
-        "Churros near Haunted Mansion",
         "Churros near Redwood Creek Challenge Trail",
         "Churros near Town Square and Sleeping Beauty Castle",
         "Clarabelle’s Hand-Scooped Ice Cream",
         "Corn Dog Castle",
         "Cozy Cone Motel 1 – Churros",
         "Cozy Cone Motel 2 – Ice Cream Cones",
-        "Cozy Cone Motel 3 – Chili Cone Queso",
         "Céntrico",
         "Edelweiss Snacks",
         "Flo’s V8 Cafe",
@@ -56,25 +51,20 @@
         "Mint Julep Bar",
         "Mortimers Market",
         "Naples Ristorante e Bar",
-        "Outdoor Vending Locations",
         "Popcorn near Haunted Mansion",
-        "Poultry Palace",
         "Pretzels at small world Promenade",
         "Pretzels near Star Tours – The Adventures Continue",
         "Pym Test Kitchen",
         "Rancho del Zocalo Restaurante",
-        "Red Rose Taverne",
         "Refreshment Corner",
         "River Belle Terrace",
         "Royal Street Veranda",
-        "Schmoozies!",
         "Smokejumpers Grill",
         "Splitsville Luxury Lanes",
         "Stage Door Café",
         "Studio Catering Co.",
         "The Coffee House",
         "The Golden Horseshoe",
-        "Tiana’s Palace",
         "Tiendita",
         "Trader Sam’s Enchanted Tiki Bar",
         "Vista Parkside Market",
@@ -91,47 +81,29 @@
         "entree",
         "frozen-dessert",
         "non-alcoholic-beverage",
-        "other",
         "salad",
-        "savory-snack",
-        "churro",
-        "wine-cider",
-        "beer"
+        "savory-snack"
       ],
       "allTags": [
         "alcoholic",
         "apple",
-        "baked-goods",
-        "beer",
-        "berry",
-        "budget-friendly",
-        "caramel",
         "character-themed",
-        "chocolate",
-        "churro",
         "cinnamon",
         "coffee-tea",
         "cold",
         "contains-nuts",
         "cranberry",
-        "dessert",
         "eggnog",
         "gingerbread",
         "hot",
-        "meal",
-        "moderate-price",
         "new",
         "non-alcoholic",
         "peppermint",
         "plant-based",
-        "premium-price",
         "pumpkin-spice",
         "savory",
         "seasonal",
-        "spicy",
-        "sweet",
-        "vegan",
-        "wine-cider"
+        "vegan"
       ]
     }
   },
@@ -326,66 +298,6 @@
     },
     {
       "id": 10,
-      "name": "Roast Beef and Cheddar on a Hoagie Roll",
-      "description": "Tomato, lettuce, pickled red onion, and whole-grain mustard aïoli served with house-made chips",
-      "location": "Disneyland",
-      "restaurant": "Jolly Holiday Bakery Cafe",
-      "price": null,
-      "category": "savory-snack",
-      "itemType": "Savory Snack",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
-        "character-themed"
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Thanks-mas Sandwich",
-      "description": "Oven-roasted turkey breast, stuffing, gravy, and cranberry sauce on rustic bread served with house-made chips",
-      "location": "Disneyland",
-      "restaurant": "Jolly Holiday Bakery Cafe",
-      "price": null,
-      "category": "savory-snack",
-      "itemType": "Savory Snack",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
-        "cranberry",
-        "character-themed"
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Turkey Pot Pie Soup",
-      "description": "Tender turkey breast, potatoes, peas, and carrots topped with pie crust pieces",
-      "location": "Disneyland",
-      "restaurant": "Jolly Holiday Bakery Cafe",
-      "price": null,
-      "category": "baked-dessert",
-      "itemType": "Baked Dessert",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic"
-      ]
-    },
-    {
-      "id": 13,
       "name": "Mickey Gingerbread",
       "description": "Soft gingerbread Mickey cookie (Limit five per person, per transaction)",
       "location": "Disneyland",
@@ -406,7 +318,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 11,
       "name": "Mickey-shaped Holiday Cookie",
       "description": "Shortbread cookie dipped in white chocolate with holiday sprinkles, and a chocolate Mickey decoration",
       "location": "Disneyland",
@@ -427,14 +339,14 @@
       ]
     },
     {
-      "id": 15,
+      "id": 12,
       "name": "Pumpkin Muffin",
       "description": "topped with cream cheese icing",
       "location": "Disneyland",
       "restaurant": "Jolly Holiday Bakery Cafe",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -447,7 +359,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 13,
       "name": "Peppermint Cold Brew",
       "description": "topped with vanilla foam and holiday sugar",
       "location": "Disneyland",
@@ -469,7 +381,7 @@
       ]
     },
     {
-      "id": 17,
+      "id": 14,
       "name": "Chili Cheese Corn Dog",
       "description": "Classic corn dog topped with spicy chili, jalapeño-cilantro crema, cheddar cheese, and crispy onions served with choice of Cuties Mandarin Orange or potato chips",
       "location": "Disneyland",
@@ -489,14 +401,14 @@
       ]
     },
     {
-      "id": 18,
+      "id": 15,
       "name": "Blood Orange & Hibiscus Limeade",
       "description": "garnished with dried fruit",
       "location": "Disneyland",
       "restaurant": "Little Red Wagon",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "non-alcoholic-beverage",
+      "itemType": "Non-Alcoholic Beverage",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -508,9 +420,9 @@
       ]
     },
     {
-      "id": 19,
-      "name": "Philly Cheese Potato",
-      "description": "Baked potato filled with Italian sausage, thinly sliced steak, bell peppers, pepperoncini, cheese sauce, and cherry pepper spread",
+      "id": 16,
+      "name": "Warm Spiced Apple Tea",
+      "description": "with hints of cinnamon and clove topped with vanilla cream foam",
       "location": "Disneyland",
       "restaurant": "Refreshment Corner",
       "price": null,
@@ -524,27 +436,6 @@
       "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Philly-Potato.jpg",
       "tags": [
         "non-alcoholic",
-        "coffee-tea",
-        "cold"
-      ]
-    },
-    {
-      "id": 20,
-      "name": "Warm Spiced Apple Tea",
-      "description": "with hints of cinnamon and clove topped with vanilla cream foam",
-      "location": "Disneyland",
-      "restaurant": "Refreshment Corner",
-      "price": null,
-      "category": "coffee-tea",
-      "itemType": "Coffee/Tea",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
         "apple",
         "cinnamon",
         "coffee-tea",
@@ -553,7 +444,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 17,
       "name": "Vietnamese Iced Coffee",
       "description": "with brown sugar spheres and cold foam",
       "location": "Disneyland",
@@ -575,7 +466,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 18,
       "name": "Iced Pandan Cooler",
       "description": "with brown sugar spheres and ube cold foam",
       "location": "Disneyland",
@@ -595,7 +486,7 @@
       ]
     },
     {
-      "id": 23,
+      "id": 19,
       "name": "Chocolate Peppermint Dipping Sauce",
       "description": "",
       "location": "Disneyland",
@@ -616,50 +507,7 @@
       ]
     },
     {
-      "id": 24,
-      "name": "Arepa de Cochinita Pibil",
-      "description": "Crispy corn arepa with refried beans, cochinita pibil (Yucatán Peninsula-inspired Pulled Pork), avocado salsa, cotija cheese, and spicy pickled red onions served with tortilla chips",
-      "location": "Disneyland",
-      "restaurant": "Rancho del Zocalo Restaurante",
-      "price": null,
-      "category": "savory-snack",
-      "itemType": "Savory Snack",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Arepa.jpg",
-      "tags": [
-        "non-alcoholic",
-        "new",
-        "character-themed"
-      ]
-    },
-    {
-      "id": 25,
-      "name": "Pozole Blanco",
-      "description": "Pork pozole, onions, cabbage slaw, lime wedge, and sliced radish, served with corn tortilla chips",
-      "location": "Disneyland",
-      "restaurant": "Rancho del Zocalo Restaurante",
-      "price": null,
-      "category": "savory-snack",
-      "itemType": "Savory Snack",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
-        "new",
-        "character-themed",
-        "cold"
-      ]
-    },
-    {
-      "id": 26,
+      "id": 20,
       "name": "Chocolate Cake Flan",
       "description": "Chocolate cake and flan topped with caramel sauce, whipped cream, and cinnamon dust",
       "location": "Disneyland",
@@ -672,14 +520,14 @@
         "startDate": "2025-11-14",
         "endDate": "2026-01-07"
       },
-      "imageUrl": null,
+      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Arepa.jpg",
       "tags": [
         "non-alcoholic",
         "cinnamon"
       ]
     },
     {
-      "id": 27,
+      "id": 21,
       "name": "Hibiscus-Pomegranate Cooler",
       "description": "Spiced hibiscus tea, pomegranate and orange juices, and honey",
       "location": "Disneyland",
@@ -700,9 +548,9 @@
       ]
     },
     {
-      "id": 28,
-      "name": "Buttermilk Chess Pie",
-      "description": "Custard pie filling, graham cracker crust, vanilla chantilly cream, and raspberries",
+      "id": 22,
+      "name": "Sticky Toffee Pudding",
+      "description": "Vanilla pudding, sticky toffee cake, and candy pecans",
       "location": "Disneyland",
       "restaurant": "River Belle Terrace",
       "price": null,
@@ -716,53 +564,11 @@
       "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Chess-Pie.jpg",
       "tags": [
         "non-alcoholic",
-        "new"
-      ]
-    },
-    {
-      "id": 29,
-      "name": "Gingerbread Pancakes",
-      "description": "Gingerbread sauce, spiced streusel, and vanilla chantilly cream, with choice of bacon or sausage",
-      "location": "Disneyland",
-      "restaurant": "River Belle Terrace",
-      "price": null,
-      "category": "cocktail",
-      "itemType": "Cocktail",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "alcoholic",
-        "new",
-        "gingerbread",
-        "cold"
-      ]
-    },
-    {
-      "id": 30,
-      "name": "Sticky Toffee Pudding",
-      "description": "Vanilla pudding, sticky toffee cake, and candy pecans",
-      "location": "Disneyland",
-      "restaurant": "River Belle Terrace",
-      "price": null,
-      "category": "baked-dessert",
-      "itemType": "Baked Dessert",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
         "contains-nuts"
       ]
     },
     {
-      "id": 31,
+      "id": 23,
       "name": "Wreath Funnel Cake",
       "description": "Green funnel cake with caramel sauce, apple filling, whipped topping, and holiday sprinkles",
       "location": "Disneyland",
@@ -783,7 +589,7 @@
       ]
     },
     {
-      "id": 32,
+      "id": 24,
       "name": "Gingerbread Sundae",
       "description": "Gingerbread cake with vanilla ice cream and whipped topping",
       "location": "Disneyland",
@@ -803,7 +609,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": 25,
       "name": "Sticky Toffee Cake",
       "description": "soaked in bourbon toffee sauce and garnished with candied walnuts and vanilla ice cream",
       "location": "Disneyland",
@@ -824,7 +630,7 @@
       ]
     },
     {
-      "id": 34,
+      "id": 26,
       "name": "Roasted Beet and Citrus Salad",
       "description": "Crema, herbs, almonds, fennel, and poppy seed vinaigrette",
       "location": "Disneyland",
@@ -846,7 +652,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 27,
       "name": "Holiday Sangria",
       "description": "Cocktail-inspired seltzer with cinnamon",
       "location": "Disneyland",
@@ -868,7 +674,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 28,
       "name": "Cherry Cream Soda",
       "description": "Sprite, cherry syrup, and cream",
       "location": "Disneyland",
@@ -887,7 +693,7 @@
       ]
     },
     {
-      "id": 37,
+      "id": 29,
       "name": "Holiday Sangria",
       "description": "Cocktail-inspired seltzer with cinnamon",
       "location": "Disneyland",
@@ -909,14 +715,14 @@
       ]
     },
     {
-      "id": 38,
+      "id": 30,
       "name": "Peppermint Mickey-shaped Beignets",
       "description": "dusted in peppermint powdered sugar",
       "location": "Disneyland",
       "restaurant": "Mint Julep Bar",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -930,7 +736,7 @@
       ]
     },
     {
-      "id": 39,
+      "id": 31,
       "name": "Whipped Chocolate-Peppermint Dip",
       "description": "",
       "location": "Disneyland",
@@ -950,14 +756,14 @@
       ]
     },
     {
-      "id": 40,
+      "id": 32,
       "name": "Cranberry-Pomegranate Mint Julep",
       "description": "with mixed berry-flavored popping spheres",
       "location": "Disneyland",
       "restaurant": "Mint Julep Bar",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "non-alcoholic-beverage",
+      "itemType": "Non-Alcoholic Beverage",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -970,7 +776,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": 33,
       "name": "Holiday Treats Mix-in",
       "description": "Add on a scoop of holiday candy mix to classic buttery popcorn, complete with red and green M&M’S Milk Chocolate Candies and mini marshmallows",
       "location": "Disneyland",
@@ -990,28 +796,7 @@
       ]
     },
     {
-      "id": 42,
-      "name": "Meatball Slider",
-      "description": "IMPOSSIBLE meatballs, marinara sauce, and parmesan",
-      "location": "Disneyland",
-      "restaurant": "Royal Street Veranda",
-      "price": null,
-      "category": "other",
-      "itemType": "Other",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Meatball-Slider.jpg",
-      "tags": [
-        "non-alcoholic",
-        "plant-based",
-        "vegan"
-      ]
-    },
-    {
-      "id": 43,
+      "id": 34,
       "name": "Roasted Vegetable Salad",
       "description": "Roasted Brussels sprouts, beets, butternut squash, yams, and burrata cheese with herbed balsamic vinaigrette",
       "location": "Disneyland",
@@ -1024,13 +809,13 @@
         "startDate": "2025-11-14",
         "endDate": "2026-01-07"
       },
-      "imageUrl": null,
+      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Meatball-Slider.jpg",
       "tags": [
         "non-alcoholic"
       ]
     },
     {
-      "id": 44,
+      "id": 35,
       "name": "Coffee Fritters",
       "description": "rolled in cinnamon sugar, drizzled with white mocha sauce, and garnished with praline sugar streusel",
       "location": "Disneyland",
@@ -1051,7 +836,7 @@
       ]
     },
     {
-      "id": 45,
+      "id": 36,
       "name": "Hot Spiced Apple Cider",
       "description": "topped with caramel whipped cream",
       "location": "Disneyland",
@@ -1074,27 +859,7 @@
       ]
     },
     {
-      "id": 46,
-      "name": "Black Eyed Pea Stew with Chicken and Corn Bread Croutons",
-      "description": "Slow-simmered black-eyed peas with smoked turkey, braised chicken, bell peppers, celery, and onions served with heritage rice and cornbread croutons",
-      "location": "Disneyland",
-      "restaurant": "Tiana’s Palace",
-      "price": null,
-      "category": "entree",
-      "itemType": "Entree",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Stew.jpg",
-      "tags": [
-        "non-alcoholic",
-        "new"
-      ]
-    },
-    {
-      "id": 47,
+      "id": 37,
       "name": "Gingerbread Churro",
       "description": "Classic churro rolled in gingerbread sugar dust",
       "location": "Disneyland",
@@ -1107,14 +872,14 @@
         "startDate": "2025-11-14",
         "endDate": "2026-01-07"
       },
-      "imageUrl": null,
+      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Stew.jpg",
       "tags": [
         "alcoholic",
         "gingerbread"
       ]
     },
     {
-      "id": 48,
+      "id": 38,
       "name": "Butterscotch Dipping Sauce",
       "description": "Butterscotch caramel dip",
       "location": "Disneyland",
@@ -1133,7 +898,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": 39,
       "name": "Black Forest Cake",
       "description": "Chocolate sponge cake filled with cherries and topped with chocolate ganache, chantilly crème, chocolate curls, cherries, and powdered sugar",
       "location": "Disneyland",
@@ -1152,7 +917,7 @@
       ]
     },
     {
-      "id": 50,
+      "id": 40,
       "name": "Butterscotch Dipping Sauce",
       "description": "Butterscotch caramel dip",
       "location": "Disneyland",
@@ -1171,7 +936,7 @@
       ]
     },
     {
-      "id": 51,
+      "id": 41,
       "name": "Daisy’s Goody-Goody Donuts",
       "description": "House-made mini apple cider donuts with spiced apple sugar",
       "location": "Disneyland",
@@ -1193,7 +958,7 @@
       ]
     },
     {
-      "id": 52,
+      "id": 42,
       "name": "Very Merry Cran-Peary",
       "description": "Minute Maid Zero Sugar Lemonade with cranberry and pear syrups garnished with cranberries and a fresh rosemary sprig",
       "location": "Disneyland",
@@ -1213,57 +978,14 @@
       ]
     },
     {
-      "id": 53,
-      "name": "Peppermint S’mores Cold Brew",
-      "description": "Joffrey’s French Roast Cold Brew Coffee with peppermint and chocolate syrups topped with whipped cream, mini marshmallows, graham cracker dust, and crushed candy cane",
-      "location": "Disneyland",
-      "restaurant": "Café Daisy",
-      "price": null,
-      "category": "coffee-tea",
-      "itemType": "Coffee/Tea",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
-        "peppermint",
-        "coffee-tea",
-        "cold"
-      ]
-    },
-    {
-      "id": 54,
-      "name": "Peppermint S’mores Hot Chocolate",
-      "description": "Hot Cocoa by Joffrey’s and peppermint syrup, topped with whipped cream, mini marshmallows, graham cracker dust, and crushed candy cane",
-      "location": "Disneyland",
-      "restaurant": "Café Daisy",
-      "price": null,
-      "category": "coffee-tea",
-      "itemType": "Coffee/Tea",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
-        "peppermint",
-        "hot"
-      ]
-    },
-    {
-      "id": 55,
+      "id": 43,
       "name": "Strawberry Slushie with Fanta S",
       "description": "trawberry (Also available with Orb Sipper)",
       "location": "Disneyland",
       "restaurant": "Good Boy! Grocers",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "non-alcoholic-beverage",
+      "itemType": "Non-Alcoholic Beverage",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -1276,27 +998,7 @@
       ]
     },
     {
-      "id": 56,
-      "name": "Al-ien Pastor Pizza",
-      "description": "Spiced red sauce, mozzarella cheese, roasted corn, and al pastor-marinated chicken garnished with crema and tomatillo sauce drizzle, and cilantro",
-      "location": "Disneyland",
-      "restaurant": "Alien Pizza Planet",
-      "price": null,
-      "category": "entree",
-      "itemType": "Entree",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Chicken-Pizza.jpg",
-      "tags": [
-        "non-alcoholic",
-        "cold"
-      ]
-    },
-    {
-      "id": 57,
+      "id": 44,
       "name": "Claw-sagna Pasta",
       "description": "Campanelle pasta tossed in ricotta and mozzarella sauce, topped with bolognese sauce and garnished with toasted breadcrumbs, parmesan, and basil",
       "location": "Disneyland",
@@ -1309,13 +1011,13 @@
         "startDate": "2025-11-14",
         "endDate": "2026-01-07"
       },
-      "imageUrl": null,
+      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Chicken-Pizza.jpg",
       "tags": [
         "alcoholic"
       ]
     },
     {
-      "id": 58,
+      "id": 45,
       "name": "Apple and Pecan Salad",
       "description": "Mixed greens with frisée, candied pecans, Granny Smith apple, feta crumbles, and maple dressing",
       "location": "Disneyland",
@@ -1336,7 +1038,7 @@
       ]
     },
     {
-      "id": 59,
+      "id": 46,
       "name": "Alien Reindeer Macarooooon",
       "description": "filled with salted caramel buttercream, chocolate ganache, and brownie pieces",
       "location": "Disneyland",
@@ -1355,7 +1057,7 @@
       ]
     },
     {
-      "id": 60,
+      "id": 47,
       "name": "Holiday Green Drink",
       "description": "Apple-flavored beverage topped with caramel cold foam and sprinkles",
       "location": "Disneyland",
@@ -1377,68 +1079,7 @@
       ]
     },
     {
-      "id": 61,
-      "name": "Breakfast Churro",
-      "description": "Classic churro rolled in coffee-flavored sugar served with maple and bacon dipping sauce",
-      "location": "Disneyland",
-      "restaurant": "Churros near Buzz Lightyear Astro Blasters",
-      "price": null,
-      "category": "baked-dessert",
-      "itemType": "Baked Dessert",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
-        "new",
-        "coffee-tea"
-      ]
-    },
-    {
-      "id": 62,
-      "name": "Merry Cranberry Crispy Chicken Sandwich",
-      "description": "Fried chicken sandwich with cranberry-orange marmalade BBQ sauce, provolone, onion rings, and arugula served on a toasted brioche bun with your choice of Cuties Mandarin Orange or French fries",
-      "location": "Disneyland",
-      "restaurant": "Galactic Grill",
-      "price": null,
-      "category": "savory-snack",
-      "itemType": "Savory Snack",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Chicken-Sandwich.jpg",
-      "tags": [
-        "non-alcoholic",
-        "cranberry"
-      ]
-    },
-    {
-      "id": 63,
-      "name": "Mushroom and Swiss Burger",
-      "description": "Angus beef and vegetable patty, roasted herb mushrooms, caramelized and fried onions, Swiss cheese, and blue cheese sauce served on a toasted brioche bun with your choice of Cuties Mandarin Orange or French fries",
-      "location": "Disneyland",
-      "restaurant": "Galactic Grill",
-      "price": null,
-      "category": "savory-snack",
-      "itemType": "Savory Snack",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
-        "new"
-      ]
-    },
-    {
-      "id": 64,
+      "id": 48,
       "name": "Holiday Parfait",
       "description": "Layers of chocolate cake, edible cookie dough, marshmallow mousse, chocolate crunch, chocolate mousse, and ganache finished with colored mousse, star glitter, and truffle shell",
       "location": "Disneyland",
@@ -1451,7 +1092,7 @@
         "startDate": "2025-11-14",
         "endDate": "2026-01-07"
       },
-      "imageUrl": null,
+      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Chicken-Sandwich.jpg",
       "tags": [
         "non-alcoholic",
         "new",
@@ -1459,7 +1100,7 @@
       ]
     },
     {
-      "id": 65,
+      "id": 49,
       "name": "Holiday Punch",
       "description": "Pomegranate, cranberry, and orange juices and Sprite, garnished with cranberries, orange wedge, and a rosemary sprig",
       "location": "Disneyland",
@@ -1480,7 +1121,7 @@
       ]
     },
     {
-      "id": 66,
+      "id": 50,
       "name": "Holiday Chocolate Foam Cold Brew",
       "description": "Joffrey’s Cold Brew Coffee with a splash of hazelnut syrup, topped with hot chocolate foam and garnished with cinnamon-flavored cereal",
       "location": "Disneyland",
@@ -1505,7 +1146,7 @@
       ]
     },
     {
-      "id": 67,
+      "id": 51,
       "name": "Toffee Pretzel",
       "description": "Cream cheese-filled pretzel with toffee sugar",
       "location": "Disneyland",
@@ -1524,7 +1165,7 @@
       ]
     },
     {
-      "id": 68,
+      "id": 52,
       "name": "Chocolate-Peppermint Sundae",
       "description": "Chocolate and peppermint ice cream in a waffle cup, topped with whipped cream and peppermint candy",
       "location": "California Adventure",
@@ -1544,7 +1185,7 @@
       ]
     },
     {
-      "id": 69,
+      "id": 53,
       "name": "Peppermint Ice Cream",
       "description": "",
       "location": "California Adventure",
@@ -1564,33 +1205,14 @@
       ]
     },
     {
-      "id": 70,
-      "name": "Mango Hard Float",
-      "description": "Golden Road Brewery Mango Cart, mango sorbet, chamoy, and chile-lime seasoning",
-      "location": "California Adventure",
-      "restaurant": "Clarabelle’s Hand-Scooped Ice Cream",
-      "price": null,
-      "category": "beer-wine",
-      "itemType": "Beer/Wine",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic"
-      ]
-    },
-    {
-      "id": 71,
+      "id": 54,
       "name": "Christmas Tree Pull-apart Sourdough Bread",
       "description": "",
       "location": "California Adventure",
       "restaurant": "Mortimers Market",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -1604,7 +1226,7 @@
       ]
     },
     {
-      "id": 72,
+      "id": 55,
       "name": "Carrot Cake Churro",
       "description": "Classic churro topped with carrot cake pieces and cream cheese",
       "location": "California Adventure",
@@ -1623,14 +1245,14 @@
       ]
     },
     {
-      "id": 73,
-      "name": "Filipino Feast Burrito",
-      "description": "Pork belly adobo fried rice, pancit, and lumpia in a warm flour tortilla with sweet chile dipping sauce",
+      "id": 56,
+      "name": "Apple-Tamarind Agua Fresca",
+      "description": "garnished with a dried apple slide",
       "location": "California Adventure",
       "restaurant": "Hollywood Lounge",
       "price": null,
-      "category": "entree",
-      "itemType": "Entree",
+      "category": "non-alcoholic-beverage",
+      "itemType": "Non-Alcoholic Beverage",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -1639,33 +1261,12 @@
       "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Agua-Fresca.jpg",
       "tags": [
         "non-alcoholic",
-        "sweet",
-        "hot"
-      ]
-    },
-    {
-      "id": 74,
-      "name": "Apple-Tamarind Agua Fresca",
-      "description": "garnished with a dried apple slide",
-      "location": "California Adventure",
-      "restaurant": "Hollywood Lounge",
-      "price": null,
-      "category": "other",
-      "itemType": "Other",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
         "new",
         "apple"
       ]
     },
     {
-      "id": 75,
+      "id": 57,
       "name": "Brooklyn Brewery Brown Ale",
       "description": "",
       "location": "California Adventure",
@@ -1685,7 +1286,7 @@
       ]
     },
     {
-      "id": 76,
+      "id": 58,
       "name": "Spiced Pomegranate Cocktail",
       "description": "",
       "location": "California Adventure",
@@ -1706,7 +1307,7 @@
       ]
     },
     {
-      "id": 77,
+      "id": 59,
       "name": "Study Break Beverage Company Cranberry Mule",
       "description": "",
       "location": "California Adventure",
@@ -1727,14 +1328,14 @@
       ]
     },
     {
-      "id": 78,
+      "id": 60,
       "name": "Unsung Brewing Company Blood Orange Seltzer",
       "description": "",
       "location": "California Adventure",
       "restaurant": "Hollywood Lounge",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "cocktail",
+      "itemType": "Cocktail",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -1742,12 +1343,12 @@
       },
       "imageUrl": null,
       "tags": [
-        "non-alcoholic",
+        "alcoholic",
         "new"
       ]
     },
     {
-      "id": 79,
+      "id": 61,
       "name": "Seaborn Cocktails CranMerry Lime Margarita",
       "description": "",
       "location": "California Adventure",
@@ -1766,14 +1367,14 @@
       ]
     },
     {
-      "id": 80,
-      "name": "Filipino Feast Burrito",
-      "description": "Pork belly adobo fried rice, pancit, and lumpia in a warm flour tortilla with sweet chile dipping sauce",
+      "id": 62,
+      "name": "Apple-Tamarind Agua Fresca",
+      "description": "garnished with a dried apple slide",
       "location": "California Adventure",
       "restaurant": "Studio Catering Co.",
       "price": null,
-      "category": "entree",
-      "itemType": "Entree",
+      "category": "non-alcoholic-beverage",
+      "itemType": "Non-Alcoholic Beverage",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -1782,52 +1383,12 @@
       "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Filipino-Burrito.jpg",
       "tags": [
         "non-alcoholic",
-        "sweet",
-        "hot"
-      ]
-    },
-    {
-      "id": 81,
-      "name": "Apple-Tamarind Agua Fresca",
-      "description": "garnished with a dried apple slide",
-      "location": "California Adventure",
-      "restaurant": "Studio Catering Co.",
-      "price": null,
-      "category": "other",
-      "itemType": "Other",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
         "new",
         "apple"
       ]
     },
     {
-      "id": 82,
-      "name": "The Chimichanga",
-      "description": "with seasoned beef, charred poblano, refried beans, and shredded cheese, on a pool of guajillo sauce with a pico de gallo side salad",
-      "location": "California Adventure",
-      "restaurant": "Pym Test Kitchen",
-      "price": null,
-      "category": "salad",
-      "itemType": "Salad",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Chimichanga.jpg",
-      "tags": [
-        "non-alcoholic"
-      ]
-    },
-    {
-      "id": 83,
+      "id": 63,
       "name": "Asgardian Apple Cold Brew",
       "description": "Caramel cold brew, green apple cold foam, and caramel sauce with a caramel apple lollipop",
       "location": "California Adventure",
@@ -1840,7 +1401,7 @@
         "startDate": "2025-11-14",
         "endDate": "2026-01-07"
       },
-      "imageUrl": null,
+      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Chimichanga.jpg",
       "tags": [
         "non-alcoholic",
         "apple",
@@ -1848,7 +1409,7 @@
       ]
     },
     {
-      "id": 84,
+      "id": 64,
       "name": "Blueberry Matcha Iced Latte",
       "description": "Matcha latte topped with blueberry cold foam and blueberry popping spheres",
       "location": "California Adventure",
@@ -1869,14 +1430,14 @@
       ]
     },
     {
-      "id": 85,
+      "id": 65,
       "name": "Newtopia Cyder Soiree Five Apple Blend",
       "description": "",
       "location": "California Adventure",
       "restaurant": "Pym Test Kitchen",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "beer-wine",
+      "itemType": "Beer/Wine",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -1884,13 +1445,13 @@
       },
       "imageUrl": null,
       "tags": [
-        "non-alcoholic",
+        "alcoholic",
         "new",
         "apple"
       ]
     },
     {
-      "id": 86,
+      "id": 66,
       "name": "Chocolate Crème Brûlée Tart",
       "description": "Raspberries and coconut chantilly cream",
       "location": "California Adventure",
@@ -1911,7 +1472,7 @@
       ]
     },
     {
-      "id": 87,
+      "id": 67,
       "name": "Mulled Wine",
       "description": "Holiday-spiced warm wine",
       "location": "California Adventure",
@@ -1934,28 +1495,7 @@
       ]
     },
     {
-      "id": 88,
-      "name": "Apple Pie Churro",
-      "description": "Classic churro with graham cracker sugar, apple pie filling, whipped topping, and caramel",
-      "location": "California Adventure",
-      "restaurant": "Cozy Cone Motel 1 – Churros",
-      "price": null,
-      "category": "baked-dessert",
-      "itemType": "Baked Dessert",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Apple-Churro.jpg",
-      "tags": [
-        "non-alcoholic",
-        "new",
-        "apple"
-      ]
-    },
-    {
-      "id": 89,
+      "id": 68,
       "name": "Pumpkin Crème Brûlée Cold Brew: Joffrey’s",
       "description": "Pumpkin crème brûlée cold brew coffee with pumpkin sauce topped with cold cream foam",
       "location": "California Adventure",
@@ -1968,7 +1508,7 @@
         "startDate": "2025-11-14",
         "endDate": "2026-01-07"
       },
-      "imageUrl": null,
+      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Apple-Churro.jpg",
       "tags": [
         "non-alcoholic",
         "pumpkin-spice",
@@ -1977,7 +1517,7 @@
       ]
     },
     {
-      "id": 90,
+      "id": 69,
       "name": "Hot Chocolate Vodka Cocktail",
       "description": "with vanilla vodka topped with whipped cream and peppermint candy",
       "location": "California Adventure",
@@ -1999,14 +1539,14 @@
       ]
     },
     {
-      "id": 91,
+      "id": 70,
       "name": "Cars-mas Tree Cone",
       "description": "Peppermint soft serve decorated with holiday sprinkles",
       "location": "California Adventure",
       "restaurant": "Cozy Cone Motel 2 – Ice Cream Cones",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "frozen-dessert",
+      "itemType": "Frozen Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2020,14 +1560,14 @@
       ]
     },
     {
-      "id": 92,
+      "id": 71,
       "name": "Peppermint-Chocolate Twist Soft Serve",
       "description": "",
       "location": "California Adventure",
       "restaurant": "Cozy Cone Motel 2 – Ice Cream Cones",
       "price": null,
-      "category": "candy-snack",
-      "itemType": "Candy/Snack",
+      "category": "frozen-dessert",
+      "itemType": "Frozen Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2040,14 +1580,14 @@
       ]
     },
     {
-      "id": 93,
+      "id": 72,
       "name": "Peppermint Soft Serve",
       "description": "",
       "location": "California Adventure",
       "restaurant": "Cozy Cone Motel 2 – Ice Cream Cones",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "frozen-dessert",
+      "itemType": "Frozen Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2060,27 +1600,7 @@
       ]
     },
     {
-      "id": 94,
-      "name": "Jerry’s Junk Truck Cone",
-      "description": "Chopped fried chicken, garlic mashed potatoes, corn, chicken gravy, and cheese topped with green onions",
-      "location": "California Adventure",
-      "restaurant": "Cozy Cone Motel 3 – Chili Cone Queso",
-      "price": null,
-      "category": "entree",
-      "itemType": "Entree",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
-        "new"
-      ]
-    },
-    {
-      "id": 95,
+      "id": 73,
       "name": "Apple Crumble",
       "description": "topped with vanilla chantilly cream",
       "location": "California Adventure",
@@ -2101,14 +1621,14 @@
       ]
     },
     {
-      "id": 96,
+      "id": 74,
       "name": "Candy Cane Sourdough Bread (Plant-based)",
       "description": "",
       "location": "California Adventure",
       "restaurant": "Boudin Bread Cart",
       "price": null,
-      "category": "candy-snack",
-      "itemType": "Candy/Snack",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2122,14 +1642,14 @@
       ]
     },
     {
-      "id": 97,
+      "id": 75,
       "name": "Christmas Tree Pull-apart Sourdough Bread (Plant-based)",
       "description": "",
       "location": "California Adventure",
       "restaurant": "Boudin Bread Cart",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2143,14 +1663,14 @@
       ]
     },
     {
-      "id": 98,
+      "id": 76,
       "name": "Snowman Sourdough Bread (Plant-based)",
       "description": "",
       "location": "California Adventure",
       "restaurant": "Boudin Bread Cart",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2164,14 +1684,14 @@
       ]
     },
     {
-      "id": 99,
+      "id": 77,
       "name": "Ghirardelli Mexican Style Hot Cocoa",
       "description": "Warm cinnamon and nutmeg along with a subtle bit of spice from cayenne mixed with Ghirardelli hot cocoa, topped with hot fudge whipped cream",
       "location": "California Adventure",
       "restaurant": "Ghirardelli Soda Fountain and Chocolate Shop",
       "price": null,
-      "category": "coffee-tea",
-      "itemType": "Coffee/Tea",
+      "category": "candy-snack",
+      "itemType": "Candy/Snack",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2186,14 +1706,14 @@
       ]
     },
     {
-      "id": 100,
+      "id": 78,
       "name": "Santa Baymax Macaron",
       "description": "filled with peppermint buttercream, chocolate ganache, and dark chocolate crunchies",
       "location": "California Adventure",
       "restaurant": "Lucky Fortune Cookery",
       "price": null,
-      "category": "candy-snack",
-      "itemType": "Candy/Snack",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2206,7 +1726,7 @@
       ]
     },
     {
-      "id": 101,
+      "id": 79,
       "name": "Brewery Ommegang Everything Naughty",
       "description": "White chocolate imperial blonde stout",
       "location": "California Adventure",
@@ -2226,7 +1746,7 @@
       ]
     },
     {
-      "id": 102,
+      "id": 80,
       "name": "Java Martini",
       "description": "Tequila, coffee and vanilla liqueurs, and hazelnut cream cold foam",
       "location": "California Adventure",
@@ -2249,65 +1769,7 @@
       ]
     },
     {
-      "id": 103,
-      "name": "Herb-roasted Chicken",
-      "description": "with turnip purée, rainbow carrots, and chicken jus",
-      "location": "California Adventure",
-      "restaurant": "Lamplight Lounge",
-      "price": null,
-      "category": "entree",
-      "itemType": "Entree",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic"
-      ]
-    },
-    {
-      "id": 104,
-      "name": "Prime Rib",
-      "description": "Salt-crushed with whipped potatoes, grilled rainbow carrots, wasabi cream, and au jus",
-      "location": "California Adventure",
-      "restaurant": "Lamplight Lounge",
-      "price": null,
-      "category": "other",
-      "itemType": "Other",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic"
-      ]
-    },
-    {
-      "id": 105,
-      "name": "Thai Seafood Pasta",
-      "description": "Thai curry cioppino, coconut-steamed clams and mussels, shrimp, pan-seared fish, spaghetti, sourdough breadcrumbs, crispy shallots, Thai basil, cilantro, and a lime wedge",
-      "location": "California Adventure",
-      "restaurant": "Lamplight Lounge",
-      "price": null,
-      "category": "cocktail",
-      "itemType": "Cocktail",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "alcoholic",
-        "coffee-tea"
-      ]
-    },
-    {
-      "id": 106,
+      "id": 81,
       "name": "Lamplight Delight Donuts",
       "description": "",
       "location": "California Adventure",
@@ -2327,7 +1789,7 @@
       ]
     },
     {
-      "id": 107,
+      "id": 82,
       "name": "Java Martini",
       "description": "Tequila, coffee and vanilla liqueurs, and hazelnut cream cold foam",
       "location": "California Adventure",
@@ -2350,7 +1812,7 @@
       ]
     },
     {
-      "id": 108,
+      "id": 83,
       "name": "2 Towns Ciderhouse Cosmic Crisp",
       "description": "",
       "location": "California Adventure",
@@ -2369,27 +1831,7 @@
       ]
     },
     {
-      "id": 109,
-      "name": "Chipotle Chicken Drumstick Box",
-      "description": "served with slaw",
-      "location": "California Adventure",
-      "restaurant": "Poultry Palace",
-      "price": null,
-      "category": "cocktail",
-      "itemType": "Cocktail",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "alcoholic",
-        "character-themed"
-      ]
-    },
-    {
-      "id": 110,
+      "id": 84,
       "name": "Brewery X Spiced Sangria Seltzer",
       "description": "Fruity and light spiced sangria seltzer (Michelada option available)",
       "location": "California Adventure",
@@ -2409,14 +1851,14 @@
       ]
     },
     {
-      "id": 111,
+      "id": 85,
       "name": "Rincon Reservation Road Rez Dog Hefeweizen",
       "description": "(Michelada option available)",
       "location": "California Adventure",
       "restaurant": "Bayside Brews",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "beer-wine",
+      "itemType": "Beer/Wine",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2424,11 +1866,11 @@
       },
       "imageUrl": null,
       "tags": [
-        "non-alcoholic"
+        "alcoholic"
       ]
     },
     {
-      "id": 112,
+      "id": 86,
       "name": "Watermelon Pineapple Margarita",
       "description": "Tequila, watermelon schnapps, and pineapple juice with a chile-lime-seasoned rim",
       "location": "California Adventure",
@@ -2448,7 +1890,7 @@
       ]
     },
     {
-      "id": 113,
+      "id": 87,
       "name": "Fried Elote Corn on the Cob",
       "description": "dipped in batter and fried to golden brown, drizzled with chipotle aïoli, and topped with chile-lime queso fresco and cilantro served with Cuties Mandarin Orange or small bag of chips",
       "location": "California Adventure",
@@ -2468,7 +1910,7 @@
       ]
     },
     {
-      "id": 114,
+      "id": 88,
       "name": "Fluffernutter Churro",
       "description": "Classic churro with peanut butter sauce, marshmallow sauce, and chocolate chips",
       "location": "California Adventure",
@@ -2488,7 +1930,7 @@
       ]
     },
     {
-      "id": 115,
+      "id": 89,
       "name": "BearPaw Basin Cold Brew",
       "description": "Joffrey’s Pecan cold brew coffee, salted maple cold foam, caramel drizzle, and waffle pieces (Non-alocholic)",
       "location": "California Adventure",
@@ -2510,7 +1952,7 @@
       ]
     },
     {
-      "id": 116,
+      "id": 90,
       "name": "Peppermint Mocha Shake",
       "description": "Joffrey’s Peppermint, chocolate, and coffee shake with whipped topping and peppermint candy pieces",
       "location": "California Adventure",
@@ -2531,7 +1973,7 @@
       ]
     },
     {
-      "id": 117,
+      "id": 91,
       "name": "Karl Strauss Aurora Hoppyalis IPA",
       "description": "",
       "location": "California Adventure",
@@ -2551,7 +1993,7 @@
       ]
     },
     {
-      "id": 118,
+      "id": 92,
       "name": "Kona Brewing Co. Longboard Island Lager",
       "description": "",
       "location": "California Adventure",
@@ -2571,7 +2013,7 @@
       ]
     },
     {
-      "id": 119,
+      "id": 93,
       "name": "Caramel-Pecan Irish Cream Cold Brew Cocktail",
       "description": "Irish cream liqueur, Joffrey’s pecan cold brew coffee, salted maple cold foam, caramel drizzle, and waffle pieces",
       "location": "California Adventure",
@@ -2593,14 +2035,14 @@
       ]
     },
     {
-      "id": 120,
-      "name": "Shepherd’s Pie",
-      "description": "Beef short ribs, mashed potatoes, vegetables, lemon zest, and demi-glace",
+      "id": 94,
+      "name": "Eggnog",
+      "description": "House-made eggnog",
       "location": "Disneyland Hotel",
       "restaurant": "Broken Spell Lounge",
       "price": null,
-      "category": "baked-dessert",
-      "itemType": "Baked Dessert",
+      "category": "non-alcoholic-beverage",
+      "itemType": "Non-Alcoholic Beverage",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2609,38 +2051,18 @@
       "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Marshmallow-Cocktail.jpg",
       "tags": [
         "non-alcoholic",
-        "new"
-      ]
-    },
-    {
-      "id": 121,
-      "name": "Eggnog",
-      "description": "House-made eggnog",
-      "location": "Disneyland Hotel",
-      "restaurant": "Broken Spell Lounge",
-      "price": null,
-      "category": "other",
-      "itemType": "Other",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
         "eggnog"
       ]
     },
     {
-      "id": 122,
+      "id": 95,
       "name": "Hot Chocolate",
       "description": "House-made hot chocolate",
       "location": "Disneyland Hotel",
       "restaurant": "Broken Spell Lounge",
       "price": null,
-      "category": "coffee-tea",
-      "itemType": "Coffee/Tea",
+      "category": "candy-snack",
+      "itemType": "Candy/Snack",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2653,26 +2075,7 @@
       ]
     },
     {
-      "id": 123,
-      "name": "Chocolate-Marshmallow Old Fashioned",
-      "description": "Graham cracker and chocolate-infused Woodford Bourbon, Tempus Fugit Crème de Cacao, brown sugar molasses syrup, chocolate bitters, wood smoke, and mini marshmallows",
-      "location": "Disneyland Hotel",
-      "restaurant": "Broken Spell Lounge",
-      "price": null,
-      "category": "cocktail",
-      "itemType": "Cocktail",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "alcoholic"
-      ]
-    },
-    {
-      "id": 124,
+      "id": 96,
       "name": "Coal Manhattan",
       "description": "WhistlePig PiggyBack 6-Year Rye, Amaro Averna, St. Elizabeth Allspice Dram, and bitters",
       "location": "Disneyland Hotel",
@@ -2691,7 +2094,7 @@
       ]
     },
     {
-      "id": 125,
+      "id": 97,
       "name": "Eggnog Cocktail",
       "description": "House-made eggnog, Fonseca Bin 27 Port, Pierre Ferrand Cognac, and Smith & Cross Jamaican Pot Still Rum",
       "location": "Disneyland Hotel",
@@ -2711,7 +2114,7 @@
       ]
     },
     {
-      "id": 126,
+      "id": 98,
       "name": "Five Golden Rings",
       "description": "Golden Eagle Vodka, St-Germain Elderflower Liqueur, ginger, rosemary, cranberry flavors with edible shimmer glitter",
       "location": "Disneyland Hotel",
@@ -2731,7 +2134,7 @@
       ]
     },
     {
-      "id": 127,
+      "id": 99,
       "name": "Hot Chocolate Cocktail",
       "description": "House-made hot chocolate with Plantation Dark Rum and Drambuie Liquor",
       "location": "Disneyland Hotel",
@@ -2751,7 +2154,7 @@
       ]
     },
     {
-      "id": 128,
+      "id": 100,
       "name": "Mulled Wine",
       "description": "The Fableist Wine Company The Silkworm and the Spider Pinot Noir with mulled spices served over ice",
       "location": "Disneyland Hotel",
@@ -2770,7 +2173,7 @@
       ]
     },
     {
-      "id": 129,
+      "id": 101,
       "name": "Peppermint Kiss",
       "description": "Peppermint-infused Golden Eagle Vodka, Crème de Cacao, Crème de Menthe, Coco Lopez Coconut Crème, and house-made Frangelico whipped cream",
       "location": "Disneyland Hotel",
@@ -2790,7 +2193,7 @@
       ]
     },
     {
-      "id": 130,
+      "id": 102,
       "name": "Prickly Pear French 75",
       "description": "Condesa Prickly Pear Gin, St. George Spiced Pear Liqueur, Piper Sonoma Brut, honey, and lemon juice",
       "location": "Disneyland Hotel",
@@ -2810,7 +2213,7 @@
       ]
     },
     {
-      "id": 131,
+      "id": 103,
       "name": "Thanksgiving Mule",
       "description": "Tequila, Liquid Alchemist Ginger Syrup, cranberry sauce, celery salt, lime juice, and sage leaves",
       "location": "Disneyland Hotel",
@@ -2830,7 +2233,7 @@
       ]
     },
     {
-      "id": 132,
+      "id": 104,
       "name": "Pumpkin Spice Latte",
       "description": "Espresso, pumpkin spice syrup, and milk",
       "location": "Disneyland Hotel",
@@ -2854,7 +2257,7 @@
       ]
     },
     {
-      "id": 133,
+      "id": 105,
       "name": "Chai Ginger Latte",
       "description": "Espresso, milk, chai syrup, white chocolate sauce, and gingerbread whipped cream",
       "location": "Disneyland Hotel",
@@ -2877,14 +2280,14 @@
       ]
     },
     {
-      "id": 134,
+      "id": 106,
       "name": "Eggnog",
       "description": "House-made eggnog",
       "location": "Disneyland Hotel",
       "restaurant": "Goofy’s Kitchen",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "non-alcoholic-beverage",
+      "itemType": "Non-Alcoholic Beverage",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -2897,7 +2300,7 @@
       ]
     },
     {
-      "id": 135,
+      "id": 107,
       "name": "Eggnog Latte",
       "description": "House-made eggnog with two shots of espresso",
       "location": "Disneyland Hotel",
@@ -2920,7 +2323,7 @@
       ]
     },
     {
-      "id": 136,
+      "id": 108,
       "name": "Eggnog Cocktail",
       "description": "House-made eggnog, Fonseca Bin 27 Port, Pierre Ferrand Cognac, and Smith & Cross Jamaican Pot Still Rum",
       "location": "Disneyland Hotel",
@@ -2940,7 +2343,7 @@
       ]
     },
     {
-      "id": 137,
+      "id": 109,
       "name": "Mulled Wine",
       "description": "The Fableist Wine Company The Silkworm and the Spider Pinot Noir with mulled spices, served over ice",
       "location": "Disneyland Hotel",
@@ -2959,7 +2362,7 @@
       ]
     },
     {
-      "id": 138,
+      "id": 110,
       "name": "Mickey-shaped Gingerbread Cookie",
       "description": "Soft gingerbread Mickey cookie with sprinkles",
       "location": "Disneyland Hotel",
@@ -2980,7 +2383,7 @@
       ]
     },
     {
-      "id": 139,
+      "id": 111,
       "name": "Mickey-shaped Holiday Cookie",
       "description": "Shortbread cookie dipped in white chocolate with holiday sprinkles, and a chocolate Mickey decoration",
       "location": "Disneyland Hotel",
@@ -3001,14 +2404,14 @@
       ]
     },
     {
-      "id": 140,
+      "id": 112,
       "name": "Peppermint Crisped Rice Treat",
       "description": "",
       "location": "Disneyland Hotel",
       "restaurant": "The Coffee House",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3021,7 +2424,7 @@
       ]
     },
     {
-      "id": 141,
+      "id": 113,
       "name": "Cinnamon Roll Latte",
       "description": "Espresso, milk, white chocolate sauce, brown sugar, cinnamon, and whipped cream",
       "location": "Disneyland Hotel",
@@ -3045,14 +2448,14 @@
       ]
     },
     {
-      "id": 142,
+      "id": 114,
       "name": "Eggnog",
       "description": "House-made eggnog",
       "location": "Disneyland Hotel",
       "restaurant": "The Coffee House",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "non-alcoholic-beverage",
+      "itemType": "Non-Alcoholic Beverage",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3067,7 +2470,7 @@
       ]
     },
     {
-      "id": 143,
+      "id": 115,
       "name": "Chai Ginger Latte",
       "description": "Espresso, milk, chai syrup, white chocolate sauce, and gingerbread whipped cream",
       "location": "Disneyland Hotel",
@@ -3090,7 +2493,7 @@
       ]
     },
     {
-      "id": 144,
+      "id": 116,
       "name": "Eggnog Latte",
       "description": "House-made eggnog with a shot of espresso",
       "location": "Disneyland Hotel",
@@ -3113,14 +2516,14 @@
       ]
     },
     {
-      "id": 145,
+      "id": 117,
       "name": "Peppermint Mocha",
       "description": "topped with whipped cream",
       "location": "Disneyland Hotel",
       "restaurant": "The Coffee House",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "coffee-tea",
+      "itemType": "Coffee/Tea",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3135,7 +2538,7 @@
       ]
     },
     {
-      "id": 146,
+      "id": 118,
       "name": "Pumpkin Spice Latte",
       "description": "Espresso, pumpkin spice syrup, and milk",
       "location": "Disneyland Hotel",
@@ -3158,14 +2561,14 @@
       ]
     },
     {
-      "id": 147,
+      "id": 119,
       "name": "S’mores Hot Chocolate",
       "description": "topped with toasted marshmallow foam",
       "location": "Disneyland Hotel",
       "restaurant": "The Coffee House",
       "price": null,
-      "category": "coffee-tea",
-      "itemType": "Coffee/Tea",
+      "category": "candy-snack",
+      "itemType": "Candy/Snack",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3178,7 +2581,7 @@
       ]
     },
     {
-      "id": 148,
+      "id": 120,
       "name": "Crisp Nights",
       "description": "Parrot Bay Coconut Rum, Tito’s Handmade Vodka, lemon juice, and simple syrup",
       "location": "Disneyland Hotel",
@@ -3198,7 +2601,7 @@
       ]
     },
     {
-      "id": 149,
+      "id": 121,
       "name": "Holichata",
       "description": "Bacardi Reserva Ocho Rum, Frangelico Liqueur, St. Elizabeth Allspice Dram Liqueur, house-made Colibri mix, cinnamon syrup, and lemon juice",
       "location": "Disneyland Hotel",
@@ -3219,7 +2622,7 @@
       ]
     },
     {
-      "id": 150,
+      "id": 122,
       "name": "Old Fashioned Joy",
       "description": "Buffalo Trace Bourbon, Giffard’s Banana Liqueur, maple syrup, and walnut bitters",
       "location": "Disneyland Hotel",
@@ -3240,7 +2643,7 @@
       ]
     },
     {
-      "id": 151,
+      "id": 123,
       "name": "Yuletide Cheers",
       "description": "Zaya Rum, Avissi Prosecco, pomegranate and cranberry juices, and cinnamon syrup",
       "location": "Disneyland Hotel",
@@ -3262,28 +2665,7 @@
       ]
     },
     {
-      "id": 152,
-      "name": "Zombie Toddy",
-      "description": "Hamilton 151 Rum, Mt. Gay Eclipse Rum, Pernod Absinthe, cinnamon syrup, falernum, heavy cream, and grapefruit bitters",
-      "location": "Disneyland Hotel",
-      "restaurant": "Trader Sam’s Enchanted Tiki Bar",
-      "price": null,
-      "category": "beer-wine",
-      "itemType": "Beer/Wine",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "alcoholic",
-        "new",
-        "cinnamon"
-      ]
-    },
-    {
-      "id": 153,
+      "id": 124,
       "name": "Christmas Jumbo Cake Pop",
       "description": "Chocolate cake pop dipped in white chocolate",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3303,7 +2685,7 @@
       ]
     },
     {
-      "id": 154,
+      "id": 125,
       "name": "Holiday Tea Cake Variety Box",
       "description": "Vanilla Bean, Double Chocolate, Gingerbread, and Orange-cranberry individually wrapped tea cakes",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3327,14 +2709,14 @@
       ]
     },
     {
-      "id": 155,
+      "id": 126,
       "name": "Mickey Snowman Macaron",
       "description": "",
       "location": "Disney’s Grand Californian Hotel & Spa",
       "restaurant": "Grand Californian Great Hall Cart",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3348,7 +2730,7 @@
       ]
     },
     {
-      "id": 156,
+      "id": 127,
       "name": "Raspberry Coconut Wreath",
       "description": "Almond shortbread cookie with coconut macaron ring, filled with raspberry jam",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3369,7 +2751,7 @@
       ]
     },
     {
-      "id": 157,
+      "id": 128,
       "name": "Santa Jumbo Cake Pop",
       "description": "Chocolate cake pop dipped in white chocolate",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3389,7 +2771,7 @@
       ]
     },
     {
-      "id": 158,
+      "id": 129,
       "name": "Holiday Cookie Box",
       "description": "Assorted cookies",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3409,14 +2791,14 @@
       ]
     },
     {
-      "id": 159,
+      "id": 130,
       "name": "Holiday Crisped Rice Treat",
       "description": "",
       "location": "Disney’s Grand Californian Hotel & Spa",
       "restaurant": "Grand Californian Great Hall Cart",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3429,7 +2811,7 @@
       ]
     },
     {
-      "id": 160,
+      "id": 131,
       "name": "Mickey-shaped Gingerbread Cookie",
       "description": "",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3450,7 +2832,7 @@
       ]
     },
     {
-      "id": 161,
+      "id": 132,
       "name": "Mickey-shaped Poinsettia Cookie",
       "description": "",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3470,7 +2852,7 @@
       ]
     },
     {
-      "id": 162,
+      "id": 133,
       "name": "Seasonal Loaf Cake",
       "description": "",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3489,14 +2871,14 @@
       ]
     },
     {
-      "id": 163,
+      "id": 134,
       "name": "Eggnog",
       "description": "House-made eggnog (Also available with Bailey’s Original Irish Cream Liqueur)",
       "location": "Disney’s Grand Californian Hotel & Spa",
       "restaurant": "Grand Californian Great Hall Cart",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "non-alcoholic-beverage",
+      "itemType": "Non-Alcoholic Beverage",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3509,7 +2891,7 @@
       ]
     },
     {
-      "id": 164,
+      "id": 135,
       "name": "Hot Apple Cider",
       "description": "",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3530,14 +2912,14 @@
       ]
     },
     {
-      "id": 165,
+      "id": 136,
       "name": "Hot Chocolate",
       "description": "House-made hot chocolate (Also available with Bailey’s Original Irish Cream Liqueur)",
       "location": "Disney’s Grand Californian Hotel & Spa",
       "restaurant": "Grand Californian Great Hall Cart",
       "price": null,
-      "category": "coffee-tea",
-      "itemType": "Coffee/Tea",
+      "category": "candy-snack",
+      "itemType": "Candy/Snack",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3550,7 +2932,7 @@
       ]
     },
     {
-      "id": 166,
+      "id": 137,
       "name": "Chocolate Peppermint Long John Donut",
       "description": "",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3571,7 +2953,7 @@
       ]
     },
     {
-      "id": 167,
+      "id": 138,
       "name": "Christmas Tree Cupcake",
       "description": "",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3591,14 +2973,14 @@
       ]
     },
     {
-      "id": 168,
+      "id": 139,
       "name": "Cranberry Orange Muffin",
       "description": "",
       "location": "Disney’s Grand Californian Hotel & Spa",
       "restaurant": "GCH Craftsman Grill",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3612,14 +2994,14 @@
       ]
     },
     {
-      "id": 169,
+      "id": 140,
       "name": "Eggnog Muffin",
       "description": "",
       "location": "Disney’s Grand Californian Hotel & Spa",
       "restaurant": "GCH Craftsman Grill",
       "price": null,
-      "category": "other",
-      "itemType": "Other",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3633,7 +3015,7 @@
       ]
     },
     {
-      "id": 170,
+      "id": 141,
       "name": "Holiday Cake Donut",
       "description": "",
       "location": "Disney’s Grand Californian Hotel & Spa",
@@ -3654,7 +3036,7 @@
       ]
     },
     {
-      "id": 171,
+      "id": 142,
       "name": "Clark’s Nutcracker",
       "description": "Rum, lime juice, agave, cranberry, orange clove syrup, and cinnamon all served in a nutcracker glass",
       "location": "Downtown Disney District",
@@ -3676,7 +3058,7 @@
       ]
     },
     {
-      "id": 172,
+      "id": 143,
       "name": "Fancy Bird",
       "description": "Rye Scotch whisky, lime juice, orgeat, and orange curaçao all served in a Vista Holiday Rocks glass",
       "location": "Downtown Disney District",
@@ -3696,7 +3078,7 @@
       ]
     },
     {
-      "id": 173,
+      "id": 144,
       "name": "Michael in a Pear Tree",
       "description": "Tequila blanco, pear nectar, lime juice, and rosemary simple syrup all served in a bird glass",
       "location": "Downtown Disney District",
@@ -3716,7 +3098,7 @@
       ]
     },
     {
-      "id": 174,
+      "id": 145,
       "name": "Scarlet Tanager",
       "description": "Bourbon, amaro liqueur, orange-flavored liqueur, and cinnamon bitters all served in a Vista Holiday Rocks glass",
       "location": "Downtown Disney District",
@@ -3738,7 +3120,7 @@
       ]
     },
     {
-      "id": 175,
+      "id": 146,
       "name": "Peppermint Churro",
       "description": "Churro rolled in peppermint powdered sugar, with a peppermint icing drizzled on top, and covered in crushed candy cane pieces",
       "location": "Downtown Disney District",
@@ -3759,7 +3141,7 @@
       ]
     },
     {
-      "id": 176,
+      "id": 147,
       "name": "Three Course Christmas Dinner",
       "description": "",
       "location": "Downtown Disney District",
@@ -3780,7 +3162,7 @@
       ]
     },
     {
-      "id": 177,
+      "id": 148,
       "name": "Gingerbread Old Fashion",
       "description": "Spirited blend of bourbon and gingerbread spice syrup",
       "location": "Downtown Disney District",
@@ -3801,14 +3183,14 @@
       ]
     },
     {
-      "id": 178,
+      "id": 149,
       "name": "Candy Cane Twist Glazed Beignet",
       "description": "Beignet coated in a frosty peppermint glaze with crushed green candy",
       "location": "Downtown Disney District",
       "restaurant": "Beignets Expressed",
       "price": null,
-      "category": "candy-snack",
-      "itemType": "Candy/Snack",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3821,7 +3203,7 @@
       ]
     },
     {
-      "id": 179,
+      "id": 150,
       "name": "Seasonal Mini Cheesecakes",
       "description": "including Peppermint Chocolate, Pumpkin Spice, Mango, and Strawberry",
       "location": "Downtown Disney District",
@@ -3842,7 +3224,7 @@
       ]
     },
     {
-      "id": 180,
+      "id": 151,
       "name": "White Christmas Margarita",
       "description": "Tequila, coconut milk, lime juice, and orange liqueur topped with rosemary and cranberries",
       "location": "Downtown Disney District",
@@ -3861,9 +3243,9 @@
       ]
     },
     {
-      "id": 181,
-      "name": "Chicken Tamal",
-      "description": "Oaxacan style tamal, with mole rojo, braised chicken, and pickled jalapeños, carrots, and squash veggies",
+      "id": 152,
+      "name": "Tamal de Rajas",
+      "description": "Corn husk tamal, rajas, Mexican cheese blend, and pickled jalapeños, carrots and squash veggies",
       "location": "Downtown Disney District",
       "restaurant": "Céntrico",
       "price": null,
@@ -3881,34 +3263,14 @@
       ]
     },
     {
-      "id": 182,
-      "name": "Tamal de Rajas",
-      "description": "Corn husk tamal, rajas, Mexican cheese blend, and pickled jalapeños, carrots and squash veggies",
-      "location": "Downtown Disney District",
-      "restaurant": "Céntrico",
-      "price": null,
-      "category": "other",
-      "itemType": "Other",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
-        "new"
-      ]
-    },
-    {
-      "id": 183,
+      "id": 153,
       "name": "Mexican Hot Chocolate",
       "description": "A rich, velvety hot chocolate served in the style of traditional Mexican “chocolate para mesa” — thick, luscious and spiced",
       "location": "Downtown Disney District",
       "restaurant": "Céntrico",
       "price": null,
-      "category": "coffee-tea",
-      "itemType": "Coffee/Tea",
+      "category": "candy-snack",
+      "itemType": "Candy/Snack",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -3923,7 +3285,7 @@
       ]
     },
     {
-      "id": 184,
+      "id": 154,
       "name": "Berry MexMas",
       "description": "Tequila reposado, black cherry, and lime juice",
       "location": "Downtown Disney District",
@@ -3943,7 +3305,7 @@
       ]
     },
     {
-      "id": 185,
+      "id": 155,
       "name": "Frosty Fiesta",
       "description": "Horchata cream liquor, rum, cinnamon whiskey, and horchata",
       "location": "Downtown Disney District",
@@ -3964,7 +3326,7 @@
       ]
     },
     {
-      "id": 186,
+      "id": 156,
       "name": "Holiday Buñuelo",
       "description": "with holiday sugar candy and orange cinnamon sugar",
       "location": "Downtown Disney District",
@@ -3985,29 +3347,7 @@
       ]
     },
     {
-      "id": 187,
-      "name": "Prime Rib Feast",
-      "description": "10oz slow-roasted prime rib encrusted in fragrant fresh herbs, paired with warm potatoes-apple hash, smoky chorizo crumble, and tender broccolini",
-      "location": "Downtown Disney District",
-      "restaurant": "Ballast Point Brewing Co.",
-      "price": null,
-      "category": "cocktail",
-      "itemType": "Cocktail",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Prime-Rib.jpg",
-      "tags": [
-        "alcoholic",
-        "new",
-        "apple",
-        "hot"
-      ]
-    },
-    {
-      "id": 188,
+      "id": 157,
       "name": "Tis’ the season for Pizza Bitz!",
       "description": "Buttery pretzel bitz, rolled in cheese, and adorned with a pepperoni slice",
       "location": "Downtown Disney District",
@@ -4020,33 +3360,13 @@
         "startDate": "2025-11-14",
         "endDate": "2026-01-07"
       },
-      "imageUrl": null,
+      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Prime-Rib.jpg",
       "tags": [
         "non-alcoholic"
       ]
     },
     {
-      "id": 189,
-      "name": "Diwali Chicken Tikka Masala Pizza",
-      "description": "Neapolitan dough, tikka masala sauce, fresh mozzarella cheese, marinated chicken, red onion, parmesan, and cilantro",
-      "location": "Downtown Disney District",
-      "restaurant": "Naples Ristorante e Bar",
-      "price": null,
-      "category": "entree",
-      "itemType": "Entree",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-11-14",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Pizza.jpg",
-      "tags": [
-        "non-alcoholic",
-        "new"
-      ]
-    },
-    {
-      "id": 190,
+      "id": 158,
       "name": "Christmas Cider",
       "description": "Peanut butter whiskey, apple cider, hibiscus tea with edible glitter, lemon juice",
       "location": "Downtown Disney District",
@@ -4059,7 +3379,7 @@
         "startDate": "2025-11-14",
         "endDate": "2026-01-07"
       },
-      "imageUrl": null,
+      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Pizza.jpg",
       "tags": [
         "alcoholic",
         "new",
@@ -4068,7 +3388,7 @@
       ]
     },
     {
-      "id": 191,
+      "id": 159,
       "name": "Santa’s Margarita",
       "description": "Tequila blanco, peach schnapps, margarita mix, cranberry juice, and black raspberry liquor",
       "location": "Downtown Disney District",
@@ -4089,7 +3409,7 @@
       ]
     },
     {
-      "id": 192,
+      "id": 160,
       "name": "Twisted Christmas Cider",
       "description": "Peanut butter whiskey, apple cider, hibiscus team, edible glitter, and lemon juice",
       "location": "Downtown Disney District",
@@ -4111,14 +3431,14 @@
       ]
     },
     {
-      "id": 193,
+      "id": 161,
       "name": "Chocolate Spice Macaron Croissant",
       "description": "Flaky butter croissant filled with silky chocolate custard infused with holiday spices, finished with delicate macaron shell",
       "location": "Downtown Disney District",
       "restaurant": "Kayla’s Cake",
       "price": null,
-      "category": "candy-snack",
-      "itemType": "Candy/Snack",
+      "category": "baked-dessert",
+      "itemType": "Baked Dessert",
       "mobileOrderAvailable": false,
       "availability": {
         "startDate": "2025-11-14",
@@ -4129,442 +3449,6 @@
         "non-alcoholic",
         "new",
         "seasonal"
-      ]
-    },
-    {
-      "id": 194,
-      "name": "Pumpkin Spiced Breadsticks",
-      "description": "Breadsticks rolled in pumpkin spiced sugar served with a caramel cream cheese sauce",
-      "location": "Disneyland",
-      "restaurant": "Alien Pizza Planet",
-      "price": 6.79,
-      "category": "baked-dessert",
-      "itemType": "Dessert - Baked Good",
-      "mobileOrderAvailable": true,
-      "availability": {
-        "startDate": "2025-08-22",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Breadsticks.jpg",
-      "tags": [
-        "baked-goods",
-        "budget-friendly",
-        "caramel",
-        "cold",
-        "contains-dairy",
-        "dessert",
-        "non-alcoholic",
-        "pumpkin-spice"
-      ]
-    },
-    {
-      "id": 195,
-      "name": "Sweet Potato Hummus",
-      "description": "Lemon oil, pomegranate, sunflower seeds, and lavash",
-      "location": "Disneyland",
-      "restaurant": "Cafe Orleans",
-      "price": 15,
-      "category": "entree-side",
-      "itemType": "Entree / Side",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-08-22",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Potato-Hummus.jpg",
-      "tags": [
-        "meal",
-        "non-alcoholic",
-        "premium-price",
-        "savory"
-      ]
-    },
-    {
-      "id": 196,
-      "name": "Strawberry Slushee made with Fanta Strawberry",
-      "description": null,
-      "location": "Disneyland",
-      "restaurant": "Good Boy! Grocers",
-      "price": 7.29,
-      "category": "non-alcoholic-beverage",
-      "itemType": "Non Alcoholic Drink",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-08-22",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "non-alcoholic",
-        "berry",
-        "budget-friendly"
-      ]
-    },
-    {
-      "id": 197,
-      "name": "Pumpkin Muffin topped with cream cheese icing",
-      "description": null,
-      "location": "Disneyland",
-      "restaurant": "Jolly Holiday Bakery Cafe",
-      "price": 5.49,
-      "category": "baked-dessert",
-      "itemType": "Dessert - Baked Good",
-      "mobileOrderAvailable": true,
-      "availability": {
-        "startDate": "2025-08-22",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Muffin.jpg",
-      "tags": [
-        "baked-goods",
-        "budget-friendly",
-        "contains-dairy",
-        "dessert",
-        "non-alcoholic",
-        "pumpkin-spice"
-      ]
-    },
-    {
-      "id": 198,
-      "name": "Butternut Squash Flatbread",
-      "description": "Roasted butternut squash purée, roasted mushrooms, feta, and roasted diced butternut squash topped with garlic miso sauce and fried sage",
-      "location": "Disneyland",
-      "restaurant": "Red Rose Taverne",
-      "price": 13.99,
-      "category": "entree-side",
-      "itemType": "Entree / Side",
-      "mobileOrderAvailable": true,
-      "availability": {
-        "startDate": "2025-08-22",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Flatbread.jpg",
-      "tags": [
-        "cold",
-        "contains-dairy",
-        "meal",
-        "moderate-price",
-        "non-alcoholic",
-        "savory"
-      ]
-    },
-    {
-      "id": 199,
-      "name": "Straw-batty Churro",
-      "description": "Strawberry-filled churro rolled in chocolate cookie dust and drizzled with cream cheese sauce, topped with a chocolate bat",
-      "location": "Disneyland",
-      "restaurant": "Churros near Haunted Mansion",
-      "price": 7.5,
-      "category": "churro",
-      "itemType": "Churro/Dipping Sauce",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-08-22",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Strawberry-Chocolate-Churro.jpg",
-      "tags": [
-        "berry",
-        "budget-friendly",
-        "chocolate",
-        "churro",
-        "contains-dairy",
-        "dessert",
-        "non-alcoholic"
-      ]
-    },
-    {
-      "id": 200,
-      "name": "Frozen Marble Drip Coffee",
-      "description": "Frozen Joffrey's French Roast cold brew coffee drizzled with oat milk and sweetened condensed milk",
-      "location": "California Adventure",
-      "restaurant": "Boardwalk Pizza & Pasta",
-      "price": 7.79,
-      "category": "coffee-tea",
-      "itemType": "Coffee/Tea",
-      "mobileOrderAvailable": true,
-      "availability": {
-        "startDate": "2025-08-17",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Frozen-Marble-Coffee.jpg",
-      "tags": [
-        "budget-friendly",
-        "coffee-tea",
-        "cold",
-        "contains-dairy",
-        "non-alcoholic"
-      ]
-    },
-    {
-      "id": 201,
-      "name": "Pumpkin Crème Brûlée Cold Brew",
-      "description": "Joffrey's pumpkin crème brûlée cold brew with pumpkin sauce topped with cold cream foam",
-      "location": "California Adventure",
-      "restaurant": "Cozy Cone Motel 1 – Churros",
-      "price": 7.29,
-      "category": "coffee-tea",
-      "itemType": "Coffee/Tea",
-      "mobileOrderAvailable": true,
-      "availability": {
-        "startDate": "2025-08-17",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Creme-Brulee-Cold-Brew.jpg",
-      "tags": [
-        "budget-friendly",
-        "coffee-tea",
-        "cold",
-        "contains-dairy",
-        "non-alcoholic",
-        "pumpkin-spice"
-      ]
-    },
-    {
-      "id": 202,
-      "name": "Pumpkin Crème Brûlée Cold Brew Martini",
-      "description": "Joffrey's pumpkin crème brûlée cold brew with Irish cream, vanilla vodka, and pumpkin sauce topped with cold cream foam",
-      "location": "California Adventure",
-      "restaurant": "Cozy Cone Motel 1 – Churros",
-      "price": 18.5,
-      "category": "cocktail",
-      "itemType": "Alcohol - Cocktail",
-      "mobileOrderAvailable": true,
-      "availability": {
-        "startDate": "2025-08-17",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cold-Brew-Martini.jpg",
-      "tags": [
-        "alcoholic",
-        "cocktail",
-        "coffee-tea",
-        "cold",
-        "contains-dairy",
-        "premium-price",
-        "pumpkin-spice"
-      ]
-    },
-    {
-      "id": 203,
-      "name": "Tarantula Hill El Rey Salt and Lime Mexican Lager",
-      "description": null,
-      "location": "California Adventure",
-      "restaurant": "Cozy Cone Motel 4 – Frozen Cone-Coctions",
-      "price": 15.75,
-      "category": "beer",
-      "itemType": "Alcohol - Beer",
-      "mobileOrderAvailable": true,
-      "availability": {
-        "startDate": "2025-08-17",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "alcoholic",
-        "beer",
-        "premium-price"
-      ]
-    },
-    {
-      "id": 204,
-      "name": "Keg Craft Berry Sangria",
-      "description": null,
-      "location": "California Adventure",
-      "restaurant": "Hollywood Lounge",
-      "price": 16.5,
-      "category": "cocktail",
-      "itemType": "Alcohol - Cocktail",
-      "mobileOrderAvailable": true,
-      "availability": {
-        "startDate": "2025-08-17",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Berry-Sangria.jpg",
-      "tags": [
-        "alcoholic",
-        "berry",
-        "cocktail",
-        "premium-price"
-      ]
-    },
-    {
-      "id": 205,
-      "name": "Towns Ciderhouse Mango Cosmic Crisp Cider",
-      "description": null,
-      "location": "California Adventure",
-      "restaurant": "Hollywood Lounge",
-      "price": 17.25,
-      "category": "wine-cider",
-      "itemType": "Alcohol - Cider",
-      "mobileOrderAvailable": true,
-      "availability": {
-        "startDate": "2025-08-17",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "alcoholic",
-        "premium-price",
-        "wine-cider"
-      ]
-    },
-    {
-      "id": 206,
-      "name": "2 Towns Cosmic Crisp",
-      "description": null,
-      "location": "California Adventure",
-      "restaurant": "Lamplight Lounge",
-      "price": 14.75,
-      "category": "wine-cider",
-      "itemType": "Alcohol - Cider",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-08-17",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": null,
-      "tags": [
-        "alcoholic",
-        "moderate-price",
-        "wine-cider"
-      ]
-    },
-    {
-      "id": 207,
-      "name": "Jalapeño-Cream Cheese Bread",
-      "description": null,
-      "location": "California Adventure",
-      "restaurant": "Outdoor Vending Locations",
-      "price": null,
-      "category": "entree-side",
-      "itemType": "Entree / Side",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-08-22",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Jalapeno-Bread.jpg",
-      "tags": [
-        "contains-dairy",
-        "meal",
-        "non-alcoholic",
-        "savory",
-        "spicy"
-      ]
-    },
-    {
-      "id": 208,
-      "name": "Castellum Ciders Ube Cider",
-      "description": null,
-      "location": "California Adventure",
-      "restaurant": "Schmoozies!",
-      "price": 17.25,
-      "category": "wine-cider",
-      "itemType": "Alcohol - Cider",
-      "mobileOrderAvailable": true,
-      "availability": {
-        "startDate": "2025-08-17",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Ube-Cider.jpg",
-      "tags": [
-        "alcoholic",
-        "premium-price",
-        "wine-cider"
-      ]
-    },
-    {
-      "id": 209,
-      "name": "Seaborn Wild Berry Lime Margarita",
-      "description": null,
-      "location": "California Adventure",
-      "restaurant": "Schmoozies!",
-      "price": 18,
-      "category": "cocktail",
-      "itemType": "Alcohol - Cocktail",
-      "mobileOrderAvailable": true,
-      "availability": {
-        "startDate": "2025-08-17",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Berry-Margarita.jpg",
-      "tags": [
-        "alcoholic",
-        "berry",
-        "cocktail",
-        "premium-price"
-      ]
-    },
-    {
-      "id": 210,
-      "name": "Peanut Butter-Marshmallow Churro",
-      "description": "Classic churro with peanut butter sauce, marshmallow sauce, and chocolate chips",
-      "location": "California Adventure",
-      "restaurant": "Churros near Redwood Creek Challenge Trail",
-      "price": 7.5,
-      "category": "churro",
-      "itemType": "Churro/Dipping Sauce",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-08-17",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Fluffernutter-Churro.jpg",
-      "tags": [
-        "budget-friendly",
-        "chocolate",
-        "churro",
-        "contains-dairy",
-        "contains-nuts",
-        "dessert",
-        "non-alcoholic"
-      ]
-    },
-    {
-      "id": 211,
-      "name": "Cappuccino Muffin",
-      "description": null,
-      "location": "Disney's Grand Californian Hotel & Spa",
-      "restaurant": "GCH Craftsman Grill",
-      "price": 5.75,
-      "category": "baked-dessert",
-      "itemType": "Dessert - Baked Good",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-08-22",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-GCH-Cappuccino-Muffin.jpg",
-      "tags": [
-        "baked-goods",
-        "budget-friendly",
-        "coffee-tea",
-        "dessert",
-        "non-alcoholic"
-      ]
-    },
-    {
-      "id": 212,
-      "name": "Pumpkin Pepita Muffin",
-      "description": null,
-      "location": "Disney's Grand Californian Hotel & Spa",
-      "restaurant": "GCH Craftsman Grill",
-      "price": 5.75,
-      "category": "baked-dessert",
-      "itemType": "Dessert - Baked Good",
-      "mobileOrderAvailable": false,
-      "availability": {
-        "startDate": "2025-08-22",
-        "endDate": "2026-01-07"
-      },
-      "imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-GCH-Pumpkin-Muffin.jpg",
-      "tags": [
-        "baked-goods",
-        "budget-friendly",
-        "dessert",
-        "non-alcoholic",
-        "pumpkin-spice"
       ]
     }
   ]

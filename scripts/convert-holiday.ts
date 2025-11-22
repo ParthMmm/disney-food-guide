@@ -36,6 +36,7 @@ interface FoodGuideData {
 
 // Category mapping based on keywords
 const categoryMap: Record<string, string> = {
+	// Baked desserts
 	cake: "baked-dessert",
 	cookie: "baked-dessert",
 	brownie: "baked-dessert",
@@ -48,14 +49,25 @@ const categoryMap: Record<string, string> = {
 	cheesecake: "baked-dessert",
 	trifle: "baked-dessert",
 	cobbler: "baked-dessert",
+	muffin: "baked-dessert",
+	macaron: "baked-dessert",
+	"crisped rice treat": "baked-dessert",
+	"rice treat": "baked-dessert",
+	"pull-apart": "baked-dessert",
+	"sourdough bread": "baked-dessert",
+	beignet: "baked-dessert",
+	// Cocktails
 	cocktail: "cocktail",
 	margarita: "cocktail",
 	sangria: "cocktail",
 	mule: "cocktail",
 	mimosa: "cocktail",
 	punch: "cocktail",
+	cosmopolitan: "cocktail",
+	// Beer & wine
 	beer: "beer-wine",
 	wine: "beer-wine",
+	cyder: "beer-wine",
 	cider: "beer-wine",
 	lager: "beer-wine",
 	stout: "beer-wine",
@@ -64,38 +76,56 @@ const categoryMap: Record<string, string> = {
 	prosecco: "beer-wine",
 	champagne: "beer-wine",
 	brewery: "beer-wine",
+	hefeweizen: "beer-wine",
+	// Hard seltzers
+	seltzer: "hard-seltzer",
+	"hard seltzer": "hard-seltzer",
+	// Coffee & tea
 	coffee: "coffee-tea",
 	latte: "coffee-tea",
 	cappuccino: "coffee-tea",
 	espresso: "coffee-tea",
-	hot: "coffee-tea",
+	mocha: "coffee-tea",
 	tea: "coffee-tea",
 	chai: "coffee-tea",
 	"cold brew": "coffee-tea",
+	// Frozen desserts
 	sundae: "frozen-dessert",
 	"ice cream": "frozen-dessert",
 	float: "frozen-dessert",
 	shake: "frozen-dessert",
 	parfait: "frozen-dessert",
 	mousse: "frozen-dessert",
+	"soft serve": "frozen-dessert",
+	cone: "frozen-dessert",
+	// Soft drinks
 	soda: "non-alcoholic-beverage",
 	lemonade: "non-alcoholic-beverage",
+	limeade: "non-alcoholic-beverage",
 	juice: "non-alcoholic-beverage",
 	smoothie: "non-alcoholic-beverage",
 	cooler: "non-alcoholic-beverage",
 	"iced tea": "non-alcoholic-beverage",
+	slushie: "non-alcoholic-beverage",
+	"agua fresca": "non-alcoholic-beverage",
+	eggnog: "non-alcoholic-beverage",
+	"mint julep": "non-alcoholic-beverage",
+	// Savory snacks
 	pretzel: "savory-snack",
 	nachos: "savory-snack",
 	popcorn: "savory-snack",
 	chips: "savory-snack",
 	fries: "savory-snack",
 	tots: "savory-snack",
+	// Salads
 	salad: "salad",
+	// Sandwiches & burgers
 	burger: "sandwich-burger",
 	sandwich: "sandwich-burger",
-	sliders: "sandwich-burger",
+	slider: "sandwich-burger",
 	panini: "sandwich-burger",
 	"hot dog": "sandwich-burger",
+	// Entrees
 	turkey: "entree",
 	steak: "entree",
 	pasta: "entree",
@@ -106,6 +136,10 @@ const categoryMap: Record<string, string> = {
 	medallion: "entree",
 	skewer: "entree",
 	kebab: "entree",
+	"prime rib": "entree",
+	tamal: "entree",
+	tamale: "entree",
+	// Candy snacks
 	candy: "candy-snack",
 	chocolate: "candy-snack",
 	fudge: "candy-snack",
@@ -219,7 +253,13 @@ function generateTags(
 		combined.includes("lager") ||
 		combined.includes("ale") ||
 		combined.includes("ipa") ||
-		combined.includes("cider");
+		combined.includes("cider") ||
+		combined.includes("cyder") ||
+		combined.includes("hefeweizen") ||
+		combined.includes("seltzer") ||
+		combined.includes("hard seltzer") ||
+		combined.includes("brewery") ||
+		combined.includes("brewing");
 
 	if (isExplicitlyNonAlcoholic) {
 		tags.add("non-alcoholic");
@@ -435,6 +475,25 @@ function parseMarkdown(content: string): FoodItem[] {
 
 				const price = extractPrice(line);
 				const availability = extractAvailability(line);
+
+				// Check if item contains meat (red meat or animal protein)
+				const meatKeywords = [
+					"beef", "steak", "prime rib", "brisket", "meatball", "bacon",
+					"pork", "ham", "sausage", "chorizo", "carnitas",
+					"chicken", "turkey", "duck",
+					"lamb", "veal",
+					"salmon", "tuna", "shrimp", "fish", "seafood", "crab", "lobster",
+					"impossible meatball", // plant-based alternatives should still be excluded if they say "meatball"
+				];
+
+				const combinedForMeatCheck = `${cleanName} ${cleanDescription}`.toLowerCase();
+				const hasMeat = meatKeywords.some(keyword => combinedForMeatCheck.includes(keyword));
+
+				if (hasMeat) {
+					console.log(`Skipping meat item: ${cleanName}`);
+					continue;
+				}
+
 				const tags = generateTags(cleanName, description, price);
 
 				// Categorize item (use tags to help with categorization)
