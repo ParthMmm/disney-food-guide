@@ -1,6 +1,6 @@
-# Disneyland Halloween 2025 Food Guide - JSON Data
+# Disneyland Holiday 2025 Food Guide - JSON Data
 
-This JSON file contains all Halloween food and beverage items at Disneyland Resort (excluding items with meat), optimized for a SvelteKit web application.
+This JSON file contains all Holiday and Christmas food and beverage items at Disneyland Resort (excluding items with meat), optimized for a SvelteKit web application.
 
 ## 📊 Data Statistics
 

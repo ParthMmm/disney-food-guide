@@ -34,11 +34,6 @@ export type FilterItem = {
 
     const dates = [
         {
-            id: "halloween",
-            name: "Halloween",
-            label: "🎃",
-        },
-        {
             id: "thanksgiving",
             name: "Thanksgiving",
             label: "🦃",

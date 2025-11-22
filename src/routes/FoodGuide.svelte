@@ -45,11 +45,6 @@ const categoryOrder = [
 
 const dates = [
 	{
-		id: "halloween",
-		name: "Halloween",
-		label: "🎃",
-	},
-	{
 		id: "thanksgiving",
 		name: "Thanksgiving",
 		label: "🦃",
@@ -118,11 +113,9 @@ const filteredItems = $derived.by(() => {
 			const matchesAnyDate = Array.from(filtersStore.selectedDates).some(
 				(dateFilter) => {
 					const cutoffDate =
-						dateFilter === "halloween"
-							? new Date("2025-10-31")
-							: dateFilter === "thanksgiving"
-								? new Date("2025-11-30")
-								: new Date("2025-12-31");
+						dateFilter === "thanksgiving"
+							? new Date("2025-11-30")
+							: new Date("2025-12-31");
 
 					return end <= cutoffDate;
 				},
