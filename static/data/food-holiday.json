@@ -76,6 +76,7 @@
 				"baked-dessert",
 				"beer-wine",
 				"candy-snack",
+				"churro",
 				"cocktail",
 				"coffee-tea",
 				"entree",
@@ -176,7 +177,7 @@
 			"location": "Disneyland",
 			"restaurant": "Churros near Town Square and Sleeping Beauty Castle",
 			"price": null,
-			"category": "candy-snack",
+			"category": "churro",
 			"itemType": "Baked Dessert",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -492,7 +493,7 @@
 			"location": "Disneyland",
 			"restaurant": "Churros near Big Thunder Mountain Railroad and Pretzels near Big Thunder Mountain Railroad",
 			"price": null,
-			"category": "candy-snack",
+			"category": "churro",
 			"itemType": "Candy/Snack",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -865,7 +866,7 @@
 			"location": "Disneyland",
 			"restaurant": "Churros near Casey Jr. Circus Train",
 			"price": null,
-			"category": "candy-snack",
+			"category": "churro",
 			"itemType": "Cocktail",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -885,7 +886,7 @@
 			"location": "Disneyland",
 			"restaurant": "Churros near Casey Jr. Circus Train",
 			"price": null,
-			"category": "candy-snack",
+			"category": "churro",
 			"itemType": "Cocktail",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -923,7 +924,7 @@
 			"location": "Disneyland",
 			"restaurant": "Pretzels at small world Promenade",
 			"price": null,
-			"category": "candy-snack",
+			"category": "churro",
 			"itemType": "Cocktail",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1232,7 +1233,7 @@
 			"location": "California Adventure",
 			"restaurant": "Willie's Churros at Buena Vista Street",
 			"price": null,
-			"category": "baked-dessert",
+			"category": "churro",
 			"itemType": "Baked Dessert",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -1916,7 +1917,7 @@
 			"location": "California Adventure",
 			"restaurant": "Churros near Redwood Creek Challenge Trail",
 			"price": null,
-			"category": "baked-dessert",
+			"category": "churro",
 			"itemType": "Baked Dessert",
 			"mobileOrderAvailable": false,
 			"availability": {
@@ -3126,7 +3127,7 @@
 			"location": "Downtown Disney District",
 			"restaurant": "California Churro",
 			"price": null,
-			"category": "baked-dessert",
+			"category": "churro",
 			"itemType": "Baked Dessert",
 			"mobileOrderAvailable": false,
 			"availability": {
