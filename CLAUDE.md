@@ -41,7 +41,7 @@ bun run preview
 - **Adapter:** `@sveltejs/adapter-cloudflare` - outputs to `.svelte-kit/cloudflare/_worker.js`
 - **Wrangler config:** `wrangler.jsonc` (named "disney-food-guide")
 - **Prerendering:** Home page (`src/routes/+page.ts`) is prerendered with `export const prerender = true`
-- **Static data:** Food items served from `static/data/food.json` (fetched during prerender)
+- **Static data:** Food items served from `static/data/food-holiday.json` (fetched during prerender)
 
 ### PWA Configuration
 - **Plugin:** `@vite-pwa/sveltekit` with `generateSW` strategy
@@ -77,7 +77,7 @@ See `DATA_README.md` for comprehensive schema documentation.
 - `FoodTag` - Union of 31 filterable tags (e.g., "vegan", "pumpkin-spice", "character-themed")
 
 **Data flow:**
-1. `+page.ts` fetches `/data/food.json` during prerender
+1. `+page.ts` fetches `/data/food-holiday.json` during prerender
 2. `FoodGuide.svelte` receives data via props
 3. Filtering logic combines all active filters using Set operations
 4. Results grouped by category for display
