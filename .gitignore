@@ -32,5 +32,7 @@ check_images.py
 compare_data.py
 compare_data_v2.py
 update_food_data.py
+verify_data.py
+missing_items.json
 *.2025-*.json
 *.2025-*.md
