@@ -13,17 +13,19 @@ function createViewPreferencesStore() {
 	let viewMode = $state<ViewMode>("condensed");
 	let openCategories = $state<Set<string>>(new Set());
 
-	if (browser) {
-		const stored = localStorage.getItem(STORAGE_KEY);
-		if (stored) {
-			try {
-				const parsed = JSON.parse(stored) as ViewPreferences;
-				viewMode = parsed.viewMode || "condensed";
-				openCategories = new Set(parsed.openCategories || []);
-			} catch {
-				viewMode = "condensed";
-				openCategories = new Set();
-			}
+	function hydrate() {
+		if (!browser) return;
+
+		try {
+			const stored = localStorage.getItem(STORAGE_KEY);
+			if (!stored) return;
+
+			const parsed = JSON.parse(stored) as ViewPreferences;
+			viewMode = parsed.viewMode || "condensed";
+			openCategories = new Set(parsed.openCategories || []);
+		} catch {
+			viewMode = "condensed";
+			openCategories = new Set();
 		}
 	}
 
@@ -43,13 +45,14 @@ function createViewPreferencesStore() {
 	}
 
 	function toggleCategory(category: string) {
-		const newCategories = new Set(openCategories);
-		if (newCategories.has(category)) {
-			newCategories.delete(category);
+		const nextCategories = new Set(openCategories);
+		if (nextCategories.has(category)) {
+			nextCategories.delete(category);
 		} else {
-			newCategories.add(category);
+			nextCategories.add(category);
 		}
-		openCategories = newCategories;
+
+		openCategories = nextCategories;
 		save();
 	}
 
@@ -60,6 +63,7 @@ function createViewPreferencesStore() {
 		get openCategories() {
 			return openCategories;
 		},
+		hydrate,
 		setViewMode,
 		toggleCategory,
 	};

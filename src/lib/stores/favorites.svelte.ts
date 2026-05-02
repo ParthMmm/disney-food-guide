@@ -5,30 +5,36 @@ const STORAGE_KEY = "fom-favorites";
 function createFavoritesStore() {
 	let favorites = $state<Set<number>>(new Set());
 
-	if (browser) {
-		const stored = localStorage.getItem(STORAGE_KEY);
-		if (stored) {
-			try {
-				const parsed = JSON.parse(stored) as number[];
-				favorites = new Set(parsed);
-			} catch {
-				favorites = new Set();
-			}
+	function hydrate() {
+		if (!browser) return;
+
+		try {
+			const stored = localStorage.getItem(STORAGE_KEY);
+			if (!stored) return;
+
+			const parsed = JSON.parse(stored) as number[];
+			favorites = new Set(parsed);
+		} catch {
+			favorites = new Set();
+		}
+	}
+
+	function save() {
+		if (browser) {
+			localStorage.setItem(STORAGE_KEY, JSON.stringify(Array.from(favorites)));
 		}
 	}
 
 	function toggle(itemId: number) {
-		const newFavorites = new Set(favorites);
-		if (newFavorites.has(itemId)) {
-			newFavorites.delete(itemId);
+		const nextFavorites = new Set(favorites);
+		if (nextFavorites.has(itemId)) {
+			nextFavorites.delete(itemId);
 		} else {
-			newFavorites.add(itemId);
+			nextFavorites.add(itemId);
 		}
-		favorites = newFavorites;
 
-		if (browser) {
-			localStorage.setItem(STORAGE_KEY, JSON.stringify(Array.from(favorites)));
-		}
+		favorites = nextFavorites;
+		save();
 	}
 
 	function isFavorite(itemId: number): boolean {
@@ -49,6 +55,7 @@ function createFavoritesStore() {
 		get count() {
 			return favorites.size;
 		},
+		hydrate,
 		toggle,
 		isFavorite,
 		clear,

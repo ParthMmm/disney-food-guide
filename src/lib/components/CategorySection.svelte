@@ -40,16 +40,12 @@ import type { FoodItem } from "$lib/types/types";
     let contentHeight = $state(0);
 
     function measureHeight(node: HTMLElement) {
-        const observer = new ResizeObserver((entries) => {
-            for (let entry of entries) {
-                contentHeight = entry.contentRect.height;
-            }
+        const observer = new ResizeObserver(([entry]) => {
+            contentHeight = entry.contentRect.height;
         });
         observer.observe(node);
-        return {
-            destroy() {
-                observer.disconnect();
-            },
+        return () => {
+            observer.disconnect();
         };
     }
 
@@ -74,13 +70,13 @@ import type { FoodItem } from "$lib/types/types";
         </button>
 
         <div class="overflow-hidden" style="height: {height.current}px;">
-            <div use:measureHeight>
+            <div {@attach measureHeight}>
                 {#if isOpen}
                     <div
                         transition:slide={{ duration: 250, easing: cubicInOut }}
                         class="flex flex-col mt-4 [&>*]:border-t [&>*]:border-border [&>*:last-child]:border-b"
                     >
-                        {#each items as item, i}
+                        {#each items as item, i (item.id)}
                             <div
                                 transition:fade={{
                                     duration: 50,
@@ -106,7 +102,7 @@ import type { FoodItem } from "$lib/types/types";
         </div>
 
         <div class="grid grid-cols-1 gap-4">
-            {#each items as item}
+            {#each items as item (item.id)}
                 <FoodItemCard {item} onclick={() => onItemClick(item)} />
             {/each}
         </div>

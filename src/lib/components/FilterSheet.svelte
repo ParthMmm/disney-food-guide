@@ -8,7 +8,7 @@ export type FilterItem = {
 
 <script lang="ts">
     import { X } from "lucide-svelte";
-    import { Tween, tweened } from "svelte/motion";
+    import { Tween } from "svelte/motion";
     import { cubicOut } from "svelte/easing";
     import { Badge } from "$lib/components/ui/badge";
     import { Button } from "$lib/components/ui/button";
@@ -34,17 +34,11 @@ export type FilterItem = {
         children: import("svelte").Snippet;
     } = $props();
 
+    const DEFAULT_PRICE_RANGE = [1, 30];
+
     const dates = [
-        {
-            id: "may4",
-            name: "May the 4th",
-            label: "✨",
-        },
-        {
-            id: "may31",
-            name: "Available through May",
-            label: "🗓️",
-        },
+        { id: "may4", name: "May the 4th", label: "✨" },
+        { id: "may31", name: "Available through May", label: "🗓️" },
     ];
 
     let filterHeight = $state(0);
@@ -53,20 +47,26 @@ export type FilterItem = {
         easing: cubicOut,
     });
 
+    function formatFilterLabel(value: string) {
+        return value.replace(/-/g, " ").replace(/\b\w/g, (letter) =>
+            letter.toUpperCase(),
+        );
+    }
+
+    function setPriceRange(value: number[] | undefined) {
+        filtersStore.setPriceRange(value ?? [...DEFAULT_PRICE_RANGE]);
+    }
+
     function measureHeight(node: HTMLElement) {
-        const observer = new ResizeObserver((entries) => {
-            for (let entry of entries) {
-                filterHeight = entry.contentRect.height;
-            }
+        const observer = new ResizeObserver(([entry]) => {
+            filterHeight = entry.contentRect.height;
         });
         observer.observe(node);
 
         animatedHeight.set(activeFilters.length > 0 ? filterHeight : 0);
 
-        return {
-            destroy() {
-                observer.disconnect();
-            },
+        return () => {
+            observer.disconnect();
         };
     }
 
@@ -86,7 +86,7 @@ export type FilterItem = {
                 class="overflow-hidden"
                 style:height={`${animatedHeight.current + 25}px`}
             >
-                <div use:measureHeight>
+                <div {@attach measureHeight}>
                     {#if activeFilters.length > 0}
                         <Drawer.Description class="flex flex-wrap gap-2 mt-2">
                             {#each activeFilters as filter (filter.id)}
@@ -129,12 +129,8 @@ export type FilterItem = {
                         class="flex h-9 w-full rounded-md border bg-transparent px-3 py-2 text-sm shadow-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50"
                     >
                         <option value="all">All Categories</option>
-                        {#each categories as category}
-                            <option value={category}>
-                                {category
-                                    .replace(/-/g, " ")
-                                    .replace(/\b\w/g, (l) => l.toUpperCase())}
-                            </option>
+                        {#each categories as category (category)}
+                            <option value={category}>{formatFilterLabel(category)}</option>
                         {/each}
                     </select>
                 </div>
@@ -142,7 +138,7 @@ export type FilterItem = {
                 <div class="space-y-3">
                     <h3 class="font-semibold">Location</h3>
                     <div class="grid grid-cols-1 gap-2">
-                        {#each locations as location}
+                        {#each locations as location (location)}
                             <button
                                 onclick={() =>
                                     filtersStore.toggleLocation(location)}
@@ -182,11 +178,13 @@ export type FilterItem = {
                     </h3>
                     <Slider
                         type="multiple"
-                        bind:value={filtersStore.priceRange}
+                        bind:value={
+                            () => filtersStore.priceRange,
+                            setPriceRange
+                        }
                         min={1}
                         max={30}
                         step={1}
-                        class=""
                     />
                 </div>
 
@@ -196,7 +194,7 @@ export type FilterItem = {
                     <h3 class="font-semibold">Tags</h3>
                     <ScrollArea class="h-64">
                         <div class="flex flex-wrap gap-2 pr-4">
-                            {#each allTags as tag}
+                            {#each allTags as tag (tag)}
                                 <button
                                     onclick={() => filtersStore.toggleTag(tag)}
                                     class="inline-flex items-center rounded-full border px-3 py-1 text-xs transition-colors {filtersStore.selectedTags.has(
@@ -205,7 +203,7 @@ export type FilterItem = {
                                         ? 'bg-primary text-primary-foreground'
                                         : 'bg-background hover:bg-accent'}"
                                 >
-                                    {tag.replace(/-/g, " ")}
+                                    {formatFilterLabel(tag)}
                                 </button>
                             {/each}
                         </div>

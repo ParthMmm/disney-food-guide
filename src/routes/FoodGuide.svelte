@@ -22,10 +22,20 @@ let selectedItem = $state<FoodItem | null>(null);
 let detailDrawerOpen = $state(false);
 let topSearchElement = $state<HTMLElement>();
 
-const { metadata, items } = data.foodData;
-const categories = metadata.filters.categories;
-const allTags = metadata.filters.allTags;
-const locations = metadata.filters.locations;
+// Days until May the 4th. Computed once on mount — a tool, not a stopwatch.
+const daysUntilMay4 = (() => {
+	const target = new Date("2026-05-04T00:00:00");
+	const diff = target.getTime() - Date.now();
+	if (diff <= 0) return null;
+	return Math.ceil(diff / 86_400_000);
+})();
+
+const foodData = $derived(data.foodData);
+const metadata = $derived(foodData.metadata);
+const items = $derived(foodData.items);
+const categories = $derived(metadata.filters.categories);
+const allTags = $derived(metadata.filters.allTags);
+const locations = $derived(metadata.filters.locations);
 
 const categoryOrder = [
 	"churro",
@@ -45,13 +55,12 @@ const categoryOrder = [
 	"salad",
 ];
 
+const categoryRank = new Map(
+	categoryOrder.map((category, index) => [category, index]),
+);
+
 const dates = [
-	{
-		id: "may4",
-		name: "May the 4th",
-		label: "✨",
-		date: "2026-05-04",
-	},
+	{ id: "may4", name: "May the 4th", label: "✨", date: "2026-05-04" },
 	{
 		id: "may31",
 		name: "Available through May",
@@ -60,81 +69,94 @@ const dates = [
 	},
 ];
 
-const filteredItems = $derived.by(() => {
-	return items.filter((item) => {
-		if (filtersStore.searchQuery) {
-			const query = filtersStore.searchQuery.toLowerCase();
-			const matchesSearch =
-				item.name.toLowerCase().includes(query) ||
-				item.description?.toLowerCase().includes(query) ||
-				item.restaurant?.toLowerCase().includes(query);
-			if (!matchesSearch) return false;
-		}
+const DEFAULT_PRICE_RANGE = [1, 30];
 
-		if (
-			filtersStore.selectedCategory !== "all" &&
-			item.category !== filtersStore.selectedCategory
-		) {
-			return false;
-		}
+function formatFilterLabel(value: string) {
+	return value.replace(/-/g, " ").replace(/\b\w/g, (letter) =>
+		letter.toUpperCase(),
+	);
+}
 
-		if (filtersStore.selectedTags.size > 0) {
-			const hasAllTags = Array.from(filtersStore.selectedTags).every((tag) =>
-				item.tags.includes(tag),
-			);
-			if (!hasAllTags) return false;
-		}
+function isDefaultPriceRange() {
+	return (
+		filtersStore.priceRange[0] === DEFAULT_PRICE_RANGE[0] &&
+		filtersStore.priceRange[1] === DEFAULT_PRICE_RANGE[1]
+	);
+}
 
-		if (item.price !== null) {
-			if (
-				item.price < filtersStore.priceRange[0] ||
-				item.price > filtersStore.priceRange[1]
-			) {
-				return false;
-			}
-		}
+function isAvailableOn(item: FoodItem, date: string) {
+	const { startDate, endDate } = item.availability;
+	const start = startDate ? new Date(startDate) : null;
+	const end = endDate ? new Date(endDate) : null;
+	const selectedDate = new Date(date);
 
-		if (filtersStore.mobileOrderOnly && !item.mobileOrderAvailable) {
-			return false;
-		}
+	return (!start || selectedDate >= start) && (!end || selectedDate <= end);
+}
 
-		if (filtersStore.selectedLocations.size > 0) {
-			if (
-				!item.location ||
-				!filtersStore.selectedLocations.has(item.location)
-			) {
-				return false;
-			}
-		}
+function matchesSelectedDate(item: FoodItem, dateId: string) {
+	const selectedDate = dates.find((date) => date.id === dateId);
+	return selectedDate ? isAvailableOn(item, selectedDate.date) : false;
+}
 
-		if (filtersStore.selectedDates.size > 0) {
-			const start = item.availability.startDate
-				? new Date(item.availability.startDate)
-				: null;
-			const end = item.availability.endDate
-				? new Date(item.availability.endDate)
-				: null;
+function matchesSearch(item: FoodItem) {
+	if (!filtersStore.searchQuery) return true;
 
-			const matchesAnyDate = Array.from(filtersStore.selectedDates).some(
-				(dateFilter) => {
-					const selectedDate = dates.find((date) => date.id === dateFilter);
-					if (!selectedDate) return false;
+	const query = filtersStore.searchQuery.toLowerCase();
+	return (
+		item.name.toLowerCase().includes(query) ||
+		item.description?.toLowerCase().includes(query) ||
+		item.restaurant?.toLowerCase().includes(query) ||
+		false
+	);
+}
 
-					const date = new Date(selectedDate.date);
-					return (!start || date >= start) && (!end || date <= end);
-				},
-			);
+function matchesFilters(item: FoodItem) {
+	if (!matchesSearch(item)) return false;
 
-			if (!matchesAnyDate) return false;
-		}
+	if (
+		filtersStore.selectedCategory !== "all" &&
+		item.category !== filtersStore.selectedCategory
+	) {
+		return false;
+	}
 
-		if (filtersStore.favoritesOnly && !favoritesStore.isFavorite(item.id)) {
-			return false;
-		}
+	if (
+		filtersStore.selectedTags.size > 0 &&
+		!Array.from(filtersStore.selectedTags).every((tag) => item.tags.includes(tag))
+	) {
+		return false;
+	}
 
-		return true;
-	});
-});
+	if (
+		item.price !== null &&
+		(item.price < filtersStore.priceRange[0] ||
+			item.price > filtersStore.priceRange[1])
+	) {
+		return false;
+	}
+
+	if (filtersStore.mobileOrderOnly && !item.mobileOrderAvailable) return false;
+
+	if (
+		filtersStore.selectedLocations.size > 0 &&
+		(!item.location || !filtersStore.selectedLocations.has(item.location))
+	) {
+		return false;
+	}
+
+	if (
+		filtersStore.selectedDates.size > 0 &&
+		!Array.from(filtersStore.selectedDates).some((dateId) =>
+			matchesSelectedDate(item, dateId),
+		)
+	) {
+		return false;
+	}
+
+	return !filtersStore.favoritesOnly || favoritesStore.isFavorite(item.id);
+}
+
+const filteredItems = $derived(items.filter(matchesFilters));
 
 const itemsByCategory = $derived.by(() => {
 	return filteredItems.reduce(
@@ -147,21 +169,19 @@ const itemsByCategory = $derived.by(() => {
 	);
 });
 
-const sortedCategories = $derived.by(() => {
-	return Object.entries(itemsByCategory).sort(([catA], [catB]) => {
-		const indexA = categoryOrder.indexOf(catA);
-		const indexB = categoryOrder.indexOf(catB);
-		return (indexA === -1 ? 999 : indexA) - (indexB === -1 ? 999 : indexB);
-	});
-});
+const sortedCategories = $derived.by(() =>
+	Object.entries(itemsByCategory).sort(
+		([catA], [catB]) =>
+			(categoryRank.get(catA) ?? 999) - (categoryRank.get(catB) ?? 999),
+	),
+);
 
 const activeFilterCount = $derived.by(() => {
 	let count = 0;
 	if (filtersStore.selectedCategory !== "all") count++;
 	if (filtersStore.selectedTags.size > 0)
 		count += filtersStore.selectedTags.size;
-	if (filtersStore.priceRange[0] !== 1 || filtersStore.priceRange[1] !== 30)
-		count++;
+	if (!isDefaultPriceRange()) count++;
 	if (filtersStore.mobileOrderOnly) count++;
 	if (filtersStore.selectedDates.size > 0)
 		count += filtersStore.selectedDates.size;
@@ -176,9 +196,7 @@ const activeFilters = $derived.by(() => {
 	if (filtersStore.selectedCategory !== "all") {
 		filters.push({
 			id: "category",
-			label: filtersStore.selectedCategory
-				.replace(/-/g, " ")
-				.replace(/\b\w/g, (l) => l.toUpperCase()),
+			label: formatFilterLabel(filtersStore.selectedCategory),
 			onRemove: () => {
 				filtersStore.setSelectedCategory("all");
 			},
@@ -206,12 +224,12 @@ const activeFilters = $derived.by(() => {
 		}
 	});
 
-	if (filtersStore.priceRange[0] !== 1 || filtersStore.priceRange[1] !== 30) {
+	if (!isDefaultPriceRange()) {
 		filters.push({
 			id: "price",
 			label: `$${filtersStore.priceRange[0]}-$${filtersStore.priceRange[1]}`,
 			onRemove: () => {
-				filtersStore.setPriceRange([1, 30]);
+				filtersStore.setPriceRange([...DEFAULT_PRICE_RANGE]);
 			},
 		});
 	}
@@ -229,7 +247,7 @@ const activeFilters = $derived.by(() => {
 	filtersStore.selectedTags.forEach((tag) => {
 		filters.push({
 			id: `tag-${tag}`,
-			label: tag.replace(/-/g, " "),
+			label: formatFilterLabel(tag),
 			onRemove: () => filtersStore.toggleTag(tag),
 		});
 	});
@@ -244,10 +262,33 @@ function handleItemClick(item: FoodItem) {
 </script>
 
 <div class="container mx-auto px-4 py-3 max-w-7xl">
-    <header class="text-center my-4 mt-12">
-        <h1 class="text-4xl font-bold mb-2">✨ Star Wars Day Food Guide</h1>
-        <p class="text-muted-foreground">
-            <span class="text-primary">{filteredItems.length} </span> / {metadata.totalItems}
+    <header class="mt-3 mb-5">
+        <div class="flex items-baseline justify-between gap-3">
+            <h1
+                class="font-display text-2xl uppercase leading-none text-foreground"
+            >
+                May the 4th
+            </h1>
+            {#if daysUntilMay4 !== null}
+                <span
+                    class="font-mono text-[0.7rem] tabular-nums uppercase tracking-[0.18em] text-muted-foreground shrink-0"
+                    aria-label="Days until May the 4th"
+                >
+                    T−{daysUntilMay4}d
+                </span>
+            {/if}
+        </div>
+        <p
+            class="font-mono text-[0.65rem] uppercase tracking-[0.18em] text-muted-foreground/80 mt-1.5"
+        >
+            <span class="tabular-nums text-foreground/85"
+                >{filteredItems.length}</span
+            ><span class="opacity-50 mx-1">/</span><span
+                class="tabular-nums">{metadata.totalItems}</span
+            >
+            <span class="ml-1">items</span>
+            <span class="mx-1.5 opacity-40">·</span>
+            <span>Hollywood Studios</span>
         </p>
     </header>
 
@@ -293,7 +334,7 @@ function handleItemClick(item: FoodItem) {
                 </Card.Content>
             </Card.Root>
         {:else}
-            {#each sortedCategories as [category, categoryItems]}
+            {#each sortedCategories as [category, categoryItems] (category)}
                 <CategorySection
                     {category}
                     items={categoryItems}

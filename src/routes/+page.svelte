@@ -4,19 +4,23 @@ import type { PageData } from "./$types";
 
 let { data }: { data: PageData } = $props();
 
-const itemCount = data.foodData.items.length;
+const itemCount = $derived(data.foodData.items.length);
 </script>
 
 <svelte:head>
-    <title>🎄 Disneyland Holiday Food Guide 2025 | {itemCount} Items</title>
+    <title>May the 4th — Star Wars Nite Foodie Transmission | {itemCount} Provisions</title>
     <meta
         name="description"
-        content="Browse {itemCount} seasonal food and drink items across Disneyland and Disney California Adventure with prices, locations, tags, and mobile ordering details."
+        content="A field guide to the {itemCount} treats, drinks, and trinkets dropping at Disney's Hollywood Studios for Star Wars Day — locations, tags, and mobile ordering, available offline."
     />
-    <meta property="og:title" content="Disneyland Holiday Food Guide 2025" />
+    <meta name="theme-color" content="#0c1024" />
+    <meta
+        property="og:title"
+        content="May the 4th — Star Wars Nite Foodie Transmission"
+    />
     <meta
         property="og:description"
-        content="Plan your Disneyland visit with {itemCount} seasonal snacks, meals, and drinks, all available offline in the FOM guide."
+        content="Plot your route through Black Spire Outpost: {itemCount} provisions logged for Star Wars Day at Disney's Hollywood Studios."
     />
 </svelte:head>
 

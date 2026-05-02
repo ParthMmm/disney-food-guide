@@ -25,31 +25,34 @@ const DEFAULT_FILTERS: FilterState = {
 };
 
 function createFiltersStore() {
-	let searchQuery = $state("");
-	let selectedCategory = $state<string>("all");
-	let selectedTags = $state<Set<string>>(new Set());
-	let priceRange = $state([1, 30]);
-	let mobileOrderOnly = $state(false);
-	let selectedDates = $state<Set<string>>(new Set());
-	let selectedLocations = $state<Set<string>>(new Set());
-	let favoritesOnly = $state(false);
+	let searchQuery = $state(DEFAULT_FILTERS.searchQuery);
+	let selectedCategory = $state<string>(DEFAULT_FILTERS.selectedCategory);
+	let selectedTags = $state<Set<string>>(new Set(DEFAULT_FILTERS.selectedTags));
+	let priceRange = $state([...DEFAULT_FILTERS.priceRange]);
+	let mobileOrderOnly = $state(DEFAULT_FILTERS.mobileOrderOnly);
+	let selectedDates = $state<Set<string>>(new Set(DEFAULT_FILTERS.selectedDates));
+	let selectedLocations = $state<Set<string>>(new Set(DEFAULT_FILTERS.selectedLocations));
+	let favoritesOnly = $state(DEFAULT_FILTERS.favoritesOnly);
 
-	if (browser) {
-		const stored = localStorage.getItem(STORAGE_KEY);
-		if (stored) {
-			try {
-				const parsed = JSON.parse(stored) as FilterState;
-				searchQuery = parsed.searchQuery || "";
-				selectedCategory = parsed.selectedCategory || "all";
-				selectedTags = new Set(parsed.selectedTags || []);
-				priceRange = parsed.priceRange || [1, 30];
-				mobileOrderOnly = parsed.mobileOrderOnly || false;
-				selectedDates = new Set(parsed.selectedDates || []);
-				selectedLocations = new Set(parsed.selectedLocations || []);
-				favoritesOnly = parsed.favoritesOnly || false;
-			} catch {
-				Object.assign({}, DEFAULT_FILTERS);
-			}
+	function applyFilters(filters: FilterState) {
+		searchQuery = filters.searchQuery || DEFAULT_FILTERS.searchQuery;
+		selectedCategory = filters.selectedCategory || DEFAULT_FILTERS.selectedCategory;
+		selectedTags = new Set(filters.selectedTags || DEFAULT_FILTERS.selectedTags);
+		priceRange = filters.priceRange || [...DEFAULT_FILTERS.priceRange];
+		mobileOrderOnly = filters.mobileOrderOnly || DEFAULT_FILTERS.mobileOrderOnly;
+		selectedDates = new Set(filters.selectedDates || DEFAULT_FILTERS.selectedDates);
+		selectedLocations = new Set(filters.selectedLocations || DEFAULT_FILTERS.selectedLocations);
+		favoritesOnly = filters.favoritesOnly || DEFAULT_FILTERS.favoritesOnly;
+	}
+
+	function hydrate() {
+		if (!browser) return;
+
+		try {
+			const stored = localStorage.getItem(STORAGE_KEY);
+			if (stored) applyFilters(JSON.parse(stored) as FilterState);
+		} catch {
+			applyFilters(DEFAULT_FILTERS);
 		}
 	}
 
@@ -79,14 +82,18 @@ function createFiltersStore() {
 		save();
 	}
 
-	function toggleTag(tag: string) {
-		const newTags = new Set(selectedTags);
-		if (newTags.has(tag)) {
-			newTags.delete(tag);
+	function toggleSetValue(values: Set<string>, value: string) {
+		const nextValues = new Set(values);
+		if (nextValues.has(value)) {
+			nextValues.delete(value);
 		} else {
-			newTags.add(tag);
+			nextValues.add(value);
 		}
-		selectedTags = newTags;
+		return nextValues;
+	}
+
+	function toggleTag(tag: string) {
+		selectedTags = toggleSetValue(selectedTags, tag);
 		save();
 	}
 
@@ -101,24 +108,12 @@ function createFiltersStore() {
 	}
 
 	function toggleDate(dateId: string) {
-		const newDates = new Set(selectedDates);
-		if (newDates.has(dateId)) {
-			newDates.delete(dateId);
-		} else {
-			newDates.add(dateId);
-		}
-		selectedDates = newDates;
+		selectedDates = toggleSetValue(selectedDates, dateId);
 		save();
 	}
 
 	function toggleLocation(location: string) {
-		const newLocations = new Set(selectedLocations);
-		if (newLocations.has(location)) {
-			newLocations.delete(location);
-		} else {
-			newLocations.add(location);
-		}
-		selectedLocations = newLocations;
+		selectedLocations = toggleSetValue(selectedLocations, location);
 		save();
 	}
 
@@ -128,13 +123,7 @@ function createFiltersStore() {
 	}
 
 	function clearFilters() {
-		searchQuery = DEFAULT_FILTERS.searchQuery;
-		selectedCategory = DEFAULT_FILTERS.selectedCategory;
-		selectedTags = new Set(DEFAULT_FILTERS.selectedTags);
-		priceRange = [...DEFAULT_FILTERS.priceRange];
-		mobileOrderOnly = DEFAULT_FILTERS.mobileOrderOnly;
-		selectedDates = new Set(DEFAULT_FILTERS.selectedDates);
-		selectedLocations = new Set(DEFAULT_FILTERS.selectedLocations);
+		applyFilters(DEFAULT_FILTERS);
 		save();
 	}
 
@@ -163,6 +152,7 @@ function createFiltersStore() {
 		get favoritesOnly() {
 			return favoritesOnly;
 		},
+		hydrate,
 		setSearchQuery,
 		setSelectedCategory,
 		toggleTag,

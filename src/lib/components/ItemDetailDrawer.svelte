@@ -5,7 +5,6 @@ import type { FoodItem } from "$lib/types/types";
 <script lang="ts">
     import { Heart } from "lucide-svelte";
     import FoodImage from "$lib/components/FoodImage.svelte";
-    import { Badge } from "$lib/components/ui/badge";
     import { Button } from "$lib/components/ui/button";
     import * as Drawer from "$lib/components/ui/drawer";
     import { Separator } from "$lib/components/ui/separator";
@@ -18,6 +17,31 @@ import type { FoodItem } from "$lib/types/types";
         open: boolean;
         item: FoodItem | null;
     } = $props();
+
+    function formatDate(date: string) {
+        return new Date(date).toLocaleDateString("en-US", {
+            month: "short",
+            day: "numeric",
+            year: "numeric",
+        });
+    }
+
+    function isAvailableOn(item: FoodItem, date: string) {
+        const { startDate, endDate } = item.availability;
+        const start = startDate ? new Date(startDate) : null;
+        const end = endDate ? new Date(endDate) : null;
+        const selectedDate = new Date(date);
+
+        return (!start || selectedDate >= start) && (!end || selectedDate <= end);
+    }
+
+    function availabilityLabel(item: FoodItem) {
+        const { startDate, endDate } = item.availability;
+        const start = startDate ? formatDate(startDate) : "Now";
+        const end = endDate ? formatDate(endDate) : "while supplies last";
+
+        return `${start} - ${end}`;
+    }
 </script>
 
 <Drawer.Root bind:open shouldScaleBackground>
@@ -55,16 +79,14 @@ import type { FoodItem } from "$lib/types/types";
                             <div>📱</div>
                         {/if}
                         <button
-                            onclick={(e) => {
-                                e.stopPropagation();
-                                if (item) favoritesStore.toggle(item.id);
-                            }}
+                            onclick={() => favoritesStore.toggle(item.id)}
                             class="ml-auto p-2 rounded-full hover:bg-accent transition-colors"
                             aria-label="Toggle favorite"
                         >
                             <Heart
-                                class="h-6 w-6 transition-colors {item &&
-                                favoritesStore.isFavorite(item.id)
+                                class="h-6 w-6 transition-colors {favoritesStore.isFavorite(
+                                    item.id,
+                                )
                                     ? 'fill-orange-500 stroke-orange-500'
                                     : 'stroke-foreground'}"
                             />
@@ -90,61 +112,25 @@ import type { FoodItem } from "$lib/types/types";
                             </div>
                         {/if}
 
-                        {#if item.availability.startDate && item.availability.endDate}
-                            {@const start = new Date(
-                                item.availability.startDate,
-                            )}
-                            {@const end = new Date(item.availability.endDate)}
+                        {#if item.availability.startDate || item.availability.endDate}
                             <div>
                                 <h3
                                     class="text-sm font-semibold text-muted-foreground mb-1"
                                 >
                                     Availability
                                 </h3>
-                                <p class="text-base">
-                                    {start.toLocaleDateString("en-US", {
-                                        month: "short",
-                                        day: "numeric",
-                                        year: "numeric",
-                                    })} - {end.toLocaleDateString("en-US", {
-                                        month: "short",
-                                        day: "numeric",
-                                        year: "numeric",
-                                    })}
-                                </p>
+                                <p class="text-base">{availabilityLabel(item)}</p>
                                 <div class="flex flex-wrap gap-2 mt-2">
-                                    {#if start <= new Date("2025-10-31") && end >= new Date("2025-10-31")}
-                                        <div>🎃</div>
+                                    {#if isAvailableOn(item, "2026-05-04")}
+                                        <div title="Available on May the 4th">✨</div>
                                     {/if}
-                                    {#if start <= new Date("2025-11-30") && end >= new Date("2025-11-30")}
-                                        <div>🦃</div>
-                                    {/if}
-                                    {#if start <= new Date("2025-12-31") && end >= new Date("2025-12-31")}
-                                        <div>🎄</div>
+                                    {#if isAvailableOn(item, "2026-05-31")}
+                                        <div title="Available through May">🗓️</div>
                                     {/if}
                                 </div>
                             </div>
                         {/if}
 
-                        <!-- {#if item.tags.length > 0}
-                            <div>
-                                <h3
-                                    class="text-sm font-semibold text-muted-foreground mb-2"
-                                >
-                                    Tags
-                                </h3>
-                                <div class="flex flex-wrap gap-2">
-                                    {#each item.tags as tag}
-                                        <Badge
-                                            variant="outline"
-                                            class="text-sm"
-                                        >
-                                            {tag.replace(/-/g, " ")}
-                                        </Badge>
-                                    {/each}
-                                </div>
-                            </div>
-                        {/if} -->
                     </div>
                 </div>
             </div>

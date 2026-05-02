@@ -1,4 +1,4 @@
-// TypeScript type definitions for Disneyland Holiday Food Guide
+// TypeScript type definitions for Disney food guides
 
 export interface FoodItem {
 	id: number;

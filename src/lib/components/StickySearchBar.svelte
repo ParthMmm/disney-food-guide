@@ -3,7 +3,6 @@ import { Search, X } from "lucide-svelte";
 import { Input } from "$lib/components/ui/input";
 import { Button } from "$lib/components/ui/button";
 import { filtersStore } from "$lib/stores/filters.svelte";
-import { onMount } from "svelte";
 
 let {
 	topSearchElement,
@@ -13,12 +12,14 @@ let {
 
 let isVisible = $state(false);
 
-onMount(() => {
-	if (!topSearchElement) return;
+$effect(() => {
+	if (!topSearchElement) {
+		isVisible = false;
+		return;
+	}
 
 	const observer = new IntersectionObserver(
 		(entries) => {
-			// Show sticky bar when top search is not visible
 			isVisible = !entries[0].isIntersecting;
 		},
 		{
