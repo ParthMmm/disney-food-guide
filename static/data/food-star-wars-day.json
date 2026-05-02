@@ -1,528 +1,140 @@
 {
 	"metadata": {
 		"generatedAt": "2026-05-02T00:03:54.123Z",
-		"totalItems": 24,
-		"dataSource": "Disney’s Hollywood Studios Star Wars Day 2026 Food Guide",
+		"totalItems": 6,
+		"dataSource": "Disneyland Park Star Wars Novelties 2026 Food Guide",
 		"filters": {
 			"locations": [
-				"Disney’s Hollywood Studios"
+				"Disneyland Park"
 			],
 			"restaurants": [
-				"Available Throughout the Park",
-				"Backlot Express",
+				"Alien Pizza Planet",
 				"Docking Bay 7 Food and Cargo",
+				"Galactic Grill",
 				"Kat Saka’s Kettle",
 				"Milk Stand",
-				"Multiple Locations Throughout Disney’s Hollywood Studios",
 				"Oga’s Cantina",
+				"Popcorn near Star Trader",
 				"Ronto Roasters",
-				"Star Wars Novelties"
+				"Star Wars Novelties",
+				"Star Wars: Galaxy’s Edge Beverage Carts",
+				"Tomorrowland Fruit Cart"
 			],
 			"categories": [
-				"baked-dessert",
-				"churro",
-				"cocktail",
-				"entree-side",
-				"other",
-				"salad",
-				"soft-drink",
 				"trinkets"
 			],
 			"allTags": [
-				"alcoholic",
-				"apple",
-				"baked-goods",
 				"character-themed",
-				"chocolate",
-				"churro",
-				"cocktail",
-				"cold",
-				"contains-dairy",
-				"contains-nuts",
-				"dessert",
-				"limited-time",
-				"meal",
-				"non-alcoholic",
-				"salty",
-				"savory",
-				"spicy",
-				"vegan"
+				"limited-time"
 			]
 		}
 	},
 	"items": [
 		{
 			"id": 1,
-			"name": "Pink Milk",
-			"description": "Plant-based rice milk blend with sweet and fruity characteristics (Non-alcoholic)",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Milk Stand",
+			"name": "Salvaged Protocol Droid Bucket",
+			"description": "Available at Popcorn near Star Trader, Galactic Grill’s Seasonal Novelty Release through Mobile Order, Alien Pizza Planet, Kat Saka’s Kettle, and Star Wars: Galaxy’s Edge Beverage Carts.",
+			"location": "Disneyland Park",
+			"restaurant": "Star Wars Novelties",
 			"price": null,
-			"category": "soft-drink",
-			"itemType": "Beverage",
-			"mobileOrderAvailable": false,
+			"category": "trinkets",
+			"itemType": "Novelty",
+			"mobileOrderAvailable": true,
 			"availability": {
-				"startDate": "2026-05-01",
+				"startDate": "2026-04-28",
 				"endDate": null
 			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-PinkMilk.jpg",
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DLR-Star-Wars-Novelties-6.jpg",
 			"tags": [
-				"non-alcoholic",
-				"cold",
-				"vegan",
-				"limited-time",
-				"character-themed"
+				"character-themed",
+				"limited-time"
 			]
 		},
 		{
 			"id": 2,
-			"name": "Pink Milk Cooler",
-			"description": "Plant-based rice milk blend with sweet and fruity characteristics and Bacardi Superior Rum",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Milk Stand",
+			"name": "Bantha Sipper",
+			"description": "Available at Milk Stand, Galactic Grill, Galactic Grill’s Seasonal Novelty Release through Mobile Order, Alien Pizza Planet, and Tomorrowland Fruit Cart.",
+			"location": "Disneyland Park",
+			"restaurant": "Star Wars Novelties",
 			"price": null,
-			"category": "cocktail",
-			"itemType": "Beverage",
-			"mobileOrderAvailable": false,
+			"category": "trinkets",
+			"itemType": "Novelty",
+			"mobileOrderAvailable": true,
 			"availability": {
-				"startDate": "2026-05-01",
+				"startDate": "2026-04-28",
 				"endDate": null
 			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-PinkMilk.jpg",
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DLR-Star-Wars-Novelties-3.jpg",
 			"tags": [
-				"alcoholic",
-				"cocktail",
-				"cold",
-				"limited-time",
-				"character-themed"
+				"character-themed",
+				"limited-time"
 			]
 		},
 		{
 			"id": 3,
-			"name": "Kerkoiden Blue Cake",
-			"description": "Spiced vanilla shortbread cookie with ginger cream cheese icing",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Milk Stand",
+			"name": "Rechargeable Luke Skywalker Lightsaber Swizzle Stick",
+			"description": "Available at Galactic Grill, Galactic Grill’s Seasonal Novelty Release through Mobile Order, Ronto Roasters, Milk Stand, and Docking Bay 7 Food and Cargo.",
+			"location": "Disneyland Park",
+			"restaurant": "Star Wars Novelties",
 			"price": null,
-			"category": "baked-dessert",
-			"itemType": "Dessert",
-			"mobileOrderAvailable": false,
+			"category": "trinkets",
+			"itemType": "Novelty",
+			"mobileOrderAvailable": true,
 			"availability": {
-				"startDate": "2026-05-01",
+				"startDate": "2026-04-28",
 				"endDate": null
 			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-BlueCake.jpg",
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DLR-Star-Wars-Novelties-9.jpeg",
 			"tags": [
-				"dessert",
-				"baked-goods",
-				"contains-dairy",
-				"limited-time",
-				"character-themed"
+				"character-themed",
+				"limited-time"
 			]
 		},
 		{
 			"id": 4,
-			"name": "Batuu Bites",
-			"description": "Blue corn, barbecue, and curry spice chips with lotus root, green bean chips, and herb dip",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Oga’s Cantina",
+			"name": "Rechargeable Darth Vader Lightsaber Swizzle Stick",
+			"description": "Available at Galactic Grill, Galactic Grill’s Seasonal Novelty Release through Mobile Order, Ronto Roasters, Milk Stand, and Docking Bay 7 Food and Cargo.",
+			"location": "Disneyland Park",
+			"restaurant": "Star Wars Novelties",
 			"price": null,
-			"category": "entree-side",
-			"itemType": "Snack",
-			"mobileOrderAvailable": false,
+			"category": "trinkets",
+			"itemType": "Novelty",
+			"mobileOrderAvailable": true,
 			"availability": {
-				"startDate": "2026-05-04",
+				"startDate": "2026-04-28",
 				"endDate": null
 			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-BatuuBites.jpg",
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DLR-Star-Wars-Novelties-8.jpeg",
 			"tags": [
-				"savory",
-				"limited-time",
-				"character-themed"
+				"character-themed",
+				"limited-time"
 			]
 		},
 		{
 			"id": 5,
-			"name": "The Roaring Loth-Cat",
-			"description": "Minute Maid Apple Juice, lemon, and cinnamon with Seagram’s Ginger Ale (Non-alcoholic)",
-			"location": "Disney’s Hollywood Studios",
+			"name": "DJ R-3X Mug",
+			"description": "Available at Oga’s Cantina.",
+			"location": "Disneyland Park",
 			"restaurant": "Oga’s Cantina",
 			"price": null,
-			"category": "soft-drink",
-			"itemType": "Beverage",
+			"category": "trinkets",
+			"itemType": "Novelty",
 			"mobileOrderAvailable": false,
 			"availability": {
-				"startDate": "2026-05-04",
+				"startDate": "2026-04-28",
 				"endDate": null
 			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-RoaringLoth.jpg",
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DLR-Star-Wars-Novelties-10.jpeg",
 			"tags": [
-				"non-alcoholic",
-				"cold",
-				"apple",
-				"limited-time",
-				"character-themed"
+				"character-themed",
+				"limited-time"
 			]
 		},
 		{
 			"id": 6,
-			"name": "Three Suns Over Batuu",
-			"description": "Minute Maid Premium Lemonade with hot honey, DOLE Pineapple Juice, mango, guava, and ginger (Non-alcoholic)",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Oga’s Cantina",
-			"price": null,
-			"category": "soft-drink",
-			"itemType": "Beverage",
-			"mobileOrderAvailable": false,
-			"availability": {
-				"startDate": "2026-05-04",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-ThreeSuns.jpg",
-			"tags": [
-				"non-alcoholic",
-				"cold",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 7,
-			"name": "Kamino Cooler Served in DJ R-3X Souvenir Mug",
-			"description": "Tito’s Handmade Vodka, Bols Blue Curaçao Liqueur, passion fruit syrup, DOLE Pineapple Juice, and lime juice",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Oga’s Cantina",
-			"price": null,
-			"category": "cocktail",
-			"itemType": "Beverage",
-			"mobileOrderAvailable": false,
-			"availability": {
-				"startDate": "2026-05-04",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-Yocola.jpg",
-			"tags": [
-				"alcoholic",
-				"cocktail",
-				"cold",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 8,
-			"name": "Keshian Spiced Chips",
-			"description": "Lotus root chips tossed in cinnamon sugar",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Kat Saka’s Kettle",
-			"price": null,
-			"category": "other",
-			"itemType": "Snack",
-			"mobileOrderAvailable": true,
-			"availability": {
-				"startDate": "2026-05-01",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-SpicedChips.jpg",
-			"tags": [
-				"limited-time",
-				"character-themed",
-				"dessert"
-			]
-		},
-		{
-			"id": 9,
-			"name": "Ettel Nuts",
-			"description": "Assortment of sweet, spicy, and queso fundido nuts with chocolate candy rocks",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Ronto Roasters",
-			"price": null,
-			"category": "other",
-			"itemType": "Snack",
-			"mobileOrderAvailable": false,
-			"availability": {
-				"startDate": "2026-05-01",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-EttelNuts.jpg",
-			"tags": [
-				"contains-nuts",
-				"chocolate",
-				"spicy",
-				"salty",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 10,
-			"name": "Your Chosen Path Cupcake",
-			"description": "Cookies and cream cupcake, marshmallow buttercream, white chocolate X-Wing, and milk chocolate rocks. Inside the cupcake, a secret lightsaber color will reveal itself!",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Backlot Express",
-			"price": null,
-			"category": "baked-dessert",
-			"itemType": "Dessert",
-			"mobileOrderAvailable": true,
-			"availability": {
-				"startDate": "2026-05-01",
-				"endDate": "2026-05-31"
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-Cupcake.jpg",
-			"tags": [
-				"dessert",
-				"baked-goods",
-				"chocolate",
-				"contains-dairy",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 11,
-			"name": "Wookiee Cookie",
-			"description": "Two oatmeal cookies with vanilla cream filling garnished with a milk chocolate sash on top",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Backlot Express",
-			"price": null,
-			"category": "baked-dessert",
-			"itemType": "Dessert",
-			"mobileOrderAvailable": true,
-			"availability": {
-				"startDate": "2026-05-01",
-				"endDate": "2026-05-31"
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-WookieCookie.jpg",
-			"tags": [
-				"dessert",
-				"baked-goods",
-				"chocolate",
-				"contains-dairy",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 12,
-			"name": "Lightsaber Churro",
-			"description": "Served with chocolate sauce",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Available Throughout the Park",
-			"price": null,
-			"category": "churro",
-			"itemType": "Snack",
-			"mobileOrderAvailable": false,
-			"availability": {
-				"startDate": "2026-05-01",
-				"endDate": "2026-05-31"
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-LightsaberChurro.jpg",
-			"tags": [
-				"churro",
-				"dessert",
-				"chocolate",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 13,
-			"name": "Endorian Fried Chicken Tip-Yip",
-			"description": "Crispy chicken served with house-made macaroni and roasted vegetables garnished with cauliflower leaf kimchi",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Docking Bay 7 Food and Cargo",
-			"price": null,
-			"category": "entree-side",
-			"itemType": "Entrée",
-			"mobileOrderAvailable": true,
-			"availability": {
-				"startDate": "2026-05-01",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-ChickenTipYip.jpg",
-			"tags": [
-				"meal",
-				"savory",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 14,
-			"name": "Shaak Pot Roast with Kublag Mash",
-			"description": "Birria pot roast with turmeric-garlic mash and roasted carrots",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Docking Bay 7 Food and Cargo",
-			"price": null,
-			"category": "entree-side",
-			"itemType": "Entrée",
-			"mobileOrderAvailable": true,
-			"availability": {
-				"startDate": "2026-05-01",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-PotRoast.jpg",
-			"tags": [
-				"meal",
-				"savory",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 15,
-			"name": "Sweet Puffer Pig Ribs with Portion Bread",
-			"description": "Pork ribs brushed with tangy BBQ sauce and served with mac & cheese and sponge cake",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Docking Bay 7 Food and Cargo",
-			"price": null,
-			"category": "entree-side",
-			"itemType": "Entrée",
-			"mobileOrderAvailable": true,
-			"availability": {
-				"startDate": "2026-05-01",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-Ribs.jpg",
-			"tags": [
-				"meal",
-				"savory",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 16,
-			"name": "Endorian Chicken Tip-Yip Salad",
-			"description": "Guava BBQ chicken with avocado-jalapeño dressing, arugula, radish, romaine lettuce, cucumber, red onion, haricot vert, pineapple, and rice noodles",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Docking Bay 7 Food and Cargo",
-			"price": null,
-			"category": "salad",
-			"itemType": "Entrée",
-			"mobileOrderAvailable": true,
-			"availability": {
-				"startDate": "2026-05-01",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-ChickenSalad.jpg",
-			"tags": [
-				"meal",
-				"savory",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 17,
-			"name": "Chosen One Cooler",
-			"description": "A crisp, refreshing blend of Granny Smith apple with white cranberry and lime juices served with a green Rechargeable Luke Skywalker Lightsaber Swizzle Stick (Non-alcoholic). Also available with Absolut Citron Vodka. Available at ABC Commissary, Backlot Express, Rosie’s All-American Café, Hollywood Hills Amphitheater Refreshments near Fantasmic!, and Snack Cart near Hollywood Boulevard.",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Multiple Locations Throughout Disney’s Hollywood Studios",
-			"price": null,
-			"category": "soft-drink",
-			"itemType": "Beverage",
-			"mobileOrderAvailable": false,
-			"availability": {
-				"startDate": "2026-05-04",
-				"endDate": "2026-05-31"
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-GreenSwizzleStick.jpg",
-			"tags": [
-				"non-alcoholic",
-				"apple",
-				"cold",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 18,
-			"name": "Sith Lord Libation",
-			"description": "A flavorful combination of blood orange with white cranberry and lime juices served with a Rechargeable Darth Vader Lightsaber Swizzle Stick (Non-alcoholic). Also available with Absolut Citron Vodka. Available at ABC Commissary, Backlot Express, Rosie’s All-American Café, Hollywood Hills Amphitheater Refreshments near Fantasmic!, and Snack Cart near Hollywood Boulevard.",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Multiple Locations Throughout Disney’s Hollywood Studios",
-			"price": null,
-			"category": "soft-drink",
-			"itemType": "Beverage",
-			"mobileOrderAvailable": false,
-			"availability": {
-				"startDate": "2026-05-04",
-				"endDate": "2026-05-31"
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-RedSwizzleStick.jpg",
-			"tags": [
-				"non-alcoholic",
-				"cold",
-				"limited-time",
-				"character-themed"
-			]
-		},
-		{
-			"id": 19,
-			"name": "Salvaged Protocol Droid Bucket",
-			"description": "Available at Ice Cold Hydraulics, Hollywood Hills Amphitheater Refreshments near Fantasmic!, Popcorn Cart near Center Stage, and Mobile Order via Disney’s Hollywood Studios Souvenir Release Store",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Star Wars Novelties",
-			"price": null,
-			"category": "trinkets",
-			"itemType": "Novelty",
-			"mobileOrderAvailable": true,
-			"availability": {
-				"startDate": "2026-05-04",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-DroidBucket.jpg",
-			"tags": [
-				"character-themed",
-				"limited-time"
-			]
-		},
-		{
-			"id": 20,
-			"name": "Bantha Sipper",
-			"description": "Available at Milk Stand, ABC Commissary, Backlot Express, Fairfax Fare, Hollywood Hills Amphitheater Refreshments near Fantasmic!, and Outdoor Food Carts near the Main Entrance",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Star Wars Novelties",
-			"price": null,
-			"category": "trinkets",
-			"itemType": "Novelty",
-			"mobileOrderAvailable": false,
-			"availability": {
-				"startDate": "2026-05-04",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-BanthaSipper.jpg",
-			"tags": [
-				"character-themed",
-				"limited-time"
-			]
-		},
-		{
-			"id": 21,
-			"name": "DJ R-3X Mug",
-			"description": "Available at Oga’s Cantina",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Star Wars Novelties",
-			"price": null,
-			"category": "trinkets",
-			"itemType": "Novelty",
-			"mobileOrderAvailable": false,
-			"availability": {
-				"startDate": "2026-05-04",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-DJMug.jpg",
-			"tags": [
-				"character-themed",
-				"limited-time"
-			]
-		},
-		{
-			"id": 22,
 			"name": "Jabba’s Sail Barge Bucket",
-			"description": "Mobile Order via Disney’s Hollywood Studios Souvenir Release Store on May 4 and 5; Kat Saka’s Kettle starting May 6",
-			"location": "Disney’s Hollywood Studios",
+			"description": "Available at Popcorn near Star Trader, Galactic Grill’s Seasonal Novelty Release through Mobile Order on May 4, 5, and 6, Alien Pizza Planet, Kat Saka’s Kettle, and Star Wars: Galaxy’s Edge Beverage Carts.",
+			"location": "Disneyland Park",
 			"restaurant": "Star Wars Novelties",
 			"price": null,
 			"category": "trinkets",
@@ -532,47 +144,7 @@
 				"startDate": "2026-05-04",
 				"endDate": null
 			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-BargeNovelty.jpg",
-			"tags": [
-				"character-themed",
-				"limited-time"
-			]
-		},
-		{
-			"id": 23,
-			"name": "Rechargeable Luke Skywalker Lightsaber Swizzle Stick",
-			"description": "Docking Bay 7 Food and Cargo, served with the Moof Juice or Takondana Quencher; Oga’s Cantina, served with Jabba Juice or Outer Rim",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Star Wars Novelties",
-			"price": null,
-			"category": "trinkets",
-			"itemType": "Novelty",
-			"mobileOrderAvailable": false,
-			"availability": {
-				"startDate": "2026-05-04",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-GreenSwizzleStick.jpg",
-			"tags": [
-				"character-themed",
-				"limited-time"
-			]
-		},
-		{
-			"id": 24,
-			"name": "Rechargeable Darth Vader Lightsaber Swizzle Stick",
-			"description": "Docking Bay 7 Food and Cargo, served with the Moof Juice or Takondana Quencher; Oga’s Cantina, served with Jabba Juice or Outer Rim",
-			"location": "Disney’s Hollywood Studios",
-			"restaurant": "Star Wars Novelties",
-			"price": null,
-			"category": "trinkets",
-			"itemType": "Novelty",
-			"mobileOrderAvailable": false,
-			"availability": {
-				"startDate": "2026-05-04",
-				"endDate": null
-			},
-			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DX-MT4-Foodie-Guide-RedSwizzleStick.jpg",
+			"imageUrl": "https://disneyparksblog.com/app/uploads/2026/04/2026-DLR-Star-Wars-Novelties-5.jpg",
 			"tags": [
 				"character-themed",
 				"limited-time"

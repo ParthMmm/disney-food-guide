@@ -291,7 +291,7 @@ function handleItemClick(item: FoodItem) {
             >
             <span class="ml-1">items</span>
             <span class="mx-1.5 opacity-40">·</span>
-            <span>Hollywood Studios</span>
+            <span>{metadata.filters.locations[0]}</span>
         </p>
     </header>
 

@@ -8,19 +8,19 @@ const itemCount = $derived(data.foodData.items.length);
 </script>
 
 <svelte:head>
-    <title>May the 4th — Star Wars Nite Foodie Transmission | {itemCount} Provisions</title>
+    <title>May the 4th — Disneyland Park Star Wars Novelties | {itemCount} Items</title>
     <meta
         name="description"
-        content="A field guide to the {itemCount} treats, drinks, and trinkets dropping for Star Wars Day — tags, mobile ordering, and offline access."
+        content="A Disneyland Park guide to the {itemCount} Star Wars novelties available in Anaheim — locations, mobile ordering, and offline access."
     />
     <meta name="theme-color" content="#0c1024" />
     <meta
         property="og:title"
-        content="May the 4th — Star Wars Nite Foodie Transmission"
+        content="May the 4th — Disneyland Park Star Wars Novelties"
     />
     <meta
         property="og:description"
-        content="Plot your route: {itemCount} provisions logged for Star Wars Day."
+        content="Plot your Anaheim route: {itemCount} Disneyland Park Star Wars novelties logged."
     />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://disney-food-guide.parthmangrola.workers.dev/og-image.png" />
@@ -29,8 +29,8 @@ const itemCount = $derived(data.foodData.items.length);
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Star Wars Day Eats — May the 4th field guide" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="May the 4th — Star Wars Nite Foodie Transmission" />
-    <meta name="twitter:description" content="A field guide to the treats, drinks & trinkets dropping for Star Wars Day." />
+    <meta name="twitter:title" content="May the 4th — Disneyland Park Star Wars Novelties" />
+    <meta name="twitter:description" content="A guide to Star Wars novelties at Disneyland Park in Anaheim." />
     <meta name="twitter:image" content="https://disney-food-guide.parthmangrola.workers.dev/og-image.png" />
 </svelte:head>
 
