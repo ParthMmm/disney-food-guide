@@ -25,6 +25,7 @@ let topSearchElement = $state<HTMLElement>();
 const { metadata, items } = data.foodData;
 const categories = metadata.filters.categories;
 const allTags = metadata.filters.allTags;
+const locations = metadata.filters.locations;
 
 const categoryOrder = [
 	"churro",
@@ -35,6 +36,7 @@ const categoryOrder = [
 	"coffee-tea",
 	"soft-drink",
 	"entree-side",
+	"trinkets",
 	"other",
 	"beer",
 	"wine-cider",
@@ -45,14 +47,16 @@ const categoryOrder = [
 
 const dates = [
 	{
-		id: "thanksgiving",
-		name: "Thanksgiving",
-		label: "🦃",
+		id: "may4",
+		name: "May the 4th",
+		label: "✨",
+		date: "2026-05-04",
 	},
 	{
-		id: "christmas",
-		name: "Christmas",
-		label: "🎄",
+		id: "may31",
+		name: "Available through May",
+		label: "🗓️",
+		date: "2026-05-31",
 	},
 ];
 
@@ -104,20 +108,20 @@ const filteredItems = $derived.by(() => {
 		}
 
 		if (filtersStore.selectedDates.size > 0) {
+			const start = item.availability.startDate
+				? new Date(item.availability.startDate)
+				: null;
 			const end = item.availability.endDate
 				? new Date(item.availability.endDate)
 				: null;
 
-			if (!end) return false;
-
 			const matchesAnyDate = Array.from(filtersStore.selectedDates).some(
 				(dateFilter) => {
-					const cutoffDate =
-						dateFilter === "thanksgiving"
-							? new Date("2025-11-30")
-							: new Date("2025-12-31");
+					const selectedDate = dates.find((date) => date.id === dateFilter);
+					if (!selectedDate) return false;
 
-					return end <= cutoffDate;
+					const date = new Date(selectedDate.date);
+					return (!start || date >= start) && (!end || date <= end);
 				},
 			);
 
@@ -181,25 +185,15 @@ const activeFilters = $derived.by(() => {
 		});
 	}
 
-	if (filtersStore.selectedLocations.has("Disneyland")) {
+	filtersStore.selectedLocations.forEach((location) => {
 		filters.push({
-			id: "location-disneyland",
-			label: "🏰 Disneyland",
+			id: `location-${location}`,
+			label: location,
 			onRemove: () => {
-				filtersStore.toggleLocation("Disneyland");
+				filtersStore.toggleLocation(location);
 			},
 		});
-	}
-
-	if (filtersStore.selectedLocations.has("California Adventure")) {
-		filters.push({
-			id: "location-dca",
-			label: "🎡 California Adventure",
-			onRemove: () => {
-				filtersStore.toggleLocation("California Adventure");
-			},
-		});
-	}
+	});
 
 	filtersStore.selectedDates.forEach((dateId) => {
 		const date = dates.find((d) => d.id === dateId);
@@ -251,10 +245,9 @@ function handleItemClick(item: FoodItem) {
 
 <div class="container mx-auto px-4 py-3 max-w-7xl">
     <header class="text-center my-4 mt-12">
-        <h1 class="text-4xl font-bold mb-2">🎄</h1>
+        <h1 class="text-4xl font-bold mb-2">✨ Star Wars Day Food Guide</h1>
         <p class="text-muted-foreground">
-            <span class="text-primary">{filteredItems.length} </span> / {metadata.totalItems -
-                1}
+            <span class="text-primary">{filteredItems.length} </span> / {metadata.totalItems}
         </p>
     </header>
 
@@ -265,6 +258,7 @@ function handleItemClick(item: FoodItem) {
                     bind:open={filterSheetOpen}
                     {categories}
                     {allTags}
+                    {locations}
                     {activeFilters}
                 >
                     <Button

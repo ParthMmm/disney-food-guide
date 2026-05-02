@@ -1,58 +1,66 @@
 {
-	// Make Biome the formatter everywhere in this project
+	// Use the Oxc extension for Oxlint diagnostics/fixes and Oxfmt formatting.
 	"formatter": "language_server",
 	"format_on_save": "on",
 	"languages": {
 		"JavaScript": {
-			// Run Biome as the LS so you get diagnostics + code actions
-			"language_servers": ["biome"],
-			"formatter": {
-				"language_server": {
-					"name": "biome"
+			"language_servers": ["oxlint", "oxfmt"],
+			"formatter": [
+				{
+					"language_server": {
+						"name": "oxfmt"
+					}
+				},
+				{
+					"code_action": "source.fixAll.oxc"
 				}
-			},
-			"code_actions_on_format": {
-				"source.fixAll.biome": true,
-				"source.organizeImports.biome": true
-			}
+			]
 		},
 		"TypeScript": {
-			// vtsls for TS brains, Biome for lint/format/imports
-			"language_servers": [
-				"!typescript-language-server",
-				"vtsls",
-				"biome",
-				"tsgo"
-			],
-			"formatter": {
-				"language_server": {
-					"name": "biome"
+			"language_servers": ["!typescript-language-server", "vtsls", "tsgo", "oxlint", "oxfmt"],
+			"formatter": [
+				{
+					"language_server": {
+						"name": "oxfmt"
+					}
+				},
+				{
+					"code_action": "source.fixAll.oxc"
 				}
-			},
-			"code_actions_on_format": {
-				"source.fixAll.biome": true,
-				"source.organizeImports.biome": true
-			}
+			]
 		},
 		"TSX": {
-			"language_servers": [
-				"!typescript-language-server",
-				"vtsls",
-				"biome",
-				"tsgo"
-			],
-			"formatter": {
-				"language_server": {
-					"name": "biome"
+			"language_servers": ["!typescript-language-server", "vtsls", "tsgo", "oxlint", "oxfmt"],
+			"formatter": [
+				{
+					"language_server": {
+						"name": "oxfmt"
+					}
+				},
+				{
+					"code_action": "source.fixAll.oxc"
 				}
-			},
-			"code_actions_on_format": {
-				"source.fixAll.biome": true,
-				"source.organizeImports.biome": true
-			}
+			]
 		}
 	},
 	"lsp": {
+		"oxlint": {
+			"initialization_options": {
+				"settings": {
+					"configPath": ".oxlintrc.json",
+					"run": "onType",
+					"fixKind": "safe_fix"
+				}
+			}
+		},
+		"oxfmt": {
+			"initialization_options": {
+				"settings": {
+					"fmt.configPath": ".oxfmtrc.json",
+					"run": "onSave"
+				}
+			}
+		},
 		// Tailwind: robust class extraction for shadcn helpers
 		"tailwindcss-language-server": {
 			"settings": {

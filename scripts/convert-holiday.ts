@@ -216,18 +216,13 @@ function parseDate(dateStr: string, year: number): string {
 	return `${year}-01-01`;
 }
 
-function generateTags(
-	name: string,
-	description: string,
-	price: number | null,
-): string[] {
+function generateTags(name: string, description: string, price: number | null): string[] {
 	const tags: Set<string> = new Set();
 	const combined = `${name} ${description}`.toLowerCase();
 
 	// Alcoholic/Non-alcoholic - check explicitly for non-alcoholic first
 	const isExplicitlyNonAlcoholic =
-		combined.includes("(non-alcoholic)") ||
-		combined.includes("non-alcoholic");
+		combined.includes("(non-alcoholic)") || combined.includes("non-alcoholic");
 
 	const hasAlcohol =
 		combined.includes("vodka") ||
@@ -270,10 +265,7 @@ function generateTags(
 	}
 
 	// Plant-based/Vegan
-	if (
-		combined.includes("plant-based") ||
-		combined.includes("(plant-based)")
-	) {
+	if (combined.includes("plant-based") || combined.includes("(plant-based)")) {
 		tags.add("plant-based");
 		tags.add("vegan");
 	}
@@ -326,11 +318,7 @@ function generateTags(
 		tags.add("sweet");
 	}
 
-	if (
-		combined.includes("savory") ||
-		combined.includes("dinner") ||
-		combined.includes("meal")
-	) {
+	if (combined.includes("savory") || combined.includes("dinner") || combined.includes("meal")) {
 		tags.add("savory");
 	}
 
@@ -412,9 +400,7 @@ function parseMarkdown(content: string): FoodItem[] {
 					.trim();
 
 				// Check if mobile order is available
-				mobileOrderAvailable = line
-					.toLowerCase()
-					.includes("(mobile order)");
+				mobileOrderAvailable = line.toLowerCase().includes("(mobile order)");
 			}
 		}
 
@@ -478,16 +464,34 @@ function parseMarkdown(content: string): FoodItem[] {
 
 				// Check if item contains meat (red meat or animal protein)
 				const meatKeywords = [
-					"beef", "steak", "prime rib", "brisket", "meatball", "bacon",
-					"pork", "ham", "sausage", "chorizo", "carnitas",
-					"chicken", "turkey", "duck",
-					"lamb", "veal",
-					"salmon", "tuna", "shrimp", "fish", "seafood", "crab", "lobster",
+					"beef",
+					"steak",
+					"prime rib",
+					"brisket",
+					"meatball",
+					"bacon",
+					"pork",
+					"ham",
+					"sausage",
+					"chorizo",
+					"carnitas",
+					"chicken",
+					"turkey",
+					"duck",
+					"lamb",
+					"veal",
+					"salmon",
+					"tuna",
+					"shrimp",
+					"fish",
+					"seafood",
+					"crab",
+					"lobster",
 					"impossible meatball", // plant-based alternatives should still be excluded if they say "meatball"
 				];
 
 				const combinedForMeatCheck = `${cleanName} ${cleanDescription}`.toLowerCase();
-				const hasMeat = meatKeywords.some(keyword => combinedForMeatCheck.includes(keyword));
+				const hasMeat = meatKeywords.some((keyword) => combinedForMeatCheck.includes(keyword));
 
 				if (hasMeat) {
 					console.log(`Skipping meat item: ${cleanName}`);
@@ -576,12 +580,7 @@ function generateMetadata(items: FoodItem[]): FoodGuideData["metadata"] {
 
 async function main() {
 	const holidayMdPath = path.join(process.cwd(), "holiday.md");
-	const outputPath = path.join(
-		process.cwd(),
-		"static",
-		"data",
-		"food-holiday.json",
-	);
+	const outputPath = path.join(process.cwd(), "static", "data", "food-holiday.json");
 
 	console.log("Reading holiday.md...");
 	const content = fs.readFileSync(holidayMdPath, "utf-8");

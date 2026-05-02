@@ -13,6 +13,7 @@ This JSON file contains all Holiday and Christmas food and beverage items at Dis
 ## 🏗️ Data Structure
 
 ### Root Object
+
 ```typescript
 {
   metadata: FoodGuideMetadata,
@@ -24,21 +25,21 @@ This JSON file contains all Holiday and Christmas food and beverage items at Dis
 
 Each item contains:
 
-| Field | Type | Description |
-|-------|------|-------------|
-| `id` | number | Unique identifier |
-| `name` | string | Item name |
-| `description` | string \| null | Detailed description |
-| `location` | string \| null | Park/hotel location |
-| `restaurant` | string \| null | Specific restaurant/vendor |
-| `price` | number \| null | Price in USD |
-| `category` | FoodCategory | Main category |
-| `itemType` | string \| null | Original item type from spreadsheet |
-| `mobileOrderAvailable` | boolean | Can be ordered via mobile app |
-| `availability.startDate` | string \| null | First available date (YYYY-MM-DD) |
-| `availability.endDate` | string \| null | Last available date (YYYY-MM-DD) |
-| `imageUrl` | string \| null | Link to item image |
-| `tags` | string[] | Filterable tags |
+| Field                    | Type           | Description                         |
+| ------------------------ | -------------- | ----------------------------------- |
+| `id`                     | number         | Unique identifier                   |
+| `name`                   | string         | Item name                           |
+| `description`            | string \| null | Detailed description                |
+| `location`               | string \| null | Park/hotel location                 |
+| `restaurant`             | string \| null | Specific restaurant/vendor          |
+| `price`                  | number \| null | Price in USD                        |
+| `category`               | FoodCategory   | Main category                       |
+| `itemType`               | string \| null | Original item type from spreadsheet |
+| `mobileOrderAvailable`   | boolean        | Can be ordered via mobile app       |
+| `availability.startDate` | string \| null | First available date (YYYY-MM-DD)   |
+| `availability.endDate`   | string \| null | Last available date (YYYY-MM-DD)    |
+| `imageUrl`               | string \| null | Link to item image                  |
+| `tags`                   | string[]       | Filterable tags                     |
 
 ## 🏷️ Categories
 
@@ -67,23 +68,27 @@ Each item contains:
 ## 🏷️ Available Tags
 
 ### Dietary & Allergen Tags
+
 - `vegan` - Plant-based, no animal products
 - `vegetarian` - No meat (all items in this dataset)
 - `contains-dairy` - Has milk, cheese, cream, etc. (86 items)
 - `contains-nuts` - Contains nuts or nut products
 
 ### Price Tags
+
 - `budget-friendly` - Under $8 (65 items)
 - `moderate-price` - $8-$15 (36 items)
 - `premium-price` - Over $15 (39 items)
 
 ### Beverage Tags
+
 - `alcoholic` / `non-alcoholic`
 - `beer`, `cocktail`, `wine-cider`, `hard-seltzer`
 - `coffee-tea` (37 items)
 - `soft-drink`
 
 ### Flavor Profile Tags
+
 - `pumpkin-spice` (32 items) - Fall flavors
 - `chocolate` (62 items)
 - `caramel` (31 items)
@@ -92,6 +97,7 @@ Each item contains:
 - `spicy` - Has heat/spice
 
 ### Special Features
+
 - `character-themed` (36 items) - Mickey, Minnie, Oogie Boogie, etc.
 - `limited-time` - Seasonal availability
 - `cold` / `hot` - Temperature serving
@@ -100,111 +106,119 @@ Each item contains:
 ## 🎯 SvelteKit Usage Examples
 
 ### Load Data in +page.ts
+
 ```typescript
-import { error } from '@sveltejs/kit';
-import type { PageLoad } from './$types';
-import type { FoodGuideData } from '$lib/types/types';
+import { error } from "@sveltejs/kit";
+import type { PageLoad } from "./$types";
+import type { FoodGuideData } from "$lib/types/types";
 
 export const load: PageLoad = async ({ fetch }) => {
-  const response = await fetch('/data/food.json');
+	const response = await fetch("/data/food.json");
 
-  if (!response.ok) {
-    throw error(response.status, 'Failed to load food guide data');
-  }
+	if (!response.ok) {
+		throw error(response.status, "Failed to load food guide data");
+	}
 
-  const foodData = (await response.json()) as FoodGuideData;
+	const foodData = (await response.json()) as FoodGuideData;
 
-  return {
-    foodData,
-  };
+	return {
+		foodData,
+	};
 };
 ```
 
 ### Filter by Category
+
 ```typescript
-const desserts = items.filter(item => 
-  ['baked-dessert', 'frozen-dessert', 'specialty-dessert', 'dessert']
-    .includes(item.category)
+const desserts = items.filter((item) =>
+	["baked-dessert", "frozen-dessert", "specialty-dessert", "dessert"].includes(item.category),
 );
 ```
 
 ### Filter by Tags
+
 ```typescript
 // Get all vegan desserts
-const veganDesserts = items.filter(item =>
-  item.tags.includes('vegan') && item.tags.includes('dessert')
+const veganDesserts = items.filter(
+	(item) => item.tags.includes("vegan") && item.tags.includes("dessert"),
 );
 
 // Get character-themed items
-const characterItems = items.filter(item =>
-  item.tags.includes('character-themed')
-);
+const characterItems = items.filter((item) => item.tags.includes("character-themed"));
 
 // Get budget-friendly drinks
-const budgetDrinks = items.filter(item =>
-  item.tags.includes('budget-friendly') && 
-  (item.category === 'coffee-tea' || item.tags.includes('soft-drink'))
+const budgetDrinks = items.filter(
+	(item) =>
+		item.tags.includes("budget-friendly") &&
+		(item.category === "coffee-tea" || item.tags.includes("soft-drink")),
 );
 ```
 
 ### Search Functionality
+
 ```typescript
 function searchItems(query: string, items: FoodItem[]): FoodItem[] {
-  const lowerQuery = query.toLowerCase();
-  return items.filter(item =>
-    item.name.toLowerCase().includes(lowerQuery) ||
-    item.description?.toLowerCase().includes(lowerQuery) ||
-    item.restaurant?.toLowerCase().includes(lowerQuery)
-  );
+	const lowerQuery = query.toLowerCase();
+	return items.filter(
+		(item) =>
+			item.name.toLowerCase().includes(lowerQuery) ||
+			item.description?.toLowerCase().includes(lowerQuery) ||
+			item.restaurant?.toLowerCase().includes(lowerQuery),
+	);
 }
 ```
 
 ### Filter by Date Range
+
 ```typescript
 function isAvailableOnDate(item: FoodItem, date: Date): boolean {
-  if (!item.availability.startDate || !item.availability.endDate) {
-    return true; // No date restriction
-  }
-  
-  const start = new Date(item.availability.startDate);
-  const end = new Date(item.availability.endDate);
-  
-  return date >= start && date <= end;
+	if (!item.availability.startDate || !item.availability.endDate) {
+		return true; // No date restriction
+	}
+
+	const start = new Date(item.availability.startDate);
+	const end = new Date(item.availability.endDate);
+
+	return date >= start && date <= end;
 }
 ```
 
 ### Price Range Filter
+
 ```typescript
-function filterByPrice(
-  items: FoodItem[],
-  min: number | null,
-  max: number | null
-): FoodItem[] {
-  return items.filter(item => {
-    if (!item.price) return true; // Include items without price
-    if (min !== null && item.price < min) return false;
-    if (max !== null && item.price > max) return false;
-    return true;
-  });
+function filterByPrice(items: FoodItem[], min: number | null, max: number | null): FoodItem[] {
+	return items.filter((item) => {
+		if (!item.price) return true; // Include items without price
+		if (min !== null && item.price < min) return false;
+		if (max !== null && item.price > max) return false;
+		return true;
+	});
 }
 ```
 
 ### Group Items
+
 ```typescript
 // Group by location
-const itemsByLocation = items.reduce((acc, item) => {
-  const location = item.location || 'Unknown';
-  if (!acc[location]) acc[location] = [];
-  acc[location].push(item);
-  return acc;
-}, {} as Record<string, FoodItem[]>);
+const itemsByLocation = items.reduce(
+	(acc, item) => {
+		const location = item.location || "Unknown";
+		if (!acc[location]) acc[location] = [];
+		acc[location].push(item);
+		return acc;
+	},
+	{} as Record<string, FoodItem[]>,
+);
 
 // Group by category
-const itemsByCategory = items.reduce((acc, item) => {
-  if (!acc[item.category]) acc[item.category] = [];
-  acc[item.category].push(item);
-  return acc;
-}, {} as Record<string, FoodItem[]>);
+const itemsByCategory = items.reduce(
+	(acc, item) => {
+		if (!acc[item.category]) acc[item.category] = [];
+		acc[item.category].push(item);
+		return acc;
+	},
+	{} as Record<string, FoodItem[]>,
+);
 ```
 
 ## 🎨 UI Component Ideas
@@ -234,6 +248,7 @@ const itemsByCategory = items.reduce((acc, item) => {
 ## 🔍 Metadata Usage
 
 The metadata object contains pre-computed lists for all filter options:
+
 - Use `metadata.filters.locations` for location dropdown
 - Use `metadata.filters.restaurants` for restaurant filter
 - Use `metadata.filters.categories` for category filter

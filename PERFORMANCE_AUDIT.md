@@ -8,6 +8,7 @@ This audit tracks the current performance, offline readiness, and iOS/PWA experi
 ---
 
 ## Executive Summary
+
 - We shipped the static data set to `static/data/food.json` (133 KB) and prerender the index route, trimmed custom fonts to a system stack, and updated the shell with iOS-friendly hints—but the service worker build still aborts before emitting `sw.js`.
 - Latest Lighthouse run regressed TBT to **420 ms** and LCP to **2.6 s** because remote hero imagery is not optimized and the main chunk still ships 279 KB of JavaScript.
 - Next focus: unblock the service worker build, optimise remote images, debounce synchronous stores, and lazy-load drawers/sheets. Medium-term tasks include adding cache headers at the edge and an offline fallback experience.
@@ -15,7 +16,8 @@ This audit tracks the current performance, offline readiness, and iOS/PWA experi
 ---
 
 ## Snapshot (2025-10-07)
-- **Build command:** `bun run build` → SvelteKit + adapter-cloudflare + @vite-pwa/sveltekit (fails late with `Error: listen EPERM 127.0.0.1`, so no `sw.js` is written). 
+
+- **Build command:** `bun run build` → SvelteKit + adapter-cloudflare + @vite-pwa/sveltekit (fails late with `Error: listen EPERM 127.0.0.1`, so no `sw.js` is written).
 - **Client bundle highlights (latest local build):**
   - `_app/immutable/nodes/2.CPWXusW0.js` — **279.07 KB** (gzip 78.32 KB)
   - `_app/immutable/chunks/Biw_043O.js` — 30.88 KB (gzip 12.14 KB)
@@ -28,6 +30,7 @@ This audit tracks the current performance, offline readiness, and iOS/PWA experi
 ---
 
 ## PWA / Offline Status
+
 - `@vite-pwa/sveltekit` is configured for `generateSW` with runtime caching for Google Fonts and Disney Parks Blog images. `bun run build` still aborts when the Cloudflare preview worker attempts to bind to 127.0.0.1 inside the sandbox, so no `sw.js` is emitted. Offline currently fails.
 - `registerType: "autoUpdate"`, `clientsClaim`, `skipWaiting`, and `navigationPreload` are set, but we must verify that the generated service worker reaches production and handles navigations before we claim offline support.
 - No offline fallback route (`/offline`) is present; navigation failures surface the default fetch error.
@@ -56,10 +59,12 @@ This audit tracks the current performance, offline readiness, and iOS/PWA experi
 ## Recommended Action Plan
 
 ### Phase 0 — Unblock offline build (same day)
+
 - Run `bun run build` outside the restricted sandbox (Cloudflare Worker preview needs socket capability) and confirm `sw.js` lands in `.svelte-kit/output/client`. Commit the artifact path or adjust CI to run without preview.
 - Add a smoke test (`bun run preview --mode production`) to ensure the service worker registers before merging future optimizations.
 
 ### Phase 1 — Quick Wins (2–3 focused hours)
+
 - [x] Update `src/app.html` (prefetch `tap`, Disney preconnect, fonts DNS hint, Apple touch icon) — shipped 2025-10-07.
 - [x] Trim fonts by switching to the system stack and updating `--font-sans` — shipped 2025-10-07.
 - [x] Consolidate icon usage to `lucide-svelte` and remove the duplicate package — shipped 2025-10-07.
@@ -67,6 +72,7 @@ This audit tracks the current performance, offline readiness, and iOS/PWA experi
 - [ ] Add missing accessibility labels (e.g., filter trigger) and verify Lighthouse accessibility delta.
 
 ### Phase 2 — Image & caching improvements (1 day)
+
 - Add an images optimizer step:
   - For remote Disney images, proxy through a Cloudflare Images Worker or store optimized copies under `static/images` with a build script that generates WebP/AVIF and responsive widths.
   - Update `FoodImage.svelte` to emit `width`, `height`, `sizes`, and `srcset`, fall back gracefully, and drop the extra IntersectionObserver in favour of native `loading="lazy"` once responsive sources exist.
@@ -77,12 +83,14 @@ This audit tracks the current performance, offline readiness, and iOS/PWA experi
   - `Cache-Control: public, max-age=600, stale-while-revalidate=60` for HTML if SSR stays enabled.
 
 ### Phase 3 — JavaScript load and TBT (1–2 days)
+
 - Lazy-load heavy components with dynamic imports in `FoodGuide.svelte` (`FilterSheet`, `ItemDetailDrawer`, analytics overlays, etc.).
 - Debounce `localStorage` writes inside `filtersStore`/`favoritesStore` using `setTimeout` or requestIdleCallback, and guard long iterations during hydration with `browser` checks.
 - Introduce `content-visibility: auto; contain-intrinsic-size` on grid/list containers to reduce layout cost in condensed mode. Respect `prefers-reduced-motion` and shorten slide transitions to limit forced reflows.
 - Measure derived store work; cache `items` by category once per load instead of rebuilding inside each reactive statement.
 
 ### Phase 4 — Polish & monitoring (as needed)
+
 - Add an offline fallback route and show cached data when remote images fail (use the emoji placeholder already defined).
 - Wire bundle analysis via `rollup-plugin-visualizer` and capture budgets (bundle < 200 KB, font payload < 80 KB, TBT < 200 ms).
 - Set up continuous monitoring: scheduled Lighthouse runs (mobile + desktop) and error tracking for SW registrations on iOS Safari.
@@ -92,33 +100,39 @@ This audit tracks the current performance, offline readiness, and iOS/PWA experi
 ## Detailed Recommendations
 
 ### Images
+
 - Create a build-time script (Node or Wrangler Pages Function) that downloads Disney Parks Blog assets, generates responsive derivatives (320w/480w/720w), and stores them in `static/images`. Serve via `<picture>` with WebP/AVIF plus JPEG fallback.
 - If hosting copies is not feasible, use a Cloudflare Worker to proxy and cache remote images with `imgix`-style query parameters, then point `FoodImage` to that worker origin.
 - Add `sizes="(max-width: 640px) 95vw, 400px"` (tune as needed) and explicit `width`/`height`. Only keep the IntersectionObserver if you defer rendering of off-screen content; otherwise rely on native lazy loading.
 
 ### Fonts
+
 - Preferred path: remove the Inter package entirely and rely on the platform stack (`system-ui`, `-apple-system`, `BlinkMacSystemFont`), which improves text paint on iOS and eliminates ~218 KB.
 - If brand guidelines require Inter, import `@fontsource-variable/inter/latin.css` and set `font-display: swap`. Bundle only the weights actually used (`wght` axes) to keep payload under 60 KB.
 
 ### JavaScript & State
+
 - Replace eager imports of drawers/sheets with dynamic imports triggered when the UI opens. Use suspense placeholders to avoid layout jumps.
 - Cache expensive derived computations: pre-group items by category once (`memoizedItemsByCategory = Map`) and reuse that map instead of re-reducing on each filter change.
 - Debounce filter persistence to 300 ms and skip serialisation if the state did not change. Consider storing only the diff (e.g., `selectedTags`) to minimise work.
 - Audit the Bits UI bundle; tree-shake unused primitives or replace with lighter button/select variants where possible.
 
 ### Offline & PWA
+
 - After the build succeeds, verify that `registerSW.js` pulls the generated worker and that Workbox precaches `/_app/immutable/` assets, `static/data/food.json`, and the manifest/icons.
 - Add an `/offline` route that displays cached data and instructs users how to refresh. Configure Workbox `navigationFallback: '/offline'`.
 - Ensure `ModeWatcher` does not run on the server (wrap in `if (browser)` if needed) to avoid hydration mismatches in the PWA context.
 - Provide `apple-touch-startup-image` links for common iPhone/iPad resolutions if the PWA is a priority.
 
 ### Edge Caching / Cloudflare Workers
+
 - In `wrangler.toml` or `hooks.server.ts`, add cache-control logic plus `CF-Cache-Status` logging. Consider using `HTMLRewriter` to inject `Cache-Control` headers for responses that come from prerendered pages.
 - Evaluate Cloudflare KV/Durable Object storage if you later fetch live data; ensure offline caching stays intact when dynamic content arrives.
 
 ---
 
 ## Manual QA Checklist
+
 - [ ] `bun run build && bun run preview --mode production` completes and `sw.js` is present.
 - [ ] Install as PWA on iOS (Safari 17+): check icon, splash, status bar colour, offline navigation.
 - [ ] Cold mobile load (Slow 4G) achieves FCP ≤ 1.6 s and LCP ≤ 2.1 s after image optimisation.
@@ -129,6 +143,7 @@ This audit tracks the current performance, offline readiness, and iOS/PWA experi
 ---
 
 ## Suggested Timeline
+
 - **Week 1:** Phase 0 + Phase 1 (fonts, prefetch, icons, metadata, SW build fix).
 - **Week 2:** Phase 2 (image pipeline, caching headers) with post-deploy Lighthouse verification.
 - **Week 3:** Phase 3 refinements (code splitting, storage debounce, content-visibility). Treat Phase 4 items as backlog after monitoring results.
@@ -136,6 +151,7 @@ This audit tracks the current performance, offline readiness, and iOS/PWA experi
 ---
 
 ## References
+
 - SvelteKit performance guide: https://svelte.dev/docs/kit/performance
 - SvelteKit PWA documentation: https://vite-pwa-org.netlify.app/frameworks/sveltekit.html
 - Web.dev image optimisation: https://web.dev/learn-performance/optimize-lcp/

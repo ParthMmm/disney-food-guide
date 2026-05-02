@@ -124,11 +124,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Holiday-Dinner.jpg",
-			"tags": [
-				"non-alcoholic",
-				"seasonal",
-				"savory"
-			]
+			"tags": ["non-alcoholic", "seasonal", "savory"]
 		},
 		{
 			"id": 2,
@@ -145,10 +141,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"cranberry"
-			]
+			"tags": ["alcoholic", "cranberry"]
 		},
 		{
 			"id": 3,
@@ -165,10 +158,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Old-Fashioned.jpg",
-			"tags": [
-				"alcoholic",
-				"eggnog"
-			]
+			"tags": ["alcoholic", "eggnog"]
 		},
 		{
 			"id": 4,
@@ -185,12 +175,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Apple-Dip.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"apple",
-				"cold"
-			]
+			"tags": ["non-alcoholic", "new", "apple", "cold"]
 		},
 		{
 			"id": 5,
@@ -207,12 +192,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Cheesecake-Trifle.jpg",
-			"tags": [
-				"new",
-				"gingerbread",
-				"cranberry",
-				"non-alcoholic"
-			]
+			"tags": ["new", "gingerbread", "cranberry", "non-alcoholic"]
 		},
 		{
 			"id": 6,
@@ -229,11 +209,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Orange-Loaf.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"cranberry"
-			]
+			"tags": ["non-alcoholic", "new", "cranberry"]
 		},
 		{
 			"id": 7,
@@ -250,10 +226,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Smores-Cheesecake.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new"
-			]
+			"tags": ["non-alcoholic", "new"]
 		},
 		{
 			"id": 8,
@@ -270,10 +243,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Bundt-Cake.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new"
-			]
+			"tags": ["non-alcoholic", "new"]
 		},
 		{
 			"id": 9,
@@ -290,12 +260,7 @@
 				"endDate": "2026-12-14"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Tree-Macaron.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"peppermint",
-				"coffee-tea"
-			]
+			"tags": ["non-alcoholic", "new", "peppermint", "coffee-tea"]
 		},
 		{
 			"id": 10,
@@ -312,11 +277,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Mickey-Gingerbread.jpg",
-			"tags": [
-				"gingerbread",
-				"character-themed",
-				"non-alcoholic"
-			]
+			"tags": ["gingerbread", "character-themed", "non-alcoholic"]
 		},
 		{
 			"id": 11,
@@ -333,11 +294,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Mickey-Cookie.jpg",
-			"tags": [
-				"non-alcoholic",
-				"character-themed",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "character-themed", "seasonal"]
 		},
 		{
 			"id": 12,
@@ -354,10 +311,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 13,
@@ -374,12 +328,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Peppermint-Cold-Brew.jpg",
-			"tags": [
-				"non-alcoholic",
-				"peppermint",
-				"seasonal",
-				"cold"
-			]
+			"tags": ["non-alcoholic", "peppermint", "seasonal", "cold"]
 		},
 		{
 			"id": 14,
@@ -396,10 +345,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Corn-Dog.jpg",
-			"tags": [
-				"non-alcoholic",
-				"character-themed"
-			]
+			"tags": ["non-alcoholic", "character-themed"]
 		},
 		{
 			"id": 15,
@@ -416,9 +362,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Orange-Lemonade.jpg",
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 16,
@@ -435,14 +379,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Philly-Potato.jpg",
-			"tags": [
-				"non-alcoholic",
-				"apple",
-				"cinnamon",
-				"coffee-tea",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "apple", "cinnamon", "coffee-tea", "cold", "hot"]
 		},
 		{
 			"id": 17,
@@ -459,12 +396,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Vietnamese-Coffee.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"coffee-tea",
-				"cold"
-			]
+			"tags": ["non-alcoholic", "new", "coffee-tea", "cold"]
 		},
 		{
 			"id": 18,
@@ -481,10 +413,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Pandan-Cooler.jpg",
-			"tags": [
-				"non-alcoholic",
-				"cold"
-			]
+			"tags": ["non-alcoholic", "cold"]
 		},
 		{
 			"id": 19,
@@ -501,11 +430,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Peppermint-Dip.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "new", "peppermint"]
 		},
 		{
 			"id": 20,
@@ -522,10 +447,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Chocolate-Flan.jpg",
-			"tags": [
-				"non-alcoholic",
-				"cinnamon"
-			]
+			"tags": ["non-alcoholic", "cinnamon"]
 		},
 		{
 			"id": 21,
@@ -542,11 +464,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Pomegranate-Cooler.jpg",
-			"tags": [
-				"non-alcoholic",
-				"coffee-tea",
-				"cold"
-			]
+			"tags": ["non-alcoholic", "coffee-tea", "cold"]
 		},
 		{
 			"id": 22,
@@ -563,10 +481,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Chess-Pie.jpg",
-			"tags": [
-				"non-alcoholic",
-				"contains-nuts"
-			]
+			"tags": ["non-alcoholic", "contains-nuts"]
 		},
 		{
 			"id": 23,
@@ -583,11 +498,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Funnel-Cake.jpg",
-			"tags": [
-				"non-alcoholic",
-				"apple",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "apple", "seasonal"]
 		},
 		{
 			"id": 24,
@@ -604,10 +515,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"gingerbread",
-				"non-alcoholic"
-			]
+			"tags": ["gingerbread", "non-alcoholic"]
 		},
 		{
 			"id": 25,
@@ -624,11 +532,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Toffee-Cake.jpg",
-			"tags": [
-				"new",
-				"contains-nuts",
-				"non-alcoholic"
-			]
+			"tags": ["new", "contains-nuts", "non-alcoholic"]
 		},
 		{
 			"id": 26,
@@ -645,12 +549,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"plant-based",
-				"vegan",
-				"contains-nuts"
-			]
+			"tags": ["non-alcoholic", "plant-based", "vegan", "contains-nuts"]
 		},
 		{
 			"id": 27,
@@ -667,12 +566,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"cinnamon",
-				"seasonal"
-			]
+			"tags": ["alcoholic", "new", "cinnamon", "seasonal"]
 		},
 		{
 			"id": 28,
@@ -689,9 +583,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 29,
@@ -708,12 +600,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"cinnamon",
-				"seasonal"
-			]
+			"tags": ["alcoholic", "new", "cinnamon", "seasonal"]
 		},
 		{
 			"id": 30,
@@ -730,11 +617,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Beignets.jpg",
-			"tags": [
-				"non-alcoholic",
-				"peppermint",
-				"character-themed"
-			]
+			"tags": ["non-alcoholic", "peppermint", "character-themed"]
 		},
 		{
 			"id": 31,
@@ -751,10 +634,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Peppermint-Dip-1.jpg",
-			"tags": [
-				"non-alcoholic",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "peppermint"]
 		},
 		{
 			"id": 32,
@@ -771,10 +651,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Cranberry-Julep.jpg",
-			"tags": [
-				"non-alcoholic",
-				"cranberry"
-			]
+			"tags": ["non-alcoholic", "cranberry"]
 		},
 		{
 			"id": 33,
@@ -791,10 +668,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Holiday-Popcorn.jpg",
-			"tags": [
-				"non-alcoholic",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "seasonal"]
 		},
 		{
 			"id": 34,
@@ -811,9 +685,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Vegetable-Salad.jpg",
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 35,
@@ -830,11 +702,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Coffee-Fritters.jpg",
-			"tags": [
-				"non-alcoholic",
-				"cinnamon",
-				"coffee-tea"
-			]
+			"tags": ["non-alcoholic", "cinnamon", "coffee-tea"]
 		},
 		{
 			"id": 36,
@@ -851,13 +719,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Apple-Cider.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"apple",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "new", "apple", "cold", "hot"]
 		},
 		{
 			"id": 37,
@@ -874,10 +736,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Stew.jpg",
-			"tags": [
-				"gingerbread",
-				"non-alcoholic"
-			]
+			"tags": ["gingerbread", "non-alcoholic"]
 		},
 		{
 			"id": 38,
@@ -894,9 +753,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 39,
@@ -913,9 +770,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 40,
@@ -932,9 +787,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 41,
@@ -951,12 +804,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Apple-Donuts.jpg",
-			"tags": [
-				"apple",
-				"character-themed",
-				"cold",
-				"non-alcoholic"
-			]
+			"tags": ["apple", "character-themed", "cold", "non-alcoholic"]
 		},
 		{
 			"id": 42,
@@ -973,10 +821,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Daisy-Cranberry.jpg",
-			"tags": [
-				"non-alcoholic",
-				"cranberry"
-			]
+			"tags": ["non-alcoholic", "cranberry"]
 		},
 		{
 			"id": 43,
@@ -993,10 +838,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new"
-			]
+			"tags": ["non-alcoholic", "new"]
 		},
 		{
 			"id": 44,
@@ -1013,9 +855,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Pasta.jpg",
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 45,
@@ -1032,11 +872,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"apple",
-				"contains-nuts",
-				"non-alcoholic"
-			]
+			"tags": ["apple", "contains-nuts", "non-alcoholic"]
 		},
 		{
 			"id": 46,
@@ -1053,9 +889,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Reindeer-Macaron.jpg",
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 47,
@@ -1072,12 +906,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Green-Drink.jpg",
-			"tags": [
-				"non-alcoholic",
-				"apple",
-				"seasonal",
-				"cold"
-			]
+			"tags": ["non-alcoholic", "apple", "seasonal", "cold"]
 		},
 		{
 			"id": 48,
@@ -1094,11 +923,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Holiday-Parfait.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "new", "seasonal"]
 		},
 		{
 			"id": 49,
@@ -1115,11 +940,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Christmas-Punch.jpg",
-			"tags": [
-				"non-alcoholic",
-				"cranberry",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "cranberry", "seasonal"]
 		},
 		{
 			"id": 50,
@@ -1161,9 +982,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Toffee-Pretzel.jpg",
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 52,
@@ -1180,10 +999,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Peppermint-Sundae.jpg",
-			"tags": [
-				"non-alcoholic",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "peppermint"]
 		},
 		{
 			"id": 53,
@@ -1200,10 +1016,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "peppermint"]
 		},
 		{
 			"id": 54,
@@ -1220,11 +1033,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Sourdough-Tree.jpg",
-			"tags": [
-				"non-alcoholic",
-				"plant-based",
-				"vegan"
-			]
+			"tags": ["non-alcoholic", "plant-based", "vegan"]
 		},
 		{
 			"id": 55,
@@ -1241,9 +1050,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Carrot-Churro.jpg",
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 56,
@@ -1260,11 +1067,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Agua-Fresca.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"apple"
-			]
+			"tags": ["non-alcoholic", "new", "apple"]
 		},
 		{
 			"id": 57,
@@ -1281,10 +1084,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new"
-			]
+			"tags": ["alcoholic", "new"]
 		},
 		{
 			"id": 58,
@@ -1301,11 +1101,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Pomegranate-Cocktail.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"cold"
-			]
+			"tags": ["non-alcoholic", "new", "cold"]
 		},
 		{
 			"id": 59,
@@ -1322,11 +1118,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Cranberry-Mule.jpg",
-			"tags": [
-				"alcoholic",
-				"new",
-				"cranberry"
-			]
+			"tags": ["alcoholic", "new", "cranberry"]
 		},
 		{
 			"id": 60,
@@ -1343,10 +1135,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Orange-Seltzer.jpg",
-			"tags": [
-				"alcoholic",
-				"new"
-			]
+			"tags": ["alcoholic", "new"]
 		},
 		{
 			"id": 61,
@@ -1363,9 +1152,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic"
-			]
+			"tags": ["alcoholic"]
 		},
 		{
 			"id": 62,
@@ -1382,11 +1169,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Agua-Fresca.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"apple"
-			]
+			"tags": ["non-alcoholic", "new", "apple"]
 		},
 		{
 			"id": 63,
@@ -1403,11 +1186,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Chimichanga.jpg",
-			"tags": [
-				"non-alcoholic",
-				"apple",
-				"cold"
-			]
+			"tags": ["non-alcoholic", "apple", "cold"]
 		},
 		{
 			"id": 64,
@@ -1424,11 +1203,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"coffee-tea",
-				"cold"
-			]
+			"tags": ["non-alcoholic", "coffee-tea", "cold"]
 		},
 		{
 			"id": 65,
@@ -1445,11 +1220,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"apple"
-			]
+			"tags": ["alcoholic", "new", "apple"]
 		},
 		{
 			"id": 66,
@@ -1466,11 +1237,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"plant-based",
-				"vegan"
-			]
+			"tags": ["non-alcoholic", "plant-based", "vegan"]
 		},
 		{
 			"id": 67,
@@ -1487,13 +1254,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"seasonal",
-				"cold",
-				"hot"
-			]
+			"tags": ["alcoholic", "new", "seasonal", "cold", "hot"]
 		},
 		{
 			"id": 68,
@@ -1510,12 +1271,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Apple-Churro.jpg",
-			"tags": [
-				"non-alcoholic",
-				"pumpkin-spice",
-				"coffee-tea",
-				"cold"
-			]
+			"tags": ["non-alcoholic", "pumpkin-spice", "coffee-tea", "cold"]
 		},
 		{
 			"id": 69,
@@ -1532,12 +1288,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Cocoa-Cocktail.jpg",
-			"tags": [
-				"alcoholic",
-				"new",
-				"peppermint",
-				"hot"
-			]
+			"tags": ["alcoholic", "new", "peppermint", "hot"]
 		},
 		{
 			"id": 70,
@@ -1554,11 +1305,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"peppermint",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "peppermint", "seasonal"]
 		},
 		{
 			"id": 71,
@@ -1575,10 +1322,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "peppermint"]
 		},
 		{
 			"id": 72,
@@ -1595,10 +1339,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "peppermint"]
 		},
 		{
 			"id": 73,
@@ -1615,11 +1356,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Apple-Crumble.jpg",
-			"tags": [
-				"new",
-				"apple",
-				"non-alcoholic"
-			]
+			"tags": ["new", "apple", "non-alcoholic"]
 		},
 		{
 			"id": 74,
@@ -1636,11 +1373,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"plant-based",
-				"vegan"
-			]
+			"tags": ["non-alcoholic", "plant-based", "vegan"]
 		},
 		{
 			"id": 75,
@@ -1657,11 +1390,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"plant-based",
-				"vegan"
-			]
+			"tags": ["non-alcoholic", "plant-based", "vegan"]
 		},
 		{
 			"id": 76,
@@ -1678,11 +1407,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"plant-based",
-				"vegan"
-			]
+			"tags": ["non-alcoholic", "plant-based", "vegan"]
 		},
 		{
 			"id": 77,
@@ -1699,12 +1424,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Ghirardelli-1440x1080.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"cinnamon",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "new", "cinnamon", "hot"]
 		},
 		{
 			"id": 78,
@@ -1721,10 +1441,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Baymax-Macaron.jpg",
-			"tags": [
-				"non-alcoholic",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "peppermint"]
 		},
 		{
 			"id": 79,
@@ -1741,10 +1458,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Caramel-Donuts.jpg",
-			"tags": [
-				"alcoholic",
-				"new"
-			]
+			"tags": ["alcoholic", "new"]
 		},
 		{
 			"id": 80,
@@ -1761,13 +1475,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"coffee-tea",
-				"cold",
-				"contains-nuts"
-			]
+			"tags": ["alcoholic", "new", "coffee-tea", "cold", "contains-nuts"]
 		},
 		{
 			"id": 81,
@@ -1784,10 +1492,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Caramel-Donuts.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new"
-			]
+			"tags": ["non-alcoholic", "new"]
 		},
 		{
 			"id": 82,
@@ -1804,13 +1509,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"coffee-tea",
-				"cold",
-				"contains-nuts"
-			]
+			"tags": ["alcoholic", "new", "coffee-tea", "cold", "contains-nuts"]
 		},
 		{
 			"id": 83,
@@ -1827,9 +1526,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic"
-			]
+			"tags": ["alcoholic"]
 		},
 		{
 			"id": 84,
@@ -1846,10 +1543,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Michelada.jpg",
-			"tags": [
-				"alcoholic",
-				"cold"
-			]
+			"tags": ["alcoholic", "cold"]
 		},
 		{
 			"id": 85,
@@ -1866,9 +1560,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic"
-			]
+			"tags": ["alcoholic"]
 		},
 		{
 			"id": 86,
@@ -1885,10 +1577,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Watermelon-Margarita.jpg",
-			"tags": [
-				"alcoholic",
-				"apple"
-			]
+			"tags": ["alcoholic", "apple"]
 		},
 		{
 			"id": 87,
@@ -1905,10 +1594,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Fried-Elote.jpg",
-			"tags": [
-				"non-alcoholic",
-				"character-themed"
-			]
+			"tags": ["non-alcoholic", "character-themed"]
 		},
 		{
 			"id": 88,
@@ -1925,10 +1611,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Fluffernutter-Churro.jpg",
-			"tags": [
-				"non-alcoholic",
-				"character-themed"
-			]
+			"tags": ["non-alcoholic", "character-themed"]
 		},
 		{
 			"id": 89,
@@ -1945,12 +1628,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Basin-Cold-Brew.jpg",
-			"tags": [
-				"non-alcoholic",
-				"coffee-tea",
-				"cold",
-				"contains-nuts"
-			]
+			"tags": ["non-alcoholic", "coffee-tea", "cold", "contains-nuts"]
 		},
 		{
 			"id": 90,
@@ -1967,11 +1645,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Peppermint-Shake.jpg",
-			"tags": [
-				"non-alcoholic",
-				"peppermint",
-				"coffee-tea"
-			]
+			"tags": ["non-alcoholic", "peppermint", "coffee-tea"]
 		},
 		{
 			"id": 91,
@@ -1988,10 +1662,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new"
-			]
+			"tags": ["alcoholic", "new"]
 		},
 		{
 			"id": 92,
@@ -2008,10 +1679,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new"
-			]
+			"tags": ["alcoholic", "new"]
 		},
 		{
 			"id": 93,
@@ -2028,12 +1696,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Pecan-Cocktail.jpg",
-			"tags": [
-				"alcoholic",
-				"coffee-tea",
-				"cold",
-				"contains-nuts"
-			]
+			"tags": ["alcoholic", "coffee-tea", "cold", "contains-nuts"]
 		},
 		{
 			"id": 94,
@@ -2050,10 +1713,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Marshmallow-Cocktail.jpg",
-			"tags": [
-				"non-alcoholic",
-				"eggnog"
-			]
+			"tags": ["non-alcoholic", "eggnog"]
 		},
 		{
 			"id": 95,
@@ -2070,10 +1730,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "hot"]
 		},
 		{
 			"id": 96,
@@ -2090,9 +1747,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic"
-			]
+			"tags": ["alcoholic"]
 		},
 		{
 			"id": 97,
@@ -2109,10 +1764,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"eggnog"
-			]
+			"tags": ["alcoholic", "eggnog"]
 		},
 		{
 			"id": 98,
@@ -2129,10 +1781,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"cranberry"
-			]
+			"tags": ["alcoholic", "cranberry"]
 		},
 		{
 			"id": 99,
@@ -2149,10 +1798,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"hot"
-			]
+			"tags": ["alcoholic", "hot"]
 		},
 		{
 			"id": 100,
@@ -2169,9 +1815,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic"
-			]
+			"tags": ["alcoholic"]
 		},
 		{
 			"id": 101,
@@ -2188,10 +1832,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"peppermint"
-			]
+			"tags": ["alcoholic", "peppermint"]
 		},
 		{
 			"id": 102,
@@ -2208,10 +1849,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"cold"
-			]
+			"tags": ["alcoholic", "cold"]
 		},
 		{
 			"id": 103,
@@ -2228,10 +1866,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"cranberry"
-			]
+			"tags": ["alcoholic", "cranberry"]
 		},
 		{
 			"id": 104,
@@ -2248,14 +1883,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Goofys-Kitchen-1623x1080.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"pumpkin-spice",
-				"coffee-tea",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "new", "pumpkin-spice", "coffee-tea", "cold", "hot"]
 		},
 		{
 			"id": 105,
@@ -2272,13 +1900,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"gingerbread",
-				"coffee-tea",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "gingerbread", "coffee-tea", "cold", "hot"]
 		},
 		{
 			"id": 106,
@@ -2295,10 +1917,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"eggnog"
-			]
+			"tags": ["non-alcoholic", "eggnog"]
 		},
 		{
 			"id": 107,
@@ -2315,13 +1934,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"eggnog",
-				"coffee-tea",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "eggnog", "coffee-tea", "cold", "hot"]
 		},
 		{
 			"id": 108,
@@ -2338,10 +1951,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"eggnog"
-			]
+			"tags": ["alcoholic", "eggnog"]
 		},
 		{
 			"id": 109,
@@ -2358,9 +1968,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic"
-			]
+			"tags": ["alcoholic"]
 		},
 		{
 			"id": 110,
@@ -2377,11 +1985,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Rice-Treat.jpg",
-			"tags": [
-				"gingerbread",
-				"character-themed",
-				"non-alcoholic"
-			]
+			"tags": ["gingerbread", "character-themed", "non-alcoholic"]
 		},
 		{
 			"id": 111,
@@ -2398,11 +2002,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"character-themed",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "character-themed", "seasonal"]
 		},
 		{
 			"id": 112,
@@ -2419,10 +2019,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "peppermint"]
 		},
 		{
 			"id": 113,
@@ -2439,14 +2036,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"cinnamon",
-				"coffee-tea",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "new", "cinnamon", "coffee-tea", "cold", "hot"]
 		},
 		{
 			"id": 114,
@@ -2463,12 +2053,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"eggnog",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "eggnog", "cold", "hot"]
 		},
 		{
 			"id": 115,
@@ -2485,13 +2070,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"gingerbread",
-				"coffee-tea",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "gingerbread", "coffee-tea", "cold", "hot"]
 		},
 		{
 			"id": 116,
@@ -2508,13 +2087,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"eggnog",
-				"coffee-tea",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "eggnog", "coffee-tea", "cold", "hot"]
 		},
 		{
 			"id": 117,
@@ -2531,12 +2104,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"peppermint",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "peppermint", "cold", "hot"]
 		},
 		{
 			"id": 118,
@@ -2553,13 +2121,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"pumpkin-spice",
-				"coffee-tea",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "pumpkin-spice", "coffee-tea", "cold", "hot"]
 		},
 		{
 			"id": 119,
@@ -2576,10 +2138,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "hot"]
 		},
 		{
 			"id": 120,
@@ -2596,10 +2155,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new"
-			]
+			"tags": ["alcoholic", "new"]
 		},
 		{
 			"id": 121,
@@ -2616,11 +2172,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"cinnamon"
-			]
+			"tags": ["alcoholic", "new", "cinnamon"]
 		},
 		{
 			"id": 122,
@@ -2637,11 +2189,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"contains-nuts"
-			]
+			"tags": ["alcoholic", "new", "contains-nuts"]
 		},
 		{
 			"id": 123,
@@ -2658,12 +2206,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"cranberry",
-				"cinnamon"
-			]
+			"tags": ["alcoholic", "new", "cranberry", "cinnamon"]
 		},
 		{
 			"id": 124,
@@ -2680,10 +2223,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Lights-Pop.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new"
-			]
+			"tags": ["non-alcoholic", "new"]
 		},
 		{
 			"id": 125,
@@ -2700,14 +2240,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"new",
-				"gingerbread",
-				"cranberry",
-				"seasonal",
-				"coffee-tea",
-				"non-alcoholic"
-			]
+			"tags": ["new", "gingerbread", "cranberry", "seasonal", "coffee-tea", "non-alcoholic"]
 		},
 		{
 			"id": 126,
@@ -2724,11 +2257,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"character-themed"
-			]
+			"tags": ["non-alcoholic", "new", "character-themed"]
 		},
 		{
 			"id": 127,
@@ -2745,11 +2274,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"contains-nuts"
-			]
+			"tags": ["non-alcoholic", "new", "contains-nuts"]
 		},
 		{
 			"id": 128,
@@ -2766,10 +2291,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new"
-			]
+			"tags": ["non-alcoholic", "new"]
 		},
 		{
 			"id": 129,
@@ -2786,10 +2308,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "seasonal"]
 		},
 		{
 			"id": 130,
@@ -2806,10 +2325,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "seasonal"]
 		},
 		{
 			"id": 131,
@@ -2826,11 +2342,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"gingerbread",
-				"character-themed",
-				"non-alcoholic"
-			]
+			"tags": ["gingerbread", "character-themed", "non-alcoholic"]
 		},
 		{
 			"id": 132,
@@ -2847,10 +2359,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"character-themed"
-			]
+			"tags": ["non-alcoholic", "character-themed"]
 		},
 		{
 			"id": 133,
@@ -2867,9 +2376,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 134,
@@ -2886,10 +2393,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"eggnog"
-			]
+			"tags": ["non-alcoholic", "eggnog"]
 		},
 		{
 			"id": 135,
@@ -2906,11 +2410,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"apple",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "apple", "hot"]
 		},
 		{
 			"id": 136,
@@ -2927,10 +2427,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "hot"]
 		},
 		{
 			"id": 137,
@@ -2947,11 +2444,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "new", "peppermint"]
 		},
 		{
 			"id": 138,
@@ -2968,10 +2461,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new"
-			]
+			"tags": ["non-alcoholic", "new"]
 		},
 		{
 			"id": 139,
@@ -2988,11 +2478,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"cranberry"
-			]
+			"tags": ["non-alcoholic", "new", "cranberry"]
 		},
 		{
 			"id": 140,
@@ -3009,11 +2495,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"eggnog"
-			]
+			"tags": ["non-alcoholic", "new", "eggnog"]
 		},
 		{
 			"id": 141,
@@ -3030,11 +2512,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "new", "seasonal"]
 		},
 		{
 			"id": 142,
@@ -3051,12 +2529,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Parkside-Market-1440x1080.jpg",
-			"tags": [
-				"alcoholic",
-				"new",
-				"cranberry",
-				"cinnamon"
-			]
+			"tags": ["alcoholic", "new", "cranberry", "cinnamon"]
 		},
 		{
 			"id": 143,
@@ -3073,10 +2546,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"seasonal"
-			]
+			"tags": ["alcoholic", "seasonal"]
 		},
 		{
 			"id": 144,
@@ -3093,10 +2563,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new"
-			]
+			"tags": ["alcoholic", "new"]
 		},
 		{
 			"id": 145,
@@ -3113,12 +2580,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"cinnamon",
-				"seasonal"
-			]
+			"tags": ["alcoholic", "new", "cinnamon", "seasonal"]
 		},
 		{
 			"id": 146,
@@ -3135,11 +2597,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Peppermint-Churro.jpeg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "new", "peppermint"]
 		},
 		{
 			"id": 147,
@@ -3156,11 +2614,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Christmas-Meal-810x1080.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"savory"
-			]
+			"tags": ["non-alcoholic", "new", "savory"]
 		},
 		{
 			"id": 148,
@@ -3177,11 +2631,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"gingerbread"
-			]
+			"tags": ["alcoholic", "new", "gingerbread"]
 		},
 		{
 			"id": 149,
@@ -3198,10 +2648,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Holiday-Beignet-810x1080.jpg",
-			"tags": [
-				"non-alcoholic",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "peppermint"]
 		},
 		{
 			"id": 150,
@@ -3218,11 +2665,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"pumpkin-spice",
-				"peppermint"
-			]
+			"tags": ["non-alcoholic", "pumpkin-spice", "peppermint"]
 		},
 		{
 			"id": 151,
@@ -3239,9 +2682,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic"
-			]
+			"tags": ["alcoholic"]
 		},
 		{
 			"id": 152,
@@ -3258,10 +2699,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Chicken-Tamal.jpg",
-			"tags": [
-				"non-alcoholic",
-				"new"
-			]
+			"tags": ["non-alcoholic", "new"]
 		},
 		{
 			"id": 153,
@@ -3278,12 +2716,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"cold",
-				"hot"
-			]
+			"tags": ["non-alcoholic", "new", "cold", "hot"]
 		},
 		{
 			"id": 154,
@@ -3300,10 +2733,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new"
-			]
+			"tags": ["alcoholic", "new"]
 		},
 		{
 			"id": 155,
@@ -3320,11 +2750,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"cinnamon"
-			]
+			"tags": ["alcoholic", "new", "cinnamon"]
 		},
 		{
 			"id": 156,
@@ -3341,11 +2767,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Cornish-Hen.jpg",
-			"tags": [
-				"non-alcoholic",
-				"cinnamon",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "cinnamon", "seasonal"]
 		},
 		{
 			"id": 157,
@@ -3362,9 +2784,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Prime-Rib.jpg",
-			"tags": [
-				"non-alcoholic"
-			]
+			"tags": ["non-alcoholic"]
 		},
 		{
 			"id": 158,
@@ -3381,12 +2801,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Pizza.jpg",
-			"tags": [
-				"alcoholic",
-				"new",
-				"apple",
-				"coffee-tea"
-			]
+			"tags": ["alcoholic", "new", "apple", "coffee-tea"]
 		},
 		{
 			"id": 159,
@@ -3403,11 +2818,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"cranberry"
-			]
+			"tags": ["alcoholic", "new", "cranberry"]
 		},
 		{
 			"id": 160,
@@ -3424,12 +2835,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"new",
-				"apple",
-				"coffee-tea"
-			]
+			"tags": ["alcoholic", "new", "apple", "coffee-tea"]
 		},
 		{
 			"id": 161,
@@ -3446,11 +2852,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"new",
-				"seasonal"
-			]
+			"tags": ["non-alcoholic", "new", "seasonal"]
 		},
 		{
 			"id": 162,
@@ -3550,10 +2952,7 @@
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Peppermint-flavored dark chocolate decorated with white chocolate swirls and sprinkled with candy cane pieces _(Only available at Candy Palace and Candy Kitchen, and Trolley Treats) (Only available Nov. 28 through Dec. 25)_",
 			"category": "specialty-dessert",
-			"tags": [
-				"peppermint",
-				"chocolate"
-			],
+			"tags": ["peppermint", "chocolate"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -3566,9 +2965,7 @@
 			"location": "Pixar Place Hotel",
 			"description": "Mulling spices and caramel sauce (Non-alcoholic)",
 			"category": "soft-drink",
-			"tags": [
-				"non-alcoholic"
-			],
+			"tags": ["non-alcoholic"],
 			"priceRange": "$5-10",
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Holiday-Coffees-720x1080.jpg",
 			"availability": "",
@@ -3581,9 +2978,7 @@
 			"location": "Disneyland Park",
 			"description": "Baked potato with pulled smoked turkey, whipped cream cheese, stuffing, cranberry sauce, gravy, and fried onions",
 			"category": "entree-side",
-			"tags": [
-				"cranberry"
-			],
+			"tags": ["cranberry"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -3622,9 +3017,7 @@
 			"location": "Disneyland Hotel",
 			"description": "Graham cracker and chocolate-infused Woodford Bourbon, Tempus Fugit Crème de Cacao, brown sugar molasses syrup, chocolate bitters, wood smoke, and mini marshmallows",
 			"category": "cocktail",
-			"tags": [
-				"chocolate"
-			],
+			"tags": ["chocolate"],
 			"priceRange": "$15-20",
 			"imageUrl": "",
 			"availability": "",
@@ -3637,10 +3030,7 @@
 			"location": "Novelties Available Throughout Disneyland Resort",
 			"description": "Chocolate and peppermint ice cream in a waffle cup, topped with whipped cream and peppermint candy",
 			"category": "frozen-dessert",
-			"tags": [
-				"peppermint",
-				"chocolate"
-			],
+			"tags": ["peppermint", "chocolate"],
 			"priceRange": "$5-10",
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Kids-Picks.jpeg",
 			"availability": "",
@@ -3666,9 +3056,7 @@
 			"location": "Pixar Place Hotel",
 			"description": "Espresso, cookie butter, condensed milk, and whipped cream (Non-alcoholic)",
 			"category": "coffee-tea",
-			"tags": [
-				"non-alcoholic"
-			],
+			"tags": ["non-alcoholic"],
 			"priceRange": "$5-10",
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Holiday-Coffees-720x1080.jpg",
 			"availability": "",
@@ -3694,10 +3082,7 @@
 			"location": "Pixar Place Hotel",
 			"description": "Overnight oats layered with dark chocolate, cranberry chutney, and crispy oats",
 			"category": "other",
-			"tags": [
-				"chocolate",
-				"cranberry"
-			],
+			"tags": ["chocolate", "cranberry"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -3736,12 +3121,7 @@
 			"location": "Disney California Adventure Park",
 			"description": "mint and chocolate cookie shake garnished with green whipped cream and crushed peppermint candy (Non-alcoholic)",
 			"category": "frozen-dessert",
-			"tags": [
-				"non-alcoholic",
-				"peppermint",
-				"chocolate",
-				"character-themed"
-			],
+			"tags": ["non-alcoholic", "peppermint", "chocolate", "character-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -3780,9 +3160,7 @@
 			"location": "Disneyland Park",
 			"description": "Fresh-baked gingerbread cookies",
 			"category": "baked-dessert",
-			"tags": [
-				"gingerbread"
-			],
+			"tags": ["gingerbread"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "in packs of six or 13 while supplies last",
@@ -3795,11 +3173,7 @@
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Mickey-shaped marshmallow dipped in milk and white chocolate, decorated with dark chocolate, red-colored white chocolate, and embellished with white chocolate and holiday sprinkles",
 			"category": "specialty-dessert",
-			"tags": [
-				"chocolate",
-				"gingerbread",
-				"character-themed"
-			],
+			"tags": ["chocolate", "gingerbread", "character-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -3812,9 +3186,7 @@
 			"location": "Novelties Available Throughout Disneyland Resort",
 			"description": "Gingerbread sauce, spiced streusel, and vanilla chantilly cream, with choice of bacon or sausage",
 			"category": "other",
-			"tags": [
-				"gingerbread"
-			],
+			"tags": ["gingerbread"],
 			"priceRange": "$10-15",
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Kids-Picks.jpeg",
 			"availability": "",
@@ -3827,9 +3199,7 @@
 			"location": "Pixar Place Hotel",
 			"description": "Vanilla buttercream and holiday sprinkles",
 			"category": "baked-dessert",
-			"tags": [
-				"gingerbread"
-			],
+			"tags": ["gingerbread"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -3842,9 +3212,7 @@
 			"location": "Disneyland Park",
 			"description": "Sliced tri-tip steak, spinach artichoke dip, demi-glace, and crispy onions",
 			"category": "entree-side",
-			"tags": [
-				"holiday-themed"
-			],
+			"tags": ["holiday-themed"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -3857,10 +3225,7 @@
 			"location": "Pixar Place Hotel",
 			"description": "Holiday icing and crushed peppermint",
 			"category": "baked-dessert",
-			"tags": [
-				"peppermint",
-				"holiday-themed"
-			],
+			"tags": ["peppermint", "holiday-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -3873,11 +3238,7 @@
 			"location": "Disneyland Park",
 			"description": "Warm chocolate butter cake, peppermint ice cream, chocolate sauce, and crushed peppermint",
 			"category": "frozen-dessert",
-			"tags": [
-				"peppermint",
-				"chocolate",
-				"holiday-themed"
-			],
+			"tags": ["peppermint", "chocolate", "holiday-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -3890,11 +3251,7 @@
 			"location": "Disneyland Park",
 			"description": "Joffrey’s Dark chocolate Cold Brew Coffee with cookie butter topper and a sugar cookie (Non-alcoholic)",
 			"category": "coffee-tea",
-			"tags": [
-				"non-alcoholic",
-				"chocolate",
-				"holiday-themed"
-			],
+			"tags": ["non-alcoholic", "chocolate", "holiday-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -3907,10 +3264,7 @@
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Marshmallows dipped in caramel and milk chocolate, drizzled with green and red colored white chocolate",
 			"category": "other",
-			"tags": [
-				"chocolate",
-				"holiday-themed"
-			],
+			"tags": ["chocolate", "holiday-themed"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -3923,11 +3277,7 @@
 			"location": "Disneyland Park",
 			"description": "White chocolate-dusted butter popcorn with a mix of M&M’S Milk Chocolate Candies, pretzel sticks, and crushed peppermint",
 			"category": "other",
-			"tags": [
-				"peppermint",
-				"chocolate",
-				"holiday-themed"
-			],
+			"tags": ["peppermint", "chocolate", "holiday-themed"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -3940,9 +3290,7 @@
 			"location": "Downtown Disney District",
 			"description": "Cornish game hen stuffed with a chorizo-date stuffing, orange beurre blanc, pickled jalapeño, and shaved fennel salad with chicken chicharron _(Only available Dec. 24 and Dec. 25)_",
 			"category": "other",
-			"tags": [
-				"holiday-themed"
-			],
+			"tags": ["holiday-themed"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -3955,10 +3303,7 @@
 			"location": "Disneyland Park",
 			"description": "Traditional grey stuff with holiday sprinkles and a white chocolate star",
 			"category": "other",
-			"tags": [
-				"chocolate",
-				"holiday-themed"
-			],
+			"tags": ["chocolate", "holiday-themed"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -3971,9 +3316,7 @@
 			"location": "Pixar Place Hotel",
 			"description": "Vanilla shortbread and holiday icing",
 			"category": "baked-dessert",
-			"tags": [
-				"holiday-themed"
-			],
+			"tags": ["holiday-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -3986,10 +3329,7 @@
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Mickey-shaped cereal treat dipped in milk chocolate, decorated with green-colored chocolate, and embellished with red and green mini M&M’S Milk Chocolate Candies and holiday sprinkles",
 			"category": "specialty-dessert",
-			"tags": [
-				"chocolate",
-				"holiday-themed"
-			],
+			"tags": ["chocolate", "holiday-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4002,10 +3342,7 @@
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Green apple dipped in caramel with two marshmallow ears, dipped in milk and white chocolate, decorated with graham cracker and hot chocolate powder mix with white chocolate drips, and embellished with holiday sprinkles and peppermint crush _(Only available at Candy Palace and Candy Kitchen, Trolley Treats, Bing Bong’s Sweet Stuff, and Disney Wonderful World of Sweets)_",
 			"category": "soft-drink",
-			"tags": [
-				"peppermint",
-				"chocolate"
-			],
+			"tags": ["peppermint", "chocolate"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4057,9 +3394,7 @@
 			"location": "Disneyland Park",
 			"description": "IMPOSSIBLE meatballs, marinara sauce, and parmesan **(Plant-based)**",
 			"category": "entree-side",
-			"tags": [
-				"plant-based"
-			],
+			"tags": ["plant-based"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -4072,9 +3407,7 @@
 			"location": "Disneyland Park",
 			"description": "Fried chicken sandwich with cranberry-orange marmalade BBQ sauce, provolone, onion rings, and arugula served on a toasted brioche bun with your choice of Cuties Mandarin Orange or French fries",
 			"category": "entree-side",
-			"tags": [
-				"cranberry"
-			],
+			"tags": ["cranberry"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -4087,10 +3420,7 @@
 			"location": "Disney California Adventure Park",
 			"description": "Soft gingerbread Mickey cookie _(Limit five per person, per transaction)_",
 			"category": "other",
-			"tags": [
-				"gingerbread",
-				"character-themed"
-			],
+			"tags": ["gingerbread", "character-themed"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -4103,10 +3433,7 @@
 			"location": "Disneyland Park",
 			"description": "Soft gingerbread Mickey cookie _(Limit five per person, per transaction)_",
 			"category": "other",
-			"tags": [
-				"gingerbread",
-				"character-themed"
-			],
+			"tags": ["gingerbread", "character-themed"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -4119,10 +3446,7 @@
 			"location": "Disney California Adventure Park",
 			"description": "Cookie butter cold brew, cereal milk, and chocolate cookie foam (Non-alcoholic)",
 			"category": "coffee-tea",
-			"tags": [
-				"non-alcoholic",
-				"chocolate"
-			],
+			"tags": ["non-alcoholic", "chocolate"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4135,9 +3459,7 @@
 			"location": "Disneyland Park",
 			"description": "Spiced hot cocoa sugar-dusted funnel cake fries, mint chip ice cream, whipped cream, and chocolate chips",
 			"category": "other",
-			"tags": [
-				"chocolate"
-			],
+			"tags": ["chocolate"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -4163,11 +3485,7 @@
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Chocolate cake pop dipped in peppermint-flavored white chocolate, decorated with black-colored dark chocolate, an orange mini M&M’S Milk Chocolate Candy, and red-colored white chocolate",
 			"category": "specialty-dessert",
-			"tags": [
-				"peppermint",
-				"chocolate",
-				"character-themed"
-			],
+			"tags": ["peppermint", "chocolate", "character-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4180,10 +3498,7 @@
 			"location": "Disneyland Park",
 			"description": "Chocolate tart shell filled with chocolate ganache and mint marshmallow, finished with chocolate lines, whipped topping, sprinkles, and a chocolate-filled cookie",
 			"category": "baked-dessert",
-			"tags": [
-				"peppermint",
-				"chocolate"
-			],
+			"tags": ["peppermint", "chocolate"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "Nov. 14 through Jan. 7",
@@ -4196,10 +3511,7 @@
 			"location": "Disneyland Park",
 			"description": "Two scoops of peppermint ice cream with whipped cream, crushed peppermint, and crème-filled cookies in a candy-topped waffle bowl",
 			"category": "frozen-dessert",
-			"tags": [
-				"peppermint",
-				"holiday-themed"
-			],
+			"tags": ["peppermint", "holiday-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4212,10 +3524,7 @@
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Mixture of fondant sugar, powdered sugar, and peppermint flavoring, dipped in dark chocolate _(Only available at Candy Palace and Candy Kitchen, Trolley Treats, and Disney Wonderful World of Sweets)_",
 			"category": "specialty-dessert",
-			"tags": [
-				"peppermint",
-				"chocolate"
-			],
+			"tags": ["peppermint", "chocolate"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4228,11 +3537,7 @@
 			"location": "Disneyland Park",
 			"description": "Joffrey’s French Roast Cold Brew Coffee with peppermint and chocolate syrups topped with whipped cream, mini marshmallows, graham cracker dust, and crushed candy cane (Non-alcoholic)",
 			"category": "coffee-tea",
-			"tags": [
-				"non-alcoholic",
-				"peppermint",
-				"chocolate"
-			],
+			"tags": ["non-alcoholic", "peppermint", "chocolate"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4245,11 +3550,7 @@
 			"location": "Disneyland Park",
 			"description": "Hot Cocoa by Joffrey’s and peppermint syrup, topped with whipped cream, mini marshmallows, graham cracker dust, and crushed candy cane (Non-alcoholic)",
 			"category": "soft-drink",
-			"tags": [
-				"non-alcoholic",
-				"peppermint",
-				"chocolate"
-			],
+			"tags": ["non-alcoholic", "peppermint", "chocolate"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4288,9 +3589,7 @@
 			"location": "Downtown Disney District",
 			"description": "Dried fruit, cinnamon, piloncillio, hibiscus, and nanchas (Non-alcoholic)",
 			"category": "soft-drink",
-			"tags": [
-				"non-alcoholic"
-			],
+			"tags": ["non-alcoholic"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4355,9 +3654,7 @@
 			"location": "Disneyland Park",
 			"description": "Scrambled eggs, shredded cheese, country sausage gravy, and green onions _(Served until 11 a.m. or until supplies last)_",
 			"category": "entree-side",
-			"tags": [
-				"character-themed"
-			],
+			"tags": ["character-themed"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -4370,10 +3667,7 @@
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Vanilla cake pop with dark chocolate ears and decorated with red-colored white chocolate, white chocolate, and white sanding sugar _(Only available at Candy Palace and Candy Kitchen, Pooh Corner, Trolley Treats, and Disney Wonderful World of Sweets)_",
 			"category": "specialty-dessert",
-			"tags": [
-				"chocolate",
-				"character-themed"
-			],
+			"tags": ["chocolate", "character-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4386,10 +3680,7 @@
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Green apple dipped in caramel with two marshmallow ears, dipped in milk chocolate, and decorated with red-colored white chocolate, white sanding sugar, and white M&M’S Milk Chocolate Candies",
 			"category": "specialty-dessert",
-			"tags": [
-				"chocolate",
-				"character-themed"
-			],
+			"tags": ["chocolate", "character-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4402,10 +3693,7 @@
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Chocolate cake pop with dark chocolate ears, dipped in milk chocolate, and embellished with a white chocolate Santa hat with a bow",
 			"category": "specialty-dessert",
-			"tags": [
-				"chocolate",
-				"character-themed"
-			],
+			"tags": ["chocolate", "character-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4418,10 +3706,7 @@
 			"location": "Candy Throughout Disneyland Resort",
 			"description": "Green apple dipped in caramel with two marshmallow ears, dipped in milk chocolate, and decorated with red-colored white chocolate, white sanding sugar, white M&M’S Milk Chocolate Candies, and a white chocolate Santa hat with a bow",
 			"category": "specialty-dessert",
-			"tags": [
-				"chocolate",
-				"character-themed"
-			],
+			"tags": ["chocolate", "character-themed"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4434,9 +3719,7 @@
 			"location": "Disneyland Park",
 			"description": "Snickerdoodle cookie-flavored cold brew garnished with whipped topping, snickerdoodle cookie dust, and a snickerdoodle cookie (Non-alcoholic)",
 			"category": "coffee-tea",
-			"tags": [
-				"non-alcoholic"
-			],
+			"tags": ["non-alcoholic"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4462,9 +3745,7 @@
 			"location": "Disneyland Park",
 			"description": "Strawberry-filled churro rolled in chocolate cookie dust, drizzled with cream cheese sauce, and topped with a chocolate bat",
 			"category": "churro",
-			"tags": [
-				"chocolate"
-			],
+			"tags": ["chocolate"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",
@@ -4477,10 +3758,7 @@
 			"location": "Pixar Place Hotel",
 			"description": "Hot chocolate with toasted marshmallow syrup (Non-alcoholic)",
 			"category": "soft-drink",
-			"tags": [
-				"non-alcoholic",
-				"chocolate"
-			],
+			"tags": ["non-alcoholic", "chocolate"],
 			"priceRange": "$5-10",
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/11/2025-DLR-Holiday-Foodie-Guide-Holiday-Coffees-720x1080.jpg",
 			"availability": "",
@@ -4506,9 +3784,7 @@
 			"location": "Disneyland Park",
 			"description": "Oven-roasted turkey breast, stuffing, gravy, and cranberry sauce on rustic bread served with house-made chips",
 			"category": "entree-side",
-			"tags": [
-				"cranberry"
-			],
+			"tags": ["cranberry"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "Nov. 14 through Jan. 7",
@@ -4521,9 +3797,7 @@
 			"location": "Downtown Disney District",
 			"description": "Double fold vanilla ice cream studded with Grandma Malek’s almond brittle, house-made salted chocolate ganache, topped with sweet and salty clusters of saltine Florentine cookies, drizzled with chocolate",
 			"category": "other",
-			"tags": [
-				"chocolate"
-			],
+			"tags": ["chocolate"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -4549,9 +3823,7 @@
 			"location": "Disney California Adventure Park",
 			"description": "Warm telera bread with carnitas, chorizo beans, cotija, lettuce, pickled onions and jalapeños, and guacamole spread served with fries",
 			"category": "entree-side",
-			"tags": [
-				"holiday-themed"
-			],
+			"tags": ["holiday-themed"],
 			"priceRange": "$10-15",
 			"imageUrl": "",
 			"availability": "",
@@ -4577,10 +3849,7 @@
 			"location": "Disney California Adventure Park",
 			"description": "Battered and fried crème-filled cookies with whipped topping, chocolate drizzle, and crushed peppermint candy",
 			"category": "baked-dessert",
-			"tags": [
-				"peppermint",
-				"chocolate"
-			],
+			"tags": ["peppermint", "chocolate"],
 			"priceRange": "$5-10",
 			"imageUrl": "",
 			"availability": "",

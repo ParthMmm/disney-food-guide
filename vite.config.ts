@@ -54,8 +54,6 @@ export default defineConfig({
 				type: "module",
 			},
 		}),
-		devtoolsJson({
-			apply: "serve",
-		}),
+		Object.assign(devtoolsJson(), { apply: "serve" as const }),
 	],
 });

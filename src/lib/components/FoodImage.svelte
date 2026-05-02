@@ -106,6 +106,7 @@ function getEmojiForFood(): string {
 	if (category.includes("baked-dessert")) return "🍰";
 	if (category.includes("dessert")) return "🍰";
 	if (category.includes("salad")) return "🥗";
+	if (category.includes("trinkets")) return "🎁";
 	if (
 		category.includes("alcoholic-beverage") ||
 		category.includes("hard-seltzer")

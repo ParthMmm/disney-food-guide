@@ -22,26 +22,28 @@ export type FilterItem = {
         open = $bindable(false),
         categories,
         allTags,
+        locations,
         activeFilters,
         children,
     }: {
         open: boolean;
         categories: string[];
         allTags: string[];
+        locations: string[];
         activeFilters: FilterItem[];
         children: import("svelte").Snippet;
     } = $props();
 
     const dates = [
         {
-            id: "thanksgiving",
-            name: "Thanksgiving",
-            label: "🦃",
+            id: "may4",
+            name: "May the 4th",
+            label: "✨",
         },
         {
-            id: "christmas",
-            name: "Christmas",
-            label: "🎄",
+            id: "may31",
+            name: "Available through May",
+            label: "🗓️",
         },
     ];
 
@@ -138,32 +140,20 @@ export type FilterItem = {
                 </div>
 
                 <div class="space-y-3">
-                    <h3 class="font-semibold">Park Location</h3>
-                    <div class="flex">
-                        <button
-                            onclick={() =>
-                                filtersStore.toggleLocation("Disneyland")}
-                            class="flex-1 flex items-center justify-center h-12 px-4 transition-all border
-							   first:rounded-l-lg
-							   {filtersStore.selectedLocations.has('Disneyland')
-                                ? 'bg-primary/25 text-primary-foreground border-primary z-10'
-                                : 'bg-background hover:bg-accent border'}"
-                        >
-                            <span class="text-2xl">🏰</span>
-                        </button>
-                        <button
-                            onclick={() =>
-                                filtersStore.toggleLocation(
-                                    "California Adventure",
-                                )}
-                            class="flex-1 flex items-center justify-center h-12 px-4 transition-all border
-							   -ml-px last:rounded-r-lg
-							   {filtersStore.selectedLocations.has('California Adventure')
-                                ? 'bg-primary/25 text-primary-foreground border-primary z-10'
-                                : 'bg-background hover:bg-accent border'}"
-                        >
-                            <span class="text-2xl">🎡</span>
-                        </button>
+                    <h3 class="font-semibold">Location</h3>
+                    <div class="grid grid-cols-1 gap-2">
+                        {#each locations as location}
+                            <button
+                                onclick={() =>
+                                    filtersStore.toggleLocation(location)}
+                                class="flex items-center justify-center min-h-12 px-4 py-2 rounded-lg transition-all border text-sm
+								   {filtersStore.selectedLocations.has(location)
+                                    ? 'bg-primary/25 text-primary-foreground border-primary z-10'
+                                    : 'bg-background hover:bg-accent border'}"
+                            >
+                                {location}
+                            </button>
+                        {/each}
                     </div>
                 </div>
 

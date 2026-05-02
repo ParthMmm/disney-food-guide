@@ -167,14 +167,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Salad.jpg",
-			"tags": [
-				"apple",
-				"contains-nuts",
-				"meal",
-				"moderate-price",
-				"non-alcoholic",
-				"savory"
-			]
+			"tags": ["apple", "contains-nuts", "meal", "moderate-price", "non-alcoholic", "savory"]
 		},
 		{
 			"id": 3,
@@ -217,13 +210,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Alien-Macaron.jpg",
-			"tags": [
-				"contains-dairy",
-				"dessert",
-				"limited-time",
-				"moderate-price",
-				"non-alcoholic"
-			]
+			"tags": ["contains-dairy", "dessert", "limited-time", "moderate-price", "non-alcoholic"]
 		},
 		{
 			"id": 5,
@@ -240,12 +227,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Iced-Pandan.jpg",
-			"tags": [
-				"budget-friendly",
-				"coffee-tea",
-				"cold",
-				"non-alcoholic"
-			]
+			"tags": ["budget-friendly", "coffee-tea", "cold", "non-alcoholic"]
 		},
 		{
 			"id": 6,
@@ -262,13 +244,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Chai.jpg",
-			"tags": [
-				"budget-friendly",
-				"coffee-tea",
-				"cold",
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["budget-friendly", "coffee-tea", "cold", "non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 7,
@@ -336,14 +312,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"apple",
-				"baked-goods",
-				"budget-friendly",
-				"cold",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["apple", "baked-goods", "budget-friendly", "cold", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 10,
@@ -360,13 +329,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pineapple-Lemonade.jpg",
-			"tags": [
-				"non-alcoholic",
-				"apple",
-				"budget-friendly",
-				"spicy",
-				"soft-drink"
-			]
+			"tags": ["non-alcoholic", "apple", "budget-friendly", "spicy", "soft-drink"]
 		},
 		{
 			"id": 11,
@@ -408,12 +371,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Potato-Hummus.jpg",
-			"tags": [
-				"meal",
-				"non-alcoholic",
-				"premium-price",
-				"savory"
-			]
+			"tags": ["meal", "non-alcoholic", "premium-price", "savory"]
 		},
 		{
 			"id": 13,
@@ -430,12 +388,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"budget-friendly",
-				"contains-dairy",
-				"soft-drink"
-			]
+			"tags": ["non-alcoholic", "budget-friendly", "contains-dairy", "soft-drink"]
 		},
 		{
 			"id": 15,
@@ -452,11 +405,7 @@
 				"endDate": "2025-11-14"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"moderate-price"
-			]
+			"tags": ["alcoholic", "beer", "moderate-price"]
 		},
 		{
 			"id": 17,
@@ -497,13 +446,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Darth-by-Chocolate.jpg",
-			"tags": [
-				"baked-goods",
-				"budget-friendly",
-				"chocolate",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "budget-friendly", "chocolate", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 21,
@@ -520,12 +463,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Orange-Slush.jpg",
-			"tags": [
-				"non-alcoholic",
-				"berry",
-				"budget-friendly",
-				"soft-drink"
-			]
+			"tags": ["non-alcoholic", "berry", "budget-friendly", "soft-drink"]
 		},
 		{
 			"id": 22,
@@ -542,13 +480,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Chai-1.jpg",
-			"tags": [
-				"budget-friendly",
-				"coffee-tea",
-				"cold",
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["budget-friendly", "coffee-tea", "cold", "non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 23,
@@ -565,12 +497,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"berry",
-				"budget-friendly",
-				"soft-drink"
-			]
+			"tags": ["non-alcoholic", "berry", "budget-friendly", "soft-drink"]
 		},
 		{
 			"id": 24,
@@ -613,13 +540,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Cookies.jpg",
-			"tags": [
-				"baked-goods",
-				"budget-friendly",
-				"dessert",
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["baked-goods", "budget-friendly", "dessert", "non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 26,
@@ -636,12 +557,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cream-Cheese-Dip.jpg",
-			"tags": [
-				"budget-friendly",
-				"contains-dairy",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["budget-friendly", "contains-dairy", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 27,
@@ -883,13 +799,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Cold-Brew.jpg",
-			"tags": [
-				"budget-friendly",
-				"coffee-tea",
-				"cold",
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["budget-friendly", "coffee-tea", "cold", "non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 38,
@@ -979,13 +889,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Candy-Trail-Mix.jpg",
-			"tags": [
-				"budget-friendly",
-				"chocolate",
-				"contains-dairy",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["budget-friendly", "chocolate", "contains-dairy", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 43,
@@ -1026,13 +930,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Coffee-Caramel-Dip.jpg",
-			"tags": [
-				"budget-friendly",
-				"caramel",
-				"coffee-tea",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["budget-friendly", "caramel", "coffee-tea", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 45,
@@ -1049,12 +947,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mint-Julep.jpg",
-			"tags": [
-				"non-alcoholic",
-				"berry",
-				"budget-friendly",
-				"soft-drink"
-			]
+			"tags": ["non-alcoholic", "berry", "budget-friendly", "soft-drink"]
 		},
 		{
 			"id": 46,
@@ -1071,13 +964,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-German-Chocolate-Pie.jpg",
-			"tags": [
-				"baked-goods",
-				"chocolate",
-				"dessert",
-				"moderate-price",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "chocolate", "dessert", "moderate-price", "non-alcoholic"]
 		},
 		{
 			"id": 47,
@@ -1167,12 +1054,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"non-alcoholic",
-				"budget-friendly",
-				"coffee-tea",
-				"cold"
-			]
+			"tags": ["non-alcoholic", "budget-friendly", "coffee-tea", "cold"]
 		},
 		{
 			"id": 52,
@@ -1189,14 +1071,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Flatbread.jpg",
-			"tags": [
-				"cold",
-				"contains-dairy",
-				"meal",
-				"moderate-price",
-				"non-alcoholic",
-				"savory"
-			]
+			"tags": ["cold", "contains-dairy", "meal", "moderate-price", "non-alcoholic", "savory"]
 		},
 		{
 			"id": 53,
@@ -1313,13 +1188,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Vegetable-Salad.jpg",
-			"tags": [
-				"contains-dairy",
-				"contains-nuts",
-				"meal",
-				"non-alcoholic",
-				"savory"
-			]
+			"tags": ["contains-dairy", "contains-nuts", "meal", "non-alcoholic", "savory"]
 		},
 		{
 			"id": 62,
@@ -1336,11 +1205,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Coffee-Fritters.jpg",
-			"tags": [
-				"coffee-tea",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["coffee-tea", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 63,
@@ -1357,13 +1222,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Creme-Brulee-Cold-Brew.jpg",
-			"tags": [
-				"coffee-tea",
-				"cold",
-				"contains-dairy",
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["coffee-tea", "cold", "contains-dairy", "non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 64,
@@ -1431,13 +1290,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Popcorn.jpg",
-			"tags": [
-				"chocolate",
-				"contains-dairy",
-				"moderate-price",
-				"non-alcoholic",
-				"salty"
-			]
+			"tags": ["chocolate", "contains-dairy", "moderate-price", "non-alcoholic", "salty"]
 		},
 		{
 			"id": 69,
@@ -1454,13 +1307,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Chocolate-Churro.jpg",
-			"tags": [
-				"budget-friendly",
-				"chocolate",
-				"churro",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["budget-friendly", "chocolate", "churro", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 70,
@@ -1501,15 +1348,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Caramel-Apple-Dip.jpg",
-			"tags": [
-				"apple",
-				"budget-friendly",
-				"caramel",
-				"churro",
-				"cold",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["apple", "budget-friendly", "caramel", "churro", "cold", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 72,
@@ -1551,12 +1390,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Citrus-Churro.jpg",
-			"tags": [
-				"budget-friendly",
-				"churro",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["budget-friendly", "churro", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 74,
@@ -1573,13 +1407,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"berry",
-				"budget-friendly",
-				"churro",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["berry", "budget-friendly", "churro", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 75,
@@ -1620,14 +1448,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pickle-Popcorn.jpg",
-			"tags": [
-				"budget-friendly",
-				"contains-dairy",
-				"hot",
-				"non-alcoholic",
-				"salty",
-				"spicy"
-			]
+			"tags": ["budget-friendly", "contains-dairy", "hot", "non-alcoholic", "salty", "spicy"]
 		},
 		{
 			"id": 77,
@@ -1644,13 +1465,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"apple",
-				"budget-friendly",
-				"caramel",
-				"cold",
-				"non-alcoholic"
-			]
+			"tags": ["apple", "budget-friendly", "caramel", "cold", "non-alcoholic"]
 		},
 		{
 			"id": 78,
@@ -1667,14 +1482,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://scontent-sjc6-1.xx.fbcdn.net/v/t39.30808-6/536281225_1335336041933217_317645442265591918_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=xCav2SyhYJQQ7kNvwFvCfH7&_nc_oc=Adn4WQM2jIr2E3Z-c9LOhN_xIWBT1utgX7xJbe3-RodHMeCJh3k2CoQWRBpmjoyeNgI&_nc_zt=23&_nc_ht=scontent-sjc6-1.xx&_nc_gid=fBOgRt8qVNjHK_fL73qhxA&oh=00_AfUHcB0iMtMW_-VOa6oXsO9SvoTzVQgvRKdEYBWtWqABXw&oe=68B3DF9A",
-			"tags": [
-				"budget-friendly",
-				"contains-dairy",
-				"hot",
-				"non-alcoholic",
-				"salty",
-				"spicy"
-			]
+			"tags": ["budget-friendly", "contains-dairy", "hot", "non-alcoholic", "salty", "spicy"]
 		},
 		{
 			"id": 79,
@@ -1691,13 +1499,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"budget-friendly",
-				"contains-dairy",
-				"non-alcoholic",
-				"salty",
-				"spicy"
-			]
+			"tags": ["budget-friendly", "contains-dairy", "non-alcoholic", "salty", "spicy"]
 		},
 		{
 			"id": 80,
@@ -1714,13 +1516,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"budget-friendly",
-				"hot",
-				"meal",
-				"non-alcoholic",
-				"savory"
-			]
+			"tags": ["budget-friendly", "hot", "meal", "non-alcoholic", "savory"]
 		},
 		{
 			"id": 82,
@@ -1763,13 +1559,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Sourdough.jpg",
-			"tags": [
-				"character-themed",
-				"meal",
-				"moderate-price",
-				"non-alcoholic",
-				"savory"
-			]
+			"tags": ["character-themed", "meal", "moderate-price", "non-alcoholic", "savory"]
 		},
 		{
 			"id": 84,
@@ -1786,14 +1576,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Cold-Brew.jpg",
-			"tags": [
-				"apple",
-				"budget-friendly",
-				"caramel",
-				"coffee-tea",
-				"cold",
-				"non-alcoholic"
-			]
+			"tags": ["apple", "budget-friendly", "caramel", "coffee-tea", "cold", "non-alcoholic"]
 		},
 		{
 			"id": 86,
@@ -1834,11 +1617,7 @@
 				"endDate": "Not Specified"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 89,
@@ -1855,11 +1634,7 @@
 				"endDate": "Not Specified"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 90,
@@ -1876,12 +1651,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Spiced-Sangria-1536x864.jpg",
-			"tags": [
-				"alcoholic",
-				"cold",
-				"hard-seltzer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "cold", "hard-seltzer", "premium-price"]
 		},
 		{
 			"id": 91,
@@ -1898,11 +1668,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"moderate-price",
-				"wine-cider"
-			]
+			"tags": ["alcoholic", "moderate-price", "wine-cider"]
 		},
 		{
 			"id": 92,
@@ -1919,11 +1685,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 93,
@@ -1940,13 +1702,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://images.themeparkiq.com/menu-items/57855_large.jpg",
-			"tags": [
-				"alcoholic",
-				"apple",
-				"cocktail",
-				"premium-price",
-				"spicy"
-			]
+			"tags": ["alcoholic", "apple", "cocktail", "premium-price", "spicy"]
 		},
 		{
 			"id": 95,
@@ -1963,13 +1719,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Budino.jpg",
-			"tags": [
-				"apple",
-				"budget-friendly",
-				"caramel",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["apple", "budget-friendly", "caramel", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 96,
@@ -1986,13 +1736,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Frozen-Marble-Coffee.jpg",
-			"tags": [
-				"budget-friendly",
-				"coffee-tea",
-				"cold",
-				"contains-dairy",
-				"non-alcoholic"
-			]
+			"tags": ["budget-friendly", "coffee-tea", "cold", "contains-dairy", "non-alcoholic"]
 		},
 		{
 			"id": 97,
@@ -2009,13 +1753,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Sourdough.jpg",
-			"tags": [
-				"character-themed",
-				"meal",
-				"moderate-price",
-				"non-alcoholic",
-				"savory"
-			]
+			"tags": ["character-themed", "meal", "moderate-price", "non-alcoholic", "savory"]
 		},
 		{
 			"id": 98,
@@ -2134,11 +1872,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Jamaica-Cocktail.jpg",
-			"tags": [
-				"alcoholic",
-				"cocktail",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "cocktail", "premium-price"]
 		},
 		{
 			"id": 106,
@@ -2155,14 +1889,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Fried-Elote.jpg",
-			"tags": [
-				"meal",
-				"moderate-price",
-				"non-alcoholic",
-				"salty",
-				"savory",
-				"spicy"
-			]
+			"tags": ["meal", "moderate-price", "non-alcoholic", "salty", "savory", "spicy"]
 		},
 		{
 			"id": 107,
@@ -2325,13 +2052,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"contains-dairy",
-				"premium-price",
-				"pumpkin-spice"
-			]
+			"tags": ["alcoholic", "beer", "contains-dairy", "premium-price", "pumpkin-spice"]
 		},
 		{
 			"id": 114,
@@ -2348,11 +2069,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 116,
@@ -2369,12 +2086,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Seltzer.jpg",
-			"tags": [
-				"alcoholic",
-				"apple",
-				"hard-seltzer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "apple", "hard-seltzer", "premium-price"]
 		},
 		{
 			"id": 119,
@@ -2391,13 +2103,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Blackberry-Margarita.jpg",
-			"tags": [
-				"alcoholic",
-				"berry",
-				"cocktail",
-				"premium-price",
-				"spicy"
-			]
+			"tags": ["alcoholic", "berry", "cocktail", "premium-price", "spicy"]
 		},
 		{
 			"id": 120,
@@ -2414,11 +2120,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 121,
@@ -2435,11 +2137,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Horchata-Cocktail.jpg",
-			"tags": [
-				"alcoholic",
-				"cocktail",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "cocktail", "premium-price"]
 		},
 		{
 			"id": 122,
@@ -2456,12 +2154,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Berry-Sangria.jpg",
-			"tags": [
-				"alcoholic",
-				"berry",
-				"cocktail",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "berry", "cocktail", "premium-price"]
 		},
 		{
 			"id": 123,
@@ -2478,12 +2171,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"premium-price",
-				"pumpkin-spice",
-				"wine-cider"
-			]
+			"tags": ["alcoholic", "premium-price", "pumpkin-spice", "wine-cider"]
 		},
 		{
 			"id": 124,
@@ -2500,11 +2188,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"premium-price",
-				"wine-cider"
-			]
+			"tags": ["alcoholic", "premium-price", "wine-cider"]
 		},
 		{
 			"id": 125,
@@ -2521,11 +2205,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 127,
@@ -2542,11 +2222,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"cocktail",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "cocktail", "premium-price"]
 		},
 		{
 			"id": 130,
@@ -2563,13 +2239,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Prime-Rib.jpg",
-			"tags": [
-				"contains-dairy",
-				"meal",
-				"non-alcoholic",
-				"premium-price",
-				"savory"
-			]
+			"tags": ["contains-dairy", "meal", "non-alcoholic", "premium-price", "savory"]
 		},
 		{
 			"id": 131,
@@ -2586,11 +2256,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 132,
@@ -2607,11 +2273,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 133,
@@ -2628,11 +2290,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"moderate-price",
-				"wine-cider"
-			]
+			"tags": ["alcoholic", "moderate-price", "wine-cider"]
 		},
 		{
 			"id": 134,
@@ -2649,11 +2307,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 135,
@@ -2670,11 +2324,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 136,
@@ -2716,13 +2366,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Sourdough.jpg",
-			"tags": [
-				"character-themed",
-				"meal",
-				"moderate-price",
-				"non-alcoholic",
-				"savory"
-			]
+			"tags": ["character-themed", "meal", "moderate-price", "non-alcoholic", "savory"]
 		},
 		{
 			"id": 139,
@@ -2739,14 +2383,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Jalapeno-Bread.jpg",
-			"tags": [
-				"contains-dairy",
-				"meal",
-				"non-alcoholic",
-				"salty",
-				"savory",
-				"spicy"
-			]
+			"tags": ["contains-dairy", "meal", "non-alcoholic", "salty", "savory", "spicy"]
 		},
 		{
 			"id": 140,
@@ -2788,11 +2425,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"berry",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["berry", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 142,
@@ -2809,13 +2442,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Oogie-Boogie-Cookie.jpg",
-			"tags": [
-				"baked-goods",
-				"character-themed",
-				"chocolate",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "character-themed", "chocolate", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 144,
@@ -2832,11 +2459,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"berry",
-				"hard-seltzer"
-			]
+			"tags": ["alcoholic", "berry", "hard-seltzer"]
 		},
 		{
 			"id": 147,
@@ -2853,11 +2476,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 148,
@@ -2874,14 +2493,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Caramel-Cold-Brew.jpg",
-			"tags": [
-				"apple",
-				"budget-friendly",
-				"caramel",
-				"coffee-tea",
-				"cold",
-				"non-alcoholic"
-			]
+			"tags": ["apple", "budget-friendly", "caramel", "coffee-tea", "cold", "non-alcoholic"]
 		},
 		{
 			"id": 149,
@@ -2898,13 +2510,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Blueberry-Matcha.jpg",
-			"tags": [
-				"berry",
-				"budget-friendly",
-				"coffee-tea",
-				"cold",
-				"non-alcoholic"
-			]
+			"tags": ["berry", "budget-friendly", "coffee-tea", "cold", "non-alcoholic"]
 		},
 		{
 			"id": 150,
@@ -2921,13 +2527,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Waffles.jpg",
-			"tags": [
-				"character-themed",
-				"chocolate",
-				"dessert",
-				"moderate-price",
-				"non-alcoholic"
-			]
+			"tags": ["character-themed", "chocolate", "dessert", "moderate-price", "non-alcoholic"]
 		},
 		{
 			"id": 151,
@@ -2998,11 +2598,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Ube-Cider.jpg",
-			"tags": [
-				"alcoholic",
-				"premium-price",
-				"wine-cider"
-			]
+			"tags": ["alcoholic", "premium-price", "wine-cider"]
 		},
 		{
 			"id": 155,
@@ -3019,12 +2615,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Berry-Margarita.jpg",
-			"tags": [
-				"alcoholic",
-				"berry",
-				"cocktail",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "berry", "cocktail", "premium-price"]
 		},
 		{
 			"id": 157,
@@ -3066,14 +2657,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/536768927_1549699093151833_3660623279180862032_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7wHK-1s8XAcQ7kNvwHVNfPE&_nc_oc=AdmmqIk2PQDIcivmhA_KruZoyY5aMj0xWgwd8eD7iu4nm4eAeVJ6GykTjrMmifedclY&_nc_zt=23&_nc_ht=scontent-sjc3-1.xx&_nc_gid=9YgaFhPH4gllYr8yCizYpw&oh=00_AfWc5qwgHB762Mmf0gAr8Uama0nvPKUwNwal3RS-Wdflrg&oe=68B3F977",
-			"tags": [
-				"budget-friendly",
-				"caramel",
-				"coffee-tea",
-				"cold",
-				"contains-nuts",
-				"non-alcoholic"
-			]
+			"tags": ["budget-friendly", "caramel", "coffee-tea", "cold", "contains-nuts", "non-alcoholic"]
 		},
 		{
 			"id": 160,
@@ -3167,11 +2751,7 @@
 				"endDate": "Not Specified"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"beer",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "beer", "premium-price"]
 		},
 		{
 			"id": 165,
@@ -3188,13 +2768,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Lemonade-Cocktail.jpg",
-			"tags": [
-				"alcoholic",
-				"apple",
-				"berry",
-				"cocktail",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "apple", "berry", "cocktail", "premium-price"]
 		},
 		{
 			"id": 168,
@@ -3211,13 +2785,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Watermelon-Agua-Fresca.jpg",
-			"tags": [
-				"non-alcoholic",
-				"budget-friendly",
-				"character-themed",
-				"spicy",
-				"soft-drink"
-			]
+			"tags": ["non-alcoholic", "budget-friendly", "character-themed", "spicy", "soft-drink"]
 		},
 		{
 			"id": 169,
@@ -3234,14 +2802,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": "https://i.postimg.cc/7PcVx4NB/tart.png",
-			"tags": [
-				"berry",
-				"dessert",
-				"moderate-price",
-				"non-alcoholic",
-				"vegan",
-				"vegetarian"
-			]
+			"tags": ["berry", "dessert", "moderate-price", "non-alcoholic", "vegan", "vegetarian"]
 		},
 		{
 			"id": 170,
@@ -3258,13 +2819,7 @@
 				"endDate": "2025-11-13"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"apple",
-				"cocktail",
-				"contains-dairy",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "apple", "cocktail", "contains-dairy", "premium-price"]
 		},
 		{
 			"id": 171,
@@ -3357,13 +2912,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Broken-Spell-Lounge-Cocktail.jpg",
-			"tags": [
-				"alcoholic",
-				"berry",
-				"cocktail",
-				"cold",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "berry", "cocktail", "cold", "premium-price"]
 		},
 		{
 			"id": 178,
@@ -3380,12 +2929,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"chocolate",
-				"cocktail",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "chocolate", "cocktail", "premium-price"]
 		},
 		{
 			"id": 179,
@@ -3402,13 +2946,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"cocktail",
-				"coffee-tea",
-				"cold",
-				"premium-price"
-			]
+			"tags": ["alcoholic", "cocktail", "coffee-tea", "cold", "premium-price"]
 		},
 		{
 			"id": 180,
@@ -3497,13 +3035,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"chocolate",
-				"cocktail",
-				"coffee-tea",
-				"cold"
-			]
+			"tags": ["alcoholic", "chocolate", "cocktail", "coffee-tea", "cold"]
 		},
 		{
 			"id": 184,
@@ -3520,10 +3052,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"cocktail"
-			]
+			"tags": ["alcoholic", "cocktail"]
 		},
 		{
 			"id": 185,
@@ -3540,10 +3069,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"cocktail"
-			]
+			"tags": ["alcoholic", "cocktail"]
 		},
 		{
 			"id": 186,
@@ -3560,13 +3086,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-GCH-Cappuccino-Muffin.jpg",
-			"tags": [
-				"baked-goods",
-				"budget-friendly",
-				"coffee-tea",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "budget-friendly", "coffee-tea", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 187,
@@ -3583,13 +3103,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"baked-goods",
-				"character-themed",
-				"dessert",
-				"moderate-price",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "character-themed", "dessert", "moderate-price", "non-alcoholic"]
 		},
 		{
 			"id": 188,
@@ -3606,13 +3120,7 @@
 				"endDate": "2026-01-07"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-GCH-Pumpkin-Muffin.jpg",
-			"tags": [
-				"baked-goods",
-				"budget-friendly",
-				"dessert",
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["baked-goods", "budget-friendly", "dessert", "non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 189,
@@ -3629,12 +3137,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"baked-goods",
-				"dessert",
-				"moderate-price",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "dessert", "moderate-price", "non-alcoholic"]
 		},
 		{
 			"id": 190,
@@ -3651,13 +3154,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"baked-goods",
-				"character-themed",
-				"dessert",
-				"moderate-price",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "character-themed", "dessert", "moderate-price", "non-alcoholic"]
 		},
 		{
 			"id": 191,
@@ -3674,14 +3171,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"baked-goods",
-				"cold",
-				"contains-dairy",
-				"dessert",
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["baked-goods", "cold", "contains-dairy", "dessert", "non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 192,
@@ -3722,12 +3212,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-GCH-Gingerbread.jpg",
-			"tags": [
-				"baked-goods",
-				"character-themed",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "character-themed", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 194,
@@ -3744,13 +3229,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"baked-goods",
-				"berry",
-				"character-themed",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "berry", "character-themed", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 195,
@@ -3816,13 +3295,7 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpas-Cafe-Whoopie-Pie-1.jpg",
-			"tags": [
-				"caramel",
-				"chocolate",
-				"contains-dairy",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["caramel", "chocolate", "contains-dairy", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 198,
@@ -3839,11 +3312,7 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpad-Cafe-Matcha-720x1080.jpg",
-			"tags": [
-				"non-alcoholic",
-				"coffee-tea",
-				"contains-dairy"
-			]
+			"tags": ["non-alcoholic", "coffee-tea", "contains-dairy"]
 		},
 		{
 			"id": 199,
@@ -3860,10 +3329,7 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpad-Cafe-Lemonade-720x1080.jpg",
-			"tags": [
-				"non-alcoholic",
-				"coffee-tea"
-			]
+			"tags": ["non-alcoholic", "coffee-tea"]
 		},
 		{
 			"id": 200,
@@ -3880,13 +3346,7 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Sketchpad-Cafe-Cold-Brew-729x1080.jpg",
-			"tags": [
-				"caramel",
-				"coffee-tea",
-				"cold",
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["caramel", "coffee-tea", "cold", "non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 201,
@@ -3953,13 +3413,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cereal-Treat.jpg",
-			"tags": [
-				"baked-goods",
-				"chocolate",
-				"contains-dairy",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "chocolate", "contains-dairy", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 205,
@@ -4026,13 +3480,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Marshmallow.jpg",
-			"tags": [
-				"character-themed",
-				"chocolate",
-				"dessert",
-				"non-alcoholic",
-				"specialty-candy"
-			]
+			"tags": ["character-themed", "chocolate", "dessert", "non-alcoholic", "specialty-candy"]
 		},
 		{
 			"id": 208,
@@ -4122,13 +3570,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cereal-Treat.jpg",
-			"tags": [
-				"baked-goods",
-				"chocolate",
-				"contains-dairy",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "chocolate", "contains-dairy", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 213,
@@ -4247,12 +3689,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"contains-dairy",
-				"contains-nuts",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["contains-dairy", "contains-nuts", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 218,
@@ -4269,11 +3706,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"chocolate",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["chocolate", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 219,
@@ -4290,13 +3723,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Mickey-Marshmallow.jpg",
-			"tags": [
-				"character-themed",
-				"chocolate",
-				"dessert",
-				"non-alcoholic",
-				"specialty-candy"
-			]
+			"tags": ["character-themed", "chocolate", "dessert", "non-alcoholic", "specialty-candy"]
 		},
 		{
 			"id": 220,
@@ -4364,13 +3791,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Fall-Beignet-810x1080.jpg",
-			"tags": [
-				"apple",
-				"caramel",
-				"dessert",
-				"non-alcoholic",
-				"specialty-candy"
-			]
+			"tags": ["apple", "caramel", "dessert", "non-alcoholic", "specialty-candy"]
 		},
 		{
 			"id": 224,
@@ -4387,14 +3808,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Spooky-Churro-1440x1080.jpg",
-			"tags": [
-				"chocolate",
-				"churro",
-				"contains-dairy",
-				"contains-nuts",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["chocolate", "churro", "contains-dairy", "contains-nuts", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 225,
@@ -4411,13 +3825,7 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Centrico-720x1080.jpg",
-			"tags": [
-				"cold",
-				"contains-dairy",
-				"dessert",
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["cold", "contains-dairy", "dessert", "non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 226,
@@ -4434,10 +3842,7 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"cocktail"
-			]
+			"tags": ["alcoholic", "cocktail"]
 		},
 		{
 			"id": 228,
@@ -4454,11 +3859,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Margarita-810x1080.jpg",
-			"tags": [
-				"alcoholic",
-				"cocktail",
-				"pumpkin-spice"
-			]
+			"tags": ["alcoholic", "cocktail", "pumpkin-spice"]
 		},
 		{
 			"id": 229,
@@ -4475,13 +3876,7 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Naples-720x1080.jpg",
-			"tags": [
-				"caramel",
-				"contains-dairy",
-				"dessert",
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["caramel", "contains-dairy", "dessert", "non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 230,
@@ -4524,11 +3919,7 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": null,
-			"tags": [
-				"alcoholic",
-				"cocktail",
-				"pumpkin-spice"
-			]
+			"tags": ["alcoholic", "cocktail", "pumpkin-spice"]
 		},
 		{
 			"id": 232,
@@ -4545,13 +3936,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Midnight-Roll-1438x1080.jpg",
-			"tags": [
-				"contains-dairy",
-				"meal",
-				"non-alcoholic",
-				"savory",
-				"spicy"
-			]
+			"tags": ["contains-dairy", "meal", "non-alcoholic", "savory", "spicy"]
 		},
 		{
 			"id": 233,
@@ -4568,10 +3953,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Paseo-Cocktail-811x1080.jpg",
-			"tags": [
-				"alcoholic",
-				"cocktail"
-			]
+			"tags": ["alcoholic", "cocktail"]
 		},
 		{
 			"id": 234,
@@ -4588,14 +3970,7 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Boonuelo-720x1080.jpg",
-			"tags": [
-				"chocolate",
-				"cold",
-				"limited-time",
-				"meal",
-				"non-alcoholic",
-				"savory"
-			]
+			"tags": ["chocolate", "cold", "limited-time", "meal", "non-alcoholic", "savory"]
 		},
 		{
 			"id": 235,
@@ -4612,12 +3987,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": null,
-			"tags": [
-				"baked-goods",
-				"chocolate",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "chocolate", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 237,
@@ -4634,11 +4004,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Cinnamon-Roll-810x1080.jpg",
-			"tags": [
-				"contains-nuts",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["contains-nuts", "dessert", "non-alcoholic"]
 		},
 		{
 			"id": 238,
@@ -4655,11 +4021,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Marshmallow-Roll-810x1080.jpg",
-			"tags": [
-				"dessert",
-				"non-alcoholic",
-				"specialty-candy"
-			]
+			"tags": ["dessert", "non-alcoholic", "specialty-candy"]
 		},
 		{
 			"id": 239,
@@ -4676,12 +4038,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Apple-Cider-810x1080.jpg",
-			"tags": [
-				"non-alcoholic",
-				"apple",
-				"cold",
-				"soft-drink"
-			]
+			"tags": ["non-alcoholic", "apple", "cold", "soft-drink"]
 		},
 		{
 			"id": 240,
@@ -4698,12 +4055,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Pumpkin-Latte-810x1080.jpg",
-			"tags": [
-				"coffee-tea",
-				"cold",
-				"non-alcoholic",
-				"pumpkin-spice"
-			]
+			"tags": ["coffee-tea", "cold", "non-alcoholic", "pumpkin-spice"]
 		},
 		{
 			"id": 241,
@@ -4720,11 +4072,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Marshmallow-Mocha-810x1080.jpg",
-			"tags": [
-				"coffee-tea",
-				"cold",
-				"non-alcoholic"
-			]
+			"tags": ["coffee-tea", "cold", "non-alcoholic"]
 		},
 		{
 			"id": 242,
@@ -4741,12 +4089,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Parkside-Market-1288x1080.png",
-			"tags": [
-				"alcoholic",
-				"cocktail",
-				"coffee-tea",
-				"contains-nuts"
-			]
+			"tags": ["alcoholic", "cocktail", "coffee-tea", "contains-nuts"]
 		},
 		{
 			"id": 243,
@@ -4763,10 +4106,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Parkside-Market-1288x1080.png",
-			"tags": [
-				"alcoholic",
-				"cocktail"
-			]
+			"tags": ["alcoholic", "cocktail"]
 		},
 		{
 			"id": 244,
@@ -4783,11 +4123,7 @@
 				"endDate": "2025-10-31"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Parkside-Market-1288x1080.png",
-			"tags": [
-				"alcoholic",
-				"cocktail",
-				"coffee-tea"
-			]
+			"tags": ["alcoholic", "cocktail", "coffee-tea"]
 		},
 		{
 			"id": 245,
@@ -4804,11 +4140,7 @@
 				"endDate": "2025-11-02"
 			},
 			"imageUrl": "https://disneyparksblog.com/app/uploads/2025/07/2025-DLR-Halloween-Foodie-Guide-Graveyard-Bitz-1080x1080.jpg",
-			"tags": [
-				"baked-goods",
-				"dessert",
-				"non-alcoholic"
-			]
+			"tags": ["baked-goods", "dessert", "non-alcoholic"]
 		}
 	]
 }
