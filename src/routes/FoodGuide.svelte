@@ -261,7 +261,10 @@ function handleItemClick(item: FoodItem) {
 }
 </script>
 
-<div class="container mx-auto px-4 py-3 max-w-7xl">
+<div
+    class="container mx-auto py-3 max-w-7xl"
+    style="padding-left: max(env(safe-area-inset-left), 1rem); padding-right: max(env(safe-area-inset-right), 1rem); padding-bottom: calc(8rem + env(safe-area-inset-bottom)); padding-top: calc(0.75rem + env(safe-area-inset-top));"
+>
     <header class="mt-3 mb-5">
         <div class="flex items-baseline justify-between gap-3">
             <h1

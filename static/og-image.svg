@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <radialGradient id="space" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#1a2050"/>
+      <stop offset="55%" stop-color="#0c1024"/>
+      <stop offset="100%" stop-color="#03050f"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe14a"/>
+      <stop offset="100%" stop-color="#f5a623"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#space)"/>
+
+  <!-- starfield -->
+  <g fill="#ffffff">
+    <circle cx="80" cy="60" r="1.4" opacity=".9"/>
+    <circle cx="160" cy="120" r="1" opacity=".6"/>
+    <circle cx="230" cy="40" r="1.6" opacity=".85"/>
+    <circle cx="310" cy="180" r="1" opacity=".5"/>
+    <circle cx="400" cy="80" r="1.2" opacity=".7"/>
+    <circle cx="520" cy="40" r="1" opacity=".6"/>
+    <circle cx="640" cy="100" r="1.8" opacity=".95"/>
+    <circle cx="780" cy="60" r="1.1" opacity=".7"/>
+    <circle cx="900" cy="160" r="1.5" opacity=".8"/>
+    <circle cx="1020" cy="80" r="1" opacity=".55"/>
+    <circle cx="1130" cy="140" r="1.3" opacity=".75"/>
+    <circle cx="60" cy="280" r="1" opacity=".5"/>
+    <circle cx="180" cy="380" r="1.4" opacity=".8"/>
+    <circle cx="120" cy="500" r="1" opacity=".55"/>
+    <circle cx="260" cy="560" r="1.3" opacity=".7"/>
+    <circle cx="420" cy="540" r="1" opacity=".55"/>
+    <circle cx="560" cy="580" r="1.4" opacity=".8"/>
+    <circle cx="720" cy="540" r="1" opacity=".55"/>
+    <circle cx="880" cy="560" r="1.3" opacity=".7"/>
+    <circle cx="1020" cy="500" r="1" opacity=".55"/>
+    <circle cx="1140" cy="420" r="1.5" opacity=".85"/>
+    <circle cx="1080" cy="300" r="1.1" opacity=".65"/>
+    <circle cx="970" cy="380" r="1" opacity=".5"/>
+  </g>
+
+  <!-- planet on the right -->
+  <circle cx="1050" cy="500" r="170" fill="#2a1640" opacity=".55"/>
+  <circle cx="1050" cy="500" r="170" fill="none" stroke="#5a3a8a" stroke-width="1.5" opacity=".7"/>
+  <ellipse cx="1050" cy="500" rx="220" ry="22" fill="none" stroke="#a880ff" stroke-width="2" opacity=".55" transform="rotate(-18 1050 500)"/>
+
+  <!-- date chip -->
+  <g transform="translate(80,90)">
+    <rect width="220" height="44" rx="22" fill="rgba(255,225,74,0.12)" stroke="#ffe14a" stroke-width="1.2"/>
+    <text x="110" y="29" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="16" font-weight="600" fill="#ffe14a" letter-spacing="3">MAY · THE · 4TH · 2026</text>
+  </g>
+
+  <!-- title -->
+  <g filter="url(#glow)">
+    <text x="80" y="290" font-family="'Asimovian','Science Gothic', 'Trebuchet MS', sans-serif" font-size="118" font-weight="800" fill="url(#title)" letter-spacing="2">STAR WARS</text>
+    <text x="80" y="400" font-family="'Asimovian','Science Gothic', 'Trebuchet MS', sans-serif" font-size="118" font-weight="800" fill="url(#title)" letter-spacing="2">DAY · EATS</text>
+  </g>
+
+  <!-- subtitle -->
+  <text x="80" y="478" font-family="'Manrope', system-ui, sans-serif" font-size="30" font-weight="500" fill="#e8ecff" opacity=".92">A field guide to the treats, drinks &amp; trinkets</text>
+  <text x="80" y="518" font-family="'Manrope', system-ui, sans-serif" font-size="30" font-weight="500" fill="#e8ecff" opacity=".92">dropping for Star Wars Day.</text>
+
+  <!-- footer tag -->
+  <g transform="translate(80,560)">
+    <circle cx="6" cy="6" r="6" fill="#7cf2c0"/>
+    <text x="22" y="11" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="16" font-weight="600" fill="#7cf2c0" letter-spacing="2">TRANSMISSION · ONLINE</text>
+  </g>
+</svg>
